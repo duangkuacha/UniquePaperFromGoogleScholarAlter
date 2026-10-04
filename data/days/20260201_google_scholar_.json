@@ -1,0 +1,68 @@
+{
+  "id": "20260201_google_scholar_",
+  "date": "20260201",
+  "source": "historical-import",
+  "messages": 4,
+  "papers": [
+    {
+      "title": "Global Optimization of Atomic Clusters via Physically-Constrained Tensor Train Decomposition",
+      "authors": "K Sozykin, N Rybin, A Chertkov, AH Phan, I Oseledets… - arXiv preprint arXiv …, 2026",
+      "abstract": "The global optimization of atomic clusters represents a fundamental challenge in computational chemistry and materials science due to the exponential growth of local minima with system size (ie, the curse of dimensionality). We introduce a novel …",
+      "url": "https://arxiv.org/pdf/2601.18592"
+    },
+    {
+      "title": "Isolated Calmness in Regularized Convex Optimization",
+      "authors": "TTA Nghia, HN Pham - arXiv preprint arXiv:2601.18038, 2026",
+      "abstract": "This paper studies the isolated calmness of the optimal solution mapping and the associated Lagrange system for regularized convex composite optimization problems. Several necessary and sufficient conditions for this property are …",
+      "url": "https://arxiv.org/pdf/2601.18038"
+    },
+    {
+      "title": "FALCON: Fast and Accurate Spatio-Temporal Signal Recovery Based on Low-Rankness and $\\ell_p $ Nonlocal Variationp Nonlocal Variation",
+      "authors": "K Wang, Z Yang, Z Wei - Signal Processing, 2026",
+      "abstract": "Spatio-temporal signal recovery has been extensively investigated, with particular focus on exploiting the low-rank structure and spatio-temporal smoothness to reconstruct signals from incomplete or noisy measurements. Building on recent …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165168426000277"
+    },
+    {
+      "title": "Fuzzy Superpixel Segmentation with Anisotropic Total Variation Regularization",
+      "authors": "TC Ng, SK Choy, ML Tang, V Regelskis, SY Lam - Mathematics, 2026",
+      "abstract": "Fuzzy Superpixel Segmentation with Anisotropic Total Variation Regularization - The Hang Seng University of Hong Kong Skip to main navigation Skip to search Skip to main content The Hang Seng University of Hong Kong Home The Hang Seng University …",
+      "url": "https://scholars.hsu.edu.hk/en/publications/fuzzy-superpixel-segmentation-with-anisotropic-total-variation-re-2/"
+    },
+    {
+      "title": "Differentiable Integer Linear Programming is not Differentiable & it's not a mere technical problem",
+      "authors": "T Sornwanee - arXiv preprint arXiv:2601.17800, 2026",
+      "abstract": "We show how the differentiability method employed in the paper``Differentiable Integer Linear Programming'', Geng, et al., 2025 as shown in its theorem 5 is incorrect. Moreover, there already exists some downstream work that inherits the same error. The underlying reason comes from that, though being continuous in expectation, the surrogate loss is discontinuous in almost every realization of the randomness, for the stochastic gradient descent.",
+      "url": "https://arxiv.org/pdf/2601.17800"
+    },
+    {
+      "title": "LipNeXt: Scaling up Lipschitz-based Certified Robustness to Billion-parameter Models",
+      "authors": "K Hu, H Hu, M Fredrikson - arXiv preprint arXiv:2601.18513, 2026",
+      "abstract": "Lipschitz-based certification offers efficient, deterministic robustness guarantees but has struggled to scale in model size, training efficiency, and ImageNet performance. We introduce\\emph {LipNeXt}, the first\\emph {constraint-free} and\\emph {convolution-free} 1-Lipschitz architecture for certified robustness. LipNeXt is built using two techniques:(1) a manifold optimization procedure that updates parameters directly on the orthogonal manifold and (2) a\\emph {Spatial Shift Module} to model spatial …",
+      "url": "https://arxiv.org/pdf/2601.18513"
+    },
+    {
+      "title": "A Block-Alternating Iterative Approach for a Class of Non-Convex Optimization Problems",
+      "authors": "A Li, JP Swensen, M Hosseinzadeh - arXiv preprint arXiv:2601.17128, 2026",
+      "abstract": "Constrained non-convex optimization problems frequently arise in control applications. Solving such problems is inherently challenging, as existing methods often converge to suboptimal local minima or incur prohibitive computational costs. To address this challenge, this paper proposes a novel block-alternating iterative method that decomposes the original problem into variable-specific subproblems, which are solved iteratively. Under the assumption that the problem is convex with …",
+      "url": "https://arxiv.org/pdf/2601.17128"
+    },
+    {
+      "title": "Frequency-Based Hyperparameter Selection in Games",
+      "authors": "A Sanyal, BAM Sidahmed, R Burkholz, T Chavdarova - arXiv preprint arXiv …, 2026",
+      "abstract": "Learning in smooth games fundamentally differs from standard minimization due to rotational dynamics, which invalidate classical hyperparameter tuning strategies. Despite their practical importance, effective methods for tuning in games remain underexplored. A notable example is LookAhead (LA), which achieves strong empirical performance but introduces additional parameters that critically influence performance. We propose a principled approach to hyperparameter selection in …",
+      "url": "https://arxiv.org/pdf/2601.18409"
+    },
+    {
+      "title": "Optimization for Grassmann dictionary learning with Stiefel representatives",
+      "authors": "X Zhu, L Du - optimization",
+      "abstract": "This paper proposes a novel Grassmann manifold dictionary learning model, which represents the Grassmann manifold via the Stiefel manifold and involves a logarithm-based nonlinear leastsquares objective function. The proposed algorithm for solving this model follows an alternating minimization framework, which consists of two main steps: sparse coding and dictionary update. The main difficulty lies in the dictionary update step, which is formulated as a Grassmann manifold optimization problem …",
+      "url": "https://www.researchgate.net/profile/Xiaojing-Zhu-11/publication/400077982_Optimization_for_Grassmann_dictionary_learning_with_Stiefel_representatives/links/69778c288e435407c51c34d8/Optimization-for-Grassmann-dictionary-learning-with-Stiefel-representatives.pdf"
+    },
+    {
+      "title": "Sparse non-negative matrix factorization for the processing of mass spectrometry data in metabolomics",
+      "authors": "D Karaki - 2026",
+      "abstract": "Mass spectrometry (MS) based metabolomics is a leading strategy for biomarker discovery. In particular, tandem mass spectrometry facilitates the structural characterization of metabolites through the acquisition of fragmentation spectra (MS2). Recent approaches to Data Independent Acquisition (DIA) such as SWATH (Sequential Window Acquisition of all THeoretical fragment ions) enable high-throughput fragmentation of all precursor ions. However, the SWATH DIA spectra …",
+      "url": "https://theses.hal.science/tel-05477999/file/158573_KARAKI_2026_archivage.pdf"
+    }
+  ]
+}

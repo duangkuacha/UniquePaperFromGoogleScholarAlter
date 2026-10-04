@@ -1,0 +1,146 @@
+{
+  "id": "20250921_google_scholar_",
+  "date": "20250921",
+  "source": "historical-import",
+  "messages": 14,
+  "papers": [
+    {
+      "title": "Some Robustness Properties of Label Cleaning",
+      "authors": "C Cheng, J Duchi - arXiv preprint arXiv:2509.11379, 2025",
+      "abstract": "We demonstrate that learning procedures that rely on aggregated labels, eg, label information distilled from noisy responses, enjoy robustness properties impossible without data cleaning. This robustness appears in several ways. In the context of risk …",
+      "url": "https://arxiv.org/pdf/2509.11379"
+    },
+    {
+      "title": "Reachability of gradient dynamics",
+      "authors": "C Josz, W Ouyang - arXiv preprint arXiv:2509.12165, 2025",
+      "abstract": "We show that gradient dynamics can converge to any local minimum of a semi-algebraic function. Our results cover both discrete and continuous dynamics. For discrete gradient dynamics, we show that it can converge to any local minimum once …",
+      "url": "https://arxiv.org/pdf/2509.12165"
+    },
+    {
+      "title": "Special issue to celebrate the scientific career of Stephan Dempe",
+      "authors": "P Mehlitz, J Morgan, C Tammer, JJ Ye, AB Zemkoho - Optimization, 2025",
+      "abstract": "It is with great pleasure that we introduce this Special Issue of Optimization to celebrate the outstanding contributions of Stephan Dempe, see Figure 1 to the field of bilevel optimization and related topics during his 45 year long research career …",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02331934.2025.2548732"
+    },
+    {
+      "title": "Cardinality-Constrained Bilevel Capacity Expansion",
+      "authors": "L Guo, J Li - arXiv preprint arXiv:2509.13209, 2025",
+      "abstract": "As a fundamental problem in transportation and operations research, the bilevel capacity expansion problem (BCEP) has been extensively studied for decades. In practice, BCEPs are commonly addressed in two stages: first, pre-select a small set of links for expansion; then, optimize their capacities. However, this sequential and separable approach can lead to suboptimal solutions as it neglects the critical interdependence between link selection and capacity allocation. In this paper, we …",
+      "url": "https://arxiv.org/pdf/2509.13209"
+    },
+    {
+      "title": "Reversible Deep Equilibrium Models",
+      "authors": "S McCallum, K Arora, J Foster - arXiv preprint arXiv:2509.12917, 2025",
+      "abstract": "Deep Equilibrium Models (DEQs) are an interesting class of implicit model where the model output is implicitly defined as the fixed point of a learned function. These models have been shown to outperform explicit (fixed-depth) models in large-scale tasks by trading many deep layers for a single layer that is iterated many times. However, gradient calculation through DEQs is approximate. This often leads to unstable training dynamics and requires regularisation or many function evaluations …",
+      "url": "https://arxiv.org/pdf/2509.12917"
+    },
+    {
+      "title": "On the Escaping Efficiency of Distributed Adversarial Training Algorithms",
+      "authors": "Y Cao, K Yuan, AH Sayed - arXiv preprint arXiv:2509.11337, 2025",
+      "abstract": "Adversarial training has been widely studied in recent years due to its role in improving model robustness against adversarial attacks. This paper focuses on comparing different distributed adversarial training algorithms--including centralized and decentralized strategies--within multi-agent learning environments. Previous studies have highlighted the importance of model flatness in determining robustness. To this end, we develop a general theoretical framework to study the escaping …",
+      "url": "https://arxiv.org/pdf/2509.11337"
+    },
+    {
+      "title": "Scaling Up Data Parallelism in Decentralized Deep Learning",
+      "authors": "B Xie, J Yin, Z Zhou, S Oral, F Wang - arXiv preprint arXiv:2509.12213, 2025",
+      "abstract": "Although it has been extensively explored in theory, decentralized learning is not yet green-lighted for production use, largely due to a lack of stability, scalability, and generality in large scale DNN training. To shed light on the production use of decentralized learning, this work studies decentralized data parallel training at scale. To this end, we introduce a benchmarking framework, namely DBench, to host both centralized and decentralized DNN training. Building upon DBench, we introduce a …",
+      "url": "https://arxiv.org/pdf/2509.12213"
+    },
+    {
+      "title": "From PowerSGD to PowerSGD+: Low-Rank Gradient Compression for Distributed Optimization with Convergence Guarantees",
+      "authors": "S Xie, C Chen, K Yuan - arXiv preprint arXiv:2509.11254, 2025",
+      "abstract": "Low-rank gradient compression methods, such as PowerSGD, have gained attention in communication-efficient distributed optimization. However, the convergence guarantees of PowerSGD remain unclear, particularly in stochastic settings. In this paper, we show that PowerSGD does not always converge to the optimal solution and provide a clear counterexample to support this finding. To address this, we introduce PowerSGD+, which periodically updates the projection subspace via …",
+      "url": "https://arxiv.org/pdf/2509.11254"
+    },
+    {
+      "title": "SSNCVX: A primal-dual semismooth Newton method for convex composite optimization problem",
+      "authors": "Z Deng, T Wei, J Ma, Z Wen - arXiv preprint arXiv:2509.11995, 2025",
+      "abstract": "In this paper, we propose a uniform semismooth Newton-based algorithmic framework called SSNCVX for solving a broad class of convex composite optimization problems. By exploiting the augmented Lagrangian duality, we reformulate the original problem into a saddle point problem and characterize the optimality conditions via a semismooth system of nonlinear equations. The nonsmooth structure is handled internally without requiring problem specific …",
+      "url": "https://arxiv.org/pdf/2509.11995"
+    },
+    {
+      "title": "An Inexact Tensor-Train Primal-Dual Interior-Point Method for Semidefinite Programs",
+      "authors": "F Kelbel, S Dolgov, D Kalise, A Russo - arXiv preprint arXiv:2509.11890, 2025",
+      "abstract": "In this work, we introduce an interior-point method that employs tensor decompositions to efficiently represent and manipulate the variables and constraints of semidefinite programs, targeting problems where the solutions may not be low-rank but admit low-tensor-train rank approximations. Our method maintains approximate superlinear convergence despite inexact computations in the tensor format and leverages a primal-dual infeasible interior-point framework. In …",
+      "url": "https://arxiv.org/pdf/2509.11890"
+    },
+    {
+      "title": "Two-point Random Gradient-free Methods for Model-free Feedback Optimization",
+      "authors": "A Mehrnoosh, G Bianchin - arXiv preprint arXiv:2509.11666, 2025",
+      "abstract": "Feedback optimization has emerged as a promising approach for optimizing the steady-state operation of dynamical systems while requiring minimal modeling efforts. Unfortunately, most existing feedback optimization methods rely on knowledge of the plant dynamics, which may be difficult to obtain or estimate in practice. In this paper, we introduce a novel randomized two-point gradient-free feedback optimization method, inspired by zeroth-order optimization techniques. Our …",
+      "url": "https://arxiv.org/pdf/2509.11666"
+    },
+    {
+      "title": "An inertial method for the solution of M-tuple split common fixed point problems involving strict quasi-$ G_ {f} $-pseudocontractive mappings",
+      "authors": "D Jenber, H Zegeye, M Haile Takele, A Regassa Tufa - Fixed Point Theory and …, 2025",
+      "abstract": "This work presents an inertial method to estimate solutions to the m-tuple split common fixed point problems for strict quasi-$ G_ {f} $-pseudocontractive mappings in (m+ 1) Banach spaces. Our approach can also be used to solve the extended split equality fixed point problem. Applications to the solution of extended split equality issues, such as Extended Split Equality Equilibrium Problem, Extended Split Equality Inclusion Problem, Minimization of Tikhonov Functionals in Banach Spaces and …",
+      "url": "https://fixedpointtheoryandalgorithms.springeropen.com/articles/10.1186/s13663-025-00800-w"
+    },
+    {
+      "title": "基于阵列拼接的遮蔽人体目标三维成像方法",
+      "authors": "邱晨， 陈家辉， 邵烽智， 李念， 徐子涵， 郭世盛， 崔国龙 - 电子与信息学报, 2025",
+      "abstract": "在进行墙后人体目标三维成像时, 系统需具备获取距离, 方位和俯仰三维信息的能力. 然而, 通常采用的二维平面阵列存在通道数量多导致的校准难, 成本高等问题. 为此, 该文提出了一种基于阵列拼接的遮蔽人体目标三维成像方法, 通过单台小孔径雷达分时顺序拼接或多台独立工作的雷达同时空间拼接, 实现低成本化的穿墙遮蔽人体目标三维成像. 具体而言, 首先通过三维加权总变分方法将各个横向阵列及纵向阵列的雷达回波数据进行初步成像; 然后, 将各个横向阵列获取的成像结果与纵向阵列的成像结果乘性 …",
+      "url": "https://jeit.ac.cn/cn/article/pdf/preview/10.11999/JEIT250334.pdf"
+    },
+    {
+      "title": "Landmark MDS Revisited for Sensor Network Localization with Anchors",
+      "authors": "T Ouyang, L Kong, H Qi - arXiv preprint arXiv:2509.11126, 2025",
+      "abstract": "The landmark multi-dimensional scaling (LMDS) is a leading method that embeds new points to an existing coordinate system based on observed distance information. It has long been known as a variant of Nystr\\\"{o} m algorithm. It was recently revealed …",
+      "url": "https://arxiv.org/pdf/2509.11126"
+    },
+    {
+      "title": "Low-rank Orthogonalization for Large-scale Matrix Optimization with Applications to Foundation Model Training",
+      "authors": "C He, Z Deng, Z Lu - arXiv preprint arXiv:2509.11983, 2025",
+      "abstract": "Neural network (NN) training is inherently a large-scale matrix optimization problem, yet the matrix structure of NN parameters has long been overlooked. Recently, the optimizer Muon\\cite {jordanmuon}, which explicitly exploits this structure, has gained …",
+      "url": "https://arxiv.org/pdf/2509.11983"
+    },
+    {
+      "title": "From Orthomosaics to Raw UAV Imagery: Enhancing Palm Detection and Crown-Center Localization",
+      "authors": "R Zhu, K Cui, W Tang, RF Wang, S Alqahtani, D Lutz… - arXiv preprint arXiv …, 2025",
+      "abstract": "Accurate mapping of individual trees is essential for ecological monitoring and forest management. Orthomosaic imagery from unmanned aerial vehicles (UAVs) is widely used, but stitching artifacts and heavy preprocessing limit its suitability for field …",
+      "url": "https://arxiv.org/pdf/2509.12400"
+    },
+    {
+      "title": "Gradient Methods with Online Scaling Part II. Practical Aspects",
+      "authors": "YC Chu, W Gao, Y Ye, M Udell - arXiv preprint arXiv:2509.11007, 2025",
+      "abstract": "Part I of this work [Gao25] establishes online scaled gradient methods (OSGM), a framework that utilizes online convex optimization to adapt stepsizes in gradient methods. This paper focuses on the practical aspects of OSGM. We leverage the …",
+      "url": "https://arxiv.org/pdf/2509.11007"
+    },
+    {
+      "title": "Decompose-then-Optimize versus Optimize-then-Decompose for the Poisson Problem in Minimization Form",
+      "authors": "PH Cocquet, MJ Gander",
+      "abstract": "The main motivation of this paper comes from our recent work [3] where we introduced the decompose-then-optimize (DtO) technique to solve PDE-constrained optimization problems, see also [8]. The idea is to rewrite the PDE constraint valid on …",
+      "url": "https://www.unige.ch/~gander/Preprints/DD28_proc_Cocquet_Gander.pdf"
+    },
+    {
+      "title": "Limited-angle CT reconstruction by minimizing L1 over L2 based on linearized alternating direction method",
+      "authors": "C Qin, J Chen, C Gong - Signal, Image and Video Processing, 2025",
+      "abstract": "Limited-angle computed tomography (CT) imaging plays a crucial role in reducing radiation exposure and scanning time, particularly in clinical diagnostics. Limited-angle CT images frequently suffer from shading artifacts and structural degradation …",
+      "url": "https://link.springer.com/article/10.1007/s11760-025-04762-9"
+    },
+    {
+      "title": "Landscape Analysis of Simultaneous Blind Deconvolution and Phase Retrieval via Structured Low-Rank Tensor Recovery",
+      "authors": "X Liang, Z Qin, Z Zhu, S Li - arXiv preprint arXiv:2509.10834, 2025",
+      "abstract": "This paper presents a geometric analysis of the simultaneous blind deconvolution and phase retrieval (BDPR) problem via a structured low-rank tensor recovery framework. Due to the highly complicated structure of the associated sensing tensor …",
+      "url": "https://arxiv.org/pdf/2509.10834"
+    },
+    {
+      "title": "A Systematic Comparison of Discrete Cosine Transform-Based Approaches for Multi-Focus Image Fusion",
+      "authors": "M Osama, SS Khan, S Khan, M Khan, MM Danyal… - 2025",
+      "abstract": "Image fusion is a technique used to combine essential information from two or more source images into a single, more informative output image. The resulting fused image contains more meaningful details than any individual source image. This …",
+      "url": "https://www.researchgate.net/profile/Mian-Muhammad-Danyal/publication/394816210_A_Systematic_Comparison_of_Discrete_Cosine_Transform-Based_Approaches_for_Multi-Focus_Image_Fusion/links/68a772a07984e374acea72ea/A-Systematic-Comparison-of-Discrete-Cosine-Transform-Based-Approaches-for-Multi-Focus-Image-Fusion.pdf"
+    },
+    {
+      "title": "How to Evaluate Medical AI",
+      "authors": "I Kopanichuk, P Anokhin, V Shaposhnikov, V Makharev… - arXiv preprint arXiv …, 2025",
+      "abstract": "The integration of artificial intelligence (AI) into medical diagnostic workflows requires robust and consistent evaluation methods to ensure reliability, clinical relevance, and the inherent variability in expert judgments. Traditional metrics like …",
+      "url": "https://arxiv.org/pdf/2509.11941"
+    },
+    {
+      "title": "Improved Rates for Stochastic Variance-Reduced Difference-of-Convex Algorithms",
+      "authors": "AD Nguyen, A Yurtsever, S Sra, KC Toh - arXiv preprint arXiv:2509.11657, 2025",
+      "abstract": "In this work, we propose and analyze DCA-PAGE, a novel algorithm that integrates the difference-of-convex algorithm (DCA) with the ProbAbilistic Gradient Estimator (PAGE) to solve structured nonsmooth difference-of-convex programs. In the finite …",
+      "url": "https://arxiv.org/pdf/2509.11657"
+    }
+  ]
+}

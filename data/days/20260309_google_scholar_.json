@@ -1,0 +1,122 @@
+{
+  "id": "20260309_google_scholar_",
+  "date": "20260309",
+  "source": "historical-import",
+  "messages": 11,
+  "papers": [
+    {
+      "title": "A non-autonomous center-stable set theorem for saddle avoidance in optimization",
+      "authors": "AA Muşat, N Boumal - arXiv preprint arXiv:2603.02782, 2026",
+      "abstract": "Optimization algorithms are unlikely to converge to strict saddle points. Proofs to that effect rely on the Center-Stable Manifold Theorem (CSMT), casting algorithms as dynamical systems: $ x_ {k+ 1}= g_k (x_k) $. In its standard form, the CSMT is limited …",
+      "url": "https://arxiv.org/pdf/2603.02782"
+    },
+    {
+      "title": "Robust principal component analysis with rank and cardinality regularization under matrix factorization",
+      "authors": "W Li, W Bian, KC Toh - arXiv preprint arXiv:2603.03107, 2026",
+      "abstract": "Robust principal component analysis is an important representative method in data analysis. It is usually viewed as an optimization problem involving the rank and $\\ell_0 $-norm of matrices. In this paper, we study the rank and $\\ell_0 $ regularized …",
+      "url": "https://arxiv.org/pdf/2603.03107"
+    },
+    {
+      "title": "TenExp: Mixture-of-Experts-Based Tensor Decomposition Structure Search Framework",
+      "authors": "TW Zhou, XL Zhao, S Liu, WH Wu, YB Zheng, D Meng - arXiv preprint arXiv …, 2026",
+      "abstract": "Recently, tensor decompositions continue to emerge and receive increasing attention. Selecting a suitable tensor decomposition to exactly capture the low-rank structures behind the data is at the heart of the tensor decomposition field, which …",
+      "url": "https://arxiv.org/pdf/2603.02720"
+    },
+    {
+      "title": "Nonconvex Latent Optimally Partitioned Block-Sparse Recovery via Log-Sum and Minimax Concave Penalties",
+      "authors": "T Furuhashi, H Kuroda, M Yukawa, Q Zhao, H Hontani… - arXiv preprint arXiv …, 2026",
+      "abstract": "We propose two nonconvex regularization methods, LogLOP-l2/l1 and AdaLOP-l2/l1, for recovering block-sparse signals with unknown block partitions. These methods address the underestimation bias of existing convex approaches by extending log …",
+      "url": "https://arxiv.org/pdf/2603.01304"
+    },
+    {
+      "title": "$\\ell_ {1\\text {-} 2} $ Regularization for Sparse Optimization: Consistency and Global Convergence",
+      "authors": "Y Hu, H Wang, X Yang - arXiv preprint arXiv:2603.02682, 2026",
+      "abstract": "The $\\ell_ {1\\text {-} 2} $ regularization method has a strong sparsity promoting capability in approaching sparse solutions of linear inverse problems and gained successful applications in various mathematics and applied science fields. This …",
+      "url": "https://arxiv.org/pdf/2603.02682"
+    },
+    {
+      "title": "An Efficient and Robust Projection Enhanced Interpolation Based Tensor Train Decomposition",
+      "authors": "D Hayes, JM Qiu, T Shi - arXiv preprint arXiv:2602.07653, 2026",
+      "abstract": "The tensor-train (TT) format is a data-sparse tensor representation commonly used in high dimensional data approximations. In order to represent data with interpretability in data science, researchers develop data-centric skeletonized low rank …",
+      "url": "https://arxiv.org/pdf/2602.07653"
+    },
+    {
+      "title": "MAP-Diff: Multi-Anchor Guided Diffusion for Progressive 3D Whole-Body Low-Dose PET Denoising",
+      "authors": "P Jing, CW Cheng, L Yang, Z Zhang, TV Lima… - arXiv preprint arXiv …, 2026",
+      "abstract": "Low-dose Positron Emission Tomography (PET) reduces radiation exposure but suffers from severe noise and quantitative degradation. Diffusion-based denoising models achieve strong final reconstructions, yet their reverse trajectories are typically …",
+      "url": "https://arxiv.org/pdf/2603.02012"
+    },
+    {
+      "title": "Implicit-Explicit Trust Region Method for Computing Second-Order Stationary Points of A Class of Landau Models",
+      "authors": "C Bao, K Deng, K Jiang, J Zhang - arXiv preprint arXiv:2603.03933, 2026",
+      "abstract": "We propose an implicit-explicit trust region method for computing second-order stationary points of a class of Landau-type free energy functionals, which correspond to physically (meta-) stable phases. The proposed method is demonstrated through …",
+      "url": "https://arxiv.org/pdf/2603.03933"
+    },
+    {
+      "title": "PCFNet: Period–channel fusion network for multivariate time series forecasting—towards multi-period dependency modeling",
+      "authors": "J Du, S Jiang - Information Fusion, 2026",
+      "abstract": "Multivariate time series forecasting plays a vital role in domains such as finance, transportation, energy management, and healthcare, where periodic patterns (ie, different periodic modes such as daily, weekly, and seasonal cycles) are among the most important and ubiquitous characteristics. Although many existing approaches attempt to capture periodicity, most can only learn periodic features implicitly. Methods that explicitly model multiple periodic patterns often treat each period …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1566253526001600"
+    },
+    {
+      "title": "Personalized Multi-Agent Average Reward TD-Learning via Joint Linear Approximation",
+      "authors": "P Yang, L Su - arXiv preprint arXiv:2603.02426, 2026",
+      "abstract": "We study personalized multi-agent average reward TD learning, in which a collection of agents interacts with different environments and jointly learns their respective value functions. We focus on the setting where there exists a shared linear representation, and the agents' optimal weights collectively lie in an unknown linear subspace. Inspired by the recent success of personalized federated learning (PFL), we study the convergence of cooperative single-timescale TD learning in which …",
+      "url": "https://arxiv.org/pdf/2603.02426"
+    },
+    {
+      "title": "Why Adam Can Beat SGD: Second-Moment Normalization Yields Sharper Tails",
+      "authors": "R Jin, Y Liang, S Zou - arXiv preprint arXiv:2603.03099, 2026",
+      "abstract": "Despite Adam demonstrating faster empirical convergence than SGD in many applications, much of the existing theory yields guarantees essentially comparable to those of SGD, leaving the empirical performance gap insufficiently explained. In this paper, we uncover a key second-moment normalization in Adam and develop a stopping-time/martingale analysis that provably distinguishes Adam from SGD under the classical bounded variance model (a second moment assumption). In particular …",
+      "url": "https://arxiv.org/pdf/2603.03099"
+    },
+    {
+      "title": "cuNRTO: GPU-Accelerated Nonlinear Robust Trajectory Optimization",
+      "authors": "J Wang, AT Abdul, EA Theodorou - arXiv preprint arXiv:2603.02642, 2026",
+      "abstract": "Robust trajectory optimization enables autonomous systems to operate safely under uncertainty by computing control policies that satisfy the constraints for all bounded disturbances. However, these problems often lead to large Second Order Conic Programming (SOCP) constraints, which are computationally expensive. In this work, we propose the CUDA Nonlinear Robust Trajectory Optimization (cuNRTO) framework by introducing two dynamic optimization architectures that have direct …",
+      "url": "https://arxiv.org/pdf/2603.02642"
+    },
+    {
+      "title": "DMODNet: Deep Unfolding Network for Moving Object Detection in Satellite Videos",
+      "authors": "Q Yin, R Li, J Xia, R Ni, Z Lin, W An, Y Guo, H Wang - IEEE Journal of Selected Topics …, 2026",
+      "abstract": "Model-based methods and deep neural networks have both been tremendously successful paradigms in moving object detection from satellite videos. In model-based methods, problem domain knowledge can be built into the constraints of the model, typically requiring manual parameter adjustment and at the expense of difficulties during inference. In contrast, deterministic deep neural networks are constructed in such a way that inference is straightforward, but it is unclear how to …",
+      "url": "https://ieeexplore.ieee.org/iel8/4609443/4609444/11419723.pdf"
+    },
+    {
+      "title": "A robust test for weak instruments with multiple endogenous regressors in Stata",
+      "authors": "L Zhou - The Stata Journal, 2026",
+      "abstract": "In this article, I introduce a novel command, weakivtest2, that implements the robust bias-based test for weak instruments for two-stage least squares with multiple endogenous regressors proposed by Lewis and Mertens (Forthcoming, Review of Economic Studies, https://doi. org/10.1093/restud/rdaf103). The weakivtest2 command allows for absolute and relative bias criteria, local-to-zero and local-to-rank-reduction-of-one asymptotics, and testing for either the full vector or the …",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1536867X261425792"
+    },
+    {
+      "title": "Plug-and-Play blind super-resolution of real MRI images for improved multiple sclerosis diagnosis",
+      "authors": "M Cannas, A Mariottini, L Massacesi, F Porta… - arXiv preprint arXiv …, 2026",
+      "abstract": "Magnetic resonance imaging (MRI) is central to the diagnosis of multiple sclerosis, where the identification of biomarkers such as the central vein sign benefits from high-resolution images. However, most clinical brain MRI scans are performed using 1.5 T scanners, which provide lower sensitivity compared to higher-field systems. We propose a blind super-resolution framework to enhance real 1.5 T MRI images acquired in clinical settings, where only post-processed data are available and the …",
+      "url": "https://arxiv.org/pdf/2603.03876"
+    },
+    {
+      "title": "Risk-Embedded Conic Programming: Geometric Internalization of Risk Envelopes and a Unified Dual-Cone Optimization Framework",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel convex optimization theoretical framework—Risk-Embedded Conic Programming (RECP). This theory breaks through the traditional modeling paradigm of\" risk entering the objective function\" by endogenizing the risk envelope set Q into a dual cone-generating substructure, thereby geometrically reshaping the original feasible region. Specifically, we construct a risk-generating cone R_Q and a risk-embedding cone K_Q, so that the risk metric no longer serves …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/401469213_Risk-Embedded_Conic_Programming_Geometric_Internalization_of_Risk_Envelopes_and_a_Unified_Dual-_Cone_Optimization_Framework/links/69a6533216faea00ba9beba8/Risk-Embedded-Conic-Programming-Geometric-Internalization-of-Risk-Envelopes-and-a-Unified-Dual-Cone-Optimization-Framework.pdf"
+    },
+    {
+      "title": "Neural Operator-Grounded Continuous Tensor Function Representation and Its Applications",
+      "authors": "R Su, XL Zhao, S Liu, WH Wu, Y Luo, MK Ng - arXiv preprint arXiv:2603.01812, 2026",
+      "abstract": "Recently, continuous tensor functions have attracted increasing attention, because they can unifiedly represent data both on mesh grids and beyond mesh grids. However, since mode-$ n $ product is essentially discrete and linear, the potential of …",
+      "url": "https://arxiv.org/pdf/2603.01812"
+    },
+    {
+      "title": "A Direct Method for Computing the Complex-Valued Triple Decomposition of Third-Order Tensors",
+      "authors": "Y Chen, L Qi - SIAM Journal on Scientific Computing, 2026",
+      "abstract": "A direct method is first proposed to compute a complex-valued triple decomposition of a third-order tensor. The method operates under three assumptions:(i) The triple rank of an tensor satisfies.(ii) Two factor tensors of the triple decomposition are …",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/24M1660164"
+    },
+    {
+      "title": "Comparison theorems for the extreme eigenvalues of a random symmetric matrix",
+      "authors": "JA Tropp - arXiv preprint arXiv:2603.04365, 2026",
+      "abstract": "This paper establishes a comparison theorem for the maximum eigenvalue of a sum of independent random symmetric matrices. The theorem states that the maximum eigenvalue of the matrix sum is dominated by the maximum eigenvalue of a …",
+      "url": "https://arxiv.org/pdf/2603.04365"
+    }
+  ]
+}

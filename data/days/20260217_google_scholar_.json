@@ -1,0 +1,152 @@
+{
+  "id": "20260217_google_scholar_",
+  "date": "20260217",
+  "source": "historical-import",
+  "messages": 11,
+  "papers": [
+    {
+      "title": "Discretization-free Bayesian inverse problems in distribution spaces",
+      "authors": "D Calvetti, E Somersalo - arXiv preprint arXiv:2602.10247, 2026",
+      "abstract": "The Bayesian approach to inverse problems provides a practical way to solve ill-posed problems by augmenting the observation model with prior information. Due to the measure-theoretic underpinnings, the approach has raised theoretical interest …",
+      "url": "https://arxiv.org/pdf/2602.10247"
+    },
+    {
+      "title": "Biquadratic SOS Rank: Sum of Squares Decompositions and Rank Bounds for Biquadratic Forms",
+      "authors": "C Cui, L Qi, Y Xu - arXiv preprint arXiv:2602.07844, 2026",
+      "abstract": "We prove that every $3\\times 3$ sum-of-squares (SOS) biquadratic form can be expressed as the sum of at most\\textbf {six} squares of bilinear forms, establishing $\\mathrm {BSR}(3, 3)= 6$. We also determine the exact SOS rank for $4\\times 3 …",
+      "url": "https://arxiv.org/pdf/2602.07844"
+    },
+    {
+      "title": "Heterogeneous Distributed Zeroth-Order Nonconvex Optimization with Communication Compression",
+      "authors": "H Wang, X Yi, Y Hong, M Liwang - arXiv preprint arXiv:2602.08659, 2026",
+      "abstract": "Distributed zeroth-order optimization is increasingly applied in heterogeneous scenarios where agents possess distinct data distributions and objectives. This heterogeneity poses fundamental challenges for convergence analysis, as existing convergence analyses rely on relatively strong assumptions to ensure theoretical guarantees. Specifically, at least one of the following three assumptions is usually required:(i) data homogeneity across agents,(ii) $\\mathcal {O}(pn) $ function …",
+      "url": "https://arxiv.org/pdf/2602.08659"
+    },
+    {
+      "title": "Scalable Mean-Field Variational Inference via Preconditioned Primal-Dual Optimization",
+      "authors": "J Lyu, T Yu, Y Ma, N Shi - arXiv preprint arXiv:2602.07632, 2026",
+      "abstract": "In this work, we investigate the large-scale mean-field variational inference (MFVI) problem from a mini-batch primal-dual perspective. By reformulating MFVI as a constrained finite-sum problem, we develop a novel primal-dual algorithm based on an augmented Lagrangian formulation, termed primal-dual variational inference (PD-VI). PD-VI jointly updates global and local variational parameters in the evidence lower bound in a scalable manner. To further account for heterogeneous loss …",
+      "url": "https://arxiv.org/pdf/2602.07632"
+    },
+    {
+      "title": "Achieving Better Local Regret Bound for Online Non-Convex Bilevel Optimization",
+      "authors": "T Jia, H Wang, C Chen - arXiv preprint arXiv:2602.06457, 2026",
+      "abstract": "Online bilevel optimization (OBO) has emerged as a powerful framework for many machine learning problems. Prior works have developed several algorithms that minimize the standard bilevel local regret or the window-averaged bilevel local regret of the OBO problem, but the optimality of existing regret bounds remains unclear. In this work, we establish optimal regret bounds for both settings. For standard bilevel local regret, we propose an algorithm that achieves the optimal …",
+      "url": "https://arxiv.org/pdf/2602.06457"
+    },
+    {
+      "title": "Self-composing neural operators for high-frequency and multiscale PDE surrogates: adaptive depth training and error–depth scaling",
+      "authors": "J Hea, X Liub, J Xuc",
+      "abstract": "Addressing the computational challenges of high-frequency and multiscale partial differential equations (PDEs), this work introduces a self-composing neural operator (SC-NO) framework. Inspired by classical fixed-point iterative solvers (eg, multigrid, domain decomposition), the proposed architecture constructs a deep operator by repeatedly applying a single, parameterefficient backbone block. This design mimics the update step of a numerical solver, allowing the model to progressively resolve …",
+      "url": "https://www.researchgate.net/profile/Xinliang-Liu-9/publication/394523592_Self-composing_neural_operators_for_high-frequency_and_multiscale_PDE_surrogates/links/698940c75d60ab48356c3016/Self-composing-neural-operators-for-high-frequency-and-multiscale-PDE-surrogates.pdf"
+    },
+    {
+      "title": "A θ-inertial ADMM for efficient and stable nonconvex optimization",
+      "authors": "X Wang, J Zhu, H Shao - Journal of Computational and Applied Mathematics, 2026",
+      "abstract": "In this paper, we propose a θ-inertial alternating direction method of multipliers (θ-iADMM) for solving nonconvex optimization problems. This new method enhances computational efficiency by applying the idea of inertial proximal point and the linearization technique. Meanwhile, a new Lagrange multiplier update method is proposed, enhancing the θ-iADMM's stability and convergence by incorporating a perturbation parameter θ. Based on the assumption that the objective function is …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042726000853"
+    },
+    {
+      "title": "Comprehensive Learning-Enhanced Educational Competition Optimizer for Numerical Optimization and Reservoir Production Optimization",
+      "authors": "S Li, J Luo - Biomimetics, 2026",
+      "abstract": "The performance of metaheuristic algorithms in solving high-dimensional, non-convex optimization problems is intricately linked to the balance between global exploration and local exploitation. Inspired by biomimetic principles of swarm intelligence, this study evaluates the Educational Competition Optimizer (ECO), a human learning-inspired metaheuristic, and addresses its vulnerability to rapid population homogenization and premature convergence in complex landscapes. To …",
+      "url": "https://www.mdpi.com/2313-7673/11/2/111"
+    },
+    {
+      "title": "Penalized empirical likelihood over decentralized networks",
+      "authors": "J Du, Q Wang - Journal of the Royal Statistical Society Series B …, 2026",
+      "abstract": "Empirical likelihood encounters serious computational challenges when applied to massive datasets or multiple data sources distributed across decentralized networks. This paper proposes a constrained empirical likelihood framework for decentralized networks, utilizing a novel penalization technique to obtain a penalized empirical log-likelihood. The resulting empirical log-likelihood ratio statistic is proved to be asymptotically standard chi-squared even for a divergent machine number. However …",
+      "url": "https://academic.oup.com/jrsssb/advance-article/doi/10.1093/jrsssb/qkag042/8471301"
+    },
+    {
+      "title": "Acceleration for Polyak-{\\L} ojasiewicz Functions with a Gradient Aiming Condition",
+      "authors": "J Hermant - arXiv preprint arXiv:2602.10022, 2026",
+      "abstract": "It is known that when minimizing smooth Polyak-{\\L} ojasiewicz (PL) functions, momentum algorithms cannot significantly improve the convergence bound of gradient descent, contrasting with the acceleration phenomenon occurring in the strongly convex case. To bridge this gap, the literature has proposed strongly quasar-convex functions as an intermediate non-convex class, for which accelerated bounds have been suggested to persist. We show that this is not true in general: the …",
+      "url": "https://arxiv.org/pdf/2602.10022"
+    },
+    {
+      "title": "The Rise of Sparse Mixture-of-Experts: A Survey from Algorithmic Foundations to Decentralized Architectures and Vertical Domain Applications",
+      "authors": "D Pan, B Li, Y Zheng, J Ma, V Fei - arXiv preprint arXiv:2602.08019, 2026",
+      "abstract": "The sparse Mixture of Experts (MoE) architecture has evolved as a powerful approach for scaling deep learning models to more parameters with comparable computation cost. As an important branch of large language model (LLM), MoE model only activate a subset of experts based on a routing network. This sparse conditional computation mechanism significantly improves computational efficiency, paving a promising path for greater scalability and cost-efficiency. It not only enhance …",
+      "url": "https://arxiv.org/pdf/2602.08019"
+    },
+    {
+      "title": "An orthogonal randomized Bregman projection method for linearly constrained optimization problems",
+      "authors": "YX Ye, Z Wang, SX Miao, JF Yin, SL Zhang - Numerical Algorithms, 2026",
+      "abstract": "An orthogonal randomized Bregman projection method is proposed for solving linearly constrained optimization problems by orthogonalizing two randomly selected hyperplanes. The convergence properties are analyzed under both noise-free and noisy cases. The expected linear convergence rate of the proposed method is derived and the upper bound of the convergence rate is given, which is better than that of the randomized Bregman projection method. Numerical experiments verify the …",
+      "url": "https://link.springer.com/article/10.1007/s11075-025-02305-4"
+    },
+    {
+      "title": "Complexity of Projected Gradient Methods for Strongly Convex Optimization with H\\\" older Continuous Gradient Terms",
+      "authors": "X Chen, CT Kelley, L Wang - arXiv preprint arXiv:2602.07961, 2026",
+      "abstract": "This paper studies the complexity of projected gradient descent methods for a class of strongly convex constrained optimization problems where the objective function is expressed as a summation of $ m $ component functions, each possessing a …",
+      "url": "https://arxiv.org/pdf/2602.07961"
+    },
+    {
+      "title": "AN EXACT PENALTY METHOD FOR SPARSITY-CONSTRAINED OPTIMIZATION",
+      "authors": "J Zhao, J Liu, AMC So, WK Ma",
+      "abstract": "Sparsity-constrained optimization appears in various applications where the solution exhibits specific sparsity patterns. These problems are challenging in general, mainly due to the nonconvex and combinatorial nature of the constraints. In this work, we …",
+      "url": "https://www1.se.cuhk.edu.hk/~manchoso/papers/pen_sparse-icassp26.pdf"
+    },
+    {
+      "title": "ImprovEvolve: Ask AlphaEvolve to Improve the Input Solution and Then Improvise",
+      "authors": "A Kravatskiy, V Khrulkov, I Oseledets - arXiv preprint arXiv:2602.10233, 2026",
+      "abstract": "Recent advances in LLM-guided evolutionary computation, particularly AlphaEvolve, have demonstrated remarkable success in discovering novel mathematical constructions and solving challenging optimization problems. In this article, we …",
+      "url": "https://arxiv.org/pdf/2602.10233"
+    },
+    {
+      "title": "Distributed Nonparametric Regression with Heterogeneity through Prediction-Based Aggregation",
+      "authors": "Z Chen, R Li, Y Xu - Journal of Computational and Graphical Statistics, 2026",
+      "abstract": "Distributed statistical modeling is a powerful tool for dealing with large-scale datasets while maintaining data privacy. In this study, we propose a data-driven weighted aggregation procedure that leverages model prediction performance and is …",
+      "url": "https://www.tandfonline.com/doi/pdf/10.1080/10618600.2026.2626382"
+    },
+    {
+      "title": "A Two-Layer Framework for Joint Online Configuration Selection and Admission Control",
+      "authors": "O Shen, H Xu, Y Ye, P Glynn, P Jaillet - arXiv preprint arXiv:2602.07663, 2026",
+      "abstract": "We study online configuration selection with admission control problem, which arises in LLM serving, GPU scheduling, and revenue management. In a planning horizon with $ T $ periods, we consider a two-layer framework for the decisions made within …",
+      "url": "https://arxiv.org/pdf/2602.07663"
+    },
+    {
+      "title": "Enhancing Tucker Tensor Completion via Laplace-Like Nonconvex Surrogates and Structural Regularization: W. Xie et al.",
+      "authors": "W Xie, LH Zhang, C Ling, H He - Journal of Scientific Computing, 2026",
+      "abstract": "Accurate recovery of high-dimensional tensor data from incomplete observations remains a critical challenge in data-driven applications. To overcome the inherent limitations of convex surrogates for tensor rank and sparsity approximation, we …",
+      "url": "https://link.springer.com/article/10.1007/s10915-026-03205-y"
+    },
+    {
+      "title": "Color image denoising under mixed multiplicative and Gaussian noise via group-sparse representation and SVTV regularization",
+      "authors": "M Jung - AIMS Mathematics, 2026",
+      "abstract": "Color image denoising under the simultaneous presence of multiplicative and Gaussian noise is challenging due to the differing statistical properties of the two noise types. We propose a variational framework that integrates an infimal …",
+      "url": "https://www.aimspress.com/article/doi/10.3934/math.2026158"
+    },
+    {
+      "title": "Total Variation Rates for Riemannian Flow Matching",
+      "authors": "Y Guan, K Balasubramanian, S Ma - arXiv preprint arXiv:2602.05174, 2026",
+      "abstract": "Riemannian flow matching (RFM) extends flow-based generative modeling to data supported on manifolds by learning a time-dependent tangent vector field whose flow-ODE transports a simple base distribution to the data law. We develop a …",
+      "url": "https://arxiv.org/pdf/2602.05174"
+    },
+    {
+      "title": "A nonconvex total variational model for the joint image segmentation and restoration of images corrupted by Rician noise",
+      "authors": "M Kang - AIMS Mathematics, 2026",
+      "abstract": "In this paper, a novel variational model is proposed for image segmentation via joint restoration of images corrupted by blurring and Rician noise. The proposed model is built upon the piecewise constant Mumford–Shah framework and combines an …",
+      "url": "https://www.aimspress.com/article/doi/10.3934/math.2026147"
+    },
+    {
+      "title": "Mixed-Noise Removal with Coupled Nonlocal Fractal Prior and Deep Image Prior for High-Dimentional Images",
+      "authors": "C Wen, W Liang, J Lu, Y Zou, C Xu - Fractals, 2026",
+      "abstract": "Images acquired in real-world applications such as medical imaging, remote sensing, and hyperspectral imaging are frequently degraded by mixed noise, where Gaussian perturbations, impulsive outliers, and structured artifacts coexist …",
+      "url": "https://www.worldscientific.com/doi/abs/10.1142/S0218348X26500520"
+    },
+    {
+      "title": "Multimodality medical image fusion using directional total variation based linear spectral clustering in NSCT domain",
+      "authors": "MZ Khan, M Diwakar, P Srivastava, P Singh… - Scientific Reports, 2026",
+      "abstract": "In medical science, there is a challenge to find out critical information from the medical images by low vision disability medical experts. As a solution, we can enhance the medical images by fusing different modality images viz., CT-MRI which …",
+      "url": "https://www.nature.com/articles/s41598-025-26916-y_reference.pdf"
+    },
+    {
+      "title": "SpectraKAN: Conditioning Spectral Operators",
+      "authors": "CW Cheng, CB Schönlieb, AI Aviles-Rivero - arXiv preprint arXiv:2602.05187, 2026",
+      "abstract": "Spectral neural operators, particularly Fourier Neural Operators (FNO), are a powerful framework for learning solution operators of partial differential equations (PDEs) due to their efficient global mixing in the frequency domain. However …",
+      "url": "https://arxiv.org/pdf/2602.05187"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "20260315_google_scholar_",
+  "date": "20260315",
+  "source": "historical-import",
+  "messages": 3,
+  "papers": [
+    {
+      "title": "A Globally Convergent Third-Order Newton Method via Unified Semidefinite Programming Subproblems",
+      "authors": "Y Cai, W Zhu, C Cartis, G Zardini - arXiv preprint arXiv:2603.09682, 2026",
+      "abstract": "We propose the Adaptive Levenberg-Marquardt Third-Order Newton Method (ALMTON) for unconstrained nonconvex optimization, providing the first globally convergent realization of the unregularized third-order Newton method. Unlike the …",
+      "url": "https://arxiv.org/pdf/2603.09682"
+    },
+    {
+      "title": "Clustering low-rank tensor train dynamic mode decomposition: An enhanced multivariate signal processing algorithm and its applications",
+      "authors": "Y Yin, Y Lv, R Yuan, H Wu, X Yang, ED Gedikli - Measurement, 2026",
+      "abstract": "Fault diagnosis of aero-engine bearings has attracted increasing attention, yet periodic impact component and noise often obscure fault features. Dynamic mode decomposition (DMD) can extract intrinsic modes from time series for feature …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0263224126007153"
+    },
+    {
+      "title": "A novel pansharpening: when multiscale adaptive attention meets dual enhanced networks and low-rank tensor decomposition",
+      "authors": "H Wang, J Zhang, T Zhang, Z Zhang, L Huo - International Journal of Digital Earth, 2026",
+      "abstract": "Deep learning (DL) has achieved advanced results in pansharpening remote sensing images. However, existing DL-based methods still have several drawbacks, such as incomplete feature extraction and insufficient information fusion. In this …",
+      "url": "https://www.tandfonline.com/doi/pdf/10.1080/17538947.2026.2640696"
+    },
+    {
+      "title": "Pansharpening With Structure and Coefficient-Driven Structure Tensor Total Variation Priors",
+      "authors": "P Liu, L Sun, N Huang, Z Zheng, L Xiao - IEEE Transactions on Geoscience and …, 2026",
+      "abstract": "In this paper, we propose an innovative pansharpening method with structure and coefficient-driven structure tensor total variation (SCSTV) priors, which can obtain high resolution multispectral (HRMS) images through the fusion of low resolution …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11419183/"
+    },
+    {
+      "title": "Approximately Sparse Low-Rank Tensor Completion",
+      "authors": "Y Gaohang, Z Weidong, H Wenyu",
+      "abstract": "To address the phenomenon that most existing low-rank tensor completion (LRTC) models suffer from excessive sparsity, leading to the overlooking of subtle features in the data, this paper proposes an approximate sparsity-based low-rank tensor …",
+      "url": "https://chinarxiv.org/items/chinaxiv-202003.00055"
+    },
+    {
+      "title": "SOLVAR: Fast covariance-based heterogeneity analysis with pose refinement for cryo-EM",
+      "authors": "R Yadgar, RR Lederman, Y Shkolnisky - arXiv preprint arXiv:2602.17603, 2026",
+      "abstract": "Cryo-electron microscopy (cryo-EM) has emerged as a powerful technique for resolving the three-dimensional structures of macromolecules. A key challenge in cryo-EM is characterizing continuous heterogeneity, where molecules adopt a …",
+      "url": "https://arxiv.org/pdf/2602.17603"
+    },
+    {
+      "title": "Transformed $\\ell_p $ Minimization Model and Sparse Signal Recovery",
+      "authors": "Z Li, W Chen, H Ge, D Yang - arXiv preprint arXiv:2603.09722, 2026",
+      "abstract": "In this article, we introduce a minimization model via a non-convex transformed $\\ell_p $(TLp) penalty function with two parameters $ a\\in (0,\\infty) $ and $ p\\in (0, 1] $, where the case $ p= 1$ is known and was established by S. Zhang and J. Xin …",
+      "url": "https://arxiv.org/pdf/2603.09722"
+    },
+    {
+      "title": "HiLoRA: Hierarchical Low-Rank Adaptation for Personalized Federated Learning",
+      "authors": "Z Peng, N Zou, J Zeng, G Li, K Chen, B Li, T Wang - arXiv preprint arXiv:2603.02785, 2026",
+      "abstract": "Vision Transformers (ViTs) have been widely adopted in vision tasks due to their strong transferability. In Federated Learning (FL), where full fine-tuning is communication heavy, Low-Rank Adaptation (LoRA) provides an efficient and …",
+      "url": "https://arxiv.org/pdf/2603.02785"
+    },
+    {
+      "title": "AISS-VFL: Efficient Adaptive Importance-Aware Sample Selection for Vertical Federated Learning over Distributed Labels",
+      "authors": "XB Hu, YP Wang, NR Zhou - Expert Systems with Applications, 2026",
+      "abstract": "Abstract Vertical Federated Learning (VFL), as an emerging paradigm of federated learning, enables multiple parties to train a model while preserving data privacy collaboratively. Communication overhead is a well-known bottleneck in federated learning. To address this problem, several techniques have been proposed to reduce communication cost, including sparsification, quantization, and local iterations. However, these techniques alleviate the communication bottleneck at the …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417426009243"
+    },
+    {
+      "title": "FwdLLM+: Accelerating Forward-only FedLLM with Low-rank Perturbations",
+      "authors": "C Peng, M Xu, Z Lu, W Liu, S Wang, ND Lane, Q Sun… - IEEE Transactions on …, 2026",
+      "abstract": "Federated Learning (FL) facilitates privacy-preserving fine-tuning of Large Language Models (LLMs) for mobile applications, termed FedLLM. A vital challenge of FedLLM is the tension between LLM complexity and resource constraint of mobile devices. In response to this challenge, we first introduce FwdLLM (our conference version), an innovative FL framework designed to enhance the FedLLM efficiency. The key idea of FwdLLM is to employ backpropagation (BP)-free training methods, requiring …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11429542/"
+    },
+    {
+      "title": "ASG-FU: An adaptive and secure grouping framework for federated unlearning",
+      "authors": "H Huang, Z Huang, J Ge, Q Zhou, J Fang - Computer Standards & Interfaces, 2026",
+      "abstract": "Federated learning (FL) preserves data privacy by keeping data local and exchanging model parameters. However, implementing the” right to be forgotten” in AI systems is challenging, as it requires efficient erasure of a data owner's contribution from a trained model, a problem addressed by federated unlearning (FU). Existing FU methods face limitations in adaptability and security, stemming from a preset number of client groups, reliance on centralized aggregation, and …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0920548926000334"
+    },
+    {
+      "title": "Amplitude Dependent Bode Diagrams via Scaled Relative Graphs",
+      "authors": "JPJ Krebbekx, R Tóth, A Das, T Chaffey - arXiv preprint arXiv:2603.09382, 2026",
+      "abstract": "Scaled Relative Graphs (SRGs) provide an intuitive graphical frequency-domain method for the analysis of Nonlinear (NL) systems, generalizing the Nyquist diagram. In this paper, we develop a method for computing $ L_2 $-gain bounds for Lur'e systems over bounded frequency and amplitude ranges. We do this by restricting the input space of the SRG both in frequency and energy content, and combining with methods from Sobolev theory. The resulting gain bounds over restricted sets of …",
+      "url": "https://arxiv.org/pdf/2603.09382"
+    },
+    {
+      "title": "FreqCycle: A Multi-Scale Time-Frequency Analysis Method for Time Series Forecasting",
+      "authors": "B Zhang, S Yin, H Zhu, X He - arXiv preprint arXiv:2603.09661, 2026",
+      "abstract": "Mining time-frequency features is critical for time series forecasting. Existing research has predominantly focused on modeling low-frequency patterns, where most time series energy is concentrated. The overlooking of mid to high frequency continues to limit further performance gains in deep learning models. We propose FreqCycle, a novel framework integrating:(i) a Filter-Enhanced Cycle Forecasting (FECF) module to extract low-frequency features by explicitly learning shared periodic patterns in the …",
+      "url": "https://arxiv.org/pdf/2603.09661"
+    },
+    {
+      "title": "Scalable Optimization Approaches for Training Large-Scale Learning Systems",
+      "authors": "DA Sow - 2025",
+      "abstract": "Efficient and scalable optimization algorithms have become indispensable for training and deploying modern artificial intelligence systems. With the increasing complexity of machine learning models, traditional optimization techniques struggle to meet computational and theoretical challenges, limiting scalability and real-world applicability. This dissertation presents a cohesive set of novel optimization frameworks addressing fundamental efficiency issues—from Hessian-free bilevel …",
+      "url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1755406440273253&disposition=inline"
+    },
+    {
+      "title": "Decentralized Communication-Efficient Multi-Task Representation Learning",
+      "authors": "S Moothedath, N Vaswani - IEEE Transactions on Control of Network Systems, 2026",
+      "abstract": "Representation learning enables effective learning in data-scarce settings by extracting shared features from related tasks. While well-studied in the centralized setting, decentralized representation learning remains underexplored. In decentralized settings, data is distributed across nodes that must collaboratively learn without a central coordinator. In this work, we study decentralized multi-task learning under a shared low-dimensional representation. We consider source tasks …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11429069/"
+    },
+    {
+      "title": "Privacy Preserving Decentralized Learning with Positive-Incentive Noise",
+      "authors": "L Wang, S Yang, Y Wan, W Xu, ML Zhang - IEEE Transactions on Pattern Analysis …, 2026",
+      "abstract": "Ensuring the privacy of local datasets has emerged as an important concern in decentralized learning. However, the inherent privacy-utility tradeoff remains a fundamental challenge for privacy preserving decentralized algorithms. To address this issue, we introduce Positive-Incentive Noise Generator (PING), a novel mechanism designed to eliminate negative impact of privacy noise on convergence while defending against powerful colluding inference attacks. PING leverages …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11427325/"
+    },
+    {
+      "title": "NIUIE: Non-uniform Illumination Underwater Image Enhancement via Illumination Component Estimation",
+      "authors": "H Wang, Y Lin, L Lu, Z Gao, B Han - IEEE Transactions on Geoscience and Remote …, 2026",
+      "abstract": "Artificial lighting has become a common auxiliary equipment for underwater visual tasks. It effectively extends visibility into regions where natural light is insufficient or entirely absent, but it also inevitably introduces non-uniform illumination. In underwater environments, visual perception is inherently affected by scattering-induced haze and by wavelength-dependent attenuation, which result in color distortion. The interaction between non-uniform artificial illumination and these …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11427002/"
+    },
+    {
+      "title": "Variance-Reduced Decentralized Stochastic Optimization Algorithms With Communication Skip",
+      "authors": "W Xu, R Li, GH Yang - IEEE Transactions on Systems, Man, and Cybernetics …, 2026",
+      "abstract": "In this article, we are concerned with a decentralized optimization problem over a network of computing nodes (eg, machines), which are capable of communicating with their immediate neighbors. Each node only has access to its local cost function, which takes the form of a finite sum. The target is to find a minimizer of the aggregate cost through the cooperation of the nodes. Two decentralized stochastic controlled algorithms with variance reduction, ie, DSC-SAGA and DSC-SVRG, are proposed to …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11427365/"
+    }
+  ]
+}

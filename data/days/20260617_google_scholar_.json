@@ -1,0 +1,74 @@
+{
+  "id": "20260617_google_scholar_",
+  "date": "20260617",
+  "source": "historical-import",
+  "messages": 4,
+  "papers": [
+    {
+      "title": "A symmetric Gauss-Seidel based alternating proximal ALM for generalized Nash Equilibrium problems in Banach spaces",
+      "authors": "D Sun, H Wang, W Zhao - arXiv preprint arXiv:2606.13198, 2026",
+      "abstract": "In this paper, we study a class of monotone generalized Nash equilibrium problems (GNEPs) with jointly linear constraints. The players' strategy spaces are real Hilbert spaces, while the joint constraint is formulated in a Banach space. To solve such …",
+      "url": "https://arxiv.org/pdf/2606.13198"
+    },
+    {
+      "title": "Covering for Set-Valued Mappings in the Absence of Metric Regularity",
+      "authors": "AF Izmailov, M Jelitte",
+      "abstract": "Covering properties build the foundation of stability and sensitivity analysis of solutions to a generalized equation and more specific optimization-related stationarity and equilibrium problems. It has been well-understood that metric …",
+      "url": "https://optimization-online.org/wp-content/uploads/2026/06/2026_CSVMnMR_vFIN.pdf"
+    },
+    {
+      "title": "LBNet: Linearized Bregman Algorithm-Based Deep Unfolding Network for Hyperspectral Image Unmixing",
+      "authors": "GL Han, J Huang, S Shu, W Yan, HJ Xie - Signal Processing, 2026",
+      "abstract": "AbstractHyperspectral image unmixing is essential for material identification in remote sensing but faces a fundamental dilemma: model-based methods are interpretable yet sensitive to handcrafted optimization, while deep learning …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165168426002288"
+    },
+    {
+      "title": "An inertial generalized iteratively reweighted ℓ1 algorithm for nonconvex and nonsmooth optimization",
+      "authors": "M Kang - 2026",
+      "abstract": "We study a class of nonconvex and nonsmooth optimization problems arising in sparse recovery and related applications, which are often addressed using iteratively reweighted ℓ1 (IRL1)-type algorithms. Classical IRL1 methods are typically …",
+      "url": "https://www.aimspress.com/aimspress-data/math/2026/6/PDF/math-11-06-674.pdf"
+    },
+    {
+      "title": "GRETEL: A Graph Attention Network for Low-SNR Spectrum Anomaly Detection in IoT Communications",
+      "authors": "A Hussain, T Hussain, KI Rashid, I Kanjarawy, SM Israr… - IEEE Internet of Things …, 2026",
+      "abstract": "The rapid proliferation of wireless technologies and dynamic spectrum sharing in Internet of Things (IoT) and cyber–physical systems has increased the vulnerability of radio-frequency (RF) environments to anomalies such as unauthorized transmissions, interference, and spoofing. Reliable spectrum anomaly detection (SAD) is therefore critical for secure and dependable wireless operation. However, existing unsupervised approaches, including autoencoders (AEs), memory …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11558342/"
+    },
+    {
+      "title": "A Communication Complexity Lower Bound for Nonuniformly Convex Consensus Optimization",
+      "authors": "D Yarmoshik, M Klimenko - arXiv preprint arXiv:2606.12675, 2026",
+      "abstract": "We study the communication complexity of convex decentralized optimization over time-varying networks, where $ n $ nodes hold private functions and must agree on the global minimizer using only synchronous exchanges with neighbors. The cost is the number of communication rounds to reach accuracy $\\varepsilon $--a measure akin to round complexity in the LOCAL model, but constrained by nodes sharing only oracle responses. We prove a new lower bound of $\\Omega\\!\\left (\\chi_ {\\mathcal …",
+      "url": "https://arxiv.org/pdf/2606.12675"
+    },
+    {
+      "title": "Data-Driven optimal design of nonuniform Fourier measurements",
+      "authors": "KN Martsenyuk - Frontiers in Applied Mathematics, 2026",
+      "abstract": "We propose a data-driven framework for the design of nonuniform Fourier sampling schemes. Our contributions are as follows. First, we introduce a feature-enhancing strategy that separates the roles of gradient-rescaling weights and design-density weights to address the spectral-bias issue in the design. We derive the optimal sampling density for an importance-weighted dual-frame reconstruction. Second, we give a finite-dimensional linear minimum mean square error (MMSE) …",
+      "url": "https://www.aimsciences.org/article/doi/10.3934/fam.2026005?viewType=HTML"
+    },
+    {
+      "title": "Clipping Makes Distributed and Federated Asynchronous SGD Robust to Stragglers",
+      "authors": "S Erickson, M Johansson - arXiv preprint arXiv:2606.13287, 2026",
+      "abstract": "In modern machine learning, parallelization of training is an important strategy for increasing scale. Asynchronous stochastic gradient descent (ASGD), which maximizes the utilization of available hardware by avoiding waiting for slow workers. However, with constant step sizes, the convergence of ASGD is nonetheless affected negatively by slow workers due to large delays in updates. At the same time, it has been empirically observed in asynchronous training of deep learning models that …",
+      "url": "https://arxiv.org/pdf/2606.13287"
+    },
+    {
+      "title": "Neural solver for Wasserstein Geodesics and Optimal Transport Dynamics",
+      "authors": "YH Chen, H Liu - Journal of Scientific Computing, 2026",
+      "abstract": "In recent years, the machine learning community has increasingly embraced the optimal transport (OT) framework for modeling distributional relationships. In this work, we introduce a sample-based neural solver for computing the Wasserstein geodesic between a source and target distribution, along with the associated velocity field. Building on the dynamical formulation of the optimal transport (OT) problem, we recast the constrained optimization as a minimax problem, using deep neural …",
+      "url": "https://link.springer.com/article/10.1007/s10915-026-03359-9"
+    },
+    {
+      "title": "Towards Robust and Scalable Concept Unlearning in Text-to-Image Models",
+      "authors": "M Pham - 2026",
+      "abstract": "This thesis investigates the robustness and scalability of concept erasure in text-to-image generative models. As these models have become capable of producing copyrighted, biased, and potentially unsafe content, various methods have been proposed to selectively remove unwanted concepts from trained models. However, fundamental questions remain about whether these methods truly erase concepts or merely suppress them. The author presents four publications addressing this …",
+      "url": "https://search.proquest.com/openview/7778bce120438e893bae62753f22bd36/1?pq-origsite=gscholar&cbl=18750&diss=y"
+    },
+    {
+      "title": "LBEADS-NET: Algorithm Unrolling for Learned Baseline Estimation and Denoising in Chromatographic Signals",
+      "authors": "S Zubairi - 2026",
+      "abstract": "Baseline drift in chromatographic signals corrupts peak area integration, the standard method for analyte quantification, yet existing correction methods require per-signal parameter tuning (classical optimization) or sacrifice interpretability (deep learning). This thesis proposes LBEADS-NET, a neural network that bridges this gap through algorithm unrolling: each iteration of the classical BEADS (Baseline Estimation And Denoising using Sparsity) algorithm is mapped to a differentiable …",
+      "url": "https://search.proquest.com/openview/4fd219423bcc5d64a80f1ced9949af06/1?pq-origsite=gscholar&cbl=18750&diss=y"
+    }
+  ]
+}

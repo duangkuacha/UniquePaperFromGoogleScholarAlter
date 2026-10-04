@@ -1,0 +1,80 @@
+{
+  "id": "20260301_google_scholar_",
+  "date": "20260301",
+  "source": "historical-import",
+  "messages": 5,
+  "papers": [
+    {
+      "title": "Adjusted Scores for Discrete Langevin Algorithms",
+      "authors": "A Gissler, S Saremi, F Bach - arXiv preprint arXiv:2602.15587, 2026",
+      "abstract": "Sampling from discrete distributions is a ubiquitous task in machine learning, recently revisited by the emergence of discrete diffusion models. While Langevin algorithms constitute the state of the art for continuous spaces, discrete versions lack …",
+      "url": "https://arxiv.org/pdf/2602.15587"
+    },
+    {
+      "title": "ALiA: Adaptive Linearized ADMM",
+      "authors": "U Jang, K Sun, W Yin, EK Ryu - arXiv preprint arXiv:2602.15000, 2026",
+      "abstract": "We propose ALiA, a novel adaptive variant of the alternating direction method of multipliers (ADMM). Specifically, ALiA is a variant of function-linearized proximal ADMM (FLiP ADMM), which generalizes the classical ADMM by leveraging the …",
+      "url": "https://arxiv.org/pdf/2602.15000"
+    },
+    {
+      "title": "A Tutorial on AI-Empowered Integrated Sensing and Communications",
+      "authors": "M Vaezi, GA Baduge, E Ollila, SA Vorobyov - IEEE Communications Surveys & …, 2026",
+      "abstract": "Integrating sensing and communication (ISAC) can help overcome the challenges of limited spectrum and expensive hardware, leading to improved energy and cost efficiency. While full cooperation between sensing and communication can result in significant performance gains, achieving optimal performance requires efficient designs of unified waveforms and beamformers for joint sensing and communication. Sophisticated statistical signal processing and multi-objective optimization …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11407954/"
+    },
+    {
+      "title": "Deep unfolding of MCMC kernels: scalable, modular & explainable GANs for high-dimensional posterior sampling",
+      "authors": "J Spence, TI Liaudat, K Zygalakis, M Pereyra - arXiv preprint arXiv:2602.20758, 2026",
+      "abstract": "Markov chain Monte Carlo (MCMC) methods are fundamental to Bayesian computation, but can be computationally intensive, especially in high-dimensional settings. Push-forward generative models, such as generative adversarial networks (GANs), variational auto-encoders and normalising flows offer a computationally efficient alternative for posterior sampling. However, push-forward models are opaque as they lack the modularity of Bayes Theorem, leading to poor generalisation …",
+      "url": "https://arxiv.org/pdf/2602.20758"
+    },
+    {
+      "title": "A gated-attention multi-prior injection diffusion model for Huashan rock art image restoration",
+      "authors": "T Zhao, L Huang, X Qi, P Deng - Scientific Reports, 2026",
+      "abstract": "This paper addresses the problems of fading, loss, and texture degradation in the Zuojiang Huashan rock art caused by long term weathering and human disturbances, and constructs a Huashan rock art dataset for image restoration while proposing a prior guided restoration framework based on Stable Diffusion. The proposed method introduces a dual branch prior extraction module to separately model structural contours and texture material information during the diffusion …",
+      "url": "https://www.nature.com/articles/s41598-026-41226-7_reference.pdf"
+    },
+    {
+      "title": "Physics-Informed Deep Learning for Shear Wave Speed Estimation in MR Elastography",
+      "authors": "S Martin, J Schattenfroh, P Schuenke, FF Zimmermann… - IEEE Transactions on …, 2026",
+      "abstract": "Objective: Magnetic Resonance Elastography (MRE) is a non-invasive imaging technique for mapping biomechanical properties of in vivo tissue, including shear wave speed (SWS), but involves intrinsically slow data acquisition and an ill-posed wave inversion. Instead of relying on handcrafted image priors, we propose a data-driven approach jointly combining image reconstruction and MRE inversion for robust SWS estimation from undersampled k-space data. Methods: Our physics …",
+      "url": "https://ieeexplore.ieee.org/iel8/10/4359967/11407998.pdf"
+    },
+    {
+      "title": "Infrared and visible image fusion via a first-order piecewise regularization and an IPADMM",
+      "authors": "W Yang - Journal of Computational and Applied Mathematics, 2026",
+      "abstract": "We propose a novel method for fusing infrared and visible images, which integrates a first-order piecewise regularization and an inertial proximal alternating direction method of multipliers (IPADMM). Our model consists of two fidelity terms and one first-order piecewise regularization term, which effectively preserve both the thermal radiation information in the infrared image and the appearance information in the visible image. The inclusion of the first-order piecewise regularization term reduces …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042726001901"
+    },
+    {
+      "title": "Quantum circuit design from a retraction-based Riemannian optimization framework",
+      "authors": "Z Lai, H Nie, J Wu, D An - arXiv preprint arXiv:2602.20605, 2026",
+      "abstract": "Designing quantum circuits for ground state preparation is a fundamental task in quantum information science. However, standard Variational Quantum Algorithms (VQAs) are often constrained by limited ansatz expressivity and difficult optimization landscapes. To address these issues, we adopt a geometric perspective, formulating the problem as the minimization of an energy cost function directly over the unitary group. We establish a retraction-based Riemannian optimization framework for this …",
+      "url": "https://arxiv.org/pdf/2602.20605"
+    },
+    {
+      "title": "GSNR: Graph Smooth Null-Space Representation for Inverse Problems",
+      "authors": "R Gualdrón-Hurtado, R Jacome, RS Suarez… - arXiv preprint arXiv …, 2026",
+      "abstract": "Inverse problems in imaging are ill-posed, leading to infinitely many solutions consistent with the measurements due to the non-trivial null-space of the sensing matrix. Common image priors promote solutions on the general image manifold, such as sparsity, smoothness, or score function. However, as these priors do not constrain the null-space component, they can bias the reconstruction. Thus, we aim to incorporate meaningful null-space information in the reconstruction framework …",
+      "url": "https://arxiv.org/pdf/2602.20328"
+    },
+    {
+      "title": "Hierarchical composite quantile regression with adaptive Lasso",
+      "authors": "H Jian, M Tan, M Tian - Journal of Statistical Planning and Inference, 2026",
+      "abstract": "Hierarchical (multi-level) data commonly exhibit heavy-tailed noise and high-dimensional fixed-effect structures. To address these challenges, we propose a Hierarchical Composite Quantile Regression (HCQR) framework regularized with an adaptive Lasso penalty. Our approach integrates the statistical efficiency of composite quantile loss for robustness and the adaptive Lasso for sparse variable selection. We develop an efficient estimation procedure based on an Expectation …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378375826000182"
+    },
+    {
+      "title": "Convergent Lifted Lasserre Hierarchy of SDPs for Minimizing Expectation of Piecewise Polynomial Loss over Wasserstein Balls",
+      "authors": "ND Dizon, QY Huang, TD Chuong, G Li, V Jeyakumar - arXiv preprint arXiv …, 2026",
+      "abstract": "This paper investigates the minimization of the expectation of piecewise polynomial loss functions over Wasserstein balls. This optimization problem often appears as a key sub-problem of distributionally robust optimization problems. We establish the …",
+      "url": "https://arxiv.org/pdf/2602.20660"
+    },
+    {
+      "title": "Proceedings of the 2026 SIAM Conference on Parallel Processing for Scientific Computing (PP)",
+      "authors": "E Carson, A Bienz - 2026",
+      "abstract": "There is a history of proceedings papers along with the main program of the SIAM PP conference series. This practice was discontinued in the mid-nineties. At the business meeting of SIAM PP18, the SIAM Activity Group for Supercomputing (SIAG …",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611979022"
+    }
+  ]
+}

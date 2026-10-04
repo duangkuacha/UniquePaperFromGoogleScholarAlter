@@ -1,0 +1,104 @@
+{
+  "id": "20260604_google_scholar_",
+  "date": "20260604",
+  "source": "historical-import",
+  "messages": 5,
+  "papers": [
+    {
+      "title": "Smoothing the Score Function to Enhance Generalization in Diffusion Models",
+      "authors": "X Zhou, J Zhang, SJ Wright - Proceedings of the IEEE/CVF Conference on Computer …, 2026",
+      "abstract": "Diffusion models achieve remarkable generation quality, yet face a fundamental challenge known as memorization, where generated samples can replicate training samples exactly. We develop a theoretical framework to explain this phenomenon by …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_Smoothing_the_Score_Function_to_Enhance_Generalization_in_Diffusion_Models_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Hyperspectral Super-Resolution Via Tensor CP Decomposition with Total Variation Regularization",
+      "authors": "J Chang, X Cui, D Han, Z Wang - Journal of Optimization Theory and Applications, 2026",
+      "abstract": "Due to the limitations of satellite optical sensors, remote sensing images exhibit significant imbalances in spatial and spectral resolution. The hyperspectral image (HSI) has high spectral resolution but low spatial resolutions, while the multispectral …",
+      "url": "https://link.springer.com/article/10.1007/s10957-026-03020-3"
+    },
+    {
+      "title": "WebGym: Scaling Training Environments for Long-Horizon Visual Web Agents with Realistic Tasks",
+      "authors": "H Bai, A Taymanov, T Zhang, A Kumar, S Whitehead - Proceedings of the IEEE/CVF …, 2026",
+      "abstract": "We present WebGym, the largest-to-date open-source environment for training realistic visual web agents. Real websites are non-stationary and diverse, making artificial or small-scale task sets insufficient for robust policy learning. WebGym …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Bai_WebGym_Scaling_Training_Environments_for_Long-Horizon_Visual_Web_Agents_with_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Progressive Guessing to Fixed Point: Rethinking Human Motion Prediction with Deep Equilibrium Models",
+      "authors": "D Wei, H Sun, F Liu, Y Zheng - Proceedings of the IEEE/CVF Conference on …, 2026",
+      "abstract": "Many recent human motion prediction methods adopt a multi-stage refinement framework, where each stage produces an initial guess of future poses for the next stage. These guesses are progressively refined towards the target prediction through a sequence of spatial-temporal reasoning stages. However, such a cascaded design incurs large computation and memory overheads that grow at least linearly with network depth, and lack an explicit stopping criteria. In this paper, we propose …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_Progressive_Guessing_to_Fixed_Point_Rethinking_Human_Motion_Prediction_with_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "EMD-based combined attention mechanism RNN for multivariate time series forecasting",
+      "authors": "W Ding, C Zhang, H Huang, Z Guo, L Long, N Ji - Applied Intelligence, 2026",
+      "abstract": "Abstract The Dual-stage Attention-based Recurrent Neural Network (DA-RNN) is a high-performance model for single-step multivariate time series prediction. By leveraging the encoder-decoder framework and additive attention, it effectively captures long-term temporal dependence. However, a critical limitation remains, ie, it cannot simultaneously capture both long-term temporal dependencies and cross-timestamp inter-series interaction information. To address this gap, this paper …",
+      "url": "https://link.springer.com/article/10.1007/s10489-026-07287-x"
+    },
+    {
+      "title": "Certified Evaluation for LLMs in Optimization Modeling: From Graph Isomorphism to Formulation Isomorphism",
+      "authors": "Z Wang, Z Zhu, Z Li, C Chen, Z Lin, MZ Yang, Y Han… - ICML 2026 Workshop on …",
+      "abstract": "Large language model (LLM) benchmarks typically evaluate correctness through task-specific rules, but for structured outputs, correctness is often an equivalence problem. We study this issue in automated optimization modeling, where LLMs translate natural-language descriptions and numerical data into solver-ready formulations. Existing solver-based evaluation only approximates modeling correctness: it offers no formulation-level guarantee, is uninformative for infeasible …",
+      "url": "https://openreview.net/pdf?id=jEudMU2Ppd"
+    },
+    {
+      "title": "Privacy-Preserving Data Completion With Location and Value Obfuscation in Spatial Crowdsourcing",
+      "authors": "W Liu, H Du, L Li, Q Deng, L Wang, F Yang, E Wang… - IEEE Transactions on …, 2026",
+      "abstract": "Spatial-temporal data is essential for various applications. Traditional data collection methods often have limited coverage, while Spatial Crowdsourcing, which leverages mobile devices, offers broader data acquisition but also presents challenges with data sparsity. To infer missing data based on observed data, existing data completion techniques often require detailed spatial-temporal information, raising privacy concerns. Some methods attempt to protect privacy by obfuscating locations; …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11540346/"
+    },
+    {
+      "title": "Adaptive Step Sizes for Stochastic Gradient Descent",
+      "authors": "F Köhne - 2026",
+      "abstract": "Stochastische Optimierungsprobleme treten in verschiedenen Anwendungsfällen auf. In den letzten Jahren hat die rasante Entwicklung von Techniken des maschinellen Lernens, und damit verbunden das Training von Künstlicher Intelligenz, das Interesse an solchen Problemen noch einmal verstärkt. Ein weit verbreiteter und konzeptionell sehr einfacher Algorithmus zum Lösen solcher stochastischen Optimierungsprobleme ist das stochastische Gradientenverfahren …",
+      "url": "https://epub.uni-bayreuth.de/id/eprint/9327/1/frederik_koehne_adaptive.pdf"
+    },
+    {
+      "title": "A non-convex tensor RPCA model with TL1 penalty for image restoration",
+      "authors": "X Guo, C Xu, Z Zhu, B Zhang - Journal of Industrial and Management Optimization, 2026",
+      "abstract": "For high-dimensional image restoration, tensor robust principal component analysis (TRPCA) is a highly effective method. However, since it uniformly penalizes all singular values, it tends to over-penalize larger singular values, thereby failing to adequately preserve the primary structural information of the image. In contrast, the non-convex transformed L1 penalty (TL1) function demonstrates a stronger ability to protect larger singular values and reduce estimation bias, offering a more accurate …",
+      "url": "https://www.aimspress.com/aimspress-data/jimo/2026/6/PDF/jimo-22-06-108.pdf"
+    },
+    {
+      "title": "Kernel Perspectives on Generalization in High Dimensions",
+      "authors": "CV Kaushik - 2026",
+      "abstract": "This thesis investigates how feature representations influence generalization and robustness in high-dimensional and overparameterized machine learning (ML) models. Using classical linear and kernel methods as a starting point, we first demonstrate that these simpler models can exhibit surprising optimization and generalization behaviors empirically observed in neural networks, such as benign overfitting and equivalence between different optimization objectives. We then …",
+      "url": "https://repository.gatech.edu/bitstreams/493bcf94-8b16-476e-8864-5a901cb6ac26/download"
+    },
+    {
+      "title": "Stochastic Iterations in Hilbertian Nonlinear Analysis",
+      "authors": "JIM Roman - 2026",
+      "abstract": "This dissertation focuses on the development and the analysis of stochastic iterative methods for solving nonlinear analysis problems in Hilbert spaces, including minimization, monotone inclusion, and fixed point problems. The methods under consideration are stochastic in the sense that, at every iteration, the update is constructed using random quantities, eg, problem data defined over probability spaces, activation of random blocks of operators or coordinates, use of stochastic …",
+      "url": "https://search.proquest.com/openview/6781091373b473af8d749dbdb2b5130b/1?pq-origsite=gscholar&cbl=18750&diss=y"
+    },
+    {
+      "title": "求解一类复合优化的惯性近似Bregman 近端梯度算法",
+      "authors": "房宛玉 - Advances in Applied Mathematics, 2026",
+      "abstract": "摘要本文提出了一种惯性近似Bregman 近端梯度算法针对目标函数梯度不满足全局Lipschitz 连续的复合优化问题. 通过利用相对光滑来代替全局Lipschitz 条件, 引入惯性外推机制以提升收敛速度, 并结合一种回溯线搜索, 确保非凸环境下的数值稳定性. 此外, 我们采用了一种近似Bregman 距离的新度量, 使得子问题的求解比现有Bregman 类算法更为简单. 在收敛性证明中, 在目标函数满足Kurdyka-Łojasiewicz (KL) 性质的假设下, 证明了算法生成的序列具有有限长度, 并全局收敛至广义平稳点.",
+      "url": "https://pdf.hanspub.org/aam_2625094.pdf"
+    },
+    {
+      "title": "EvoRender: An Agentic AI-Neural Rendering Algorithm Discovery",
+      "authors": "J Matai, T Harada - Proceedings of the IEEE/CVF Conference on Computer …, 2026",
+      "abstract": "Neural rendering algorithms, spanning Neural Radiance Fields (NeRF), 3D Gaussian Splatting (3DGS), and Implicit Neural Representations (INR), have demonstrated remarkable results across gaming, AR/VR, robotics, and digital content …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026W/LoViF/papers/Matai_EvoRender_An_Agentic_AI_-_Neural_Rendering_Algorithm_Discovery_CVPRW_2026_paper.pdf"
+    },
+    {
+      "title": "What Cohort INRs Encode and Where to Freeze Them",
+      "authors": "V Sideri-Lampretsa, S Starck, R Holland, J McGinnis… - arXiv preprint arXiv …, 2026",
+      "abstract": "Reusing the early layers of cohort-trained INRs as initialization for new signals has been shown to accelerate and improve signal fitting, yet it remains unclear which layers of the shared encoder learn transferable representations and what those …",
+      "url": "https://arxiv.org/pdf/2605.08298"
+    },
+    {
+      "title": "Spectral Energy Centroid: a Metric for Improving Performance and Analyzing Spectral Bias in Implicit Neural Representations",
+      "authors": "A Kania, M Rut, PĹ Spurek - arXiv preprint arXiv:2605.12709, 2026",
+      "abstract": "Implicit Neural Representations (INRs) model continuous signals using multilayer perceptrons (MLPs), enabling compact, differentiable, and high-fidelity representations of data across diverse domains. However, due to the low-frequency …",
+      "url": "https://arxiv.org/pdf/2605.12709"
+    },
+    {
+      "title": "Polarized GPR Clutter Suppression Based on Non-Convex Tensor Robust Principal Analysis",
+      "authors": "Z Beiqiang, S Xiaoji, Z He, T Liu, F Yangyang - Remote Sensing, 2026",
+      "abstract": "Being capable of high-resolution imaging and non-contact measurement, Ground Penetrating Radar (GPR) is a promising technology for the detection of unexploded ordnance (UXO). However, UXO detection is severely hindered by clutter, particularly …",
+      "url": "https://search.proquest.com/openview/a2f2601d1e0b8d25007acccb9a5cfc56/1?pq-origsite=gscholar&cbl=2032338"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "20260505_google_scholar_",
+  "date": "20260505",
+  "source": "historical-import",
+  "messages": 5,
+  "papers": [
+    {
+      "title": "A Layer Separation Optimization Framework for Cross-Entropy Training in Deep Learning",
+      "authors": "Y Liu, MK Ng, Y Gu - arXiv preprint arXiv:2604.23225, 2026",
+      "abstract": "This paper investigates the deep learning optimization problem with softmax cross-entropy loss. We propose a layer separation strategy to alleviate the strong nonconvexity encountered during training deep networks. For cross-entropy models …",
+      "url": "https://arxiv.org/pdf/2604.23225"
+    },
+    {
+      "title": "GENERATIVE FIELD INVERSION IN A CROSSED-FIELD ION SOURCE",
+      "authors": "TA Marks, AA Gorodetsky",
+      "abstract": "ABSTRACT A generative model is used to probabilistically reconstruct the full one-dimensional state of a crossed-field ion source from partial, uncertain observations. The model, a diffusion model, is trained on a dataset of one-dimensional simulations …",
+      "url": "https://www.alexgorodetsky.com/static/papers/marks_2026_generative_field_inversion_crossed_field_ion_source_v1.pdf"
+    },
+    {
+      "title": "γ-GV: Global Variation-based γ-Approximation with Local Gradient Product for Hyperspectral Image Denoising",
+      "authors": "J Liu, Y Cui, C Fu, T Guo, X Duan, Y Duan, F Luo - Expert Systems with Applications, 2026",
+      "abstract": "Hyperspectral images (HSIs) are susceptible to mixed noise during acquisition. Most existing denoising methods the rank function using the nuclear norm. However, this approach fails to effectively suppress noise as it imposes the same penalty on …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417426015186"
+    },
+    {
+      "title": "Function-free Optimization via Comparison Oracles",
+      "authors": "K Scheinberg, Z Xiong - arXiv preprint arXiv:2604.26867, 2026",
+      "abstract": "In this work, we study optimization specified only through a comparison oracle: given two points, it reports which one is preferred. We call it function-free optimization because we do not assume access to, nor the existence of, a canonical application-given objective function. The goal is to find the most preferred feasible point, which we call the optimal solution. This model arises in preference-and ranking-based settings where objective values and derivatives are unavailable or meaningless …",
+      "url": "https://arxiv.org/pdf/2604.26867"
+    },
+    {
+      "title": "Robust Model-Based Iteration for Passive Gamma Emission Tomography",
+      "authors": "T Heikkilä, S Heikkinen, R Rimppi, T Helin - arXiv preprint arXiv:2604.26745, 2026",
+      "abstract": "Passive Gamma Emission Tomography (PGET) is an IAEA-approved technique for verifying spent nuclear fuel assemblies prior to geological disposal. Reconstructing the emission and attenuation maps from PGET measurements is a nonlinear ill-posed inverse problem, currently solved with a Levenberg-Marquardt (LM) scheme that requires 10-20 iterations to achieve sufficient accuracy. We propose an accelerated iterative solver that combines the LM algorithm with a Deep Gauss …",
+      "url": "https://arxiv.org/pdf/2604.26745"
+    },
+    {
+      "title": "Exploring the Potential of Probabilistic Transformer for Time Series Modeling: A Report on the ST-PT Framework",
+      "authors": "Z Xiong, H Wu, Y Wu, S Gu, K Ren, K Tu - arXiv preprint arXiv:2604.26762, 2026",
+      "abstract": "The Probabilistic Transformer (PT) establishes that the Transformer's self-attention plus its feed-forward block is mathematically equivalent to Mean-Field Variational Inference (MFVI) on a Conditional Random Field (CRF). Under this equivalence the Transformer ceases to be a black-box neural network and becomes a programmable factor graph: graph topology, factor potentials, and the message-passing schedule are all explicit and inspectable primitives that can be engineered. PT was originally …",
+      "url": "https://arxiv.org/pdf/2604.26762"
+    },
+    {
+      "title": "Generalization of Zeroth-Order Method for Quotients of Quadratic Functions",
+      "authors": "J Bresch - arXiv preprint arXiv:2604.26913, 2026",
+      "abstract": "Optimization of quadratic functions and the quotient of those are relevant in subspace and iterative optimization methods. In this paper, the calculation of the generalized operator norm and extremal generalized Rayleigh quotient is considered. In contrast to recent works an unconstrained sampling approach on the entire sphere for the random search direction in each iteration is proposed. Furthermore, the link to zeroth-order methods for Riemannian first-and second-order …",
+      "url": "https://arxiv.org/pdf/2604.26913"
+    },
+    {
+      "title": "WaveMoE: A Wavelet-Enhanced Mixture-of-Experts Framework for Multivariate Time Series Forecasting",
+      "authors": "J Xu, X Shi, Y Chang, Y Sun",
+      "abstract": "In recent years, deep learning-based models have achieved remarkable success in multivariate time series forecasting. However, existing studies still face significant challenges in effectively capturing the multi-frequency and multiscale characteristics of time series data while modeling complex temporal dependencies with low computational overhead. In addition, the widespread non-stationarity and distribution shift in time series data further limit model performance. To address these …",
+      "url": "https://fyust.edu.cn/gjhyqk/cscwd2026/papers/paper_1034.pdf"
+    },
+    {
+      "title": "Integrated optimization for coordinated traffic signal and vehicle routing with parallel distributed solution",
+      "authors": "Z Zhang, J Zhu, K Long, Y Qian, X Yang, H Wang - Computer-Aided Civil and …, 2026",
+      "abstract": "Traffic signal control and vehicle routing are two promising strategies in traffic congestion management. However, conventional studies always treat these two strategies as separate modules, limiting the potential for system-wide efficiency gains. This study proposes an Integrated Traffic Signal and Route Guidance (ITSRG) optimization model in the Connected Vehicle (CV) environment. It simultaneously optimizes signal timing plans and individual vehicle routes. This study formulates the …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1093968726030227"
+    },
+    {
+      "title": "Joint Beamforming and Power Allocation for Green and Secure JSAC Systems",
+      "authors": "E Wang, Y Xiao, Y Chen, A Ikhlef, H Sun - IEEE Transactions on Green …, 2026",
+      "abstract": "Joint sensing and communications (JSAC) has been proposed as a key technology for future wireless networks, but it faces potential security challenges due to its integrated nature. This paper investigates a multiple-input multiple-output (MIMO) JSAC system with multiple communications users (CUs), where the base station (BS) performs both communications and sensing tasks in the presence of an eavesdropper with imperfect joint channel state information (CSI). Two schemes …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11494878/"
+    },
+    {
+      "title": "Dung Beetle with Reflection Cuckoo Catfish Optimizer for Numerical Optimization and Reservoir Production Optimization",
+      "authors": "S Li, T Yin - Biomimetics, 2026",
+      "abstract": "As engineering systems grow in complexity, reliable metaheuristic optimizers are increasingly essential. While swarm intelligence algorithms are widely applied, recent approaches like the Cuckoo Catfish Optimizer (CCO) can experience premature convergence due to limited local exploitation and simplistic boundary handling. To address these limitations, this paper proposes the Dung Beetle with Reflection CCO (DBRCCO), integrating two principal mechanisms. First, an adaptive …",
+      "url": "https://www.mdpi.com/2313-7673/11/5/306"
+    },
+    {
+      "title": "Improved Penalty Function Approaches for Optimization Problems with General Orthogonality",
+      "authors": "Y Zhang, X Liu, N Xiao, C Tang - arXiv preprint arXiv:2604.26484, 2026",
+      "abstract": "In this paper, we consider a class of generalized orthogonal optimization constraint problems (GOOCP) over $\\mathbb {R}^{n\\times p} $, where the variable $ X $ is restricted within the intersection of a certain subspace $\\mathcal {F} $ and satisfies the quadratic constraint $\\{X\\in\\mathbb {R}^{n\\times p}: X^{\\top}\\phi (X)= I_p\\} $. Such constraints generalize a wide range of structured matrix manifolds, such as the Stiefel manifold, the symplectic Stiefel manifold, the indefinite Stiefel manifold, the …",
+      "url": "https://arxiv.org/pdf/2604.26484"
+    },
+    {
+      "title": "Learning Over-Relaxation Policies for ADMM with Convergence Guarantees",
+      "authors": "J Lin, PJ Goulart, L Furieri - arXiv preprint arXiv:2604.26932, 2026",
+      "abstract": "The Alternating Direction Method of Multipliers (ADMM) is a widely used method for structured convex optimization, and its practical performance depends strongly on the choice of penalty and relaxation parameters. Motivated by settings such as Model Predictive Control (MPC), where one repeatedly solves related optimization problems with fixed structure and changing parameter values, we propose learning online updates of the relaxation parameter to improve performance on problem …",
+      "url": "https://arxiv.org/pdf/2604.26932"
+    },
+    {
+      "title": "Spotlight, priorsketching and Bayesian approximation error paradigms",
+      "authors": "D Calvetti, E Somersalo - arXiv preprint arXiv:2604.26254, 2026",
+      "abstract": "A way to lower computational cost in large scale inverse problems and problems depending on poorly known model parameters is to replace the detailed model by an approximate one. Inverse problems are typically ill-posed, and the model …",
+      "url": "https://arxiv.org/pdf/2604.26254"
+    }
+  ]
+}

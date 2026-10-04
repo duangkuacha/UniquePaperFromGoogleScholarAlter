@@ -1,0 +1,128 @@
+{
+  "id": "20260125_google_scholar_",
+  "date": "20260125",
+  "source": "historical-import",
+  "messages": 11,
+  "papers": [
+    {
+      "title": "AI for Mathematics: Progress, Challenges, and Prospects",
+      "authors": "H Ju, B Dong - arXiv preprint arXiv:2601.13209, 2026",
+      "abstract": "AI for Mathematics (AI4Math) has emerged as a distinct field that leverages machine learning to navigate mathematical landscapes historically intractable for early symbolic systems. While mid-20th-century symbolic approaches successfully …",
+      "url": "https://arxiv.org/pdf/2601.13209"
+    },
+    {
+      "title": "Projected Stochastic Momentum Methods for Nonlinear Equality-Constrained Optimization for Machine Learning",
+      "authors": "Q Wang, C Piermarini, Y Zhu, FE Curtis - arXiv preprint arXiv:2601.11795, 2026",
+      "abstract": "Two algorithms are proposed, analyzed, and tested for solving continuous optimization problems with nonlinear equality constraints. Each is an extension of a stochastic momentum-based method from the unconstrained setting to the setting of …",
+      "url": "https://arxiv.org/pdf/2601.11795"
+    },
+    {
+      "title": "Offline Policy Learning with Weight Clipping and Heaviside Composite Optimization",
+      "authors": "J Liu, H Qin, J Liu, MC Chou, JS Pang - arXiv preprint arXiv:2601.12117, 2026",
+      "abstract": "Offline policy learning aims to use historical data to learn an optimal personalized decision rule. In the standard estimate-then-optimize framework, reweighting-based methods (eg, inverse propensity weighting or doubly robust estimators) are widely …",
+      "url": "https://arxiv.org/pdf/2601.12117"
+    },
+    {
+      "title": "LOCAL CONVERGENCE OF THE GAUSS–NEWTON METHODS FOR CONSTRAINED NONLINEAR EQUATIONS",
+      "authors": "AF Izmailov, MV Solodov - 2026",
+      "abstract": "We derive, from unified principles, local convergence and rate-of-convergence results for the classical Gauss-Newton method in a variety of settings. These include overdetermined and underdetermined systems of equations, constrained and …",
+      "url": "https://pages.cs.wisc.edu/~solodov/izmsol26GNM.pdf"
+    },
+    {
+      "title": "BiCoLoR: Communication-Efficient Optimization with Bidirectional Compression and Local Training",
+      "authors": "L Condat, A Maranjyan, P Richtárik - arXiv preprint arXiv:2601.12400, 2026",
+      "abstract": "Slow and costly communication is often the main bottleneck in distributed optimization, especially in federated learning where it occurs over wireless networks. We introduce BiCoLoR, a communication-efficient optimization algorithm that combines two widely used and effective strategies: local training, which increases computation between communication rounds, and compression, which encodes high-dimensional vectors into short bitstreams. While these mechanisms have been …",
+      "url": "https://arxiv.org/pdf/2601.12400"
+    },
+    {
+      "title": "On phase in scaled graphs",
+      "authors": "S van den Eijnden, C Chen, K Scheres, T Chaffey… - 2025 IEEE 64th Conference …, 2025",
+      "abstract": "The scaled graph has been introduced recently as a nonlinear extension of the classical Nyquist plot for linear time-invariant systems. In this paper, we introduce a modified definition for the scaled graph, termed the signed scaled graph (SSG), in which the phase component is characterized by making use of the Hilbert transform. Whereas the original definition of the scaled graph uses unsigned phase angles, the new definition has signed phase angles which ensures the possibility to differentiate …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11312812/"
+    },
+    {
+      "title": "Deep Equilibrium Model With Weighted Densely-Connected Iteration Differences for Convergent Image Restoration",
+      "authors": "Z Zheng, W Dai, J Liang, X Peng, D Xue, H Xiong - IEEE Journal of Selected Topics in …, 2025",
+      "abstract": "Deep equilibrium models (DEMs) are emerging as an efficient alternative to train deep unrolling networks (DUNs) realized by recasting iterative optimization algorithms for image restoration (IR) in a single iteration using constant memory usage and are potential to allow infinite iterations until convergence to fixed points. However, existing DEMs for IR suffer from architectural constraints in exploiting skip connections and adaptive parameters varying with iterations to simultaneously …",
+      "url": "https://ieeexplore.ieee.org/iel8/4200690/5418892/11248851.pdf"
+    },
+    {
+      "title": "Fairness-informed Pareto Optimization: An Efficient Bilevel Framework",
+      "authors": "S Tanji, S Vaiter, Y Laguel - arXiv preprint arXiv:2601.13448, 2026",
+      "abstract": "Despite their promise, fair machine learning methods often yield Pareto-inefficient models, in which the performance of certain groups can be improved without degrading that of others. This issue arises frequently in traditional in-processing approaches such as fairness-through-regularization. In contrast, existing Pareto-efficient approaches are biased towards a certain perspective on fairness and fail to adapt to the broad range of fairness metrics studied in the literature. In this paper, we …",
+      "url": "https://arxiv.org/pdf/2601.13448"
+    },
+    {
+      "title": "An Online Interactive Physics-Informed Diffusion-Adversarial Network for Solving Mean Field Games",
+      "authors": "H Liu, P Meng, Z Shen, L Xu, W Yin - Journal of Computational Physics, 2026",
+      "abstract": "High-dimensional, complex, and dynamic environments pose significant challenges in solving mean field games (MFGs). To address these challenges, we propose an online interactive physics-informed diffusion-adversarial network (IPIDAN), which offers enhanced interpretability and flexibility by leveraging a novel agent strategy generator based on diffusion models. This generator utilizes a noise process to improve its ability to escape local optima, while a stepwise optimization process …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021999126000501"
+    },
+    {
+      "title": "Static and Dynamic Regrets for Online Distributed Composite Optimization: Edge-based Dynamic Event-Triggered Algorithms",
+      "authors": "M Xiong, C Yang, J Zhao, B Zhang, D Yuan - IEEE Transactions on Automatic Control, 2025",
+      "abstract": "This paper addresses the online distributed convex-constrained composite optimization problem on an unbalanced directed multi-agent network with limited bandwidth. The distinctive feature is that each agent's objective function is composed of two components: a loss function that changes over iterations and a regularizer. To cope with potential network bandwidth constraints, an edge-based dynamic event-triggered communication protocol with a control factor is employed in the link edges …",
+      "url": "https://ieeexplore.ieee.org/iel8/9/4601496/11248926.pdf"
+    },
+    {
+      "title": "A Survey on Security and Privacy in Federated Learning-Based Intrusion Detection Systems for 5G and Beyond Networks",
+      "authors": "H Rezaei, R Taheri, E Nowroozi, M Hajizadeh… - IEEE Open Journal of the …, 2025",
+      "abstract": "The rapid growth of Internet of Things (IoT) devices and the introduction of 5G networks have created new opportunities for enhancing network services, while also introducing significant security concerns. Intrusion Detection Systems (IDS) are crucial for identifying malicious activities and unauthorized access in these environments. However, current IDS solutions face challenges such as sharing sensitive data and managing large-scale networks. Federated Learning (FL) …",
+      "url": "https://ieeexplore.ieee.org/iel8/8782661/11343983/11300785.pdf"
+    },
+    {
+      "title": "LIBRA: Language Model Informed Bandit Recourse Algorithm for Personalized Treatment Planning",
+      "authors": "J Cao, R Gao, E Keyvanshokooh, J Ma - arXiv preprint arXiv:2601.11905, 2026",
+      "abstract": "We introduce a unified framework that seamlessly integrates algorithmic recourse, contextual bandits, and large language models (LLMs) to support sequential decision-making in high-stakes settings such as personalized medicine. We first introduce the recourse bandit problem, where a decision-maker must select both a treatment action and a feasible, minimal modification to mutable patient features. To address this problem, we develop the Generalized Linear Recourse Bandit (GLRB) …",
+      "url": "https://arxiv.org/pdf/2601.11905"
+    },
+    {
+      "title": "Harnessing structure-aware graph representation and adaptive anchor graph learning for multi-view clustering",
+      "authors": "X Li, J Liu - Digital Signal Processing, 2026",
+      "abstract": "Multi-view clustering (MVC) aims to enhance clustering performance through the effective integration of complementary information derived from multiple data sources. Nevertheless, current approaches frequently fall short of fully modeling the global topological characteristics and local similarity connections of multi-view data. In addition, adaptively learning representative anchors that align with the inherent data structure is another challenge for conventional anchor-based multi-view …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1051200426000576"
+    },
+    {
+      "title": "DSAEval: Evaluating Data Science Agents on a Wide Range of Real-World Data Science Problems",
+      "authors": "M Sun, Y Xie, Y Wu, R Han, B Jiang, D Sun, Y Yuan… - arXiv preprint arXiv …, 2026",
+      "abstract": "Recent LLM-based data agents aim to automate data science tasks ranging from data analysis to deep learning. However, the open-ended nature of real-world data science problems, which often span multiple taxonomies and lack standard answers …",
+      "url": "https://arxiv.org/pdf/2601.13591"
+    },
+    {
+      "title": "Extending the descent-ascent algorithm to constrained difference of convex programming",
+      "authors": "N Araboljadidi, P D'Alessandro, M Gaudioso - Soft Computing, 2026",
+      "abstract": "Abstract We investigate Difference of Convex (DC) constrained optimization problems where both the objective function and the constraints are DC and nonsmooth. The problem has applications in a variety of fields, including quadratic …",
+      "url": "https://link.springer.com/article/10.1007/s00500-025-10979-0"
+    },
+    {
+      "title": "Gradient Flow for Finding E-optimal Designs",
+      "authors": "J Shi, KC Toh, XT Tong, WK Wong - arXiv preprint arXiv:2601.14147, 2026",
+      "abstract": "We investigate the use of Wasserstein gradient flows for finding an $ E $-optimal design for a regression model. Unlike the commonly used $ D $-and $ L $-optimality criteria, the $ E $-criterion finds a design that maximizes the smallest eigenvalue of …",
+      "url": "https://arxiv.org/pdf/2601.14147"
+    },
+    {
+      "title": "Deep Image Prior with L0 Gradient Regularizer for Image Smoothing",
+      "authors": "NT Tran, K Bui, J Xin - arXiv preprint arXiv:2601.13400, 2026",
+      "abstract": "Image smoothing is a fundamental image processing operation that preserves the underlying structure, such as strong edges and contours, and removes minor details and textures in an image. Many image smoothing algorithms rely on computing local …",
+      "url": "https://arxiv.org/pdf/2601.13400"
+    },
+    {
+      "title": "Unsupervised Deformable Image Registration with Local-Global Attention and Image Decomposition",
+      "authors": "Z Huang, X Sun, X Chang, N Jiang, Y Wang, J Sun… - arXiv preprint arXiv …, 2026",
+      "abstract": "Deformable image registration is a critical technology in medical image analysis, with broad applications in clinical practice such as disease diagnosis, multi-modal fusion, and surgical navigation. Traditional methods often rely on iterative optimization …",
+      "url": "https://arxiv.org/pdf/2601.14337"
+    },
+    {
+      "title": "Optimized Schwarz Waveform Relaxation for the Damped Wave Equation",
+      "authors": "G Cicalese, G Ciaramella, I Mazzieri, MJ Gander - arXiv preprint arXiv:2601.15070, 2026",
+      "abstract": "The performance of Schwarz Waveform Relaxation is critically dependent on the choice of transmission conditions. While classical absorbing conditions work well for wave propagation, they prove insufficient for damped wave equations, particularly in …",
+      "url": "https://arxiv.org/pdf/2601.15070"
+    },
+    {
+      "title": "Biquadratic Cauchy Tensors and Spherical Biquadratic Polynomial Programming",
+      "authors": "H Chen, Y Chen, L Qi - arXiv preprint arXiv:2601.14908, 2026",
+      "abstract": "This paper addresses biquadratic polynomial programming (BPP), an NP-hard optimization problem closely related to biquadratic tensors. We first establish several necessary and sufficient conditions for the positive semi-definiteness and positive …",
+      "url": "https://arxiv.org/pdf/2601.14908"
+    }
+  ]
+}

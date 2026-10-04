@@ -1,0 +1,44 @@
+{
+  "id": "20260417_google_scholar_",
+  "date": "20260417",
+  "source": "historical-import",
+  "messages": 2,
+  "papers": [
+    {
+      "title": "Automating Reformulation for Parallel ADMM",
+      "authors": "K Sun, B Wu, K Yuan, W Yin - arXiv preprint arXiv:2603.19417, 2026",
+      "abstract": "Many real-world optimization models contain exploitable sparsity and block structure, but this structure is often obscured in algebraic form, limiting the effectiveness of modern parallel algorithms. We propose an automatic pipeline that converts a …",
+      "url": "https://arxiv.org/pdf/2603.19417"
+    },
+    {
+      "title": "A Unified Dual SDP–Procrustes Manifold Optimization Framework with Theoretical Breakthroughs",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel optimization framework that organically integrates the ideas of dual semidefinite programming (DDP) and the Procrustes problem, constructing a unified matrix optimization model. This method not only inherits the convex optimization advantage of dual SDP under global constraints but also introduces the geometric constraints of the Procrustes mapping, achieving high-precision alignment optimization on low-dimensional manifolds. We define a dual …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/403682244_A_Unified_Dual_SDP-Procrustes_Manifold_Optimization_Framework_with_Theoretical_Breakthroughs/links/69d8631c6d9f9a760b97945a/A-Unified-Dual-SDP-Procrustes-Manifold-Optimization-Framework-with-Theoretical-Breakthroughs.pdf"
+    },
+    {
+      "title": "Sphere-Constrained Dual Semidefinite Programming: A Novel Optimization Framework",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel optimization method combining dual semidefinite programming (Dual SDP) and unit sphere constraints. Traditional dual SDP optimization is often used for linear matrix inequalities and convex optimization problems, while sphere constraints are commonly used for vector normalization and non-convex optimization scenarios. This paper constructs a dual potential function on a sphere under sphere constraints, introduces projected gradients on a spherical …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/403682097_Sphere-Constrained_Dual_Semidefinite_Programming_A_Novel_Optimization_Framework/links/69d8656b5518257d60e93b6f/Sphere-Constrained-Dual-Semidefinite-Programming-A-Novel-Optimization-Framework.pdf"
+    },
+    {
+      "title": "Primal-Dual Manifold Newton Method for Semidefinite Programming: Theory and Applications",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel optimization method that deeply integrates Dual Semidefinite Programming (DDP) with the Manifold Newton Method, constructing a Primal-Dual Newton Flow on Manifolds for dual semidefinite optimization. Compared with traditional SDP and manifold optimization methods, this method achieves second-order convergence while ensuring global convergence. Furthermore, by introducing adaptive manifold mapping and dual gap adjustment mechanisms, it …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/403681970_Primal-Dual_Manifold_Newton_Method_for_Semidefinite_Programming_Theory_and_Applications/links/69d86509c203cd5e3416dcf4/Primal-Dual-Manifold-Newton-Method-for-Semidefinite-Programming-Theory-and-Applications.pdf"
+    },
+    {
+      "title": "Dual Orthogonality Constrained Semidefinite Programming: Theory and Algorithms",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel optimization framework—Dual Orthogonality Constrained Semidefinite Programming (DOC-SDP)—which organically combines dual semidefinite programming with orthogonal constraints to accelerate convergence and preserve structure of the primal optimization problem in the dual space. Theoretically, while preserving the convexity of the semidefinite constraints, this paper introduces Riemann gradient projection onto the orthogonal quadrature …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/403682351_Dual_Orthogonality_Constrained_Semidefinite_Programming_Theory_and_Algorithms/links/69d863bb5970dd1b05f7626e/Dual-Orthogonality-Constrained-Semidefinite-Programming-Theory-and-Algorithms.pdf"
+    },
+    {
+      "title": "A Unified Dual SDP and Lie Group Flow Optimization Framework",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel optimization theoretical framework that organically integrates dual semidefinite programming (Dual SDP) with Lie group optimization methods to construct a class of optimization flows based on continuous dynamical systems. This method achieves globally convergent optimization under nonlinear constraints by introducing dual variable evolution equations on Lie group manifolds. Theoretically, we prove that the new method guarantees asymptotic optimality for …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/403682172_A_Unified_Dual_SDP_and_Lie_Group_Flow_Optimization_Framework/links/69d862ac5518257d60e93b3a/A-Unified-Dual-SDP-and-Lie-Group-Flow-Optimization-Framework.pdf"
+    }
+  ]
+}

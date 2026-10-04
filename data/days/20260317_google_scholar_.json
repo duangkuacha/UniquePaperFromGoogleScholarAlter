@@ -1,0 +1,110 @@
+{
+  "id": "20260317_google_scholar_",
+  "date": "20260317",
+  "source": "historical-import",
+  "messages": 7,
+  "papers": [
+    {
+      "title": "MoE-SpAc: Efficient MoE Inference Based on Speculative Activation Utility in Heterogeneous Edge Scenarios",
+      "authors": "S Li, J Lin, D Ge, Y Ye - arXiv preprint arXiv:2603.09983, 2026",
+      "abstract": "Mixture-of-Experts (MoE) models enable scalable performance but face severe memory constraints on edge devices. Existing offloading strategies struggle with I/O bottlenecks due to the dynamic, low-information nature of autoregressive expert …",
+      "url": "https://arxiv.org/pdf/2603.09983"
+    },
+    {
+      "title": "Mixed precision thin SVD algorithms based on the Gram matrix",
+      "authors": "E Carson, Y Ma, M Shao - arXiv preprint arXiv:2603.11953, 2026",
+      "abstract": "In this work, we present a mixed precision algorithm that leverages the Gram matrix and Jacobi methods to compute the singular value decomposition (SVD) of tall-and-skinny matrices. By constructing the Gram matrix in higher precision and coupling it …",
+      "url": "https://arxiv.org/pdf/2603.11953"
+    },
+    {
+      "title": "A Non-convex Regularization Fusing Low-rankness and Smoothness for Tensor Recovery",
+      "authors": "H Ge, Y Zhang, MK Ng - Journal of Mathematical Imaging and Vision, 2026",
+      "abstract": "Recently, the tensor recovery problem has witnessed significant advancements with the non-convex relaxation methods, compared with convex relaxation methods. In this article, we propose a novel non-convex relaxation method for the low-rank tensor …",
+      "url": "https://link.springer.com/article/10.1007/s10851-026-01283-z"
+    },
+    {
+      "title": "On the robustness of EMG tensor completion under various missing patterns",
+      "authors": "T Liang, H Jia, C Li, CF Caiafa, R Himeno… - … Signal Processing and …, 2026",
+      "abstract": "Objective: Electromyographic (EMG) data integrity is vital for accurate analysis in neuromuscular research. However, data loss or corruption during acquisition can compromise signal fidelity and subsequent interpretations. This study aims to …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1746809426005823"
+    },
+    {
+      "title": "Scalable LLM Reasoning Acceleration with Low-rank Distillation",
+      "authors": "H Dong, B Acun, B Chen, Y Chi - The Third Conference on Parsimony and Learning …",
+      "abstract": "Due to long generations, large language model (LLM) math reasoning demands significant computational resources and time. While many existing efficient inference methods have been developed with excellent performance preservation on …",
+      "url": "https://openreview.net/pdf?id=VPLVS6htID"
+    },
+    {
+      "title": "Hybrid federated continual graph contrastive learning for evolving money laundering threats",
+      "authors": "Z Bashir, M Verma, C Krishna Mohan - Data Mining and Knowledge Discovery, 2026",
+      "abstract": "Money laundering involves complex, multi-account transaction patterns that often span multiple financial institutions. While cross-bank collaboration is crucial for effective Anti-Money Laundering (AML), privacy regulations prohibit direct data sharing, limiting traditional centralized solutions. Furthermore, evolving laundering behaviors cause static Graph Convolutional Network (GCN)-based models to suffer from catastrophic forgetting in temporal AML settings. Existing continual graph …",
+      "url": "https://dl.acm.org/doi/abs/10.1007/s10618-026-01192-0"
+    },
+    {
+      "title": "PID-Optimized Deep Learning for Adaptive Time–Frequency Forecasting in Dynamic Systems: Coal Calorific Value Prediction",
+      "authors": "H Liu, N Liu, W Yu, X Li, Y Li, Y Jia, T Chai - IEEE Transactions on Cybernetics, 2026",
+      "abstract": "Accurate real-time prediction in dynamic industrial systems is crucial for optimization and efficiency. This article introduces a novel intelligent monitoring framework leveraging proportional–integral–derivative (PID)-optimized deep learning for adaptive time–frequency forecasting to address the challenges posed by nonstationary industrial data. The proposed method uniquely integrates a channel-independent separable dynamic filter (CSDF) that adapts to real-time multivariate …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11430179/"
+    },
+    {
+      "title": "FedHC: Enhanced Federated Learning with Hessian and Cosine Correlation for Proximal Correlation",
+      "authors": "KP Singh, M Verma, DK Tyagi, SK Vipparthi… - Knowledge-Based Systems, 2026",
+      "abstract": "Federated Learning (FL), a prominent distributed learning approach, involves both collaborative and individual data updates from participants. FL faces a key challenge with heterogeneous data causing local drift. Conventional methods like FedDC, relying on first-order optimization techniques such as Stochastic Gradient Descent (SGD), struggle to address this effectively. These techniques are not fully effective in mitigating local drift or ensuring optimal convergence. There is a growing interest in …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705126005010"
+    },
+    {
+      "title": "A Globally Convergent Flow for Time-Dependent Mean Field Games and a Solver-Agnostic Framework for Inverse Problems",
+      "authors": "H Yan, X Yang, J Zhang - arXiv preprint arXiv:2603.10336, 2026",
+      "abstract": "Mean field games (MFGs) model the limit of large populations of strategically interacting agents, yet both forward and inverse problems remain challenging. For the forward problem, a difficulty is to design numerical methods with global convergence guarantees whose convergence does not depend on careful initialization. For the inverse problem, a difficulty is to decouple parameter optimization from the forward solver, so that parameter updates do not depend on …",
+      "url": "https://arxiv.org/pdf/2603.10336"
+    },
+    {
+      "title": "Event-Triggered Byzantine-Resilient Algorithm for Distributed Optimization with Sublinear Convergence",
+      "authors": "YL Li, YW Wang, XK Liu, J Yan, C Wen - IEEE Transactions on Automatic Control, 2026",
+      "abstract": "This paper focuses on Byzantine-resilient distributed optimization, aiming to minimize non-smooth strongly convex cost functions of healthy agents in adversarial environments. Therein, an event-triggered Byzantine-resilient distributed subgradient algorithm (ET-BRiDA) equipped with a new resilient filtering algorithm is proposed to address this problem. Further, a resilient output property is introduced to characterize a common property for the proposed filtering algorithm and some state-of-the-art …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11430564/"
+    },
+    {
+      "title": "Panchromatic‐Guided Self‐Supervised Framework for Dual‐Camera Compressive Spectral Imaging",
+      "authors": "W Lai, B Wu - Computational Intelligence, 2026",
+      "abstract": "Coded aperture snapshot spectral imaging (CASSI) faces the ill‐posed inverse problem, and reconstruction accuracy remains unsatisfactory despite various regularizers. Dual‐camera CASSI (DC‐CASSI) mitigates this problem by capturing panchromatic (PAN) images alongside compressed measurements. Although untrained deep neural networks (DNN) can leverage PAN imagery, they often struggle to preserve spectral integrity and ensure optimization stability. To address …",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/coin.70218"
+    },
+    {
+      "title": "Aperture sampling and coarse-to-fine reconstruction for seamless parallel compressive sensing imaging",
+      "authors": "Z Xiao, Z Li, G Wang, Y Xue, J Li, Y Jia, Y Cai, H Deng… - Optics and Lasers in …, 2026",
+      "abstract": "Compressive sensing imaging (CSI) reconstructs high-quality images from far fewer measurements than the Shannon-Nyquist limit, but the sequential acquisition limits high-resolution imaging speed. Existing parallel sampling improves efficiency but remains highly sensitive to spatial misalignment, causing discontinuities and visible seams. To address this, Parallel Block Aperture Sampling (PBAS) is proposed, using regularly arranged aperture blocks for complete and independent signal acquisition …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0143816626001211"
+    },
+    {
+      "title": "Operator Splitting, Policy Iteration, and Machine Learning for Stochastic Optimal Control",
+      "authors": "A Bensoussan, TPB Nguyen, MB Tran, SNT Tu - arXiv preprint arXiv:2603.12167, 2026",
+      "abstract": "We propose a splitting approach to solve the second-order Hamilton--Jacobi equation, reducing it to a heat step and a purely first-order step. The latter is implemented using a gradient value policy iteration algorithm, enabling efficient characteristic-based machine learning methods. We establish convergence rates for the splitting method. In particular, the $ L^\\infty $ error is bounded below by $\\mathcal {O}(h) $ and above by $\\mathcal {O}(h^{1/7}) $ for Lipschitz initial data; this …",
+      "url": "https://arxiv.org/pdf/2603.12167"
+    },
+    {
+      "title": "SpectralUnmix: A Torch-Based Regularized Non-negative Matrix Factorization",
+      "authors": "RS de Souza, P Coelho, AL Chies-Santos, R Riffel - arXiv preprint arXiv …, 2026",
+      "abstract": "We present SpectralUnmix, an R package for regularized non-negative matrix factorization (NMF), implemented in torch with optional GPU acceleration. The package estimates low-rank non-negative representations through proximal-gradient updates and allows smoothness regularization along the spectral axis. As a compact demonstration, we apply the method to a subset of stellar spectra and compare the recovered NMF components with principal-component directions and representative …",
+      "url": "https://arxiv.org/pdf/2603.11111"
+    },
+    {
+      "title": "Slow-Fast Inference: Training-Free Inference Acceleration via Within-Sentence Support Stability",
+      "authors": "X Xie, Z Yu, Y Liao, T Wang, KC Toh, S Yan - arXiv preprint arXiv:2603.12038, 2026",
+      "abstract": "Long-context autoregressive decoding remains expensive because each decoding step must repeatedly process a growing history. We observe a consistent pattern during decoding: within a sentence, and more generally within a short semantically …",
+      "url": "https://arxiv.org/pdf/2603.12038"
+    },
+    {
+      "title": "A Trust-Region Interior-Point Stochastic Sequential Quadratic Programming Method",
+      "authors": "Y Fang, J Kim, S Na, J Demmel, J Lavaei - arXiv preprint arXiv:2603.10230, 2026",
+      "abstract": "In this paper, we propose a trust-region interior-point stochastic sequential quadratic programming (TR-IP-SSQP) method for solving optimization problems with a stochastic objective and deterministic nonlinear equality and inequality constraints …",
+      "url": "https://arxiv.org/pdf/2603.10230"
+    },
+    {
+      "title": "Actor-Accelerated Policy Dual Averaging for Reinforcement Learning in Continuous Action Spaces",
+      "authors": "J Gao, C Ju, G Lan, Z Tong - arXiv preprint arXiv:2603.10199, 2026",
+      "abstract": "Policy Dual Averaging (PDA) offers a principled Policy Mirror Descent (PMD) framework that more naturally admits value function approximation than standard PMD, enabling the use of approximate advantage (or Q-) functions while retaining …",
+      "url": "https://arxiv.org/pdf/2603.10199"
+    }
+  ]
+}

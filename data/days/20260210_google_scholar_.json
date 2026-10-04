@@ -1,0 +1,110 @@
+{
+  "id": "20260210_google_scholar_",
+  "date": "20260210",
+  "source": "historical-import",
+  "messages": 8,
+  "papers": [
+    {
+      "title": "Balancing Inexactness in Mixed Precision Matrix Computations",
+      "authors": "EC Carson - arXiv preprint arXiv:2602.04348, 2026",
+      "abstract": "Support for arithmetic in multiple precisions and number formats is becoming increasingly common in emerging high-performance architectures. From a computational scientist's perspective, our goal is to determine how and where we …",
+      "url": "https://arxiv.org/pdf/2602.04348"
+    },
+    {
+      "title": "LiteToken: Removing Intermediate Merge Residues From BPE Tokenizers",
+      "authors": "Y Sun, H Yang, Z Lin, M Zhang - arXiv preprint arXiv:2602.04706, 2026",
+      "abstract": "Tokenization is fundamental to how language models represent and process text, yet the behavior of widely used BPE tokenizers has received far less study than model architectures and training. In this paper, we investigate intermediate merge residues …",
+      "url": "https://arxiv.org/pdf/2602.04706"
+    },
+    {
+      "title": "A space-decoupling framework for optimization on bounded-rank matrices with orthogonally invariant constraints: Y. Yang et al.",
+      "authors": "Y Yang, B Gao, Y Yuan - Mathematical Programming, 2026",
+      "abstract": "Imposing additional constraints on low-rank optimization has garnered growing interest. However, the geometry of coupled constraints hampers the well-developed low-rank structure and makes the problem intricate. To this end, we propose a space-decoupling framework for optimization on bounded-rank matrices with orthogonally invariant constraints. The “space-decoupling\" is reflected in several ways. We show that the tangent cone of coupled constraints is the intersection of tangent cones of …",
+      "url": "https://link.springer.com/article/10.1007/s10107-026-02331-7"
+    },
+    {
+      "title": "Enhancing corner accuracy and machining quality in wire-EDM of In (690) using recirculating molybdenum wire: a hybrid machine learning and metaheuristic …",
+      "authors": "A Kumar, C Upadhyay, SN Dusanapudi… - Journal of the Brazilian …, 2026",
+      "abstract": "Corner accuracy in WEDM is significantly affected by machining parameters, including wire vibration, wire lag, and excessive discharge energy. This study presents an optimization methodology to minimize the corner geometric deviation (CE) in WEDM of In (690) using a cost-effective and chemically stable re-circulating molybdenum wire electrode to enhance machining accuracy. Two corner angles (30° and 60°) alongside machining responses, including cutting-speed (Cs), surface …",
+      "url": "https://link.springer.com/article/10.1007/s40430-025-06137-0"
+    },
+    {
+      "title": "Transformer-Based Traffic Flow Forecasting: A Survey and Experimental Comparison of Time-Series Analysis",
+      "authors": "VH Duong - 2025 RIVF International Conference on Computing and …, 2025",
+      "abstract": "This paper benchmarks Transformer-based traffic flow forecasting under a unified, leakage-safe protocol at two resolutions (hour and minute) on California PeMS Bay Area data (a limitation; future work will include diverse regions and data sources). Beyond MSE/MAE, we introduce deployment-oriented reporting—Promotion (% vs. a strong baseline), Efficiency (% parameter/latency savings), and estimated peak VRAM—within a shared hyperparameter optimization setup and multi-seed …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11365187/"
+    },
+    {
+      "title": "Scheduling and resource allocation in modern distributed systems: applications to federated learning, blockchains, and large language models",
+      "authors": "PS Hegde - 2025",
+      "abstract": "Distributed systems underpin many of today's most important applications, from financial to large-scale AI services. Their defining feature is that computation and communication are spread across networked nodes, making system performance critically dependent on how efficiently resources are allocated and scheduled for the network. In this dissertation, we develop new algorithms with rigorous performance guarantees for resource allocation and scheduling in three modern distributed …",
+      "url": "https://repositories.lib.utexas.edu/bitstreams/d442c369-dcf7-4675-9758-ecc6b7e07d13/download"
+    },
+    {
+      "title": "SAM-DNN: Bilevel Convergent Sequential Averaging Methods with Denoising Neural Network",
+      "authors": "S Zhang, K Deng, H Zhang, H Wang - Applied Mathematical Modelling, 2026",
+      "abstract": "Abstract RED-PRO (Regularization by Denoising via fixed-point projection) offers a novel perspective for denoiser priors such as Plug-and-Play (PnP) prior and RED. Combining implicit and explicit regularizers can boost performance in image restoration, and analyzing the rate of convergence of objective functions especially including denoiser priors is a critical theoretical issue. We introduce a convex bilevel optimization problem with novel hybrid regularizers, ie, combining the indicator …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0307904X26000788"
+    },
+    {
+      "title": "TACO: Temporal Consensus Optimization for Continual Neural Mapping",
+      "authors": "X Zhou, H Zhao, N Mehr - arXiv preprint arXiv:2602.04516, 2026",
+      "abstract": "Neural implicit mapping has emerged as a powerful paradigm for robotic navigation and scene understanding. However, real-world robotic deployment requires continual adaptation to changing environments under strict memory and computation constraints, which existing mapping systems fail to support. Most prior methods rely on replaying historical observations to preserve consistency and assume static scenes. As a result, they cannot adapt to continual learning in dynamic robotic …",
+      "url": "https://arxiv.org/pdf/2602.04516"
+    },
+    {
+      "title": "An Improved Boosted DC Algorithm for Nonsmooth Functions with Applications in Image Recovery",
+      "authors": "ZY Li, T Qi, TY Zeng - arXiv preprint arXiv:2602.04237, 2026",
+      "abstract": "We propose a new approach to perform the boosted difference of convex functions algorithm (BDCA) on non-smooth and non-convex problems involving the difference of convex (DC) functions. The recently proposed BDCA uses an extrapolation step from the point computed by the classical DC algorithm (DCA) via a line search procedure in a descent direction to get an additional decrease of the objective function and accelerate the convergence of DCA. However, when the first function in …",
+      "url": "https://arxiv.org/pdf/2602.04237"
+    },
+    {
+      "title": "Majorization-Minimization Networks for Inverse Problems: An Application to EEG Imaging",
+      "authors": "LMT Tran, S Reynaud, R Fablet, A Merlini, F Rousseau… - arXiv preprint arXiv …, 2026",
+      "abstract": "Inverse problems are often ill-posed and require optimization schemes with strong stability and convergence guarantees. While learning-based approaches such as deep unrolling and meta-learning achieve strong empirical performance, they typically lack explicit control over descent and curvature, limiting robustness. We propose a learned Majorization-Minimization (MM) framework for inverse problems within a bilevel optimization setting. Instead of learning a full optimizer, we learn a …",
+      "url": "https://arxiv.org/pdf/2602.03855"
+    },
+    {
+      "title": "A GPU-accelerated Nonlinear Branch-and-Bound Framework for Sparse Linear Models",
+      "authors": "X Meng, R Lucas, R Mazumder - arXiv preprint arXiv:2602.04551, 2026",
+      "abstract": "We study exact sparse linear regression with an $\\ell_0-\\ell_2 $ penalty and develop a branch-and-bound (BnB) algorithm explicitly designed for GPU execution. Starting from a perspective reformulation, we derive an interval relaxation that can be solved by ADMM with closed-form, coordinate-wise updates. We structure these updates so that the main work at each BnB node reduces to batched matrix-vector operations with a shared data matrix, enabling fine-grained parallelism across coordinates and …",
+      "url": "https://arxiv.org/pdf/2602.04551"
+    },
+    {
+      "title": "Decentralized Optimization with Mixed Affine Constraints",
+      "authors": "D Yarmoshik, NT Nguyen, A Rogozin, A Gasnikov - arXiv preprint arXiv:2602.04479, 2026",
+      "abstract": "This paper considers decentralized optimization of convex functions with mixed affine equality constraints involving both local and global variables. Constraints on global variables may vary across different nodes in the network, while local variables are subject to coupled and node-specific constraints. Such problem formulations arise in machine learning applications, including federated learning and multi-task learning, as well as in resource allocation and distributed control. We analyze this …",
+      "url": "https://arxiv.org/pdf/2602.04479"
+    },
+    {
+      "title": "Two mathematical models of knowledge distillation",
+      "authors": "A Xie, L Schmidt, J Duchi - The 29th International Conference on Artificial …",
+      "abstract": "Many hypotheses compete to explain the successes of knowledge distillation. To help address this, we propose and analyze a mathematical model of distillation, which suggests that distillation's performance comes not from obtaining better …",
+      "url": "https://openreview.net/forum?id=1EI4hUZ9oi"
+    },
+    {
+      "title": "Training-Free Test-Time Adaptation with Brownian Distance Covariance in Vision-Language Models",
+      "authors": "Y Zhang, CW Cheng, AI Aviles-Rivero, Z He, LJ Zhang - arXiv preprint arXiv …, 2026",
+      "abstract": "Vision-language models suffer performance degradation under domain shift, limiting real-world applicability. Existing test-time adaptation methods are computationally intensive, rely on back-propagation, and often focus on single modalities. To address …",
+      "url": "https://arxiv.org/pdf/2601.23253"
+    },
+    {
+      "title": "Product Interaction: An Algebraic Formalism for Deep Learning Architectures",
+      "authors": "H Dong, CW Cheng, AI Aviles-Rivero - arXiv preprint arXiv:2602.02573, 2026",
+      "abstract": "In this paper, we introduce product interactions, an algebraic formalism in which neural network layers are constructed from compositions of a multiplication operator defined over suitable algebras. Product interactions provide a principled way to …",
+      "url": "https://arxiv.org/pdf/2602.02573"
+    },
+    {
+      "title": "The matrix-vector complexity of $ Ax= b$",
+      "authors": "M Dereziński, EN Epperly, RA Meyer - arXiv preprint arXiv:2602.04842, 2026",
+      "abstract": "Matrix-vector algorithms, particularly Krylov subspace methods, are widely viewed as the most effective algorithms for solving large systems of linear equations. This paper establishes lower bounds on the worst-case number of matrix-vector products …",
+      "url": "https://arxiv.org/pdf/2602.04842"
+    },
+    {
+      "title": "CARE-RFT: Confidence-Anchored Reinforcement Finetuning for Reliable Reasoning in Large Language Models",
+      "authors": "S Li, J Cao, B Hu, A Mokhtari, L Liu, A Zhang - arXiv preprint arXiv:2602.00085, 2026",
+      "abstract": "Reinforcement finetuning (RFT) has emerged as a powerful paradigm for unlocking reasoning capabilities in large language models. However, we identify a critical trade-off: while unconstrained RFT achieves strong reasoning performance, it severely …",
+      "url": "https://arxiv.org/pdf/2602.00085"
+    }
+  ]
+}

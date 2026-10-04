@@ -1,0 +1,158 @@
+{
+  "id": "20260519_google_scholar_",
+  "date": "20260519",
+  "source": "historical-import",
+  "messages": 14,
+  "papers": [
+    {
+      "title": "OSDN: Improving Delta Rule with Provable Online Preconditioning in Linear Attention",
+      "authors": "C Zhou, H Li, Y Liu, J Lin, D Ge, Y Ye - arXiv preprint arXiv:2605.13473, 2026",
+      "abstract": "Linear attention and state-space models offer constant-memory alternatives to softmax attention, but often struggle with in-context associative recall. The Delta Rule mitigates this by writing each token via one step of online gradient descent. However …",
+      "url": "https://arxiv.org/pdf/2605.13473"
+    },
+    {
+      "title": "A Spectral Framework for Closed-Form Relative Density Estimation",
+      "authors": "F Bach - arXiv preprint arXiv:2605.10668, 2026",
+      "abstract": "We propose a closed-form spectral framework for relative log-density estimation in linearly parameterized probabilistic models, including unnormalized and conditional models. This is achieved by representing the Kullback-Leibler (KL) divergence as an …",
+      "url": "https://arxiv.org/pdf/2605.10668"
+    },
+    {
+      "title": "Super-Level-Set Regression: Conditional Quantiles via Volume Minimization",
+      "authors": "S Braun, MI Jordan, F Bach - arXiv preprint arXiv:2605.06210, 2026",
+      "abstract": "Constructing minimum-volume prediction regions that satisfy conditional coverage is a fundamental challenge in multivariate regression. Standard approaches rely on explicitly estimating the full conditional density and subsequently thresholding it. This …",
+      "url": "https://arxiv.org/pdf/2605.06210"
+    },
+    {
+      "title": "Explaining and Preventing Alignment Collapse in Iterative RLHF",
+      "authors": "E Gauthier, F Bach, MI Jordan - arXiv preprint arXiv:2605.04266, 2026",
+      "abstract": "Reinforcement learning from human feedback (RLHF) typically assumes a static or non-strategic reward model (RM). In iterative deployment, however, the policy generates the data on which the RM is retrained, creating a feedback loop. Building …",
+      "url": "https://arxiv.org/pdf/2605.04266"
+    },
+    {
+      "title": "Nystr\\\" om Approximation on Manifolds",
+      "authors": "H Nie, B Gao, A Han, P Jawanpuria, B Mishra, Z Wen - arXiv preprint arXiv …, 2026",
+      "abstract": "Computations on a manifold often involve constructing an operator on the tangent space and computing its inverse, which can be time-consuming in many applications. In order to reduce the computational costs and preserve the benign …",
+      "url": "https://arxiv.org/pdf/2605.14933"
+    },
+    {
+      "title": "Learning to Optimize Radiotherapy Plans via Fluence Maps Diffusion Model Generation and LSTM-based Optimization",
+      "authors": "I Poles, S Arberet, R Gao, M Kraus, MD Santambrogio… - arXiv preprint arXiv …, 2026",
+      "abstract": "Volumetric Modulated Arc Therapy (VMAT) is a cornerstone of modern radiation therapy, enabling highly conformal tumor irradiation and healthy-tissue sparing. Yet, its planning solves inverse and nested optimization for multi-leaf collimators, monitor units and dose parameters, while enforcing their consistency to ensure mechanical deliverability. Nevertheless, this process often requires repeated re-optimization when treatment configurations change, resulting in substantial planning time per …",
+      "url": "https://arxiv.org/pdf/2605.13713"
+    },
+    {
+      "title": "A Review on Bilevel Optimization Using Evolutionary Algorithms and Machine Learning Approaches",
+      "authors": "D Chauhan, H Ishibuchi, K Deb, A Trivedi, D Srinivasan - IEEE Transactions on …, 2026",
+      "abstract": "Bilevel Optimization (BLO) is a hierarchical problem structure involving two interdependent levels of optimization tasks. While traditionally approached through evolutionary algorithms (EAs), recent advances in machine learning (ML) have introduced scalable and efficient methods that can address high-dimensional and data-driven BLO problems. This review provides a comprehensive survey of the evolution from EA-based to ML-based BLO approaches. We begin by outlining the …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11518551/"
+    },
+    {
+      "title": "CHAL: Council of Hierarchical Agentic Language",
+      "authors": "T Giovannelli, GD Kent - arXiv preprint arXiv:2605.12718, 2026",
+      "abstract": "Multi-agent debate has emerged as a promising approach for improving LLM reasoning on ground-truth tasks, yet current methodologies face certain structural limitations: debate tends to induce a martingale over belief trajectories, majority voting accounts for most observed gains, and LLMs exhibit confidence escalation rather than calibration across rounds. We argue that the genuine value of debate, and dialectic systems as a whole, lies not in ground-truth tasks but in defeasible …",
+      "url": "https://arxiv.org/pdf/2605.12718"
+    },
+    {
+      "title": "Trend-Aware Time Series Forecasting via Frequency-Enhanced Inverted Architecture",
+      "authors": "Z Zheng, Z Teng - 2026 9th International Conference on Advanced …, 2026",
+      "abstract": "Long-term Time Series Forecasting (LTSF) is critical in domains such as meteorology and ene-rgy management. While recent State-of-the-Art (SO-TA) models, particularly xLSTM and its adaptations (eg, xLSTMTime), demonstrate impressive memory capabilities, they often suffer from “Trend Hallucin-ation” in non-stationary scenarios. Driven by point-wise error minimization (MSE), these models freque-ntly prioritize fitting high-frequency noise over mai-ntaining physical consistency. To address this …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11509082/"
+    },
+    {
+      "title": "Scaling up and Speeding up Classical Optimization on Modern Computing Architectures",
+      "authors": "J Yang - 2026",
+      "abstract": "The rapid advancement of modern computing architectures, particularly graphics processing units (GPUs), has fundamentally reshaped the landscape of large-scale computation. While machine learning has successfully leveraged these architectures through highly parallelizable first-order methods, classical optimization, such as linear and quadratic programming, remains largely dominated by CPU-based solvers built on factorization-intensive algorithms. This dissertation aims to bridge …",
+      "url": "https://knowledge.uchicago.edu/record/17036/files/Dissertation_Jinwen_Yang.pdf"
+    },
+    {
+      "title": "DAINet: Dual-alignment implicit network for accelerated multi-contrast MRI reconstruction",
+      "authors": "Z Wang, A Liu, J Wei, G Yang, Y Yu, W Wei, X Chen - Biomedical Signal Processing …, 2026",
+      "abstract": "AbstractMulti-contrast magnetic resonance imaging (MRI) leverages the short-time reference image to guide the reconstruction process of the long-time target one, providing a feasible solution for accelerated MRI. Given the need for enhanced detail reconstruction, current multi-contrast MRI reconstruction methods focus on exploiting multi-scale information. However, these approaches face two major challenges: multi-contrast misalignment and multi-scale misalignment:(1) they rely on the assumption …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1746809426011250"
+    },
+    {
+      "title": "A Fast Differentially Private Distributed Algorithm Over Unbalanced Directed Networks",
+      "authors": "M Ran, Z Wang, Y Lei, H Li - IEEE Transactions on Signal and Information …, 2026",
+      "abstract": "This paper develops a novel distributed optimization algorithm which combines the differentially private technique with the Barzilai-Borwein method (DPBB) for unbalanced directed networks. The algorithm protects the gradient data of agents by adding Gaussian noise to a gradient tracking process, achieving-differential privacy with an explicit expression. Then, it analyses the trade-off between convergence accuracy and privacy level. In order to accelerate convergence rate, it incorporates …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11513769/"
+    },
+    {
+      "title": "High-Order Spherical Runge-Kutta Schemes Based on Spherical Linear Extrapolation",
+      "authors": "Y Kyu Lee, S Leung - Journal of Scientific Computing, 2026",
+      "abstract": "This paper introduces a class of high-order numerical schemes for solving differential equations on the unit sphere, called Spherical Runge-Kutta methods with Richardson Extrapolation (SRKRE). Traditionally, Richardson Extrapolation (RE) is applied in Cartesian spaces through simple linear combinations of numerical solutions. Our approach adapts this idea directly to spherical geometry by extending the Spherical Linear Interpolation (SLERP) operator to perform extrapolation on the …",
+      "url": "https://link.springer.com/article/10.1007/s10915-026-03318-4"
+    },
+    {
+      "title": "Using Filter Methods to Guide Convergence for ADMM, with Applications to Nonnegative Matrix Factorization Problems: R. Baraldi et al.",
+      "authors": "R Baraldi, S Leyffer, S Wild - Journal of Optimization Theory and Applications, 2026",
+      "abstract": "Nonconvex, nonlinear optimization problems arise naturally in parameter fitting and machine learning. While augmented Lagrangian methods have demonstrated robust convergence for classes of these problems, their convergence for block updates has been relatively unexplored outside of the context of the alternating direction method of multipliers (ADMM). ADMM has seen extensive use in these applications, but may exhibit uncertain convergence behavior in many practical nonconvex settings, and …",
+      "url": "https://link.springer.com/article/10.1007/s10957-026-02983-7"
+    },
+    {
+      "title": "Decentralized Multi-Channel MANET Power Optimization Using Graph Neural Networks",
+      "authors": "T Alter, N Shlezinger, M Segal - arXiv preprint arXiv:2605.12612, 2026",
+      "abstract": "The increasing demand for mobile ad hoc networks (MANETs) calls for decentralized mechanisms that can allocate transmit power across nodes and channels under stringent resource constraints. Existing optimization-based approaches, however, do not account for expected settings where each link includes multiple channels (eg, multi-band signaling). Motivated by recent advances in machine learning for distributed optimization, we propose MANET-GNN, a graph neural network (GNN) …",
+      "url": "https://arxiv.org/pdf/2605.12612"
+    },
+    {
+      "title": "Implementing ADMM for nonconvex composite optimization with a beyond-quadratic loss function",
+      "authors": "P Lin, J Hao, L Zhang, H He - Optimization, 2026",
+      "abstract": "In this paper, we study a class of nonconvex composite optimization problems arising in data sciences, where the objective function consists of a nonconvex regularization term and a nonconvex beyond-quadratic loss function. Unfortunately, a direct …",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02331934.2026.2668452"
+    },
+    {
+      "title": "Total Variation-Based Image Decomposition and Denoising for Microscopy Images",
+      "authors": "C Franchini - Microscopy and Microanalysis",
+      "abstract": "Total Variation-Based Image Decomposition and Denoising for Microscopy Images Page 1 Microscopy and Microanalysis, 2026, 32, ozag031 https://doi.org/10.1093/mam/ozag031 Advance access publication 12 May 2026 Original Article Total Variation-Based …",
+      "url": "https://www.ovid.com/journals/mimic/abstract/10.1093/mam/ozag031~total-variation-based-image-decomposition-and-denoising-for"
+    },
+    {
+      "title": "Multiconic Optimization for Symmetric Cones and Hyperbolic Coupling",
+      "authors": "ME Nagy, Y Nesterov, PR Rigó - arXiv preprint arXiv:2605.12658, 2026",
+      "abstract": "We develop a new interior-point algorithm for solving multiconic optimization problems using the parabolic target space approach. The feasible cone in these problems is composed as a direct product of many small-dimensional cones. Our …",
+      "url": "https://arxiv.org/pdf/2605.12658"
+    },
+    {
+      "title": "CORE DISCUSSION PAPER 2011/2",
+      "authors": "O Devolder, F Glineur, Y Nesterov",
+      "abstract": "2011/2 ■ First-order methods of smooth convex optimization with inexact oracle Olivier Devolder, François Glineur and Yu. Nesterov Center for Operations Research and Econometrics Voie du Roman Pays, 34 B-1348 Louvain-la-Neuve Belgium http://www.uclouvain.be/core …",
+      "url": "https://research.dial.uclouvain.be/server/api/core/bitstreams/beccfd8f-cb94-4767-acbd-6b8d124e3831/content"
+    },
+    {
+      "title": "Deciphering Neural Reparameterized Full-Waveform Inversion with Neural Sensitivity Kernel and Wave Tangent Kernel",
+      "authors": "R Chen, Y Luo, B Wu, X Zhao, D Meng - arXiv preprint arXiv:2605.14370, 2026",
+      "abstract": "Full-waveform inversion (FWI) estimates unknown parameters in the wave equation from limited boundary measurements. Recent advances in neural reparameterized FWI (NeurFWI) demonstrate that representing the parameters using a neural network …",
+      "url": "https://arxiv.org/pdf/2605.14370"
+    },
+    {
+      "title": "A Majorization-Minimization with Monte Carlo Approach for Hyperparameter Estimation",
+      "authors": "E Buser, J Chung, H Díaz, AK Saibaba - arXiv preprint arXiv:2605.13620, 2026",
+      "abstract": "We consider inverse problems with linear forward models and Gaussian priors, but with unknown hyperparameters that may arise from the model, the noise, or the specification of the prior. We model this using a hierarchical Bayes framework …",
+      "url": "https://arxiv.org/pdf/2605.13620"
+    },
+    {
+      "title": "Representative Attention For Vision Transformers",
+      "authors": "Y Li, H Wang, H Liu, M Li, X Guo - arXiv preprint arXiv:2605.14913, 2026",
+      "abstract": "Linear attention has emerged as a promising direction for scaling Vision Transformers beyond the quadratic cost of dense self-attention. A prevalent strategy is to compress spatial tokens into a compact set of intermediate proxies that mediate …",
+      "url": "https://arxiv.org/pdf/2605.14913"
+    },
+    {
+      "title": "MF2MR2: Multi-frequency Fusion for Accelerated Multi-contrast MRI Reconstruction",
+      "authors": "J Zou, L Liu, X Xing, AI Aviles-Rivero, S Wang, J Qin - Expert Systems with …, 2026",
+      "abstract": "AbstractMulti-contrast magnetic resonance imaging (MRI) provides complementary diagnostic information across different pulse sequences, but some contrasts require substantially longer acquisition time, which limits clinical efficiency. Multi-contrast …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417426017793"
+    },
+    {
+      "title": "LeanSearch v2: Global Premise Retrieval for Lean 4 Theorem Proving",
+      "authors": "G Gao, Z Sun, J Jiang, Y Wang, J Xu, P Wu, B Dai… - arXiv preprint arXiv …, 2026",
+      "abstract": "Proving theorems in Lean 4 often requires identifying a scattered set of library lemmas whose joint use enables a concise proof--a task we call global premise retrieval. Existing tools address adjacent problems: semantic search engines find …",
+      "url": "https://arxiv.org/pdf/2605.13137"
+    },
+    {
+      "title": "ODRPO: Ordinal Decompositions of Discrete Rewards for Robust Policy Optimization",
+      "authors": "N Patel, F Wang, I Dhillon - arXiv preprint arXiv:2605.12667, 2026",
+      "abstract": "The alignment of Large Language Models (LLMs) utilizes Reinforcement Learning from AI Feedback (RLAIF) for non-verifiable domains such as long-form question answering and open-ended instruction following. These domains often rely on LLM …",
+      "url": "https://arxiv.org/pdf/2605.12667"
+    }
+  ]
+}

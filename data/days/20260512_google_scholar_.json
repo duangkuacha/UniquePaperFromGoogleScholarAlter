@@ -1,0 +1,92 @@
+{
+  "id": "20260512_google_scholar_",
+  "date": "20260512",
+  "source": "historical-import",
+  "messages": 4,
+  "papers": [
+    {
+      "title": "Quantitative Convergence of Proximal Splitting Iterations in Uniformly Convex Metric Spaces",
+      "authors": "DR Luke, M Mirhashemi - arXiv preprint arXiv:2605.03484, 2026",
+      "abstract": "We provide sufficient conditions for quantitative convergence of the iterates of proximal splitting algorithms for minimizing a sum of functions on a metric space. The theory does not assume that the functions have common minima, nor does it require …",
+      "url": "https://arxiv.org/pdf/2605.03484"
+    },
+    {
+      "title": "A Difference of Convex Functions Regularization Approach for 3D Tensor Visual Data Completion: B.-X. Zhang et al.",
+      "authors": "BX Zhang, DR Liang, X Guo, CP Xu, ZB Zhu - … of the Operations Research Society of …, 2026",
+      "abstract": "In this paper, the problem of 3D low-rank tensor completion within the tensor singular value decomposition framework is investigated. We propose a new model with a novel nonconvex tensor rank surrogate function measure under limited sample …",
+      "url": "https://link.springer.com/article/10.1007/s40305-026-00673-9"
+    },
+    {
+      "title": "Deep unsupervised image smoothing with dynamic guidance",
+      "authors": "Y Yang, Y Liu, X Wang, X Wang - Signal, Image and Video Processing, 2026",
+      "abstract": "Image smoothing plays a critical role in various image processing tasks such as detail enhancement, HDR tone mapping and non-photorealistic rendering. The global optimization model is an essential instrument for image smoothing, due to the …",
+      "url": "https://link.springer.com/article/10.1007/s11760-026-05369-4"
+    },
+    {
+      "title": "Learning Dynamics of Zeroth-Order Optimization: A Kernel Perspective",
+      "authors": "Z Li, B Ying, Z Liu, H Yang - arXiv preprint arXiv:2605.03373, 2026",
+      "abstract": "Classical optimization theory establishes that zeroth-order (ZO) algorithms suffer from a dimension-dependent slowdown, with convergence rates typically scaling with the model dimension compared to first-order methods. However, in contrast to these theoretical expectations, a growing body of recent work demonstrates the successful application of ZO methods to fine-tuning Large Language Models (LLMs) with billions of parameters. To explain this paradox, we derive the one-step learning …",
+      "url": "https://arxiv.org/pdf/2605.03373"
+    },
+    {
+      "title": "A Survey of Agentic GraphRAG: From Retrieval-Augmented Generation to Graph-Native Agents",
+      "authors": "Z Chen, LN Zheng, D Zhu",
+      "abstract": "This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG. While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations. RAG is the standard workaround: before the model answers, fetch relevant text from an external corpus and generate response based on the it. Two lines of work have pushed RAG in …",
+      "url": "https://www.researchgate.net/profile/Zihan-Chen-57/publication/404424648_A_Survey_of_Agentic_GraphRAG_From_Retrieval-Augmented_Generation_to_Graph-Native_Agents/links/69f9675ab2e0972eb41d33a2/A-Survey-of-Agentic-GraphRAG-From-Retrieval-Augmented-Generation-to-Graph-Native-Agents.pdf"
+    },
+    {
+      "title": "An Adaptive Weighted Lasso Regression Method for Sparse Polynomial Chaos Expansion: application to multi-source uncertainty quantification",
+      "authors": "S Wang, H Zhao, Z Zhang, W Zhang - Reliability Engineering & System Safety, 2026",
+      "abstract": "AbstractAs an efficient uncertainty quantification (UQ) method, polynomial chaos expansion (PCE) alleviates the curse of dimensionality for computationally expensive models. However, many sparse PCE variants prioritize basis reduction and training efficiency rather than reconstruction stability, noise robustness, and small-sample generalization, thereby limiting practicality in high-dimensional or data-scarce engineering contexts. This paper proposes a sparse PCE construction …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0951832026006435"
+    },
+    {
+      "title": "Entropy-Based Information–Energy Optimization for Integrated Energy Systems With High RES Penetration",
+      "authors": "Z Liu, B Huang, R Ren, J Dai, Y Li, Q Sun, DW Gao… - IEEE Transactions on …, 2026",
+      "abstract": "The operational optimization of integrated energy systems with high renewable energy penetration (IES-HREP) constitutes a complex systems engineering problem, primarily due to the absence of a well-defined cost model for renewable energy sources (RESs) generation and uncertainties affecting energy quality. To address these issues, this article proposes an entropy-based analysis and optimization framework to quantify RES uncertainty costs and system efficiency. First, an …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11506322/"
+    },
+    {
+      "title": "Learn to Solve Constrained Routing Problems in V2V Social Vehicle Networks",
+      "authors": "W He, J Ye, L Wang, X Ge, T Han - IEEE Open Journal of the Communications Society, 2026",
+      "abstract": "In vehicle social networks (VSN), multi-hop vehicle-to-vehicle (V2V) routing must minimize end-to-end delay while satisfying a social trust budget. This trust-constrained routing can be formulated as an NP-hard resource-constrained shortest path problem (RCSPP), while the per-link delay is analytically intractable because the global co-channel interference is unknown. To this end, this paper proposes a proactive infeasibility pruning (PIP) mechanism within a constrained Markov decision …",
+      "url": "https://ieeexplore.ieee.org/iel8/8782661/8901158/11509301.pdf"
+    },
+    {
+      "title": "A Crisscross-Enhanced Groupers and Moray Eels Optimization Algorithm: Benchmark Test and Production Optimization",
+      "authors": "Y Fan, Z Cheng, Y Cheng - Biomimetics, 2026",
+      "abstract": "Metaheuristic algorithms can fail to balance global exploration and local exploitation, occasionally becoming trapped in suboptimal regions on highly multimodal problems. The Groupers and Moray Eels (GME) algorithm, inspired by the associative hunting strategies of marine predators, provides a cooperative optimization framework. However, the sequential interaction phases of GME can fail to maintain diverse topological coverage across heavily constrained landscapes. To …",
+      "url": "https://www.mdpi.com/2313-7673/11/5/322"
+    },
+    {
+      "title": "An efficient approach for addressing non-smooth separable optimization problems",
+      "authors": "GY Chen, YL Tang, XX Su, P Xue - Nonlinear Dynamics, 2026",
+      "abstract": "Separable optimization models are foundational in machine learning, signal processing, and system identification. A key to their efficient identification lies in resolving the coupling between linear and nonlinear parameters during the optimization process. Yet, real-world applications often impose priors like sparsity or total variation (TV) regularization, introducing non-convexity and non-smoothness that significantly complicate this decoupling and pose serious challenges for …",
+      "url": "https://link.springer.com/article/10.1007/s11071-026-12539-z"
+    },
+    {
+      "title": "Low Rank Tensor Completion via Adaptive ADMM",
+      "authors": "N Führling, G Rexhepi, GTF de Abreu - arXiv preprint arXiv:2605.03736, 2026",
+      "abstract": "We consider a novel algorithm, for the completion of partially observed low-rank tensors, as a generalization of matrix completion. The proposed low-rank tensor completion (TC) method builds on the conventional nuclear norm (NN) minimization-based low-rank TC paradigm, by leveraging the alternating direction method of multipliers (ADMM) optimization framework. To that extend the original NN minimization problem is reformulated into multiple subproblems, which are then …",
+      "url": "https://arxiv.org/pdf/2605.03736"
+    },
+    {
+      "title": "Reinforcement Learning for Scalable and Trustworthy Intelligent Systems",
+      "authors": "G Lan - 2026",
+      "abstract": "This research develops reinforcement learning methods for scalable and trustworthy intelligent systems. On the scalability side, it studies federated reinforcement learning, where multiple agents collaboratively train policies under communication and computation constraints. It proposes FedNPG-ADMM to reduce communication costs in synchronous federated natural policy gradient methods, and AFedPG to improve efficiency in heterogeneous asynchronous settings. On the trustworthiness …",
+      "url": "https://hammer.purdue.edu/articles/thesis/Reinforcement_Learning_for_Scalable_and_Trustworthy_Intelligent_Systems/32116750/1/files/64072609.pdf"
+    },
+    {
+      "title": "一类稀疏优化问题的迭代阈值算法及收敛性研究",
+      "authors": "赵心雨 - Advances in Applied Mathematics, 2026",
+      "abstract": "Nesterov 加速策略以其显著的收敛加速效果, 被广泛应用于各类梯度优化算法的设计中. 本文将Nesterov 加速技术与迭代有限收缩阈值算法相结合, 针对非凸稀疏优化问题提出了基于延拓技术的加速迭代有限收缩阈值算法(A-ILSTAC) 和基于截断技术的加速迭代有限收缩阈值算法(A-ILSTAT). 在限制等距性质(RIP) 条件下, 本文证明了所提算法能够收敛到近似真实稀疏解, 其误差由噪声水平和有限收缩幅度决定. 初步数值实验表明, 本文算法能够找到近似真实稀疏解, 且效果显著优于原始迭代有限收缩阈值算法 …",
+      "url": "https://www.hanspub.org/journal/paperinformation?paperID=140657"
+    },
+    {
+      "title": "Complex Diffusion Maps with $\\omega $-Parameterized Kernels Revealing Inherent Harmonic Representations",
+      "authors": "T Dang, W Ding, MK Ng - arXiv preprint arXiv:2605.01691, 2026",
+      "abstract": "In this paper, we propose Complex Diffusion Maps (CDM), a novel diffusion mapping framework that aims to reveal the dominant complex harmonics of high-dimensional data. Inspired by the local Gaussian kernel relevant to the heat equation and the …",
+      "url": "https://arxiv.org/pdf/2605.01691"
+    }
+  ]
+}

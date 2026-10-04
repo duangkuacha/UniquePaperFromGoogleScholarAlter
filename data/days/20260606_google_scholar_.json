@@ -1,0 +1,116 @@
+{
+  "id": "20260606_google_scholar_",
+  "date": "20260606",
+  "source": "historical-import",
+  "messages": 9,
+  "papers": [
+    {
+      "title": "A $ p $-adic Perspective on Low-Bit Training of Neural Networks",
+      "authors": "D Bershatsky, M Munkhoeva, I Oseledets - High-dimensional Learning Dynamics 2026",
+      "abstract": "We investigate low-bit neural network training from a $ p $-adic perspective. In extreme low-bit regimes, the set of representable values is so small that gradient descent operates on an essentially discrete domain, making continuous analysis …",
+      "url": "https://openreview.net/forum?id=KPcwE6qwAh"
+    },
+    {
+      "title": "High-Order Tensor Low-Rank Representation for Robust Multiway Visual Data Recovery",
+      "authors": "F Zhang, T Wu - Applied Mathematical Modelling, 2026",
+      "abstract": "Tensor low-rank representation (TLRR) is effective for tensor recovery, but existing methods are mainly restricted to third-order tensors. This paper studies robust recovery of order-d (d≥ 4) tensors from sparse corruptions. We first propose high …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0307904X26003562"
+    },
+    {
+      "title": "Structure-Informed Bounds on the Kronecker Rank of Block-Structured Matrices",
+      "authors": "A Fuller, M Español, M Kilmer - arXiv preprint arXiv:2605.30908, 2026",
+      "abstract": "We derive theoretical bounds on the Kronecker rank of block-structured matrices that possess both inner and outer structure. Building on the matrix-to-tensor and tensor-to-matrix framework of Kilmer and Saibaba ($\\textit {SIAM J. Matrix Anal. Appl.} $, 2022) …",
+      "url": "https://arxiv.org/pdf/2605.30908"
+    },
+    {
+      "title": "Resource-aware distributed edge intelligence",
+      "authors": "C Meng - 2026",
+      "abstract": "Distributed edge intelligence is emerging as a key enabler for artificial intelligence (AI)-native wireless networks, where learning, adaptation, and personalization are performed collaboratively across a large number of devices without sharing their raw data. However, practical deployments face multiple resource constraints, including dynamic wireless connectivity, limited bandwidth, heterogeneous computation resources, and memory budgets, which tightly couple the learning performance with …",
+      "url": "https://open.library.ubc.ca/media/download/pdf/24/1.0452625/4"
+    },
+    {
+      "title": "Fixed-Point Masked Generative Modeling",
+      "authors": "A Miele, Y Qin, A Carballo-Castro, J Deschenaux… - arXiv preprint arXiv …, 2026",
+      "abstract": "Masked Generative Models (MGMs) enable parallel decoding and achieve strong performance across modalities, but require full-sequence bidirectional transformers at every step, making training costly and degrading quality under low sampling budgets. Existing work improves efficiency via better samplers or cheaper fixed-depth denoisers, but they still allocate a fixed amount of denoiser computation to each refinement step. We introduce Fixed-Point Masked Generative Models (FP …",
+      "url": "https://arxiv.org/pdf/2605.31215"
+    },
+    {
+      "title": "S $^ 3$ LDBO: A Snapshot Single-Loop Algorithm for Decentralized Bilevel Optimization",
+      "authors": "C Yin, Y Dong, S Ma, B Wang, J Yang - arXiv preprint arXiv:2605.31311, 2026",
+      "abstract": "Networked AI systems increasingly rely on multiple agents that collaboratively learn and adapt models over communication networks. In such systems, bilevel formulations naturally arise in hyperparameter optimization, data cleaning, and meta-learning, but the repeated evaluation of gradients, Jacobians, and Hessians can impose a substantial computational burden on individual agents. To address this challenge, we propose Snapshot-SLDBO (S $^ 3$ LDBO), an efficient single-loop …",
+      "url": "https://arxiv.org/pdf/2605.31311"
+    },
+    {
+      "title": "Research Highlight: A Tutorial on Branch-and-Bound Performance Estimation Programming",
+      "authors": "SD Gupta - Operations Research",
+      "abstract": "This article serves as a step-by-step, hands-on tutorial for the Branch-and-Bound Performance Estimation Programming (BnB-PEP) methodology developed in the paper [8], which I co-authored with Professor Bart Van Parys and Professor Ernest Ryu during my PhD at the MIT Operations Research Center. I am honored to have received the 2024 INFORMS Computing Society (ICS) Student Paper Award for this paper, and I would like to thank the award committee members, Beste Basciftci …",
+      "url": "https://shuvomoy.github.io/Awards/ICS_NewsLetter_Research_Highlight_BnB_PEP.pdf"
+    },
+    {
+      "title": "Image reconstruction method inspired by a multi-objective bilevel optimization framework for imaging in electrical capacitance tomography",
+      "authors": "J Lei, Q Liu - Applied Soft Computing, 2026",
+      "abstract": "Low-fidelity images limit the application potential of electrical capacitance tomography in multiphase flow measurement. This study frames the imaging problem within a multi-objective bilevel optimization framework and introduces a new multi-objective bilevel extreme learning machine to infer prior information, which provides a comprehensive solution to improve reconstruction quality and robustness. The new model involves an upper-level optimization for parameter learning and a lower-level …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1568494626010379"
+    },
+    {
+      "title": "Learning Multi-Agent Coordination via Sheaf-ADMM",
+      "authors": "J Seely, B Cupiał, L Jones - arXiv preprint arXiv:2605.31005, 2026",
+      "abstract": "We present a differentiable optimization framework for multi-agent coordination. An input is decomposed into overlapping local views, each processed by an agent that solves a convex subproblem parameterized by a neural encoder. Agents coordinate through the Alternating Direction Method of Multipliers (ADMM) with inter-agent constraints specified by a cellular sheaf. The sheaf specifies which aspects of neighboring solutions must agree, allowing for heterogeneous notions of global …",
+      "url": "https://arxiv.org/pdf/2605.31005"
+    },
+    {
+      "title": "A Distributed Primal-Dual Framework for Composite Optimization with Nonseparable Coupled NonSmooth Function",
+      "authors": "Z Li, L Ran, J Li, L Zheng - Mathematical and Computational Applications, 2026",
+      "abstract": "This paper investigates a distributed convex optimization problem whose objective contains three terms: a local smooth convex function, a local nonsmooth function, and a globally shared, possibly nonsmooth, nonseparable coupling function. To solve this problem, a novel distributed primal-dual proximal gradient algorithm and its asynchronous version are proposed, designated as DPD-PG and AsynDPD-PG, respectively. Each agent communicates with its neighbors locally and updates …",
+      "url": "https://www.mdpi.com/2297-8747/31/3/91"
+    },
+    {
+      "title": "Convergence of Steepest Descent and Adam under Non-Uniform Smoothness",
+      "authors": "S Vaswani, Y Sun, R Babanezhad - arXiv preprint arXiv:2605.30648, 2026",
+      "abstract": "Recent work has analyzed the convergence of first-order methods under non-uniform smoothness assumptions that better model the loss landscape in machine learning tasks. We generalize this assumption to objectives whose curvature is an affine function of the objective value. This property is satisfied by a broad class of problems, including logistic regression, generalized linear models with a logistic link function, softmax policy gradient in reinforcement learning, and a class of neural networks …",
+      "url": "https://arxiv.org/pdf/2605.30648"
+    },
+    {
+      "title": "On the application of explicit Runge–Kutta methods to the construction of stochastic gradient descent methods for convex optimization",
+      "authors": "G Krivovichev - Computational and Applied Mathematics, 2026",
+      "abstract": "The paper is devoted to the construction and analysis of stochastic gradient methods based on explicit Runge–Kutta schemes. We propose second-order differential equations for the dynamics of the gradient method with a variable stepsize in deterministic and stochastic cases. The theorem on the convergence rate of trajectories to the stationary point is formulated. For the construction of gradient methods the assumption on approximation of stochastic term is used. It provides the …",
+      "url": "https://link.springer.com/article/10.1007/s40314-026-03805-2"
+    },
+    {
+      "title": "Accelerated ADMM Variants for Distributed Optimization",
+      "authors": "J HE",
+      "abstract": "This doctoral thesis presents a comprehensive summary of research efforts with the aim of advancing the state-of-the-art in decentralized optimization. As modern distributed systems grow in scale and complexity, traditional optimization methods face significant bottlenecks. This work, presented as a compilation of five papers, specifically targets the Alternating Direction Method of Multipliers (ADMM). The central objective is to re-engineer ADMM to overcome the dual challenges of …",
+      "url": "https://www.diva-portal.org/smash/get/diva2:2061926/FULLTEXT03.pdf"
+    },
+    {
+      "title": "Performance estimation for smooth and strongly convex sets: A. Luner, B. Grimmer",
+      "authors": "A Luner, B Grimmer - Mathematical Programming, 2026",
+      "abstract": "We extend recent computer-assisted design and analysis techniques for first-order optimization over structured functions—known as performance estimation—to apply to structured sets. We prove “interpolation theorems” for smooth and strongly convex …",
+      "url": "https://link.springer.com/article/10.1007/s10107-026-02373-x"
+    },
+    {
+      "title": "A Parameter-Free Restart Scheme with Only a Parallelizable $\\log\\log (1/\\epsilon) $ Overhead",
+      "authors": "Y Wu, B Grimmer - arXiv preprint arXiv:2605.30502, 2026",
+      "abstract": "It is well-known that first-order methods can offer accelerated convergence rates in the presence of growth structures. Restarting schemes provide a general tool for such speed-ups. These schemes typically either require unrealistic problem …",
+      "url": "https://arxiv.org/pdf/2605.30502"
+    },
+    {
+      "title": "A Jacobi-like algorithm for normal matrices by the skew-symmetric part",
+      "authors": "S Mataigne, PA Absil - arXiv preprint arXiv:2605.26317, 2026",
+      "abstract": "We present a fast Jacobi-like algorithm for computing the eigenvalues, and optionally the eigenvectors, of a real normal matrix. The method gains a computational advantage by using Paardekooper's method for skew-symmetric matrices The …",
+      "url": "https://arxiv.org/pdf/2605.26317"
+    },
+    {
+      "title": "MATRO: Metric-Aware Fully Quadratic Trust Regions for Derivative-Free Optimization",
+      "authors": "W Hu, P Xie, YX Yuan, L Zhang - arXiv preprint arXiv:2605.30845, 2026",
+      "abstract": "Model-based derivative-free trust-region methods build local models from function values and accept trial steps only where these models are expected to be reliable. This paper studies the shape of that trusted region. When a black-box objective is …",
+      "url": "https://arxiv.org/pdf/2605.30845"
+    },
+    {
+      "title": "BUP-TR: Bayesian Underdetermined Projection Trust-Region Methods for Derivative-Free Optimization",
+      "authors": "W Hu, P Xie, YX Yuan, L Zhang - arXiv preprint arXiv:2605.30841, 2026",
+      "abstract": "Underdetermined quadratic interpolation is a standard model-construction tool in model-based derivative-free trust-region methods: it keeps the number of function evaluations manageable, but leaves many quadratic models consistent with the …",
+      "url": "https://arxiv.org/pdf/2605.30841"
+    }
+  ]
+}

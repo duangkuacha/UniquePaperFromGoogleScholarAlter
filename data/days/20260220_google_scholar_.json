@@ -1,0 +1,86 @@
+{
+  "id": "20260220_google_scholar_",
+  "date": "20260220",
+  "source": "historical-import",
+  "messages": 4,
+  "papers": [
+    {
+      "title": "Scalable approximate optimal diagonal preconditioning: W. Gao et al.",
+      "authors": "W Gao, Z Qu, M Udell, Y Ye - Computational Optimization and Applications, 2026",
+      "abstract": "We consider the problem of finding the optimal diagonal preconditioner for a positive definite matrix. Although this problem has been shown to be solvable and various methods have been proposed, none of the existing approaches are scalable to …",
+      "url": "https://link.springer.com/article/10.1007/s10589-026-00770-8"
+    },
+    {
+      "title": "Double Nonconvex Tensor Robust Kernel Principal Component Analysis and Its Visual Applications",
+      "authors": "L Wu, J Wang, WS Zheng, G Shi - IEEE Transactions on Image Processing, 2026",
+      "abstract": "Tensor robust principal component analysis (TRPCA), as a popular linear low-rank method, has been widely applied to various visual tasks. The mathematical process of the low-rank prior is derived from the linear latent variable model. However, for …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11372612/"
+    },
+    {
+      "title": "A linesearch-type normal map-based semismooth Newton method for nonsmooth nonconvex composite optimization",
+      "authors": "H Zeng, W Ouyang, A Milzarek - Computational Optimization and Applications, 2026",
+      "abstract": "We propose a novel linesearch variant of the trust region normal map-based semismooth Newton method developed in (Ouyang and Milzarek in Math Program 212 (1–2): 389–435, 2025) for solving a class of nonsmooth, nonconvex composite …",
+      "url": "https://link.springer.com/article/10.1007/s10589-025-00754-0"
+    },
+    {
+      "title": "ZorBA: Zeroth-order Federated Fine-tuning of LLMs with Heterogeneous Block Activation",
+      "authors": "C Meng, M Tang, VWS Wong",
+      "abstract": "Federated fine-tuning of large language models (LLMs) enables collaborative tuning across distributed clients. However, due to the large size of LLMs, local updates in federated learning (FL) may incur substantial video randomaccess memory (VRAM) usage. Moreover, frequent model exchange may lead to significant communication overhead. To tackle these challenges, in this paper we propose ZorBA, a zeroth-order optimization-based federated fine-tuning framework with heterogeneous block …",
+      "url": "https://people.ece.ubc.ca/vincentw/C/MTW-INFOCOM-2026.pdf"
+    },
+    {
+      "title": "HEQP: A Hypergraph Neural Network-Based Evolutionary Method for Large-Scale QCQPs",
+      "authors": "Z Xiong, H Ye, H Xu, CAC Coelle - IEEE Transactions on Cybernetics, 2026",
+      "abstract": "Machine learning-based optimization frameworks have attracted increasing attention for accelerating the solution of large-scale quadratically constrained quadratic programs (QCQPs) by exploiting shared problem structure across instances. However, existing machine learning (ML) frameworks often rely on the assumption of parametric models and large-scale solvers. This article introduces HEQP, a hypergraph neural network-based evolutionary optimization framework for large …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11372910/"
+    },
+    {
+      "title": "Deep learning for time series forecasting: a survey of recent advances",
+      "authors": "K LIAO, X XUAN, KL MA - 2025",
+      "abstract": "Time series forecasting plays a critical role in numerous real-world applications, such as finance, healthcare, transportation, and scientific computing. In recent years, deep learning has become a powerful tool for modeling complex temporal patterns and improving forecasting accuracy. This survey provides an overview of recent deep learning approaches for time series forecasting, involving various architectures including RNNs, CNNs, GNNs, transformers, large language models, MLP-based …",
+      "url": "https://journal.hep.com.cn/fcs/EN/PDF/10.1007/s11704-025-50947-3"
+    },
+    {
+      "title": "Towards Efficient and Robust Decentralized Learning",
+      "authors": "Z Wang - 2026",
+      "abstract": "The widening gap between GPU compute capability and inter-node network bandwidth presents a fundamental challenge for distributed deep learning. While traditional” All-Reduce” methods require every GPU to sync globally—slowing down the entire system to the speed of the slowest worker—decentralized training allows GPUs to communicate only with a few neighbors. Despite its potential, decentralized training is rarely adopted in practice because its performance gains are hard to …",
+      "url": "https://www.diva-portal.org/smash/get/diva2:2035863/FULLTEXT01.pdf"
+    },
+    {
+      "title": "Towards Zero-Shot Pretrained Models for Efficient Black-Box Optimization",
+      "authors": "JC Meindl - 2025",
+      "abstract": "Global optimization of expensive, derivative-free black-box functions requires extreme sample efficiency. While Bayesian optimization (BO) is the current state-of-the-art, its performance hinges on surrogate and acquisition function hyperparameters that are often hand-tuned and fail to generalize across problem landscapes. We present ZeroShotOpt, the first general-purpose, pretrained model for continuous black-box optimization tasks ranging from 2 D to 20 D. Our approach …",
+      "url": "https://dspace.mit.edu/bitstream/handle/1721.1/164855/meindl-jmeindl-meng-eecs-2025-thesis.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "title": "Privacy-Preserving Fully Distributed Market Clearing for Peer-to-Peer Energy Trading",
+      "authors": "W He, Y Yuan, Y Mishra, YC Tian - IEEE Transactions on Industrial Informatics, 2026",
+      "abstract": "The rapid growth of distributed energy resources has led to a shift toward consumer-centered electricity markets, where peer-to-peer (P2P) energy trading plays a key role. While distributed market clearing algorithms enable scalable P2P trading, they often rely on direct information exchange between all trading partners, which raises concerns about privacy and high communication overhead. To address this, we propose a fully distributed market clearing algorithm that is updated using only …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11366625/"
+    },
+    {
+      "title": "Efficient Low Average Rank Tensor Recovery With Implicit Low-Rank Subspace Regularization",
+      "authors": "T Wu, B Gao, Y Zhang, J Xue, Y Yu, WL Woo - IEEE Transactions on Multimedia, 2026",
+      "abstract": "Recent tensor methods utilizing the tensor nuclear norm (TNN) have shown remarkable performance in recovering low average rank tensor components. Nevertheless, methods exclusively dependent on the low average rank model encounter two practical challenges: 1) They overlook the significant low-rank attributes inherent in individual tensor modes, which are crucial for interpreting real-world data like color images and videos; 2) The minimization of TNN incurs a high …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11370221/"
+    },
+    {
+      "title": "OCSA-FN: A Fusion Network with Orthogonality-Constrained Spatial Attention for Hyperspectral and Land Surface Temperature Data Classification",
+      "authors": "E Zhao, Y Su, N Qu, Y Wang, Y Zhao - IEEE Transactions on Geoscience and Remote …, 2026",
+      "abstract": "With the continuous advancement of remote sensing (RS) technology, collaborative image land cover classification using multi-source RS data has gradually emerged as a prominent research focus. However, one of the core challenges during the feature fusion process of multi-source RS data is to achieve efficient feature interaction while minimizing redundancy and enhancing the representational capacity of features. To address this issue, this paper proposes a fusion network with …",
+      "url": "https://ieeexplore.ieee.org/iel8/36/4358825/11369882.pdf"
+    },
+    {
+      "title": "Decentralized ISAC Service Modeling and Intelligent Scheduling Paradigm for 6G Low-altitude Aerial-V2X",
+      "authors": "Q Liu, B Peng, X Liu, C Xu, EA Jorswieck, H Zhang - IEEE Transactions on Wireless …, 2026",
+      "abstract": "The emerging low-altitude economy leverages airspace below 1000 meters for intensive commercial and social aerial activities, where integrated sensing and communication (ISAC) service in 6G network for aircraft is critical to ensuring safe and efficient operations. However, aircraft often operate under constrained wireless resources, particularly in areas with limited or no network coverage. In such settings, exhaustive sensing and data communication among neighboring nodes lead to …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11370325/"
+    },
+    {
+      "title": "Distributed Optimal Control for Grid-Forming and Grid-Feeding Converters in DC Microgrid",
+      "authors": "J Zhang, SM Mohiuddin, J Qi - IEEE Transactions on Automation Science and …, 2026",
+      "abstract": "This paper proposes a distributed optimal control for grid-forming (GFM) and grid-feeding (GFE) converters in an islanded direct current (DC) microgrid. An optimization problem is first formulated: 1) The GFM converters' voltages and GFE converters' currents are taken as the control variables; 2) The trade-off between voltage regulation and current sharing is selected as the objective; and 3) The converters' technical constraints on voltage limits and current capacities are …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11370897/"
+    }
+  ]
+}

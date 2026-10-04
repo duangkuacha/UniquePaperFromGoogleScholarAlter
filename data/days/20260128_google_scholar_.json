@@ -1,0 +1,134 @@
+{
+  "id": "20260128_google_scholar_",
+  "date": "20260128",
+  "source": "historical-import",
+  "messages": 9,
+  "papers": [
+    {
+      "title": "Asymptotic behaviour of coupled random dynamical systems with multiscale aspects",
+      "authors": "DR Luke, JC Schnebel, M Staudigl, J Peypouquet… - arXiv preprint arXiv …, 2026",
+      "abstract": "We examine a class of stochastic differential inclusions involving multiscale effects designed to solve a class of generalized variational inequalities. This class of problems contains constrained convex non-smooth optimization problems …",
+      "url": "https://arxiv.org/pdf/2601.15411"
+    },
+    {
+      "title": "Robust Federated Detection of Scrap Steel via Feature Decoupling and Knowledge Inheritance",
+      "authors": "W Zhang, Q Cao, W Wang, X Wu - IEEE Transactions on Industrial Informatics, 2026",
+      "abstract": "Scrap steel detection is vital for optimizing recycling and manufacturing, but deploying machine learning models in distributed industrial settings faces challenges from data privacy and bandwidth constraints. Federated learning (FL) enables collaborative model training across dispersed clients without sharing raw data, preserving privacy. However, feature drift and bidirectional knowledge forgetting, driven by diverse imaging conditions and non-independent identically …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11356000/"
+    },
+    {
+      "title": "Greedy Low-Rank Gradient Compression Provably Converges for Distributed Learning",
+      "authors": "C Chen, Y He, P Li, W Jia, Y Dong, K Yuan - 2025 lEEE International Conference on …, 2025",
+      "abstract": "Distributed optimization is pivotal for large-scale signal processing and machine learning, yet communication overhead remains a major bottleneck. Low-rank gradient com-pression, in which the transmitted gradients are approximated by low-rank matrices to reduce communication, offers a promising remedy. Existing methods typically adopt either randomized or greedy compression strategies: randomized approaches project gradients onto randomly chosen subspaces, introducing high …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11331531/"
+    },
+    {
+      "title": "Safe and Efficient Quadrupedal Locomotion with A Chambolle-Pock Whole-Body Controller",
+      "authors": "X Yang, R Wang, Y Lu, Y Mo - IEEE Transactions on Robotics, 2026",
+      "abstract": "This paper presents a hierarchical control framework for quadrupedal locomotion that unifies the complementary strengths of model-based optimization and reinforcement learning. We develop a convex Quadratic Programming (QP) solver based on the primal-dual Chambolle-Pock algorithm, enabling both massively parallel policy training and real-time deployment through efficient handling of constrained optimization problems. Our hierarchical framework employs learned …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11353043/"
+    },
+    {
+      "title": "DeepFilter: A Transformer-style Framework for Accurate and Efficient Process Monitoring",
+      "authors": "H Wang, Z Che, L Pan, X Jiang, Y Song, Q He, X Li - IEEE Transactions on Artificial …, 2026",
+      "abstract": "Effective process monitoring is increasingly vital in industrial automation for ensuring operational safety, necessitating both high accuracy and efficiency. Although Transformers have demonstrated success in various fields, their canonical form based on the self-attention mechanism is inadequate for process monitoring due to two primary limitations: ❶ the step-wise correlations captured by the self-attention mechanism struggle to capture discriminative patterns in monitoring logs due to the …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11329174/"
+    },
+    {
+      "title": "SET-LASQ: A Temporal Information-Based Stochastic Event-Triggered Method for Communication-Efficient Federated Learning",
+      "authors": "X Li, J Sun, Z Yang, K Ding - IEEE Internet of Things Journal, 2025",
+      "abstract": "Federated learning (FL) enables collaborative model training across distributed edge devices without sharing raw data, but the large number of devices and frequent parameter exchanges create substantial communication overhead. To improve communication efficiency, event-triggered mechanisms have been introduced. However, such approaches may exclude valuable but inactive users (ie, IoT devices with informative data but limited activity) or overlook subtle but important updates …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11269832/"
+    },
+    {
+      "title": "Accelerated Decentralized Federated Learning on Heterogeneous Data",
+      "authors": "J Liu, Y Qian, P Wang, S Chen, S Cai, C Xu - IEEE Internet of Things Journal, 2026",
+      "abstract": "In decentralized federated learning, the challenges posed by non-convexity and data heterogeneity frequently result in inefficient training and poor generalization performance. While various optimization algorithms incorporate momentum or gradient tracking individually, few effectively leverage their synergy to tackle these challenges. To address this, we propose a novel algorithm termed Decentralized Stochastic Gradient Descent with Double Momentum (DSGD-DM). Explicitly …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11359702/"
+    },
+    {
+      "title": "Federated Learning With Dynamic Pruning for Efficient Model Aggregation in Heterogeneous Environments",
+      "authors": "LH Chang, JW Huang, TH Lee - IEEE Access, 2026",
+      "abstract": "With the widespread adoption of 5G networks, Federated Learning (FL) has gradually become an important paradigm for distributed artificial intelligence. However, clients in FL environments often exhibit significant heterogeneity in computational resources and data distributions, and under Non-Independent and Identically Distributed (Non-IID) scenarios, such heterogeneity not only slows model convergence but also affects the final accuracy. To reduce the computational burden …",
+      "url": "https://ieeexplore.ieee.org/iel8/6287639/11323511/11352808.pdf"
+    },
+    {
+      "title": "Toward Scalable and High-Performance GNN-Based Traffic Engineering with Free Path Selection",
+      "authors": "Q Su, Y Jiang, S Huang, Q Song, Q Xiang, X Liu, J Shu - 2025 IEEE 31th International …, 2025",
+      "abstract": "Traffic engineering (TE) is widely used to optimize network performance in modern networks. Typically, TE is formulated as a multiple-commodity flow (MCF) optimization problem and solved using mathematical solvers or machine learning approaches, but it becomes unscalable as the network size grows. Existing methods often limit available paths for flow allocation to speed up problem-solving, but this compromises TE performance. Achieving both high performance and fast …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11322910/"
+    },
+    {
+      "title": "Fractional-order Gradient Descent for Enhancing Deep Learning Optimization",
+      "authors": "OO Olumide - Asian Research Journal of Mathematics, 2025",
+      "abstract": "Abstract This study introduces Fractional-Order Gradient Descent (FGD) as an advanced optimization technique to enhance deep learning efficiency. Traditional gradient-based optimizers, such as Stochastic Gradient Descent (SGD) and Adam, often struggle with slow convergence, hyperparameter sensitivity, and entrapment in suboptimal local minima. To address these issues, FGD integrates fractional-order derivatives, leveraging memory effects and historical dependencies to improve …",
+      "url": "https://www.researchgate.net/profile/Oluwaseun-Okundalaye-2/publication/399941853_Article_noARJOM133286_Original_Research_Article_Olumide/links/6970806df5b9fd48849b0070/Article-noARJOM133286-Original-Research-Article-Olumide.pdf"
+    },
+    {
+      "title": "Adaptive Use of Convex or Non-Convex Optimization in Deep Unfolding Network for Image Compressive Sensing",
+      "authors": "C Liao, Y Shen, Z Wang, Y Li - IEEE Transactions on Multimedia, 2026",
+      "abstract": "Recently, deep unfolding networks (DUNs) have emerged as a promising technique for image Compressive Sensing (CS) reconstruction by unfolding optimization algorithms, where each stage of the DUNs corresponds to an iteration of the optimization algorithm. DUNs can be divided into convex optimization based methods and non-convex optimization based methods. On the one hand, DUNs based on convex optimization algorithms cannot handle non-convex optimization …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11329472/"
+    },
+    {
+      "title": "Proximity Operator of the $\\ell_1 $ over $\\ell_2 $ Function",
+      "authors": "L Shen, G Song - arXiv preprint arXiv:2601.16128, 2026",
+      "abstract": "We study the proximity operator of the nonconvex, scale-invariant ratio $ h (\\vx)=\\|\\vx\\| _ {1}/\\|\\vx\\| _ {2} $ and show it can be computed exactly in any dimension. By expressing $\\vx= r\\vu $ and exploiting sign and permutation invariance, we reduce …",
+      "url": "https://arxiv.org/pdf/2601.16128"
+    },
+    {
+      "title": "System-Level Optimization of Crowdsensing Sensor Allocation for Urban Parking in Smart Cities",
+      "authors": "B Pang, J Fu, R Liao, Y Ye - IEEE Internet of Things Journal, 2026",
+      "abstract": "In recent years, crowdsensing has emerged as a cost-effective alternative to traditional fixed-sensor systems for monitoring roadside parking availability, overcoming challenges such as high installation costs, limited scalability, and …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11358826/"
+    },
+    {
+      "title": "TVWorld: Foundations for Remote-Control TV Agents",
+      "authors": "Z Ma, Q Lu, S Zhong, D Yu, P Luo, MK Ng - arXiv preprint arXiv:2601.13142, 2026",
+      "abstract": "Recent large vision-language models (LVLMs) have demonstrated strong potential for device control. However, existing research has primarily focused on point-and-click (PnC) interaction, while remote-control (RC) interaction commonly encountered …",
+      "url": "https://arxiv.org/pdf/2601.13142"
+    },
+    {
+      "title": "Tensor Object Recognition Using Optimized Projection Based Support Tensor Machine",
+      "authors": "C Zhang, C Jing, Y Dong, Y Shen, M Gan, G Huang… - IEEE Transactions on …, 2025",
+      "abstract": "Classification is an important problem in artificial intelligence. In this work, a novel optimized projection based support tensor machine (OPSTM) has been presented for recognition of higher-order tensor objects. The proposed OPSTM can address the …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11260479/"
+    },
+    {
+      "title": "Parallelizable Riemannian Alternating Direction Method of Multipliers for Non-convex Pose Graph Optimization",
+      "authors": "X Chen, C Cui, D Han, L Qi - arXiv preprint arXiv:2601.15684, 2026",
+      "abstract": "Pose graph optimization (PGO) is fundamental to robot perception and navigation systems, serving as the mathematical backbone for solving simultaneous localization and mapping (SLAM). Existing solvers suffer from polynomial growth in …",
+      "url": "https://arxiv.org/pdf/2601.15684"
+    },
+    {
+      "title": "Hankel tensor correlation analysis coupled with total variation regularization for sparse data reconstruction in magnetic field sensing systems",
+      "authors": "H Liu, Q He, Y Sun, S Chen, H Dong, Z Liu, X Hu - IEEE Sensors Journal, 2026",
+      "abstract": "As crucial spatio-temporal observation data, the geomagnetic field exhibits significant application value for earthquake precursor monitoring and space weather forecasting. However, practical geomagnetic observations are frequently …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11351322/"
+    },
+    {
+      "title": "Lightweight Multi-Dilated Transformer for Image Deblurring",
+      "authors": "Z Zhao, Z Tao, J Pan - IEEE Transactions on Neural Networks and Learning …, 2026",
+      "abstract": "Window-based Transformers have achieved promising results in image deblurring. However, their limited ability to capture nonlocal information hinders further improvement in deblurring performance. In this article, we develop an effective multi …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11346026/"
+    },
+    {
+      "title": "Joint Structural Priors and Diversity for Multi-view Subspace Clustering",
+      "authors": "Z Yu, Y Zhang, Z Zhao - Knowledge-Based Systems, 2026",
+      "abstract": "Multi-view subspace clustering (MSC) has attracted considerable attention for its ability to leverage the characteristic information from multi-view data. However, existing methods often have two main limitations. First, they fail to fully exploit the …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705126000602"
+    },
+    {
+      "title": "Efficient Beamforming Refinement for Limited Feedback FDD Massive MIMO: An Online Alternating Exploration-Estimation Approach",
+      "authors": "K Li, W Pu, ZQ Luo - IEEE Transactions on Signal Processing, 2025",
+      "abstract": "In current 5G massive multiple-input multiple-output (MIMO) cellular networks, the performance of beamforming hinges critically on the accuracy of downlink channel state information (CSI), particularly in frequency division duplexing (FDD) systems …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11261689/"
+    },
+    {
+      "title": "High-Dimensional Analysis of Gradient Flow for Extensive-Width Quadratic Neural Networks",
+      "authors": "S Martin, G Biroli, F Bach - arXiv preprint arXiv:2601.10483, 2026",
+      "abstract": "We study the high-dimensional training dynamics of a shallow neural network with quadratic activation in a teacher-student setup. We focus on the extensive-width regime, where the teacher and student network widths scale proportionally with the …",
+      "url": "https://arxiv.org/pdf/2601.10483"
+    }
+  ]
+}

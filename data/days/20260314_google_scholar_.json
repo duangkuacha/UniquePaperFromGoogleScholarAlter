@@ -1,0 +1,104 @@
+{
+  "id": "20260314_google_scholar_",
+  "date": "20260314",
+  "source": "historical-import",
+  "messages": 6,
+  "papers": [
+    {
+      "title": "Accelerated Preconditioning Half Thresholding Algorithms for L1/2 Regularization",
+      "authors": "S Su, ZQ Wang - Journal of Computational and Applied Mathematics, 2026",
+      "abstract": "The L 1/2 regularization plays a crucial role in promoting sparsity of the solution in the optimization models. The half thresholding algorithm, which is derived based on the threshold representation theorem, serves as an efficient solver for the non …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042726002256"
+    },
+    {
+      "title": "Scalable LLM Reasoning Acceleration with Low-rank Distillation",
+      "authors": "H Dong, B Acun, B Chen, Y Chi - The Third Conference on Parsimony and Learning …",
+      "abstract": "Due to long generations, large language model (LLM) math reasoning demands significant computational resources and time. While many existing efficient inference methods have been developed with excellent performance preservation on …",
+      "url": "https://openreview.net/pdf?id=VPLVS6htID"
+    },
+    {
+      "title": "Model Predictive Control with Differentiable World Models for Offline Reinforcement Learning",
+      "authors": "R Deb, SJ Wright, A Banerjee - ICLR 2026 the 2nd Workshop on World Models …",
+      "abstract": "Offline Reinforcement Learning (RL) aims to learn optimal policies from fixed offline datasets, without further interactions with the environment. Such methods train an offline policy (or value function), and apply it at inference time without further …",
+      "url": "https://openreview.net/forum?id=KqKyK9lLZI"
+    },
+    {
+      "title": "Universality laws for random matrices via exchangeable pairs",
+      "authors": "JA Tropp - arXiv preprint arXiv:2603.05803, 2026",
+      "abstract": "Recently, Brailovskaya & van Handel (GAFA, 2024) established a suite of nonasymptotic universality laws which demonstrate that the spectral statistics of an independent sum of random matrices mirror the spectral statistics of a Gaussian …",
+      "url": "https://arxiv.org/pdf/2603.05803"
+    },
+    {
+      "title": "Feed m Birds with One Scone: Accelerating Multi-task Gradient Balancing via Bi-level Optimization",
+      "authors": "X Chen, Y He, J Xu, M Huang, X Liu, B Liu, F Tian… - arXiv preprint arXiv …, 2026",
+      "abstract": "In machine learning, the goal of multi-task learning (MTL) is to optimize multiple objectives together. Recent works, for example, Multiple Gradient Descent Algorithm (MGDA) and its variants, show promising results with dynamically adjusted weights for different tasks to mitigate conflicts that may potentially degrade the performance on certain tasks. Despite the empirical success of MGDA-type methods, one major limitation of such methods is their computational inefficiency, as they require access …",
+      "url": "https://arxiv.org/pdf/2603.07389"
+    },
+    {
+      "title": "Compressed Proximal Federated Learning for Non-Convex Composite Optimization on Heterogeneous Data",
+      "authors": "P Qiu, C Ouyang, Y Xiong, K You, W Liu, Y Shi - arXiv preprint arXiv:2603.07654, 2026",
+      "abstract": "Federated Composite Optimization (FCO) has emerged as a promising framework for training models with structural constraints (eg, sparsity) in distributed edge networks. However, simultaneously achieving communication efficiency and convergence robustness remains a significant challenge, particularly when dealing with non-smooth regularizers, statistical heterogeneity, and the restrictions of biased compression. To address these issues, we propose FedCEF (Federated Composite …",
+      "url": "https://arxiv.org/pdf/2603.07654"
+    },
+    {
+      "title": "A Gauss-Newton Method with No Additional PDE Solves Beyond Gradient Evaluation for Large-Scale PDE-Constrained Inverse Problems",
+      "authors": "C Cherry, SW Fung, L Tenorio, E Bozdağ - arXiv preprint arXiv:2603.06899, 2026",
+      "abstract": "Partial Differential Equation (PDE)-constrained optimization problems often take the form of an optimization of an objective function given as a sum of loss terms. Each function or gradient evaluation requires one or more PDE solves, which render these problems computationally demanding. While Gauss-Newton methods are well-suited for large-scale PDE-constrained optimization, their application to settings such as Full-Waveform Inversion (FWI) is hindered by the need for additional PDE solves to …",
+      "url": "https://arxiv.org/pdf/2603.06899"
+    },
+    {
+      "title": "A Distributed Method for Cooperative Transaction Cost Mitigation",
+      "authors": "N Devanathan, L Bell, D Rueter, S Boyd - arXiv preprint arXiv:2603.07881, 2026",
+      "abstract": "Funds at large portfolio management firms may consist of many portfolio managers (PMs), each managing a portion of the fund and optimizing a distinct objective. Although the PMs determine their trades independently, the trade lists may be netted and executed by the firm. These net trades may be sufficiently large to impact the market prices, so the PMs may realize prices on their trades that are different from the observed midpoint price of the assets before execution. These transaction costs …",
+      "url": "https://arxiv.org/pdf/2603.07881"
+    },
+    {
+      "title": "Accurate, Provable, and Fast Polychromatic Tomographic Reconstruction: A Variational Inequality Approach",
+      "authors": "M Lou, K Verchand, S Fridovich-Keil, A Pananjady - SIAM Journal on Imaging …, 2026",
+      "abstract": "We consider the problem of signal reconstruction for computed tomography (CT) given a nonlinear forward model that accounts for exponential signal attenuation, a polychromatic X-ray source, general measurement noise (eg, Poisson shot noise), and observations acquired over multiple wavelength windows. We develop a simple iterative algorithm for single-material reconstruction, which we call EXACT (EXtragradient Algorithm for Computed Tomography), based on formulating our …",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/25M1742242"
+    },
+    {
+      "title": "Joint Design of Transmit Waveform and Receive Filter via ADMM-SFRS",
+      "authors": "MM Omati, SM Karbasi, A Amini - Signal Processing, 2026",
+      "abstract": "In this paper, we investigate a design method to improve the signal-to-interference-plus-noise ratio (SINR) for an extended target in the presence of signal-dependent interference, while maintaining an energy constraint on the signal. We assume partial knowledge of the target impulse response (TIR), which lies within a predefined uncertainty set, thus addressing a worst-case scenario. Additionally, we impose the constant modulus constraint on the transmit code, which is crucial for …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S016516842600068X"
+    },
+    {
+      "title": "Outlier-robust Autocovariance Least Square Estimation via Iteratively Reweighted Least Square",
+      "authors": "J Li, F Deng - arXiv preprint arXiv:2603.08158, 2026",
+      "abstract": "The autocovariance least squares (ALS) method is a computationally efficient approach for estimating noise covariances in Kalman filters without requiring specific noise models. However, conventional ALS and its variants rely on the classic least mean squares (LMS) criterion, making them highly sensitive to measurement outliers and prone to severe performance degradation. To overcome this limitation, this paper proposes a novel outlier-robust ALS algorithm, termed ALS-IRLS, based on …",
+      "url": "https://arxiv.org/pdf/2603.08158"
+    },
+    {
+      "title": "Loopless Proximal Riemannian Gradient EXTRA for Distributed Optimization on Compact Manifolds",
+      "authors": "Y Xiong, C Ouyang, K You, Y Shi, L Wu - arXiv preprint arXiv:2603.08367, 2026",
+      "abstract": "Distributed optimization has gained substantial interest in recent years due to its wide applications in machine learning. However, most of existing algorithms are designed for Euclidean spaces, leaving composite optimization on Riemannian manifolds largely unexplored. To bridge this gap, we propose the proximal Riemannian gradient EXTRA algorithm (PR-EXTRA) to solve distributed composite optimization problem with nonsmooth regularizer over compact manifolds. In each …",
+      "url": "https://arxiv.org/pdf/2603.08367"
+    },
+    {
+      "title": "Breaking the Bias Barrier in Concave Multi-Objective Reinforcement Learning",
+      "authors": "S Ganesh, V Aggarwal - arXiv preprint arXiv:2603.08518, 2026",
+      "abstract": "While standard reinforcement learning optimizes a single reward signal, many applications require optimizing a nonlinear utility $ f (J_1^\\pi,\\dots, J_M^\\pi) $ over multiple objectives, where each $ J_m^\\pi $ denotes the expected discounted return of a distinct reward function. A common approach is concave scalarization, which captures important trade-offs such as fairness and risk sensitivity. However, nonlinear scalarization introduces a fundamental challenge for policy gradient …",
+      "url": "https://arxiv.org/pdf/2603.08518"
+    },
+    {
+      "title": "This Looks Distinctly Like That: Grounding Interpretable Recognition in Stiefel Geometry against Neural Collapse",
+      "authors": "J Jia, J Wang, Y Liu, H Jing, Y Wu, X Wu, Y Zheng - arXiv preprint arXiv:2603.08374, 2026",
+      "abstract": "Prototype networks provide an intrinsic case based explanation mechanism, but their interpretability is often undermined by prototype collapse, where multiple prototypes degenerate to highly redundant evidence. We attribute this failure mode to the terminal dynamics of Neural Collapse, where cross entropy optimization suppresses intra class variance and drives class conditional features toward a low dimensional limit. To mitigate this, we propose Adaptive Manifold Prototypes (AMP), a framework …",
+      "url": "https://arxiv.org/pdf/2603.08374"
+    },
+    {
+      "title": "A two-step scoring model incorporating visceral-to-subcutaneous fat ratio and systemic immunoinflammatory index for predicting cytokine release syndrome severity in …",
+      "authors": "M He, L Liu, Z Chen, Y Liu, C Liu, M Ma, J Li, B Dong… - Cancer immunology …, 2026",
+      "abstract": "Cytokine release syndrome (CRS) greatly impacts survival in patients who undergo chimeric antigen receptor (CAR)-T cell therapy, and the identification of its determinants is still challenging. We analysed the impact of systemic …",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41801430/"
+    },
+    {
+      "title": "The Popov's Algorithm with Optimal Bounded Stepsize for Generalized Monotone Variational Inequalities",
+      "authors": "NH Nguyen, TQ Trinh, PT Vuong - arXiv preprint arXiv:2603.06442, 2026",
+      "abstract": "For solving constrained (pseudo)-monotone variational inequality, we prove that the upper bound of stepsize $\\frac {1}{2L} $ established for the Popov's algorithm and the forward-reflected-backward algorithm is tight. For unconstrained case, we can …",
+      "url": "https://arxiv.org/pdf/2603.06442"
+    }
+  ]
+}

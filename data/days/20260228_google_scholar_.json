@@ -1,0 +1,122 @@
+{
+  "id": "20260228_google_scholar_",
+  "date": "20260228",
+  "source": "historical-import",
+  "messages": 8,
+  "papers": [
+    {
+      "title": "New Theoretical Results for LAD-Based Sparse Recovery Using Expanders",
+      "authors": "CZ Wang, R Gong, P Li, H Ge, MK Ng - IEEE Transactions on Information Theory, 2026",
+      "abstract": "This paper studies sparse recovery using expander graphs in the context of the noisy linear model b= Ax0+ e, where x0∈ R n is an (approximately) sparse signal and A∈{0, 1} m× n is a measurement matrix derived from the biadjacency matrix of a …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11397399/"
+    },
+    {
+      "title": "Improved Analysis of Restarted Accelerated Gradient and Augmented Lagrangian Methods via Inexact Proximal Point Frameworks",
+      "authors": "MX Burns, J Liang - arXiv preprint arXiv:2602.17878, 2026",
+      "abstract": "This paper studies a class of double-loop (inner-outer) algorithms for convex composite optimization. For unconstrained problems, we develop a restarted accelerated composite gradient method that attains the optimal first-order complexity …",
+      "url": "https://arxiv.org/pdf/2602.17878"
+    },
+    {
+      "title": "Multi-view Contrastive Learning with Tensor Low-Rank Factorization for Integrated Clustering",
+      "authors": "Q Miao, J Wang, T Deng, M Yang - IEEE Signal Processing Letters, 2026",
+      "abstract": "Existing multi-view clustering methods often separate feature learning from clustering, leading to suboptimal preservation of global structure and increased reliance on heuristic post-processing. Recently risen tensor-based approaches …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11391654/"
+    },
+    {
+      "title": "Vectorial Total Symmetric Variation and Applications to Color Image Decomposition",
+      "authors": "RY He, M Huska, H Liu - 2026",
+      "abstract": "Image decomposition, which separates an image into distinct structural and textural components, underlies many fundamental tasks such as image denoising and cartoonization. A key challenge in this area lies in the effective separation of textures …",
+      "url": "https://www.researchsquare.com/article/rs-8748803/latest.pdf"
+    },
+    {
+      "title": "Robust Quaternion Matrix Completion via Fast Randomized Low‐Rank Approximation",
+      "authors": "H Ren, XY Xu - Numerical Linear Algebra with Applications, 2026",
+      "abstract": "Robust quaternion matrix completion (RQMC), which aims to recover clean data from data that is both incomplete and corrupted by noise, has recently attracted extensive attention in the fields of image and signal processing. This problem can be iteratively …",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/nla.70066"
+    },
+    {
+      "title": "Boosting Learning Efficiency in Few-Shot Tasks With Layer-Adaptive PID Control",
+      "authors": "P Zhang, X Li, L Yu, Z Zhang, F Dunkin, H Liu, Z Li - IEEE Transactions on Pattern …, 2026",
+      "abstract": "Few-shot learning seeks to recognize novel classes from limited examples. Model-agnostic meta-learning (MAML), known for its simplicity and flexibility, learns an effective initialization for fast adaptation in data-scarce settings. However, MAML-based methods face challenges when there is a significant distributional shift between training and testing tasks, leading to inefficient learning and poor generalization across domains. In this work, we identify the core issues: inflexible …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11391555/"
+    },
+    {
+      "title": "Fed-GTopK: Expediting In-Network Federated Learning by Transmitting Global Top Model Updates",
+      "authors": "X Su, Y Zhou, L Cui, S Guo, J Liu - IEEE Transactions on Networking, 2026",
+      "abstract": "Recently, federated learning (FL) has gained momentum because of its capability in preserving data privacy. To conduct model training by FL, multiple clients exchange model updates with a parameter server over the Internet. To accelerate the communication speed, it has been explored to deploy a programmable switch (PS) in lieu of the parameter server to coordinate clients. The challenge to deploy the PS in FL lies in its scarce memory space, prohibiting running memory consuming …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11398401/"
+    },
+    {
+      "title": "Event-Triggered Gossip for Distributed Learning",
+      "authors": "Z Zhai, X Yuan, W Ni, X Wang, R Zhang, GY Li - arXiv preprint arXiv:2602.19116, 2026",
+      "abstract": "While distributed learning offers a new learning paradigm for distributed network with no central coordination, it is constrained by communication bottleneck between nodes. We develop a new event-triggered gossip framework for distributed learning to reduce inter-node communication overhead. The framework introduces an adaptive communication control mechanism that enables each node to autonomously decide in a fully decentralized fashion when to exchange model …",
+      "url": "https://arxiv.org/pdf/2602.19116"
+    },
+    {
+      "title": "Local Second-Order Limit Dynamics of the Alternating Direction Method of Multipliers for Semidefinite Programming",
+      "authors": "S Kang, H Yang - arXiv preprint arXiv:2602.20103, 2026",
+      "abstract": "The alternating direction method of multipliers (ADMM) is widely used for solving large-scale semidefinite programs (SDPs), yet on instances with multiple primal--dual optimal solution pairs, it often enters prolonged slow-convergence regions where the Karush--Kuhn--Tucker (KKT) residuals nearly stall. To explain and predict the fine-grained dynamical behavior inside these regions, we develop a local second-order limit dynamics framework for ADMM near an arbitrary KKT point--not …",
+      "url": "https://arxiv.org/pdf/2602.20103"
+    },
+    {
+      "title": "Smoothing-Enabled Randomized Stochastic Gradient Schemes for Solving Nonconvex Nonsmooth Potential Games under Uncertainty",
+      "authors": "Z Xiao - arXiv preprint arXiv:2602.19325, 2026",
+      "abstract": "The state of the art in solving nonconvex nonsmooth games under uncertainty remains in its infancy. Existing studies primarily rely on stringent growth conditions or local convexity-like properties, making the development of alternative algorithms desirable. In this work, we study a class of stochastic $ N $-player noncooperative games characterized by a potential function. We first consider the nonconvex smooth setting and develop a randomized stochastic gradient (RSG) scheme. The RSG …",
+      "url": "https://arxiv.org/pdf/2602.19325"
+    },
+    {
+      "title": "Revisiting the Seasonal Trend Decomposition for Enhanced Time Series Forecasting",
+      "authors": "S Panta, X Yuan, L Chen, NF Tzeng - arXiv preprint arXiv:2602.18465, 2026",
+      "abstract": "Time series forecasting presents significant challenges in real-world applications across various domains. Building upon the decomposition of the time series, we enhance the architecture of machine learning models for better multivariate time series forecasting. To achieve this, we focus on the trend and seasonal components individually and investigate solutions to predict them with less errors. Recognizing that reversible instance normalization is effective only for the trend component, we …",
+      "url": "https://arxiv.org/pdf/2602.18465"
+    },
+    {
+      "title": "Deep LoRA-Unfolding Networks for Image Restoration",
+      "authors": "X Wang, H Zeng, B Sun, J Cao, K Zhang, Q Shen… - IEEE Transactions on Image …, 2026",
+      "abstract": "Deep unfolding networks (DUNs), combining conventional iterative optimization algorithms and deep neural networks into a multi-stage framework, have achieved remarkable accomplishments in Image Restoration (IR), such as spectral imaging reconstruction, compressive sensing and super-resolution. It unfolds the iterative optimization steps into a stack of sequentially linked blocks. Each block consists of a Gradient Descent Module (GDM) and a Proximal Mapping Module (PMM) which is …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11391488/"
+    },
+    {
+      "title": "A hybrid adaptive preconditioned gradient method with momentum for deep learning",
+      "authors": "Z Zhou, H Zhang, Z Chen - Neural Networks, 2026",
+      "abstract": "Deep neural networks are typically trained using stochastic optimization methods, which leverage approximate gradient information to update network parameters. While first-order optimizers are prevalent in this field, the potential of second-order gradient methods for faster convergence is well-recognized. However, the application of traditional second-order optimization algorithms in deep learning is hindered by significant per-step overhead. In this paper, we introduce a novel …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608026002200"
+    },
+    {
+      "title": "Nonconvex Distributed Composite Optimization With Coupled Inequality Constraints",
+      "authors": "K Du, M Meng, X Li, K You - IEEE Transactions on Cybernetics, 2026",
+      "abstract": "This article focuses on nonconvex distributed composite optimization over time-varying multiagent networks, where each agent possesses a local objective function, composed of a nonconvex and smooth function plus a nonsmooth function. The network aims to minimize the sum of all local functions subject to local set constraints and global nonconvex coupled inequality constraints. The inherent nonconvex and nonlinear characteristics of the objective and constraint functions pose formidable …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11400587/"
+    },
+    {
+      "title": "Resource Allocation for Heterogeneous Services in Satellite-Terrestrial IoT Networks With Multi-Access Edge Computing",
+      "authors": "F Yin, Q Liu, M Chen, Y Hu, L Jin, S Li - IEEE Transactions on Wireless …, 2026",
+      "abstract": "To address the challenges of Internet of Things (IoT) device diversity and media service heterogeneity in human and machine-type communications, a predominant approach in sixth-generation (6G) networks and beyond is to serve diversified IoT devices by differentiated services. In this paper, a satellite-terrestrial IoT framework with multi-access edge computing (MEC) is investigated for two types of heterogeneous services, data-intensive and computation-intensive service. In our …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11397141/"
+    },
+    {
+      "title": "Variational Sufficiency and Solution Stability in Optimization",
+      "authors": "M Benko, RT Rockafellar - arXiv preprint arXiv:2602.18796, 2026",
+      "abstract": "Variational stability, in the sense of local good behavior of optimal values and solutions in problems of optimization under shifts in parameters, is important not only for validating model robustness in practical applications but also for confidence of …",
+      "url": "https://arxiv.org/pdf/2602.18796"
+    },
+    {
+      "title": "Sparse Dictionary-Based Solution of Dynamic Inverse Problems",
+      "authors": "A Mason-Mackay, D Calvetti, E Somersalo, A Aarnio… - arXiv preprint arXiv …, 2026",
+      "abstract": "In ill-posed dynamic inverse problems expected spatial features and temporal correlation between frames can be leveraged to improve the quality of the computed solution, in particular when the available data are limited and the dimensionality of …",
+      "url": "https://arxiv.org/pdf/2602.18593"
+    },
+    {
+      "title": "IDLM: Inverse-distilled Diffusion Language Models",
+      "authors": "D Li, N Gushchin, D Abulkhanov, E Moulines… - arXiv preprint arXiv …, 2026",
+      "abstract": "Diffusion Language Models (DLMs) have recently achieved strong results in text generation. However, their multi-step sampling leads to slow inference, limiting practical use. To address this, we extend Inverse Distillation, a technique originally …",
+      "url": "https://arxiv.org/pdf/2602.19066"
+    },
+    {
+      "title": "Voronoi Conditional Gradient Method for Constrained Nonconvex Optimization",
+      "authors": "A Khademi",
+      "abstract": "Abstract The Conditional Gradient method offers a computationally efficient, projection-free framework for constrained problems; however, in nonconvex settings it may converge to stationary points of low quality. We propose the Voronoi …",
+      "url": "https://optimization-online.org/wp-content/uploads/2026/02/Voronoi_Conditional_Gradient.pdf"
+    }
+  ]
+}

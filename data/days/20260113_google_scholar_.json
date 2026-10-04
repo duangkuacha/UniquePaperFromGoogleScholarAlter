@@ -1,0 +1,92 @@
+{
+  "id": "20260113_google_scholar_",
+  "date": "20260113",
+  "source": "historical-import",
+  "messages": 5,
+  "papers": [
+    {
+      "title": "Adaptive regularization parameter adjustment for total variation denoising",
+      "authors": "D Lv, T Li, P Yang, C Zhang, J Li - Signal Processing, 2026",
+      "abstract": "Total variation denoising has been extensively used in the restoration of piecewise constant signals, which are highly valued in numerous practical applications. However, existing approaches often struggle with the choice of regularization …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165168426000083"
+    },
+    {
+      "title": "Guided Variational Network for Image Decomposition",
+      "authors": "A Lanza, S Morigi, Y Wen, L Yang - arXiv preprint arXiv:2601.04999, 2026",
+      "abstract": "Cartoon-texture image decomposition is a critical preprocessing problem bottlenecked by the numerical intractability of classical variational or optimization models and the tedious manual tuning of global regularization parameters. We …",
+      "url": "https://arxiv.org/pdf/2601.04999"
+    },
+    {
+      "title": "Space-Time Parallel Methods for Linear Elastodynamics",
+      "authors": "S Chaillat, M Darbas, MJ Gander, L Halpern",
+      "abstract": "We are interested in solving numerically in parallel linear elastodynamics problems, ie, the movement of a linear isotropic elastic solid in R�,�= 2 or 3. Elastodynamics is widely used for example to simulate seismic waves in large scale domains. In …",
+      "url": "https://www.ddm.org/DD28/proceedings/DD28_255.pdf"
+    },
+    {
+      "title": "SCALER: Synthetic Scalable Adaptive Learning Environment for Reasoning",
+      "authors": "C Xu, C Xiao, Z Peng, X Wang, Y Cao - arXiv preprint arXiv:2601.04809, 2026",
+      "abstract": "Reinforcement learning (RL) offers a principled way to enhance the reasoning capabilities of large language models, yet its effectiveness hinges on training signals that remain informative as models evolve. In practice, RL progress often slows when task difficulty becomes poorly aligned with model capability, or when training is dominated by a narrow set of recurring problem patterns. To jointly address these issues, we propose SCALER (Synthetic sCalable Adaptive Learning Environment for …",
+      "url": "https://arxiv.org/pdf/2601.04809"
+    },
+    {
+      "title": "ConMax: Confidence-Maximizing Compression for Efficient Chain-of-Thought Reasoning",
+      "authors": "M Hu, Z Qiu, Z Xu, K Li, B Zhou, I King - arXiv preprint arXiv:2601.04973, 2026",
+      "abstract": "Recent breakthroughs in Large Reasoning Models (LRMs) have demonstrated that extensive Chain-of-Thought (CoT) generation is critical for enabling intricate cognitive behaviors, such as self-verification and backtracking, to solve complex tasks. However, this capability often leads to``overthinking'', where models generate redundant reasoning paths that inflate computational costs without improving accuracy. While Supervised Fine-Tuning (SFT) on reasoning traces is a standard …",
+      "url": "https://arxiv.org/pdf/2601.04973"
+    },
+    {
+      "title": "A General Neural Backbone for Mixed-Integer Linear Optimization via Dual Attention",
+      "authors": "P Huang, Y Wu, Y Ma, C Wu, W Song, W Zhang - arXiv preprint arXiv:2601.04509, 2026",
+      "abstract": "Mixed-integer linear programming (MILP), a widely used modeling framework for combinatorial optimization, are central to many scientific and engineering applications, yet remains computationally challenging at scale. Recent advances in deep learning address this challenge by representing MILP instances as variable-constraint bipartite graphs and applying graph neural networks (GNNs) to extract latent structural patterns and enhance solver efficiency. However, this architecture is …",
+      "url": "https://arxiv.org/pdf/2601.04509"
+    },
+    {
+      "title": "Dealing with information-uncertainty: Insights from a predatory trading game",
+      "authors": "TJ Herzing - Finance Research Letters, 2026",
+      "abstract": "We develop a predatory trading model with fixed beliefs about the permissible strategy sets of market participants. These sets reflect individual trading constraints and capture the inherently uncertain informational environment of financial markets. Uncertainty arises when the trading volume of a distressed player is unknown and must be inferred from limited information, allowing us to analyze the costs of informational frictions, such as misinformation or fake news. We show how actual …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1544612326000309"
+    },
+    {
+      "title": "Prior-Informed Zeroth-Order Optimization with Adaptive Direction Alignment for Memory-Efficient LLM Fine-Tuning",
+      "authors": "F Jin, S Cen, Y Tan - arXiv preprint arXiv:2601.04710, 2026",
+      "abstract": "Fine-tuning large language models (LLMs) has achieved remarkable success across various NLP tasks, but the substantial memory overhead during backpropagation remains a critical bottleneck, especially as model scales grow. Zeroth-order (ZO) optimization alleviates this issue by estimating gradients through forward passes and Gaussian sampling, avoiding the need for backpropagation. However, conventional ZO methods suffer from high variance in gradient estimation due to their reliance on …",
+      "url": "https://arxiv.org/pdf/2601.04710"
+    },
+    {
+      "title": "Grouping-enhanced personalization for federated recommendation",
+      "authors": "L Shen, A Li, X Liu, R Xia, B Yang - Information Processing & Management, 2026",
+      "abstract": "Federated recommendation applies federated learning to recommender systems. The key challenge is how to provide personalized recommendations to clients under privacy constraints and mitigate heterogeneity. Existing methods have several limitations: First, graph convolution tends to over-smooth as training rounds increase, reducing personalization. Second, their frameworks introduce extra parameters, causing high computational and communication costs. To this end, we propose the …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306457325005400"
+    },
+    {
+      "title": "A capacity renting framework for shared energy storage considering peer-to-peer energy trading among prosumers with privacy protection",
+      "authors": "Y Sun, L Chen, Y Chen, M Tang, S Mei - Applied Energy, 2026",
+      "abstract": "Shared energy storage systems (ESS) present a promising solution to the temporal imbalance between energy generation from renewable distributed generators (DGs) and the power demands of prosumers. However, as DG penetration rates rise, spatial energy imbalances become increasingly significant, necessitating the integration of peer-to-peer (P2P) energy trading within the shared ESS framework. Two key challenges emerge in this context: the absence of effective mechanisms and …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306261926000206"
+    },
+    {
+      "title": "LVFUS: Vertical Federated Unlearning for Intelligent Network Security via Adaptive Optimizer Switching",
+      "authors": "X Tang, X Hong, M Gan, Y Lin, T Zhang, J Duan, L Zhu - IEEE Transactions on …, 2025",
+      "abstract": "In next generation intelligent networks, security analytics increasingly span feature-partitioned data silos and cross-organizational boundaries, thereby elevating compliance with the “right to be forgotten” to a first-order design requirement while maintaining noncentralized data governance. Vertical Federated Unlearning (VFU) has emerged as a promising solution to “the right to be forgotten” of Vertical Federated Learning, which allows participants to erase their data from global models …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11269670/"
+    },
+    {
+      "title": "Fully Distributed and Fast Optimization Approaches for AC-DC Radial Distribution Networks with Dynamic Load and DER Response",
+      "authors": "MS Hasan, MMUT Chowdhury, S Paul, A Sharma… - IEEE Transactions on …, 2025",
+      "abstract": "This paper addresses the computational challenges posed by integrating massive distributed energy resources (DERs) into evolving AC-DC distribution networks. As conventional centralized optimization approaches struggle to handle the increased complexity at the grid edge, we propose an Alternating Direction Method of Multipliers (ADMM)-based consensus approach for a fully distributed active power loss minimization strategy based on second-order conic programming (SOCP). Then …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11263932/"
+    },
+    {
+      "title": "Optimization on the Quaternion Stiefel Manifold with Applications—Part II: L1-QPCA",
+      "authors": "Y Wang, Y Yang - Journal of Optimization Theory and Applications, 2026",
+      "abstract": "This work, with its two parts, aims at Riemannian optimization on the quaternion Stiefel manifold. Relevant geometric tools have been presented in the first part, while this part demonstrates the applications of the derived tools. To this end, we first propose the model of ℓ 1-norm based quaternion principal component analysis. It is a robustness improvement of the ℓ 2-norm quaternion principal component analysis, which is to alleviate its sensitivity to outliers. The proposed model is formulated as a …",
+      "url": "https://link.springer.com/article/10.1007/s10957-025-02910-2"
+    },
+    {
+      "title": "Sum of Squares Decompositions and Rank Bounds for Biquadratic Forms",
+      "authors": "L Qi, C Cui, Y Yu - arXiv preprint arXiv:2601.04965, 2026",
+      "abstract": "We study positive semi-definite (PSD) biquadratic forms and their sum-of-squares (SOS) representations. For the class of partially symmetric biquadratic forms, we establish necessary and sufficient conditions for positive semi-definiteness and …",
+      "url": "https://arxiv.org/pdf/2601.04965"
+    }
+  ]
+}

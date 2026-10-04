@@ -1,0 +1,50 @@
+{
+  "id": "20250929_google_scholar_",
+  "date": "20250929",
+  "source": "historical-import",
+  "messages": 5,
+  "papers": [
+    {
+      "title": "Zeroth-order Kronecker optimization for pretraining lan-guage models",
+      "authors": "N Allaire, S Le Digabel, D Orban, VP Nia - Les Cahiers du GERAD ISSN, 2025",
+      "abstract": "Training language models (LMs) under tight GPU memory budgets rules out standard back-propagation and motivates zeroth-order (ZO) optimization. While ZO methods have proven effective for fine-tuning, their potential during the more memory-intensive pretraining stage has received little attention. We first revisit the singular-value spectra of layer gradients during pretraining and show that the gradient information is spread across many directions; low-rank ZO methods therefore …",
+      "url": "https://www.gerad.ca/fr/papers/G-2025-44.pdf"
+    },
+    {
+      "title": "Generalized Nonnegative Structured Kruskal Tensor Regression",
+      "authors": "X Wang, E Ollila, SA Vorobyov, A Mian - arXiv preprint arXiv:2509.19900, 2025",
+      "abstract": "This paper introduces Generalized Nonnegative Structured Kruskal Tensor Regression (NS-KTR), a novel tensor regression framework that enhances interpretability and performance through mode-specific hybrid regularization and nonnegativity constraints. Our approach accommodates both linear and logistic regression formulations for diverse response variables while addressing the structural heterogeneity inherent in multidimensional tensor data. We integrate fused …",
+      "url": "https://arxiv.org/pdf/2509.19900"
+    },
+    {
+      "title": "Advanced Optimal Transport Strategies for Efficient Computation and Reduced Order Modeling in Complex Systems",
+      "authors": "M Khamlich - 2025",
+      "abstract": "The simulation of complex systems has become a pillar of modern scientific discoveries, allowing researchers to access and investigate scenarios that are impossible or impractical to obtain from classical experiments. Commonly, these models are described by partial differential equations (PDEs), that encode the physical knowledge about the problem at hand. However, such simulations often involve unbearable computational costs, dictated by the necessity to use a high …",
+      "url": "https://iris.sissa.it/bitstream/20.500.11767/147930/1/KhamlichMoaadThesis.pdf"
+    },
+    {
+      "title": "Time-frequency domain prior constrained deep unfolding network for low-dose CT reconstruction",
+      "authors": "X Zhang, X Zhang, X Li, Z Ali, Y Wang, H Shangguan… - Journal of X-Ray Science …, 2025",
+      "abstract": "Background: Low-dose computed tomography (LDCT) effectively reduces the risk of malignant disease; however, reducing the radiation dose introduces additional noise and stripe artifacts in the CT imaging process. While Convolutional Neural Networks (CNN) have demonstrated performance advantages in LDCT imaging tasks, their end-to-end network architecture limits adaptability to CT reconstruction tasks, leaving room for further performance improvement. Objective: To propose a low-dose CT …",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/08953996251319187"
+    },
+    {
+      "title": "Inconsistent tensor-tensor product for low-rank tensor factorization",
+      "authors": "S Liu, XL Zhao, Q Jiang - Applied Mathematics Letters, 2025",
+      "abstract": "The tensor-tensor product (t-product) is a fundamental operation in tensor decomposition, enabling effective modeling of interactions between third-order tensors. However, the classical t-product is restricted by the fact that the two factors …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893965925003209"
+    },
+    {
+      "title": "Separable hierarchical priors applied to analysis of synergies in human locomotion",
+      "authors": "D Calvetti, AN Arnold, AP Hoover, G Davico… - Philosophical Transactions …, 2025",
+      "abstract": "It has been hypothesized that during a motion task the central nervous system controls the skeletal muscles partitioning them into synergetic groups, hence effectively reducing the dimensionality of the control problem. The identification of …",
+      "url": "https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2024.0055"
+    },
+    {
+      "title": "A Unified Noise-Curvature View of Loss of Trainability",
+      "authors": "GS Baveja, M Schmidt - arXiv preprint arXiv:2509.19698, 2025",
+      "abstract": "Loss of trainability (LoT) in continual learning occurs when gradient steps no longer yield improvement as tasks evolve, so accuracy stalls or degrades despite adequate capacity and supervision. We analyze LoT incurred with Adam through an …",
+      "url": "https://arxiv.org/pdf/2509.19698"
+    }
+  ]
+}

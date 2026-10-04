@@ -1,0 +1,128 @@
+{
+  "id": "20250908_google_scholar_",
+  "date": "20250908",
+  "source": "historical-import",
+  "messages": 8,
+  "papers": [
+    {
+      "title": "Sharp-Peak Functions for Exactly Penalizing Binary Integer Programming",
+      "authors": "S Zhou, S Li, H Zhang, Z Luo - arXiv preprint arXiv:2509.00895, 2025",
+      "abstract": "Unconstrained binary integer programming (UBIP) is a challenging optimization problem due to the presence of binary variables. To address the challenge, we introduce a novel class of functions named sharp-peak functions (SPFs), which …",
+      "url": "https://arxiv.org/pdf/2509.00895"
+    },
+    {
+      "title": "Semidefinite-Programming-Based Network Code for Ring-Topological Decentralized Federated Learning",
+      "authors": "J Chen, CW Sung - IEEE Communications Letters, 2025",
+      "abstract": "This paper examines the decentralized stochastic gradient descent algorithm for federated learning over a wireless ring network, where each device connects to its 2n adjacent devices, termed n-tier coverage. Given this topology, the consensus coefficients, or mixing matrix, can be optimized via semidefinite programming (SDP). By employing network coding, the learning topology can be densified without additional communication costs, introducing linear constraints to the uncoded …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11145777/"
+    },
+    {
+      "title": "A Survey of Communication Optimization in Distributed Training",
+      "authors": "J Yan, H Tu, J Zhu, T Zou, S Li, W Nie - 2025 International Conference on Artificial …, 2025",
+      "abstract": "With the increasing scale of deep neural network models, distributed training has become the mainstream approach for accelerating large-scale model training. However, frequent parameter synchronization and intensive communication among large GPU clusters introduce considerable overhead, which has become a critical bottleneck limiting both training efficiency and system scalability. To address this challenge, this paper systematically reviews communication optimization strategies …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11139179/"
+    },
+    {
+      "title": "Lyapunov analyses for first-order methods: Theory, automation, and algorithm design",
+      "authors": "M Upadhyaya - 2025",
+      "abstract": "This thesis, comprising four research papers, contributes to the field of systematic and computer-aided analyses and design of first-order methods. The first two papers focus on developing new methodologies, while the remaining two apply these techniques to refine complexity and convergence results, as well as to design new methods. A central theme of the work is the use of Lyapunov-type analyses, a structured proof technique with historical roots in the study of dynamical systems …",
+      "url": "https://lup.lub.lu.se/search/files/226456919/thesis.pdf"
+    },
+    {
+      "title": "ML–augmented CFD–framework for heat-sink and fan-speed optimization in gaming workstation",
+      "authors": "S Pathak, A Luitel, AA Pasha, DSK Reddy, S Algarni… - International Journal of …, 2025",
+      "abstract": "This study presents a system-level CFD-based modeling and optimization of a 328 W gaming workstation's GPU cooling system. A multi-objective Particle Swarm Optimization (MOPSO) algorithm is employed to minimize the maximum GPU temperature (T GPU) and the total cooling-system cost (C total). Design variables include longitudinal fin count NL∈[10, 70], transverse fin count NT∈[10, 45], fin shape S fin∈{Cylindrical, Frustum, Square}, heat-sink material M hs∈{Al, Cu, SiC} …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0020740325008343"
+    },
+    {
+      "title": "Learnable Loss Geometries with Mirror Descent for Scalable and Convergent Meta-Learning",
+      "authors": "Y Zhang, B Li, GB Giannakis - arXiv preprint arXiv:2509.02418, 2025",
+      "abstract": "Utilizing task-invariant knowledge acquired from related tasks as prior information, meta-learning offers a principled approach to learning a new task with limited data records. Sample-efficient adaptation of this prior information is a major challenge facing meta-learning, and plays an important role because it facilitates training the sought task-specific model with just a few optimization steps. Past works deal with this challenge through preconditioning that speeds up convergence of the per-task …",
+      "url": "https://arxiv.org/pdf/2509.02418"
+    },
+    {
+      "title": "Deep Unfolding with Approximated Computations for Rapid Optimization",
+      "authors": "D Avrahami, A Milstein, C Chaux, T Routtenberg… - arXiv preprint arXiv …, 2025",
+      "abstract": "Optimization-based solvers play a central role in a wide range of signal processing and communication tasks. However, their applicability in latency-sensitive systems is limited by the sequential nature of iterative methods and the high computational cost per iteration. While deep unfolding has emerged as a powerful paradigm for converting iterative algorithms into learned models that operate with a fixed number of iterations, it does not inherently address the cost of each iteration. In this paper, we …",
+      "url": "https://arxiv.org/pdf/2509.00782"
+    },
+    {
+      "title": "Day-Ahead Solar Irradiance Forecasting using Multi-Scale Data Fusion with Adaptive Kolmogorov-Arnold Network",
+      "authors": "J Liua, F Yangb, C Wanga, Y Duc, K Yana",
+      "abstract": "Accurate solar irradiance forecasting is essential for efficient photovoltaic power generation, optimal energy management, and stabilized power grid operations. Due to the intermittency of solar irradiance data, existing methods face challenges to deliver satisfactory forecasting results, highlighting the requirement for more advanced forecasting techniques to support sustainable, resilient applied energy systems. This paper presents a day-ahead multi-step solar irradiance forecasting …",
+      "url": "https://www.researchgate.net/profile/Ke-Yan-34/publication/393433330_Multi-scale_data_fusion_and_adaptiveLoss_Kolmogorov-Arnold_network_for_multivariate_time_series_forecasting/links/68a2d66c7984e374ace95e4b/Multi-Scale-Data-Fusion-and-AdaptiveLoss-Kolmogorov-Arnold-Network-for-multivariate-time-series-forecasting.pdf"
+    },
+    {
+      "title": "Accelerated primal–dual methods for strongly convex objective functions in continuous and discrete time",
+      "authors": "X He, D He, YP Fang - Automatica, 2026",
+      "abstract": "In this paper, we introduce a “second-order primal”+“first-order dual” continuous-time dynamic for linearly constrained optimization problems, where the objective function is μ-strongly convex. We consider a constant damping 2 μ for the second-order ordinary differential equation in the primal variable, following Nesterov's acceleration for strongly convex optimization. A positive constant scaling is applied to the primal variable, while a positive increasing scaling function is applied to the dual variable …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0005109825004741"
+    },
+    {
+      "title": "Stabilizing RED using the Koopman Operator",
+      "authors": "S Chavan, KN Chaudhury - IEEE Signal Processing Letters, 2025",
+      "abstract": "The widely used RED (Regularization-by-Denoising) framework uses pretrained denoisers as implicit regularizers for model-based reconstruction. Although RED generally yields high-fidelity reconstructions, the use of black-box denoisers can sometimes lead to instability. In this letter, we propose a data-driven mechanism to stabilize RED using the Koopman operator, a classical tool for analyzing dynamical systems. Specifically, we use the operator to capture the local dynamics of RED in a …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11145758/"
+    },
+    {
+      "title": "Quasi-Newton L-BFGS based inexact primal–dual proximal point algorithms to solve nonsmooth convex composite programs for sparse signal recovery applications",
+      "authors": "Y Yu, C Wang - Journal of Computational and Applied Mathematics, 2025",
+      "abstract": "In this work, we first propose a new inexact primal–dual proximal point algorithm (iPDPPA) for solving a general nonsmooth convex composite model with three focuses on the basis pursuit, the quadratically constrained ℓ 1-minimization and the Dantzig selector in the context of compressive sensing. We then prove its global convergence and discuss its convergence rate in some cases. We also prove that the objective function in the first subproblem of the proposed scheme is strongly convex …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042725005564"
+    },
+    {
+      "title": "Taming the Chaos of Computational Experiments",
+      "authors": "TG Kolda - Collections, 2025",
+      "abstract": "Today's computational experiments form the basis of scientific simulations and data analysis methods that will fuel future scientific advancements, engineering-based designs and evaluations, government policy decisions, and much more. For this …",
+      "url": "https://www.siam.org/publications/siam-news/articles/taming-the-chaos-of-computational-experiments/"
+    },
+    {
+      "title": "Compact R-Continuity with Applications to Solving Inclusions and Convergence of Algorithms",
+      "authors": "BK Le, BS Mordukhovich, MA Thera - arXiv preprint arXiv:2509.01872, 2025",
+      "abstract": "This paper investigates the notion of compact R-continuity and its specifications for set-valued mappings between Banach spaces. We reveal several important properties of compact R-continuity in general settings and show that in finite …",
+      "url": "https://arxiv.org/pdf/2509.01872"
+    },
+    {
+      "title": "Faster Linear Algebra Algorithms with Structured Random Matrices",
+      "authors": "C Camaño, EN Epperly, RA Meyer, JA Tropp - arXiv preprint arXiv:2508.21189, 2025",
+      "abstract": "To achieve the greatest possible speed, practitioners regularly implement randomized algorithms for low-rank approximation and least-squares regression with structured dimension reduction maps. Despite significant research effort, basic …",
+      "url": "https://arxiv.org/pdf/2508.21189"
+    },
+    {
+      "title": "Active-Set Identification in Noisy and Stochastic Optimization",
+      "authors": "FE Curtis, DP Robinson, L Zebiane - arXiv preprint arXiv:2509.00888, 2025",
+      "abstract": "Identifying active constraints from a point near an optimal solution is important both theoretically and practically in constrained continuous optimization, as it can help identify optimal Lagrange multipliers and essentially reduces an inequality …",
+      "url": "https://arxiv.org/pdf/2509.00888"
+    },
+    {
+      "title": "Edge-Preserving Image Smoothing Based on Local Structure Reconstruction",
+      "authors": "J Long, K Zhang, S Chen, Y Liu, Q Luo - Journal of Visual Communication and Image …, 2025",
+      "abstract": "Edge-preserving filters serve as a fundamental component in computational photography and computer vision. Traditional filtering methods are generally classified into local and global approaches; however, the lack of full integration …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1047320325001919"
+    },
+    {
+      "title": "A robust framework for medical hyperspectral image dimensionality reduction based on tensor Low-Rank manifold embedding",
+      "authors": "M Zhu, W Ge, H Gao, X Sun - Optics & Laser Technology, 2025",
+      "abstract": "Hyperspectral imaging has emerged as a promising tool in intelligent medical diagnostics due to its ability to capture rich spatial and spectral information. However, the high dimensionality of hyperspectral data introduces redundancy and …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0030399225013337"
+    },
+    {
+      "title": "Accelerated Proximal Dogleg Majorization for Sparse Regularized Quadratic Optimization Problem",
+      "authors": "F Zhao, Q Wang, M Ding, Z Peng - arXiv preprint arXiv:2509.00504, 2025",
+      "abstract": "This paper addresses the problems of minimizing the sum of a quadratic function and a proximal-friendly nonconvex nonsmooth function. While the existing Proximal Dogleg Opportunistic Majorization (PDOM) algorithm for these problems offers …",
+      "url": "https://arxiv.org/pdf/2509.00504"
+    },
+    {
+      "title": "SS^ 3L: Self-Supervised Spectral-Spatial Subspace Learning for Hyperspectral Image Denoising",
+      "authors": "Y Wu, D Liu, J Zhang - 2025",
+      "abstract": "Hyperspectral imaging (HSI) systems often suffer from complex noise degradation during the imaging process, significantly impacting downstream applications. Deep learning-based methods, though effective, rely on impractical paired training data …",
+      "url": "https://www.preprints.org/frontend/manuscript/29c637f7a7f2eeed2d8e4935215f32f9/download_pub"
+    },
+    {
+      "title": "Multi-focus image fusion based on re-parameterized large kernel convolution and edge information fusion: Q. Li et al.",
+      "authors": "Q Li, H Zhai, Y Yang, X Sun, L Wang - Multimedia Systems, 2025",
+      "abstract": "Multi-focus image fusion aims to improve visual performance by integrating critical features from multiple images to create high-quality images with increased resolution and finer details, thereby enhancing overall visual perception. However, most of the …",
+      "url": "https://link.springer.com/article/10.1007/s00530-025-01903-5"
+    }
+  ]
+}

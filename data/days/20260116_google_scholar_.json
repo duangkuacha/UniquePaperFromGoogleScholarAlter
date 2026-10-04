@@ -1,0 +1,122 @@
+{
+  "id": "20260116_google_scholar_",
+  "date": "20260116",
+  "source": "historical-import",
+  "messages": 9,
+  "papers": [
+    {
+      "title": "Adaptive fractional-order primal-dual image denoising algorithm based on Lq quasi-norm",
+      "authors": "S Bi, M Li, G Cai - Journal of Computational and Applied Mathematics, 2026",
+      "abstract": "This study proposes a nonconvex fractional-order variational model for Gaussian noise removal, and a corresponding solution method is designed based on the primal-dual algorithm. Due to the significant advantages of combining the nonconvex …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S037704272600018X"
+    },
+    {
+      "title": "Fast and Provable Nonconvex Robust Matrix Completion",
+      "authors": "Y Fu, T Wang, K Wei - arXiv preprint arXiv:2601.07355, 2026",
+      "abstract": "This paper studies the robust matrix completion problem and a computationally efficient non-convex method called ARMC has been proposed. This method is developed by introducing subspace projection to a singular value thresholding …",
+      "url": "https://arxiv.org/pdf/2601.07355"
+    },
+    {
+      "title": "Beyond Single-GPU: Scaling PDLP to Distributed Multi-GPU Systems",
+      "authors": "H Li, Y Huang, H Liu, D Ge, Y Ye - arXiv preprint arXiv:2601.07628, 2026",
+      "abstract": "In this work, we present a distributed implementation of the Primal-Dual Hybrid Gradient (PDHG) algorithm for solving massive-scale linear programming (LP) problems. Although PDHG-based solvers have shown strong performance on single …",
+      "url": "https://arxiv.org/pdf/2601.07628"
+    },
+    {
+      "title": "An Efficient Evolutionary Algorithm for Few-for-Many Optimization",
+      "authors": "K Shang, H Ishibuchi, Z Zhu, Q Zhang - arXiv preprint arXiv:2601.06387, 2026",
+      "abstract": "Few-for-many (F4M) optimization, recently introduced as a novel paradigm in multi-objective optimization, aims to find a small set of solutions that effectively handle a large number of conflicting objectives. Unlike traditional many-objective optimization methods, which typically attempt comprehensive coverage of the Pareto front, F4M optimization emphasizes finding a small representative solution set to efficiently address high-dimensional objective spaces. Motivated by the computational …",
+      "url": "https://arxiv.org/pdf/2601.06387"
+    },
+    {
+      "title": "Learning to accelerate Krasnosel'skii-Mann fixed-point iterations with guarantees",
+      "authors": "A Martin, G Belgioioso - arXiv preprint arXiv:2601.07665, 2026",
+      "abstract": "We introduce a principled learning to optimize (L2O) framework for solving fixed-point problems involving general nonexpansive mappings. Our idea is to deliberately inject summable perturbations into a standard Krasnosel'skii-Mann iteration to improve its average-case performance over a specific distribution of problems while retaining its convergence guarantees. Under a metric sub-regularity assumption, we prove that the proposed parametrization includes only iterations that locally achieve …",
+      "url": "https://arxiv.org/pdf/2601.07665"
+    },
+    {
+      "title": "Hi-ZFO: Hierarchical Zeroth-and First-Order LLM Fine-Tuning via Importance-Guided Tensor Selection",
+      "authors": "F Jin, Y Tan - arXiv preprint arXiv:2601.05501, 2026",
+      "abstract": "Fine-tuning large language models (LLMs) using standard first-order (FO) optimization often drives training toward sharp, poorly generalizing minima. Conversely, zeroth-order (ZO) methods offer stronger exploratory behavior without relying on explicit gradients, yet suffer from slow convergence. More critically, our analysis reveals that in generative tasks, the vast output and search space significantly amplify estimation variance, rendering ZO methods both noisy and …",
+      "url": "https://arxiv.org/pdf/2601.05501"
+    },
+    {
+      "title": "FTdasc: A Frequency-Time Domain Approach with Stationarity Correction for Multivariate Time Series Forecasting",
+      "authors": "F Hao, X Zhang, Y Liu, Y Sun, H Wang, L Yang… - Expert Systems with …, 2026",
+      "abstract": "Predicting future trends based on historical data is essential in real-world applications such as industrial energy planning and urban Traffic planning. However, due to the inherent complexity of real-world data, it often exhibits non-stationary, making it difficult for models to capture latent features and leading to a decline in forecasting performance. In this study, FTdasc is proposed to address this challenge. FTdasc combines frequency-and time-domain information for decomposition …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417426000783"
+    },
+    {
+      "title": "Distributed Online Adaptive Algorithm With Quantized Communication",
+      "authors": "K Yamamoto, N Hayashi, M Inuiguchi - International Journal of Robust and Nonlinear …, 2026",
+      "abstract": "This paper proposes a distributed online optimization algorithm for multiagent networks where communication is limited to quantized data. Each agent converts its current estimate of the optimal strategy into a quantized value through a uniform quantizer. These quantized values are then sent to neighboring agents. After receiving the quantized data from neighbors, each agent reconstructs real‐valued estimates by applying a decoding process. Using this decoded information, the agent …",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.70373"
+    },
+    {
+      "title": "Hyperparameter Optimization Method for Affine Projection Algorithm Based on Deep Unrolling",
+      "authors": "X Hou, H Zhao, X Long - IEEE Signal Processing Letters, 2025",
+      "abstract": "In this letter, we propose a hyperparameter optimization method for adaptive filtering based on deep unrolling, termed the deep unrolling affine projection (DAP) algorithm. The core idea is to reformulate the iterative structure of the traditional affine projection (AP) algorithm as a multilayer neural network, where each layer corresponds to one iteration and the step size is treated as a trainable parameter. These parameters are optimized through end-to-end supervised learning to enhance …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11271860/"
+    },
+    {
+      "title": "A Communication-Efficient Distributed Algorithm for Online Monitoring in Big Data Systems",
+      "authors": "M Yu, W Zhao, F Tsung - IISE Transactions, 2026",
+      "abstract": "In the era of big data, the vast amounts of available information pose significant challenges to traditional monitoring algorithms. The sheer volume of data often results in its distribution across multiple machines, making full communication between these data points impractical due to prohibitive costs or privacy concerns. To address these challenges in constructing online monitoring statistics, we propose a communication-efficient distributed algorithm. Specifically, this algorithm transfers …",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/24725854.2026.2613448"
+    },
+    {
+      "title": "Self-Creating Random Walks for Decentralized Learning under Pac-Man Attacks",
+      "authors": "X Chen, P Parag, R Bhagat, SE Rouayheb - arXiv preprint arXiv:2601.07674, 2026",
+      "abstract": "Random walk (RW)-based algorithms have long been popular in distributed systems due to low overheads and scalability, with recent growing applications in decentralized learning. However, their reliance on local interactions makes them inherently vulnerable to malicious behavior. In this work, we investigate an adversarial threat that we term the``Pac-Man''attack, in which a malicious node probabilistically terminates any RW that visits it. This stealthy behavior gradually …",
+      "url": "https://arxiv.org/pdf/2601.07674"
+    },
+    {
+      "title": "Near-Optimal Private Linear Regression via Iterative Hessian Mixing",
+      "authors": "O Lev, M Shenfeld, V Srinivasan, K Ligett, AC Wilson - arXiv preprint arXiv …, 2026",
+      "abstract": "We study differentially private ordinary least squares (DP-OLS) with bounded data. The dominant approach, adaptive sufficient-statistics perturbation (AdaSSP), adds an adaptively chosen perturbation to the sufficient statistics, namely, the matrix $ X^{\\top} X $ and the vector $ X^{\\top} Y $, and is known to achieve near-optimal accuracy and to have strong empirical performance. In contrast, methods that rely on Gaussian-sketching, which ensure differential privacy by pre-multiplying the data …",
+      "url": "https://arxiv.org/pdf/2601.07545"
+    },
+    {
+      "title": "A First Course in Sparse Optimization",
+      "authors": "J Lu - arXiv preprint arXiv:2601.06173, 2026",
+      "abstract": "This article aims to provide a comprehensive overview of sparse optimization, with a focus on both sparse signal recovery and sparse regularization techniques. We will begin by exploring the foundations of sparse optimization, delving into the mathematical tools and models that underpin sparse signal recovery and LASSO. We will then discuss key algorithms for both sparse recovery (eg, basis pursuit, matching pursuit) and sparse regularization (eg, LASSO, elastic net), along with their …",
+      "url": "https://arxiv.org/pdf/2601.06173"
+    },
+    {
+      "title": "A novel catalyst scheme for stochastic minimax optimization: G. Lan, Y. Li",
+      "authors": "G Lan, Y Li - Mathematical Programming, 2026",
+      "abstract": "This paper presents a proximal-point-based catalyst scheme for simple first-order methods applied to convex minimization and convex-concave minimax problems. In particular, for smooth and (strongly)-convex minimization problems, the proposed …",
+      "url": "https://link.springer.com/article/10.1007/s10107-025-02309-x"
+    },
+    {
+      "title": "Stochastic algorithms for large-scale composite optimization: the case of likelihood maximization for X-FEL imaging: DR Luke et al.",
+      "authors": "DR Luke, S Schultze, H Grubmüller - Mathematical Programming, 2026",
+      "abstract": "We apply a recently developed framework for analyzing the convergence of stochastic algorithms to the general problem of large-scale nonconvex composite optimization more generally, and nonconvex likelihood maximization in particular …",
+      "url": "https://link.springer.com/article/10.1007/s10107-025-02319-9"
+    },
+    {
+      "title": "Inexact DC Algorithms in Hilbert Spaces with Applications to PDE-Constrained Optimization",
+      "authors": "PD Khanh, VVH Khoa, BS Mordukhovich, DB Tran… - arXiv preprint arXiv …, 2026",
+      "abstract": "In this paper, we design and apply novel inexact adaptive algorithms to deal with minimizing difference-of-convex (DC) functions in Hilbert spaces. We first introduce I-ADCA, an inexact adaptive counterpart of the well-recognized DCA (difference-of …",
+      "url": "https://arxiv.org/pdf/2601.06622"
+    },
+    {
+      "title": "The optimal error analysis of nonuniform L1 method for the variable-exponent subdiffusion model",
+      "authors": "W Qiu, K Li, Y Li, H Zhang - arXiv preprint arXiv:2601.06773, 2026",
+      "abstract": "This work investigates the optimal error estimate of the fully discrete scheme for the variable-exponent subdiffusion model under the nonuniform temporal mesh. We apply the perturbation method to reformulate the original model into its equivalent …",
+      "url": "https://arxiv.org/pdf/2601.06773"
+    },
+    {
+      "title": "Enhancing Low-resolution Image Representation Through Normalizing Flows",
+      "authors": "C Bao, T Pang, Z Shen, D Zheng, Y Zou - arXiv preprint arXiv:2601.06834, 2026",
+      "abstract": "Low-resolution image representation is a special form of sparse representation that retains only low-frequency information while discarding high-frequency components. This property reduces storage and transmission costs and benefits various image …",
+      "url": "https://arxiv.org/pdf/2601.06834"
+    },
+    {
+      "title": "Convergence Rate Analysis of the AdamW-Style Shampoo: Unifying One-sided and Two-Sided Preconditioning",
+      "authors": "H Li, Y Dong, Z Lin - arXiv preprint arXiv:2601.07326, 2026",
+      "abstract": "This paper studies the AdamW-style Shampoo optimizer, an effective implementation of classical Shampoo that notably won the external tuning track of the AlgoPerf neural network training algorithm competition. Our analysis unifies one-sided and …",
+      "url": "https://arxiv.org/pdf/2601.07326"
+    }
+  ]
+}

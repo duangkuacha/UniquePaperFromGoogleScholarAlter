@@ -1,0 +1,80 @@
+{
+  "id": "20260508_google_scholar_",
+  "date": "20260508",
+  "source": "historical-import",
+  "messages": 6,
+  "papers": [
+    {
+      "title": "Modern methods for quadratic programming",
+      "authors": "NIM Gould - Landscapes in Mathematical Sciences",
+      "abstract": "In this talk I shall review the important advances in quadratic programming-the optimization of a quadratic function of many variables within a polyhedral feasible region-that have occurred since its inception in the late 1940s. I will consider both the …",
+      "url": "https://epubs.stfc.ac.uk/work/66083"
+    },
+    {
+      "title": "Hyperspectral Image Denoising Based on Tensor Models",
+      "authors": "YB Zheng, JL Wang, XL Zhao - Machine‐Learning‐Based Hyperspectral Image …, 2026",
+      "abstract": "Hyperspectral image (HSI) reconstruction refers to the process of restoring high‐quality images from degraded versions affected by noise and information loss, which is crucial for accurate analysis in various applications. The key aspect of HSI …",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781394267880.ch3"
+    },
+    {
+      "title": "Gradient Normalization Enables Communication-Efficient Distributed Learning under Initialization Data Heterogeneity",
+      "authors": "T Sun, B Wu, X Liu, K Yuan - IEEE Transactions on Pattern Analysis and Machine …, 2026",
+      "abstract": "Communication-efficient distributed learning has achieved remarkable progress in training large-scale deep neural networks across numerous clients. However, in heterogeneous environments-where local data distributions vary significantly-the empirical performance of many such algorithms degrades sharply. Moreover, existing theoretical analyses often depend on overly restrictive assumptions, such as bounded data heterogeneity, which may not be valid even for a single client. In this …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11503442/"
+    },
+    {
+      "title": "Low-complexity reconstruction of low-dose spectral CT via double low-rank tensor factorization with adaptive transforms",
+      "authors": "C Liu, T Wu, H Wang, D Hu, B Zhang, J Wang - Medical Image Analysis, 2026",
+      "abstract": "Spectral computed tomography (CT) is a medical imaging technology that provides doctors with more detailed and accurate imaging information by synchronously collecting multi-energy X-ray data and analyzing the absorption characteristics of matter in different energy ranges. However, insufficient photon counts in each energy bin can cause significant noise in the reconstructed image, especially under low-dose conditions. This paper proposes a sparse-view spectral CT reconstruction …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S136184152600188X"
+    },
+    {
+      "title": "Environment-Aware Enhanced Distributed Target Localization in UWOSNs with Unknown Path Loss Exponent and Heavy-Tailed Noise",
+      "authors": "Y Chai, J Xian, Y Zhang, H Wu, X Chen, X Mei… - IEEE Internet of Things …, 2026",
+      "abstract": "Underwater Wireless Optical Sensor Networks (UWOSNs) have emerged as a promising technology for ocean monitoring and submerged communications. However, precise target localization in UWOSNs remains challenging because underwater optical channels suffer from absorption, scattering, severe path loss, and heavy-tailed measurement disturbances. To address these issues, this paper proposes an environment-aware robust distributed target localization framework …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11503231/"
+    },
+    {
+      "title": "Joint Low-Rank and Smooth Tensor Regularization for Multispectral and Hyperspectral Image Fusion",
+      "authors": "F Li, Z Zeng, Y Liang, M Tang, S Zhang, H Hu, J Li - IEEE Transactions on Geoscience …, 2026",
+      "abstract": "The fusion of multispectral and hyperspectral images has become an essential technique for generating images with simultaneously high spatial and spectral resolutions. However, this task is inherently an ill-posed inverse problem, and its solution typically relies on incorporating prior knowledge to constrain the search space. Conventional approaches often adopt an additive combination of low-rankness and smoothness priors (eg, minimization of nuclear norm and total …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11503666/"
+    },
+    {
+      "title": "Variance-Reduced Distributed Adaptive Stochastic Gradient Tracking for Nonconvex Optimization over Directed Networks",
+      "authors": "Y Li, Z Huang, S Deng, Q Lü, D Xia, H Li - Digital Signal Processing, 2026",
+      "abstract": "This work focuses on distributed stochastic nonconvex optimization over directed networks, where each agent possesses a local objective function represented as the average of multiple component functions. Agents collaborate with neighboring nodes to minimize the sum of all local objective costs across the network. While significant progress has been made in the field of distributed stochastic optimization, existing algorithms rarely achieve both accelerated convergence performance and reduced …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1051200426003350"
+    },
+    {
+      "title": "Multi-prior Compressed Sensing for Single-Pixel Imaging by Weighted Adaptive Feature Fusion and High-capacity Sparse Priors",
+      "authors": "J Yin, J Wu, Q Yan, Y Cui, Z Wen, S Huang - IEEE Sensors Journal, 2026",
+      "abstract": "Deep unfolding networks have been proven to be an effective solution for fast and high-quality image reconstruction in the field of single-pixel imaging. However, current methods still face two main challenges. First, the sparse prior capacity is limited. Second, they do not fully exploit the complex relationships between different features. This paper proposes MPDU-Net+, a novel multi-prior deep unfolding network, which introduces sparse efficient non-local module and denoising efficient …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11503838/"
+    },
+    {
+      "title": "A non-smooth spatial regularization with improved ADMM technique for image deblurring",
+      "authors": "A Nachaoui, F Jauberteau, A Laghrib, M Nachaoui - Optimization and Engineering, 2026",
+      "abstract": "This paper introduces a novel variational framework for image deblurring that leverages a spatially adaptive coupling of regularization terms. The proposed model integrates an edge-adaptive Total Variation (TV) with a non-convex\\(L_1/L_2\\) gradient-based ratio through a unified spatio-structural mechanism. This hybrid approach enables a flexible diffusion process that effectively suppresses noise in homogeneous regions while mitigating over-smoothing near discontinuities. To solve …",
+      "url": "https://link.springer.com/article/10.1007/s11081-026-10096-3"
+    },
+    {
+      "title": "GVA-FL: A Value-Aware Adaptive Framework for Federated Learning in High-Mobility Vehicular Edge Computing",
+      "authors": "J Liu, Y Yang, J Deng, M Liang, J Huang - 2026 5th International Conference on …, 2026",
+      "abstract": "Federated learning (FL) enables privacy-preserving distributed training in vehicular edge computing (VEC) by sharing model parameters instead of raw data. However, high vehicle mobility creates a fundamental challenge: vehicles must balance local training quality against timely upload completion within short and unpredictable communication windows. Existing solutions typically employ static transmission policies that fail to adapt to dynamic resource availability. This paper proposes …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11485140/"
+    },
+    {
+      "title": "Nine-Grid Segmentation Strategy for Photoacoustic Imaging of Microcirculation Oxygenation Dynamics in the Thenar Muscle",
+      "authors": "Z Qu, C Mai, B Ouyang, L Wang, X Li - Photoacoustics, 2026",
+      "abstract": "Microcirculatory dysfunction is central to the pathophysiology of diseases such as sepsis, diabetes, and cardiovascular disorders. While clinical tools like near-infrared spectroscopy (NIRS) and transcutaneous oxygen monitoring (TcPO₂) offer global …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S221359792600042X"
+    },
+    {
+      "title": "Differentiable latent structure discovery for interpretable forecasting in clinical time series",
+      "authors": "I Lerner, J Feydy, A Kalimouttou, A Burgun, F Bach - arXiv preprint arXiv:2604.27967, 2026",
+      "abstract": "Background: Timely, uncertainty-aware forecasting from irregular electronic health records (EHR) can support critical-care decisions, yet most approaches either impute to a grid or sacrifice interpretability. We introduce StructGP, a continuous-time multi …",
+      "url": "https://arxiv.org/pdf/2604.27967"
+    }
+  ]
+}

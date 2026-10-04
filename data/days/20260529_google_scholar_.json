@@ -1,0 +1,86 @@
+{
+  "id": "20260529_google_scholar_",
+  "date": "20260529",
+  "source": "historical-import",
+  "messages": 4,
+  "papers": [
+    {
+      "title": "A conditional-gradient-based single-loop augmented Lagrangian method for inequality constrained optimization",
+      "authors": "X Wang, TK Pong, Z Woodstock - arXiv preprint arXiv:2605.22539, 2026",
+      "abstract": "We consider the problem of minimizing the sum of a Lipschitz differentiable convex function $ f $ and a proper closed convex function $ h $ that admits efficient linear minimization oracles, subject to multiple smooth convex inequality constraints. We …",
+      "url": "https://arxiv.org/pdf/2605.22539"
+    },
+    {
+      "title": "Impacts of Foresight Among Competitive Groundwater Users: An investigation through Receding Horizon Games",
+      "authors": "L Chanfreau, S Hall, K Wallington, M Müller, J Lygeros - 2026",
+      "abstract": "Groundwater is a shared (common-pool) resource and, as such, is vulnerable to individual users making decisions that benefit themselves but degrade the aggregate welfare of all users. However, past theoretical and empirical studies have shown …",
+      "url": "https://meetingorganizer.copernicus.org/EGU26/EGU26-12690.html"
+    },
+    {
+      "title": "Tackling Discrete Operational Decisions in Distributed Power Scheduling With Regulation Resources: A Convergent Two-Stage Distributed Method via Convex Hull",
+      "authors": "C Mu, T Ding, Y Xiao, W Jia, Y Wang, J Zhang - IEEE Transactions on Industrial …, 2026",
+      "abstract": "Distributed power scheduling with discrete operational decisions of regulation resources, such as distributed generators, is naturally formulated as a mixed-integer linear programming (MILP), whose inherent nonconvexity poses challenges to the convergence of distributed optimization algorithms, such as the alternating direction method of multipliers (ADMM). To address this challenge, this article proposes a two-stage distributed solution framework via convex hulls. First, the original MILP is …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11534338/"
+    },
+    {
+      "title": "Securing Medical AI: Adversarial Attack Detection and Mitigation in CAD Systems",
+      "authors": "N Joseph, SN George, K Raja - IEEE Transactions on Emerging Topics in …, 2026",
+      "abstract": "Frequency-constrained adversarial attacks introduce imperceptible, high-frequency distortions that undermine the reliability and safety of AI-assisted medical diagnostics, posing a serious challenge to trust and resilience in socially-interactive, human-AI healthcare systems. To address this, we introduce Sentinel, a pioneering framework that detects, classifies, and mitigates adversarial attacks in medical image analysis without requiring training or model specificity. Sentinel integrates a …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11533469/"
+    },
+    {
+      "title": "Collaborative Block-Term Tensor Decomposition and Its Application to Image Processing",
+      "authors": "H Zhang, XL Zhao, J Pan, KW Guo, J Zhang - IEEE Transactions on Signal …, 2026",
+      "abstract": "The rank-(L, M, N) block-term tensor decomposition (termed as BTD for convenience), which decomposes a tensor into a summation of multiple block-terms, has shown promise in multidimensional signal processing. However, in realworld applications, different components of a tensor usually have common and individual structures (eg, shared dictionaries and individual coefficients), while BTD neglects the common structures across different components. Moreover, the corresponding …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11534124/"
+    },
+    {
+      "title": "Robust hybrid binary level set model for image segmentation with severe intensity inhomogeneity and high noise",
+      "authors": "C Chang, H Lv - IEEE Access, 2026",
+      "abstract": "The level set model (LSM) is a classical approach for image segmentation. While global region-based LSMs struggle with intensity inhomogeneity, local region-based methods, though effective in handling it, are highly sensitive to noise, often yielding unsatisfactory results for highly noisy images. To overcome this drawback, this paper proposes a robust hybrid binary LSM capable of segmenting images affected by both severe intensity inhomogeneity and high noise. A pre-bias field correction …",
+      "url": "https://ieeexplore.ieee.org/iel8/6287639/6514899/11534233.pdf"
+    },
+    {
+      "title": "Three‐variable symmetric alternating direction method of multipliers for non‐separable convex optimization",
+      "authors": "P Xie, J Chen, L Cheng, J Wang - Asian Journal of Control, 2026",
+      "abstract": "Convex optimization plays a fundamental role in many fields, and the Alternating Direction Method of Multipliers (ADMM) has demonstrated remarkable efficacy in solving two‐block separable problems. However, extending ADMM to more complex scenarios faces two distinct theoretical hurdles: The potential divergence of direct multi‐block extensions (n⩾ 3 n\\geqslant 3) even under strictly separable conditions, and the limitations of conventional variants in handling non‐separable objective …",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/asjc.70174"
+    },
+    {
+      "title": "Efficient Chebyshev-optimized ADMM algorithm for image restoration using Nesterov acceleration",
+      "authors": "N Kumar, G Bhatnagar - Inverse Problems, 2026",
+      "abstract": "In this paper, we propose a non-convex total variation (TV) image restoration model based on the hyper-Laplacian gradient prior. The proposed model enhances sparsity while preserving image edges. The regularization term is defined as a linear combination of the ℓp quasi-norm and the squared ℓ2 norm. It also balances the sparsity promotion in the image gradients and the smoothness in the restored image. We develop an efficient numerical algorithm using the alternating direction method of …",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-6420/ae7239/meta"
+    },
+    {
+      "title": "Design and Channel Estimation in T-RIS Assisted mmWave MIMO Systems",
+      "authors": "M Naamani - 2025",
+      "abstract": "Avec l'avancement rapide des technologies de communication sans fil, les systèmes MIMO à ondes millimétriques (mmWave) sont apparus comme une solution prometteuse pour répondre à la demande croissante en débits élevés, en efficacité spectrale et en connectivité fiable. Dans ce contexte, les surfaces intelligentes reconfigurables (RIS) ont suscité un vif intérêt en raison de leur capacité à manipuler intelligemment l'environnement de propagation, améliorant ainsi les performances …",
+      "url": "https://theses.hal.science/tel-05630296/document"
+    },
+    {
+      "title": "Model-Aware Deep Learning Methods for Image Denoising and Reconstruction Filtered Plug-and-Play Algorithm and Lidar Denoising",
+      "authors": "DBF Ehmer - 2026",
+      "abstract": "This dissertation develops model-aware transformation strategies for improving image recovery in inverse problems and domain-specific denoising tasks. In modern imaging, iterative reconstruction methods often rely on deep neural networks for noise removal, but their performance can degrade when the measurement process alters the structure of the noise. To address this limitation, we propose the Filtered Iterative Denoising Algorithm (FIDA), an operator-aware modification to standard …",
+      "url": "https://search.proquest.com/openview/7802cab2b2c70798a6d764985a27be19/1?pq-origsite=gscholar&cbl=18750&diss=y"
+    },
+    {
+      "title": "Linearized Tensor Low-rank Convolutional Network",
+      "authors": "Q Shen, Z Liu, H Wang, Y Liang, Y Chen, S Wang - IEEE Transactions on Artificial …, 2026",
+      "abstract": "To balance deep learning performance and interpretability, convolutional sparse coding (CSC) has successfully incorporated differentiable optimization layers in place of the standard convolutional layers of traditional deep neural networks (DNN) …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11533453/"
+    },
+    {
+      "title": "Log-Reparameterized Diffusion Priors for Blind Radial Defocus Deblurring",
+      "authors": "C Wang, G Li, Y Hu, T Kamiya - IEEE Transactions on Computational Imaging, 2026",
+      "abstract": "Radial defocus blur—a pervasive degradation in optical systems—exhibits spatially-variant patterns where blur intensity increases monotonically from center to periphery due to spherical aberration and field curvature. While common in systems, existing …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11533457/"
+    },
+    {
+      "title": "Exact Tensor Completion Beyond Isotropy and Invertibility",
+      "authors": "L Ge, L Chen, Y Chen, X Jiang",
+      "abstract": "In this work, a tensor completion problem is studied, which aims to perfectly recover the tensor from partial observations. The existing theoretical guarantee requires the involved transform to be orthogonal, which hinders its applications. In this paper …",
+      "url": "https://openreview.net/pdf?id=Rb2dWYN229"
+    }
+  ]
+}

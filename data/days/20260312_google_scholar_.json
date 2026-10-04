@@ -1,0 +1,80 @@
+{
+  "id": "20260312_google_scholar_",
+  "date": "20260312",
+  "source": "historical-import",
+  "messages": 4,
+  "papers": [
+    {
+      "title": "Information-Theoretic Unsupervised\\Embedding Quality Evaluation",
+      "authors": "M Kuznetsov, I Butakov, M Munkhoeva, A Frolov… - ICLR 2026 Workshop on …",
+      "abstract": "This study revisits existing unsupervised measures of embedding quality and introduces new metrics rooted in Information Theory. We establish that classical spectral metrics such as rank, effective rank, and NESum form a unified family of …",
+      "url": "https://openreview.net/forum?id=EwaNoLlEXT"
+    },
+    {
+      "title": "A Variational Estimator for $ L_p $ Calibration Errors",
+      "authors": "E Berta, S Braun, D Holzmüller, F Bach, MI Jordan - arXiv preprint arXiv:2602.24230, 2026",
+      "abstract": "Calibration $\\unicode {x2014} $ the problem of ensuring that predicted probabilities align with observed class frequencies $\\unicode {x2014} $ is a basic desideratum for reliable prediction with machine learning systems. Calibration error is traditionally …",
+      "url": "https://arxiv.org/pdf/2602.24230"
+    },
+    {
+      "title": "Nonlinear Transformed Low-Rank Quaternion Tensor Total Variation for Multidimensional Color Image Completion",
+      "authors": "L Yang, Y Hu, TX Jiang, Y Wei, G Liu, MK Ng - IEEE Transactions on Image …, 2026",
+      "abstract": "Completing multidimensional color images is a fundamental challenge in image processing and computer vision. However, some tensor-based methods often treat RGB channels as independent modes, thereby neglecting their intrinsic correlations …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11421614/"
+    },
+    {
+      "title": "S 2-Differential Feature Awareness Network for Hyperspectral Image Fusion",
+      "authors": "Q Song, S Guo, T Yang, B Sun, R Dian, S Li - IEEE Transactions on Geoscience and …, 2026",
+      "abstract": "The fusion of hyperspectral image (HSI) and multispectral image (MSI) aims to fully exploit the complementary advantages of both modalities to generate high-resolution HSI. However, existing HSI fusion methods fail to fully utilize frequency domain …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11422970/"
+    },
+    {
+      "title": "Tensorized Parameter-free Multi-view Spectral Clustering based on Fair Representation Learning",
+      "authors": "H Wang, Y Chen, M Yao, Q Liu, G Jiang, X Fu - IEEE Transactions on Multimedia, 2026",
+      "abstract": "The Multi-view clustering aims to cluster multi-view data into distinct clusters by exploring consistency and complementary information from different sources. However, most of the existing spectral clustering methods divide samples by similarity relationships, ignoring the higher-order information relationships of the underlying clusters in different views. Meanwhile, the performance of these methods involves the control of multiple hyperparameters, as multiple hyperparameters …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11423878/"
+    },
+    {
+      "title": "Spectral Koopman-Hopf Formula",
+      "authors": "S Sutavani, SSKS Narayanan, U Vaidya - IEEE Control Systems Letters, 2026",
+      "abstract": "We propose a novel spectral Koopman-Hopf (SKH) formula to solve finite-time optimal control problems with input constraints for control-affine nonlinear systems. This method leverages the spectral properties of the Koopman operator to transform state-dependent Hamiltonians, providing an exact viscosity solution under strict assumptions or provable value function bounds in the general case, thereby extending the applicability of the standard Hopf formula. This approach transforms …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11421898/"
+    },
+    {
+      "title": "Edge-Preserving Image Compressed Sensing Reconstruction Method",
+      "authors": "J Wang, C Yuan, Y Peng, Q Yang - IEEE Signal Processing Letters, 2026",
+      "abstract": "To address the issues of edge blurring and texture loss in image compressed sensing (CS) reconstruction, this letter proposes an edge-preserving reconstruction method (EP-CS). Building on the observation that reconstruction errors of the L1-TV model mainly occur in edge regions, EP-CS incorporates an edge detection mechanism to locate key image structures and imposes stronger sparsity constraints on the corresponding wavelet coefficients, thereby embedding edge structural prior …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11422878/"
+    },
+    {
+      "title": "Accelerated Primal–Dual Variational Flows on Convex Cones: A Unified Second-Order Dynamical Framework for Conic Optimization",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel continuous-time optimization framework—cone-constrained accelerated primordial-dual variable divertor. This framework unifies the static cone programming problem and the Nesterovtype accelerated dynamical system on a variable-layered surface. By constructing a time-annealed second-order dynamical system on a cone manifold, it achieves endogenous generation and accelerated convergence of the KKT optimal structure. We prove that the equilibrium …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/401563351_Accelerated_Primal-Dual_Variational_Flows_on_Convex_Cones_A_Unified_Second-Order_Dynamical_Framework_for_Conic_Optimization/links/69a8e08bceb31f79ab237558/Accelerated-Primal-Dual-Variational-Flows-on-Convex-Cones-A-Unified-Second-Order-Dynamical-Framework-for-Conic-Optimization.pdf"
+    },
+    {
+      "title": "Geometric Primal–Dual Bregman Flow on Self-Dual Cones: A Unified Continuous-Time Theory for Cone Programming",
+      "authors": "J Zhang",
+      "abstract": "This paper establishes a novel continuous-time optimization theory—the cone-Bregman geometric flow optimization theory. This theory unifies the algebraic constraint structure of general cone programming and the non-Euclidean dynamical system of Bregman geometric flow under the same geometric framework by constructing strictly convex generating functions within the self-dual cones. This paper proposes the cone-consistent Bregman primal dual flow equation and proves …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/401562490_Geometric_Primal-Dual_Bregman_Flow_on_Self-Dual_Cones_A_Unified_Continuous-Time_Theory_for_Cone_Programming/links/69a8e0c884431b5258b79102/Geometric-Primal-Dual-Bregman-Flow-on-Self-Dual-Cones-A-Unified-Continuous-Time-Theory-for-Cone-Programming.pdf"
+    },
+    {
+      "title": "Stability–Optimality Equivalence in Conic Programming via Lyapunov Monotone Variational Flows",
+      "authors": "J Zhang",
+      "abstract": "This paper establishes a new unified theoretical framework that completely unifies the closed convex cone constrained optimization problem with Lyapunov stability theory at the structural level. Unlike existing methods using projected gradients or primal-dual dynamical systems, this paper, starting from the perspective of variational inequalities, constructs a cone-induced monotone flow equation in Hilbert space, such that the optimal solution set of the cone programming is exactly equal to the …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/401563168_Stability-Optimality_Equivalence_in_Conic_Programming_via_Lyapunov_Monotone_Variational_Flows/links/69a8e16fa91b826e4346e55a/Stability-Optimality-Equivalence-in-Conic-Programming-via-Lyapunov-Monotone-Variational-Flows.pdf"
+    },
+    {
+      "title": "Electrically Controlled Spatial Light Modulator for Ultrawideband Hyperspectral Terahertz Single-Pixel Imaging",
+      "authors": "Y Sun, X Liu, W Ma, C Sun, E Pickwell-MacPherson… - 2026",
+      "abstract": "Terahertz (THz) spectroscopic imaging offers significant potential due to its non-destructive penetration and spectral fingerprinting capabilities. However, existing systems face limitations such as high cost, slow acquisition speed, and limited bandwidth, particularly due to the reliance on non-electrical modulators or expensive detector arrays. Here, we present the first electrically controlled spatial light modulator (SLM) for ultrawideband terahertz hyperspectral single-pixel imaging. Our …",
+      "url": "https://www.researchsquare.com/article/rs-9001286/latest.pdf"
+    },
+    {
+      "title": "Sufficient Dimension Reduction With Orthogonality Constraint Through Manifold Optimization",
+      "authors": "H Wang - 2025",
+      "abstract": "Abstract Sufficient Dimension Reduction (SDR) aims to identify a central subspace (CS), where the projection of predictors onto the subspace retains all information about the response variable without loss of information, thereby achieving dimension reduction. SDR methods typically fall into two main frameworks: the inverse approach and the forward approach. In practice, the basis matrix of the CS is the primary object of interest. The inverse approach naturally fulfills the orthogonality …",
+      "url": "https://search.proquest.com/openview/e65bab15047b2db1d0d438c628b16a36/1?pq-origsite=gscholar&cbl=18750&diss=y"
+    }
+  ]
+}

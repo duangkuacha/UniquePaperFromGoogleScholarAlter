@@ -1,0 +1,92 @@
+{
+  "id": "20260507_google_scholar_",
+  "date": "20260507",
+  "source": "historical-import",
+  "messages": 6,
+  "papers": [
+    {
+      "title": "Flexible GMRES converges in two phases",
+      "authors": "S Güttel, L Nyman - arXiv preprint arXiv:2604.27971, 2026",
+      "abstract": "We derive a sharp upper bound on the residuals produced by the flexible GMRES (FGMRES) method. The bound shows that FGMRES exhibits two phases of convergence depending on the residual tolerance of the inner preconditioner. For …",
+      "url": "https://arxiv.org/pdf/2604.27971"
+    },
+    {
+      "title": "A Contract of Trust: Artificial Intelligence Usage for SIAM Journal Submissions",
+      "authors": "TG Kolda - Collections, 2026",
+      "abstract": "Irresponsible usage of artificial intelligence for scientific literature is growing, often leading to fabricated references and erroneous results. Image courtesy of SIAM. Irresponsible usage of artificial intelligence for scientific literature is growing, often …",
+      "url": "https://www.siam.org/publications/siam-news/articles/a-contract-of-trust-artificial-intelligence-usage-for-siam-journal-submissions/"
+    },
+    {
+      "title": "Nonsmooth Riemannian optimization with inexact manifold primitives via bundle methods",
+      "authors": "M Díaz, B Grimmer, I McPherson - arXiv preprint arXiv:2604.27078, 2026",
+      "abstract": "Optimization on Hadamard manifolds--the natural Riemannian setting for globally geodesically convex problems--relies on exponential maps to retract tangent vectors and parallel transport to connect tangent spaces across the manifold. These …",
+      "url": "https://arxiv.org/pdf/2604.27078"
+    },
+    {
+      "title": "On the Expressive Power of GNNs to Solve Linear SDPs",
+      "authors": "C Qian, C Morris - arXiv preprint arXiv:2604.27786, 2026",
+      "abstract": "Semidefinite programs (SDPs) are a powerful framework for convex optimization and for constructing strong relaxations of hard combinatorial problems. However, solving large SDPs can be computationally expensive, motivating the use of machine learning models as fast computational surrogates. Graph neural networks (GNNs) are a natural candidate in this setting due to their sparsity-awareness and ability to model variable-constraint interactions. In this work, we study what expressive power …",
+      "url": "https://arxiv.org/pdf/2604.27786"
+    },
+    {
+      "title": "Cost-Aware Learning",
+      "authors": "C Mohri, A Globerson, H Kaplan, T Koren, Y Mansour - arXiv preprint arXiv …, 2026",
+      "abstract": "We consider the problem of Cost-Aware Learning, where sampling different component functions of a finite-sum objective incurs different costs. The objective is to reach a target error while minimizing the total cost. First, we propose the Cost-Aware Stochastic Gradient Descent algorithm for convex functions, and derive its cost complexity to attain an error of $\\epsilon $. Furthermore, we establish a lower bound for this setting and provide a subset selection algorithm to further reduce the …",
+      "url": "https://arxiv.org/pdf/2604.28020"
+    },
+    {
+      "title": "STDPS: State-Aware Spatio-Temporal Workload Distribution Prediction for Cloud Service Scaling",
+      "authors": "Y Luo, Y Wang, L Long, T Cai, X Gao, G Chen - IEEE Transactions on Services …, 2026",
+      "abstract": "Cloud services suffer from low resource utilization due to static allocation strategies. To address this, precise workload prediction is critical for enabling dynamic scaling and optimizing resource efficiency. Drawing on practical insights from Alipay's cloud platform, we rethink workload prediction as a spatio-temporal task, explicitly modeling inter-service dependencies and temporal dynamics. We propose State-Aware Spatio-Temporal Workload Distribution Prediction for Cloud Service Scaling …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11500533/"
+    },
+    {
+      "title": "A Nonconvex Model and Algorithm for Low Tubal Rank Tensor Recovery with Automatic Rank Determination",
+      "authors": "X Zeng, J Gong, K Gao - Journal of Computational and Applied Mathematics, 2026",
+      "abstract": "In this paper, we focus on the low tubal rank tensor recovery problem. Due to the nonconvexity and discontinuity of the tensor rank function, existing methods typically approximate the rank by penalizing individual singular values of the tensor. However, this approach often disrupts the composite structure of the L 0 norm and L 2 norm inherent in the tensor tubal rank, thereby compromising recovery performance. To address this limitation, we propose a novel nonconvex relaxation for …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042726004048"
+    },
+    {
+      "title": "Spatiotemporal Non-Aligned Data Inference for Sparse Mobile CrowdSensing",
+      "authors": "H Du, W Liu, E Wang, Z Sun, C Fu, B Yang, J Wu - IEEE Transactions on Mobile …, 2026",
+      "abstract": "Sparse Mobile Crowd Sensing is a practical paradigm for data collection, where mobile users report partial measurements and the platform infers the missing values by exploiting spatiotemporal correlations. Most existing methods assume uniform spatial scales and aggregate observations into fixed time slots. In practice, however, heterogeneous devices and asynchronous reporting lead to observations that vary in spatial coverage and arrive at irregular timestamps. Spatially, coarse-scale …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11501222/"
+    },
+    {
+      "title": "Efficient Training on Multiple Consumer GPUs with RoundPipe",
+      "authors": "Y Luo, S Gao, H Zheng, Y Lu, J Shu - arXiv preprint arXiv:2604.27085, 2026",
+      "abstract": "Fine-tuning Large Language Models (LLMs) on consumer-grade GPUs is highly cost-effective, yet constrained by limited GPU memory and slow PCIe interconnects. Pipeline parallelism combined with CPU offloading mitigates these hardware bottlenecks by reducing communication overhead. However, existing PP schedules suffer from an inherent limitation termed the weight binding issue. Binding uneven model stages (eg, the LM head is large) to GPUs limits the pipeline's throughput to …",
+      "url": "https://arxiv.org/pdf/2604.27085"
+    },
+    {
+      "title": "Policy-Guided Tri-Focal Refinement: an Integrated Efficient-Net Framework for Enhancing Accuracy in Handwritten Character Recognition",
+      "authors": "AS Alotaibi - IEEE Access, 2026",
+      "abstract": "Handwritten digit recognition remains a challenging problem due to high variability in human writing styles and the complex geometric structure of characters. This research proposes a hybrid Policy-Guided framework that integrates EfficientNet with a Layered Tri-Focal Attention (TFA) mechanism and Reinforcement Learning (RL) to overcome the limitations of static deep learning architectures. The core novelty of the proposed approach lies in the synergistic interaction between attention-based …",
+      "url": "https://ieeexplore.ieee.org/iel8/6287639/6514899/11501655.pdf"
+    },
+    {
+      "title": "Accelerated Reconstruction in Sensor-Array-Based Magnetic Particle Imaging Using ALISTA",
+      "authors": "T Matsushita, T Yoshida, T Sasayama - IEEE Transactions on Magnetics, 2026",
+      "abstract": "In magnetic particle imaging based on a sensor array, improving the spatial resolution is computationally demanding for inverse-problem analysis. To accelerate the solution to the inverse problem, we propose the analytic learned iterative shrinkage-thresholding algorithm (ALISTA), which integrates the iterative shrinkage-thresholding algorithm (ISTA) with a deep neural network, extending the learned ISTA (LISTA) framework. ALISTA accurately estimates particle positions even for …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11501814/"
+    },
+    {
+      "title": "ARTIFICIAL INTELLIGENCE APPLICATION FOR SOLVING MIXED INTEGER LINEAR PROGRAMMING WITH LEARNING OPTIMIZATION TECHNIQUES IN AIR …",
+      "authors": "AG Rosa, FT Loureiro, MVS da Silva, SA dos Reis…",
+      "abstract": "Solving complex optimization problems in air transportation and mobility can be greatly improved by combining Mixed Integer Linear Programming (MILP) with modern computational techniques. Although MILP provides a solid framework for modeling these challenges, which often involve complex combinatorial structures and discrete decisions, traditional solution methods frequently struggle with the computational demands of real-world scenarios' scale and dynamic nature, largely …",
+      "url": "https://www.researchgate.net/profile/Artur-Rosa-5/publication/400640964_ARTIFICIAL_INTELLIGENCE_APPLICATION_FOR_SOLVING_MIXED_INTEGER_LINEAR_PROGRAMMING_WITH_LEARNING_OPTIMIZATION_TECHNIQUES_IN_AIR_TRANSPORTATION_AND_MOBILITY/links/69c52ea260c0371a60effb6f/ARTIFICIAL-INTELLIGENCE-APPLICATION-FOR-SOLVING-MIXED-INTEGER-LINEAR-PROGRAMMING-WITH-LEARNING-OPTIMIZATION-TECHNIQUES-IN-AIR-TRANSPORTATION-AND-MOBILITY.pdf"
+    },
+    {
+      "title": "Structured Representation Learning and Recovery Under Limited Supervision",
+      "authors": "H Li - 2026",
+      "abstract": "Modern machine learning systems typically rely on abundant supervision and fully observed data. In many scientific and engineering applications, however, learning must proceed under limited supervision: labels are scarce, observations are incomplete or corrupted, evaluation budgets are constrained, and target structures may be discrete or globally coupled. This dissertation develops a unified framework for structured representation learning and recovery under limited supervision …",
+      "url": "https://search.proquest.com/openview/d68883d73e7052f4d50d5e1a2f0af3f5/1?pq-origsite=gscholar&cbl=18750&diss=y"
+    },
+    {
+      "title": "Applied Random Matrix Theory",
+      "authors": "JA Tropp - arXiv preprint arXiv:2604.27119, 2026",
+      "abstract": "Random matrices now play a role in many parts of computational mathematics. To advance these applications, it is desirable to have tools that are flexible, easy to use, and powerful. Over the last 25 years, researchers have developed a remarkable …",
+      "url": "https://arxiv.org/pdf/2604.27119"
+    }
+  ]
+}

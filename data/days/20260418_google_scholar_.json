@@ -1,0 +1,146 @@
+{
+  "id": "20260418_google_scholar_",
+  "date": "20260418",
+  "source": "historical-import",
+  "messages": 11,
+  "papers": [
+    {
+      "title": "Gradient extremals, talwegs, valleys, and directional alignment for generic gradient descent",
+      "authors": "P Bégout, J Bolte, T Mariotti, F Silva - arXiv preprint arXiv:2604.11213, 2026",
+      "abstract": "Gradient extremals are loci along which the gradient is an eigenvector of the Hessian. These objects provide a natural geometric framework connecting several notions, notably valleys and talwegs, which we analyze from a variational viewpoint …",
+      "url": "https://arxiv.org/pdf/2604.11213"
+    },
+    {
+      "title": "Uncertainty Quantification for Noisy Low-tubal-rank Tensor Completion",
+      "authors": "J Shang, J Li, Y Chen - arXiv preprint arXiv:2604.10353, 2026",
+      "abstract": "High-dimensional tensor data often exhibit strong temporal correlations that appear as low-dimensional structures in the frequency domain. While the low-tubal-rank tensor model effectively captures these spectral features, making it potentially …",
+      "url": "https://arxiv.org/pdf/2604.10353"
+    },
+    {
+      "title": "LLM Evaluation as Tensor Completion: Low Rank Structure and Semiparametric Efficiency",
+      "authors": "J Li, D Simchi-Levi, WW Sun - arXiv preprint arXiv:2604.05460, 2026",
+      "abstract": "Large language model (LLM) evaluation platforms increasingly rely on pairwise human judgments. These data are noisy, sparse, and non-uniform, yet leaderboards are reported with limited uncertainty quantification. We study this as semiparametric …",
+      "url": "https://arxiv.org/pdf/2604.05460"
+    },
+    {
+      "title": "A Novel Quaternion Generative Model Using SVTV Regularization for Color Image Inpainting",
+      "authors": "Z Jia, D Wang, Y Xie, M Zhao, X Zhao - Journal of Computational and Applied …, 2026",
+      "abstract": "Color image inpainting with large missing areas remains a challenging task in imaging science, as cross-channel correlations are inadvertently ignored by existing methods, inducing chromatic aberrations in restored images. To make full use of …",
+      "url": "https://www.researchgate.net/profile/Zhigang-Jia-4/publication/403517777_A_Novel_Quaternion_Generative_Model_Using_SVTV_Regularization_for_Color_Image_Inpainting/links/69d31122ac38122875669b45/A-Novel-Quaternion-Generative-Model-Using-SVTV-Regularization-for-Color-Image-Inpainting.pdf"
+    },
+    {
+      "title": "Adaptive Fractional-Order Total Variation and Minimax-Concave Based Image Denoising Model",
+      "authors": "Y Qin, C Du, Y Yin - Mathematics, 2026",
+      "abstract": "Total variation (TV)-based image denoising effectively suppresses noise while preserving edges, but it often introduces staircase artifacts in flat regions. To address this limitation, we propose a novel denoising model that combines adaptive fractional …",
+      "url": "https://www.mdpi.com/2227-7390/14/7/1105"
+    },
+    {
+      "title": "Nonlinear hierarchical quaternion matrix factorization-based quaternion matrix completion",
+      "authors": "P Wu, KI Kou, L Liu, J Miao - Signal Processing, 2026",
+      "abstract": "Recently, quaternion matrix completion (QMC) approaches have demonstrated promising performance in color image recovery due to their ability to jointly model inter-channel correlations in color images. However, existing methods are mostly …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165168426001489"
+    },
+    {
+      "title": "A Unified Control-Theoretic Framework for Saddle-Point Dynamics in Constrained Optimization",
+      "authors": "V Centorrino, R Hoteit, EC Balta, J Lygeros - arXiv preprint arXiv:2604.09252, 2026",
+      "abstract": "This paper studies equality-constrained minimization problems through the lens of feedback control. We introduce a unified control-theoretic framework by showing that a PID feedback law acting on the dual variable induces the PID saddle-point flow …",
+      "url": "https://arxiv.org/pdf/2604.09252"
+    },
+    {
+      "title": "Agent A/B: Automated and Scalable A/B Testing on Live Websites with Interactive LLM Agents",
+      "authors": "Y Lu, TY Hsu, H Gu, L Cui, Y Xie, WP Headden III… - Proceedings of the …, 2026",
+      "abstract": "A/B testing is central to UI/UX design, yet our formative study with six industry practitioners revealed that it is slowed by scarce user traffic, long runtimes, and high operational costs. To address these challenges, we introduce Agent a/b, an end-to-end system that deploys large language model (LLM) agents with structured personas to interact with live webpages and generate scalable behavioral evidence before launch. In a case study on Amazon. com, Agent a/b simulated a between …",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3772363.3799039"
+    },
+    {
+      "title": "Deep Learning for Sequential Decision Making under Uncertainty: Foundations, Frameworks, and Frontiers",
+      "authors": "IE Buyuktahtakin - arXiv preprint arXiv:2604.11507, 2026",
+      "abstract": "Artificial intelligence (AI) is moving increasingly beyond prediction to support decisions in complex, uncertain, and dynamic environments. This shift creates a natural intersection with operations research and management sciences (OR/MS), which have long offered conceptual and methodological foundations for sequential decision-making under uncertainty. At the same time, recent advances in deep learning, including feedforward neural networks, LSTMs, transformers, and deep …",
+      "url": "https://arxiv.org/pdf/2604.11507"
+    },
+    {
+      "title": "Asymptotic-preserving deterministic particle methods for collisional plasma models",
+      "authors": "Y Huang, L Wang - arXiv preprint arXiv:2604.09484, 2026",
+      "abstract": "We develop novel asymptotic-preserving (AP) deterministic particle methods for collisional plasma models, including both Landau--Fokker--Planck and Dougherty collision operators, under hydrodynamic scaling. Our schemes treat the non-stiff transport part explicitly and the stiff collision operators fully implicitly through the energy-conserving Jordan--Kinderlehrer--Otto (JKO) schemes by exploiting their gradient flow structures. This approach extends our previous work on the space …",
+      "url": "https://arxiv.org/pdf/2604.09484"
+    },
+    {
+      "title": "Byzantine-Robust Distributed SGD: A Unified Analysis and Tight Error Bounds",
+      "authors": "B Ruan, X Wang, YF Liu - arXiv preprint arXiv:2604.10179, 2026",
+      "abstract": "Byzantine-robust distributed optimization relies on robust aggregation rules to mitigate the influence of malicious Byzantine workers. Despite the proliferation of such rules, a unified convergence analysis framework that accommodates general data heterogeneity is lacking. In this work, we provide a thorough convergence theory of Byzantine-robust distributed stochastic gradient descent (SGD), analyzing variants both with and without local momentum. We establish the convergence rates …",
+      "url": "https://arxiv.org/pdf/2604.10179"
+    },
+    {
+      "title": "Nesterov Acceleration with Operator Decomposition",
+      "authors": "J Lee, EK Ryu, C Yun - arXiv preprint arXiv:2604.11105, 2026",
+      "abstract": "We propose Nesterov acceleration with Operator Decomposition (NOD), which extends Nesterov's accelerated gradient descent (NAG) from smooth strongly convex optimization to the broader setting of strongly monotone, Lipschitz operators. The key insight is to decompose the operator into cyclically monotone and monotone components, with the Asplund decomposition providing the tightest such representation, and to have the algorithm utilize the decomposed oracles. NOD and …",
+      "url": "https://arxiv.org/pdf/2604.11105"
+    },
+    {
+      "title": "A hierarchical federated learning approach based on cloud–fog–edge computing architecture for distributed smart manufacturing systems",
+      "authors": "W Guo, T Qu, Y Zhang, H Huang, GQ Huang - Robotics and Computer-Integrated …, 2026",
+      "abstract": "In recent years, distributed manufacturing (DM) paradigms, exemplified by cloud manufacturing, have increasingly become a central focus in the advancement of smart manufacturing. These paradigms virtualize manufacturing resources and deploy them as services. As a result, they support on-demand access and dynamic configuration. This capability greatly improves system flexibility and resource utilization. However, most existing approaches depend heavily on centralized …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0736584526000918"
+    },
+    {
+      "title": "Evolving Many Worlds: Towards Open-Ended Discovery in Petri Dish NCA via Population-Based Training",
+      "authors": "U Berdica, J Foerster, F Hutter, A Zela - arXiv preprint arXiv:2604.11248, 2026",
+      "abstract": "The generation of sustained, open-ended complexity from local interactions remains a fundamental challenge in artificial life. Differentiable multi-agent systems, such as Petri Dish Neural Cellular Automata (PD-NCA), exhibit rich self-organization driven purely by spatial competition; however, they are highly sensitive to hyperparameters and frequently collapse into uninteresting patterns and dynamics, such as frozen equilibria or structureless noise. In this paper, we introduce PBT-NCA, a meta …",
+      "url": "https://arxiv.org/pdf/2604.11248"
+    },
+    {
+      "title": "A Nesterov-Accelerated Primal-Dual Splitting Algorithm for Convex Nonsmooth Optimization",
+      "authors": "L Condat, A Sadiev, P Richtárik - arXiv preprint arXiv:2604.09245, 2026",
+      "abstract": "We investigate the integration of Nesterov-type acceleration into primal-dual methods for structured convex optimization. While proximal splitting algorithms efficiently handle composite problems of the form $\\min_x f (x)+ g (x)+ h (Kx) $, accelerating their convergence with respect to the smooth term $ f $ is notoriously challenging due to the rotational dynamics in the primal-dual space. In this paper, we overcome this barrier by proposing the Accelerated Proximal Alternating Predictor …",
+      "url": "https://arxiv.org/pdf/2604.09245"
+    },
+    {
+      "title": "Distributionally Robust K-Means Clustering",
+      "authors": "V Malik, T Kargin, B Hassibi - arXiv preprint arXiv:2604.11118, 2026",
+      "abstract": "K-means clustering is a workhorse of unsupervised learning, but it is notoriously brittle to outliers, distribution shifts, and limited sample sizes. Viewing k-means as Lloyd--Max quantization of the empirical distribution, we develop a distributionally robust variant that protects against such pathologies. We posit that the unknown population distribution lies within a Wasserstein-2 ball around the empirical distribution. In this setting, one seeks cluster centers that minimize the worst-case …",
+      "url": "https://arxiv.org/pdf/2604.11118"
+    },
+    {
+      "title": "The sharp one-dimensional convex sub-Gaussian comparison constant",
+      "authors": "D Davis, S Power - arXiv preprint arXiv:2604.03170, 2026",
+      "abstract": "Let $ X $ be an integrable real random variable with mean zero and two-sided sub-Gaussian tail $\\mathbb {P}(| X|> t)\\le 2e^{-t^{2}/2} $ for all $ t\\ge 0$. We determine the smallest constant $ c_\\star $ such that $ X $ is dominated in convex order by …",
+      "url": "https://arxiv.org/pdf/2604.03170"
+    },
+    {
+      "title": "Learning an Opponent-aware Anti-jamming Strategy via Online Convex Optimization",
+      "authors": "L Liu, W Pu, Y Li, ZQ Luo - arXiv preprint arXiv:2604.11016, 2026",
+      "abstract": "The dynamic competition against intelligent jammer systems presents a significant challenge to modern radar. Traditional active anti-jamming strategy learning methods often suffer from low sample efficiency and fail to fully exploit the structures …",
+      "url": "https://arxiv.org/pdf/2604.11016"
+    },
+    {
+      "title": "A Randomized Linearly Convergent Frank-Wolfe-type Method for Smooth Convex Minimization over the Spectrahedron: D. Garber",
+      "authors": "D Garber - Mathematical Programming, 2026",
+      "abstract": "We consider the problem of minimizing a smooth and convex function over the n-dimensional spectrahedron—the set of real symmetric n× n positive semidefinite matrices with unit trace, which underlies numerous applications in statistics, machine …",
+      "url": "https://link.springer.com/article/10.1007/s10107-026-02343-3"
+    },
+    {
+      "title": "Natural Riemannian gradient for learning functional tensor networks",
+      "authors": "N Klug, M Ulbrich, A Uschmajew, M Willner - arXiv preprint arXiv:2604.09263, 2026",
+      "abstract": "We consider machine learning tasks with low-rank functional tree tensor networks (TTN) as the learning model. While in the case of least-squares regression, low-rank functional TTNs can be efficiently optimized using alternating optimization, this is not …",
+      "url": "https://arxiv.org/pdf/2604.09263"
+    },
+    {
+      "title": "Memory-efficient optimization of implicit neural representations for CT reconstruction",
+      "authors": "M Najaf, G Ongie - arXiv preprint arXiv:2604.09884, 2026",
+      "abstract": "Implicit neural representations (INRs) provide a parameter-efficient and fully differentiable image model for CT reconstruction. However, optimizing INRs for CT reconstruction using standard auto-differentiation techniques can be prohibitively …",
+      "url": "https://arxiv.org/pdf/2604.09884"
+    },
+    {
+      "title": "Hybrid hierarchical matrices with adaptive mixed precision storage",
+      "authors": "R Khan, E Carson - arXiv preprint arXiv:2604.09147, 2026",
+      "abstract": "Hierarchical matrices are data-sparse approximations of dense matrices that are widely used for fast matrix computations. Hierarchical matrices are built using a tree data structure, with low-rank blocks identified by various admissibility conditions …",
+      "url": "https://arxiv.org/pdf/2604.09147"
+    },
+    {
+      "title": "Oblivious Subspace Injection Is Not Enough for Relative Error",
+      "authors": "A Townsend, C Wang - arXiv preprint arXiv:2604.10215, 2026",
+      "abstract": "Oblivious subspace injection (OSI) was introduced by Cama\\~ no, Epperly, Meyer, and Tropp in 2025 as a much weaker sketching property than oblivious subspace embedding (OSE) that still yields constant-factor guarantees for randomized low-rank …",
+      "url": "https://arxiv.org/pdf/2604.10215"
+    }
+  ]
+}

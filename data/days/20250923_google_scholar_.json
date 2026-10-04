@@ -1,0 +1,98 @@
+{
+  "id": "20250923_google_scholar_",
+  "date": "20250923",
+  "source": "historical-import",
+  "messages": 6,
+  "papers": [
+    {
+      "title": "The Aubin Property for Generalized Equations over $ C^ 2$-cone Reducible Sets",
+      "authors": "J Ma, D Sun - arXiv preprint arXiv:2509.14194, 2025",
+      "abstract": "This paper establishes the equivalence of the Aubin property and the strong regularity for generalized equations over $ C^ 2$-cone reducible sets. This result resolves a long-standing question in variational analysis and extends the well-known …",
+      "url": "https://arxiv.org/pdf/2509.14194"
+    },
+    {
+      "title": "Derivative-free optimization for custom loss functions",
+      "authors": "OS Maistrenko - Journal of Numerical and Applied Mathematics, 2025",
+      "abstract": "Derivative-free optimization (DFO) has emerged as a powerful technique for solving optimization problems where the gradient of the objective function is either unavailable, expensive to compute, or non-smooth. This article explores the application of DFO methods to optimize custom loss functions in machine learning and other fields. The paper also highlights the challenges and potential improvements in the current DFO approaches, offering insights for further research …",
+      "url": "https://www.jnam.univ.kiev.ua/index.php/jnam/article/download/191/190"
+    },
+    {
+      "title": "Age of Information Aided Intelligent Grant-Free Massive Access for Heterogeneous mMTC Traffic",
+      "authors": "Z Sun, W Chen, Y Sun, B Ai - arXiv preprint arXiv:2509.14503, 2025",
+      "abstract": "With the arrival of 6G, the Internet of Things (IoT) traffic is becoming more and more complex and diverse. To meet the diverse service requirements of IoT devices, massive machine-type communications (mMTC) becomes a typical scenario, and more recently, grant-free random access (GF-RA) presents a promising direction due to its low signaling overhead. However, existing GF-RA research primarily focuses on improving the accuracy of user detection and data recovery, without considering …",
+      "url": "https://arxiv.org/pdf/2509.14503"
+    },
+    {
+      "title": "Circuit realization and hardware linearization of monotone operator equilibrium networks",
+      "authors": "T Chaffey - arXiv preprint arXiv:2509.13793, 2025",
+      "abstract": "It is shown that the port behavior of a resistor-diode network corresponds to the solution of a ReLU monotone operator equilibrium network (a neural network in the limit of infinite depth), giving a parsimonious construction of a neural network in analog hardware. We furthermore show that the gradient of such a circuit can be computed directly in hardware, using a procedure we call hardware linearization. This allows the network to be trained in hardware, which we demonstrate with a …",
+      "url": "https://arxiv.org/pdf/2509.13793"
+    },
+    {
+      "title": "About descent property for extragradient algorithm",
+      "authors": "OY Kovalenko, YV Goncharenko - Journal of Numerical and Applied Mathematics, 2025",
+      "abstract": "УДК 519.85 MSC 47J20, 49J40 ABOUT DESCENT PROPERTY FOR EXTRAGRADIENT ALGORITHM O. Yu. Kovalenko , Yu. V. Goncharenko ПРО Page 1 Журнал обчислювальної та 2025, № 1 прикладної математики Journal of Numerical & Applied Mathematics УДК 519.85 MSC 47J20, 49J40 ABOUT DESCENT PROPERTY FOR EXTRAGRADIENT ALGORITHM O. Yu. Kovalenko 1 , Yu. V. Goncharenko 2 1Taras Shevchenko National University of Kyiv, Kyiv, Ukraine …",
+      "url": "https://www.jnam.univ.kiev.ua/index.php/jnam/article/download/198/195"
+    },
+    {
+      "title": "Stochastic Bilevel Optimization with Heavy-Tailed Noise",
+      "authors": "Z Liu, L Luo - arXiv preprint arXiv:2509.14952, 2025",
+      "abstract": "This paper considers the smooth bilevel optimization in which the lower-level problem is strongly convex and the upper-level problem is possibly nonconvex. We focus on the stochastic setting that the algorithm can access the unbiased stochastic gradient evaluation with heavy-tailed noise, which is prevalent in many machine learning applications such as training large language models and reinforcement learning. We propose a nested-loop normalized stochastic bilevel approximation (N …",
+      "url": "https://arxiv.org/pdf/2509.14952"
+    },
+    {
+      "title": "UTOPY: Unrolling Algorithm Learning via Fidelity Homotopy for Inverse Problems",
+      "authors": "R Jacome, R Gualdrón-Hurtado, L Suarez-Rodriguez… - arXiv preprint arXiv …, 2025",
+      "abstract": "Imaging Inverse problems aim to reconstruct an underlying image from undersampled, coded, and noisy observations. Within the wide range of reconstruction frameworks, the unrolling algorithm is one of the most popular due to the synergistic integration of traditional model-based reconstruction methods and modern neural networks, providing an interpretable and highly accurate reconstruction. However, when the sensing operator is highly ill-posed, gradient …",
+      "url": "https://arxiv.org/pdf/2509.14394"
+    },
+    {
+      "title": "High-definition (HD) snapshot diffractive computational spectral imaging and inferencing",
+      "authors": "A Majumder, M Meem, F Gonzalez del Cueto… - Optica, 2025",
+      "abstract": "Capturing spatial and spectral information from a scene is challenging due to the seemingly orthogonal nature of these dimensions. Here, we introduce a compact high-definition snapshot diffractive spectral imaging system that employs a diffractive filter array to project spectral information into the spatial domain, enabling the capture of a single-channel 2D image that contains both spatial and spectral data. This single diffractogram undergoes computational reconstruction into a spectral …",
+      "url": "https://opg.optica.org/viewmedia.cfm?uri=optica-12-9-1539&seq=0"
+    },
+    {
+      "title": "Decentralized Optimization with Topology-Independent Communication",
+      "authors": "Y Lin, Y Kuang, A Alacaoglu, MP Friedlander - arXiv preprint arXiv:2509.14488, 2025",
+      "abstract": "Distributed optimization requires nodes to coordinate, yet full synchronization scales poorly. When $ n $ nodes collaborate through $ m $ pairwise regularizers, standard methods demand $\\mathcal {O}(m) $ communications per iteration. This paper proposes randomized local coordination: each node independently samples one regularizer uniformly and coordinates only with nodes sharing that term. This exploits partial separability, where each regularizer $ G_j $ depends on a subset …",
+      "url": "https://arxiv.org/pdf/2509.14488"
+    },
+    {
+      "title": "Graph-Aware Learning Rates for Decentralized Optimization",
+      "authors": "A Fainman, S Vlaski - arXiv preprint arXiv:2509.14854, 2025",
+      "abstract": "We propose an adaptive step-size rule for decentralized optimization. Choosing a step-size that balances convergence and stability is challenging. This is amplified in the decentralized setting as agents observe only local (possibly stochastic) gradients and global information (like smoothness) is unavailable. We derive a step-size rule from first principles. The resulting formulation reduces to the well-known Polyak's rule in the single-agent setting, and is suitable for use with stochastic gradients. The …",
+      "url": "https://arxiv.org/pdf/2509.14854"
+    },
+    {
+      "title": "基于预训练扩散模型的两阶段高分辨率图像复原方法.",
+      "authors": "谢源远， 周非， 周志远， 张宇瞳 - … Research of Computers/Jisuanji Yingyong Yanjiu, 2025",
+      "abstract": "Pretrained diffusion priors for image restoration rely on pretrained diffusion models to handle various classic image restoration tasks without fine tuning. However, current methods are inefficient for high resolution images and suffer from OOD issues. To address these problems, this paper proposed a two stage high resolution image restoration method based on pre trained diffusion models, named the C2F method. In the first stage, the method obtained a coarse restoration result at the fixed size of …",
+      "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=10013695&AN=187800205&h=syXvi4A9TBQJafCztlls6bruEtFyuEIRkfI1WWPlbHcu6mhQGOYHNvU1cr435jkNbxlW3Lac4tKf3UCVD8i9%2FQ%3D%3D&crl=c"
+    },
+    {
+      "title": "Low-rank surrogate modeling and stochastic zero-order optimization for training of neural networks with black-box layers",
+      "authors": "A Chertkov, A Basharin, M Saygin, E Frolov, S Straupe… - arXiv preprint arXiv …, 2025",
+      "abstract": "The growing demand for energy-efficient, high-performance AI systems has led to increased attention on alternative computing platforms (eg, photonic, neuromorphic) due to their potential to accelerate learning and inference. However, integrating such …",
+      "url": "https://arxiv.org/pdf/2509.15113"
+    },
+    {
+      "title": "Deep Knowledge-Infused Transformer for NSCLC Lymph Node Station Metastasis Prediction: Development of an AI-Powered Intraoperative Decision System",
+      "authors": "J Zhao, Z Chen, G Yang, Y He, L Zhang, B Dong - International Conference on …, 2025",
+      "abstract": "Non-small cell lung cancer (NSCLC) is one of the leading causes of cancer-related mortality, with lymph node metastasis serving as a critical factor in both prognosis and treatment decisions. Lymph node station (LNS) dissection is an essential …",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-05182-0_17"
+    },
+    {
+      "title": "Generalizable Geometric Image Caption Synthesis",
+      "authors": "Y Xin, W Wang, R Pan, R Wang, H Meng, R Pi, S Diao… - arXiv preprint arXiv …, 2025",
+      "abstract": "Multimodal large language models have various practical applications that demand strong reasoning abilities. Despite recent advancements, these models still struggle to solve complex geometric problems. A key challenge stems from the lack of high …",
+      "url": "https://arxiv.org/pdf/2509.15217"
+    },
+    {
+      "title": "Convergence of Pivoted Cholesky Algorithm for Lipschitz Kernels",
+      "authors": "S Jeong, A Townsend - arXiv preprint arXiv:2509.13582, 2025",
+      "abstract": "We investigate the continuous analogue of the Cholesky factorization, namely the pivoted Cholesky algorithm. Our analysis establishes quantitative convergence guarantees for kernels of minimal smoothness. We prove that for a symmetric …",
+      "url": "https://arxiv.org/pdf/2509.13582"
+    }
+  ]
+}

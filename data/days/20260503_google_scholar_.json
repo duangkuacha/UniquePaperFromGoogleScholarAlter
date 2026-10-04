@@ -1,0 +1,152 @@
+{
+  "id": "20260503_google_scholar_",
+  "date": "20260503",
+  "source": "historical-import",
+  "messages": 13,
+  "papers": [
+    {
+      "title": "Scalable First-Order Interior Point Trust Region Algorithms for Linearly Constrained Optimization",
+      "authors": "Y Su, C Zhang, P Huang, T Li, Y Ye - arXiv preprint arXiv:2604.24488, 2026",
+      "abstract": "Computing approximate Karush--Kuhn--Tucker (KKT) points for constrained nonconvex programs is a fundamental problem in mathematical programming. Interior-point trust-region (IPTR) methods are particularly attractive for such problems …",
+      "url": "https://arxiv.org/pdf/2604.24488"
+    },
+    {
+      "title": "Multi-frame pixel intensity consistency-based artifact reduction for photoacoustic computed tomography",
+      "authors": "Z Ma, B Ouyang, B Li, Z Qu, X Hong, R Yang, L Wang… - Biomedical Optics Express, 2026",
+      "abstract": "Photoacoustic computed tomography (PACT) is an advanced imaging modality that combines the strengths of ultrasound and optical imaging, showing great promise for preclinical or clinical applications. However, image quality in PACT is often …",
+      "url": "https://opg.optica.org/boe/fulltext.cfm?uri=boe-17-5-2660"
+    },
+    {
+      "title": "The Fragility of Learning LQG Controllers",
+      "authors": "BD Lee, A Tsiamis, N Matni, M Morari, J Lygeros - arXiv preprint arXiv:2604.24442, 2026",
+      "abstract": "Learning methods are increasingly used to synthesize controllers from data, yet existing sample-complexity characterizations for continuous control are sharp only in the fully observed setting. This paper studies the partially observed case by deriving …",
+      "url": "https://arxiv.org/pdf/2604.24442"
+    },
+    {
+      "title": "From Soliloquy to Agora: Memory-Enhanced LLM Agents with Decentralized Debate for Optimization Modeling",
+      "authors": "J Lin, Z Ling, C Zhou, T Xu, R Jiang, Z Wang, D Ge - arXiv preprint arXiv:2604.25847, 2026",
+      "abstract": "Optimization modeling underpins real-world decision-making in logistics, manufacturing, energy, and public services, but reliably solving such problems from natural-language requirements remains challenging for current large language models (LLMs). In this paper, we propose\\emph {Agora-Opt}, a modular agentic framework for optimization modeling that combines decentralized debate with a read-write memory bank. Agora-Opt allows multiple agent teams to independently …",
+      "url": "https://arxiv.org/pdf/2604.25847"
+    },
+    {
+      "title": "FedSLoP: Memory-Efficient Federated Learning with Low-Rank Gradient Projection",
+      "authors": "Y He, Z Huang, J Geng - arXiv preprint arXiv:2604.24012, 2026",
+      "abstract": "Federated learning enables a population of clients to collaboratively train machine learning models without exchanging their raw data, but standard algorithms such as FedAvg suffer from slow convergence and high communication and memory costs in heterogeneous, resource-constrained environments. We introduce FedSLoP, a federated optimization algorithm that combines stochastic low-rank subspace projections of gradients, thereby reducing the dimension of communicated and …",
+      "url": "https://arxiv.org/pdf/2604.24012"
+    },
+    {
+      "title": "From Cursed to Competitive: Closing the ZO-FO Gap via Input-to-State Stability",
+      "authors": "AA Farzin, P Braun, I Shames - arXiv preprint arXiv:2604.25372, 2026",
+      "abstract": "While it is generally understood that zeroth-order (ZO) algorithms have an extra dependency on their number of iterations for any choice of parameters, compared to their first-order (FO) counterparts, in this work, we show that under several conditions, in expectation, ZO methods do not suffer from extra dimension dependencies in their convergence rates with respect to their FO counterparts. We look at optimisation algorithms from the dynamical systems perspective and analyse …",
+      "url": "https://arxiv.org/pdf/2604.25372"
+    },
+    {
+      "title": "Probabilistic analysis of dual decomposition on two-stage stochastic integer programs",
+      "authors": "SS Dey, M Molinaro, J Xu - arXiv preprint arXiv:2604.23383, 2026",
+      "abstract": "Two-stage stochastic integer programs provide a powerful framework for modeling decision-making under uncertainty, but they are notoriously difficult to solve at scale due to their high dimensionality and intrinsic nonconvexity. Decomposition-based algorithms such as Benders methods and Branch-and-Price (related dual decomposition methods) have become standard computational approaches for such problems and demonstrate excellent empirical performance in practice. Despite their …",
+      "url": "https://arxiv.org/pdf/2604.23383"
+    },
+    {
+      "title": "DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models",
+      "authors": "D Bu, W Huang, A Han, HS Wong, Q Zhang, T Suzuki… - arXiv preprint arXiv …, 2026",
+      "abstract": "Diffusion language models generate without a fixed left-to-right order, making token ordering a central algorithmic choice: which tokens should be revealed, retained, revised or verified at each step? Existing systems mainly use random masking or confidence-driven ordering. Random masking creates train--test mismatch, while confidence-only rules are efficient but can be myopic and suppress useful exploration. We introduce DPRM (Doob h-transform Process Reward Model), a plug …",
+      "url": "https://arxiv.org/pdf/2604.24357"
+    },
+    {
+      "title": "Feature Anchors for Time-Series Sensor-Based Human Activity Recognition",
+      "authors": "R Yao, C Li, D Zhuo, T Chen, X Ni - arXiv preprint arXiv:2604.25092, 2026",
+      "abstract": "Wearable Human Activity Recognition (HAR) still lacks a representation that is both explicit and adaptable. Handcrafted time-series features (TSFs) capture meaningful motion statistics and remain competitive on standard benchmarks, but they are usually used as fixed preprocessing outputs. Deep models learn adaptable representations directly from raw signals, but those representations are typically latent and difficult to inspect. We address this gap by treating handcrafted TSFs as …",
+      "url": "https://arxiv.org/pdf/2604.25092"
+    },
+    {
+      "title": "Unsupervised Learning for AC Optimal Power Flow with Fast Physics-Aware Layer",
+      "authors": "J Zhang, H Yan, H Wang, Y Shi, Z Sheng, H Yu, S Ye… - arXiv preprint arXiv …, 2026",
+      "abstract": "Learning to solve the Alternating Current Optimal Power Flow (AC-OPF) problem by neural networks (NNs) is a promising approach in real-time applications. Existing methods to ensure the physical feasibility of NN outputs embed a power flow (PF) solver within networks. However, the gradient through the PF solver, namely, implicit differentiation, needs manual Jacobian derivation and the solution of linear systems, which is computationally prohibitive and hinders integration with modern automatic …",
+      "url": "https://arxiv.org/pdf/2604.23548"
+    },
+    {
+      "title": "A Retraction-Free EXTRA Method for Decentralized Optimization on the Stiefel Manifold",
+      "authors": "S Li, J Hu - arXiv preprint arXiv:2604.23754, 2026",
+      "abstract": "Decentralized optimization provides a fundamental framework for large-scale learning and signal processing with distributed data. We study decentralized optimization with orthogonality constraints on the Stiefel manifold and propose RF-EXTRA, a distributed retraction-free primal-dual method on static undirected networks. The method combines an approximate gradient mapping for orthogonality-constrained optimization with an EXTRA-based decentralized recursion, thereby …",
+      "url": "https://arxiv.org/pdf/2604.23754"
+    },
+    {
+      "title": "Byzantine-Resilient Decentralized Optimization for Joint Feature Selection in Multi-Task Networks",
+      "authors": "D Wang, W Liu, X Mao - IEEE Transactions on Signal Processing, 2026",
+      "abstract": "This paper initiates a study of joint feature selection in multi-task networks, where agents collaboratively learn related prediction models over decentralized networks while keeping data local. Despite extensive progress in decentralized optimization and Byzantine-robust consensus, their integration to realize fully decentralized-coupled multi-task feature learning remains an open challenge. To address this gap, the paper proposes a Byzantine-resilient decentralized proximal gradient framework …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11495284/"
+    },
+    {
+      "title": "Query-Efficient Quantum Approximate Optimization via Graph-Conditioned Trust Regions",
+      "authors": "M Huynh - arXiv preprint arXiv:2604.24803, 2026",
+      "abstract": "In low-depth implementations of the Quantum Approximate Optimization Algorithm (QAOA), the dominant cost is often the number of objective evaluations rather than circuit depth. We introduce a graph-conditioned trust-region method for reducing this query cost. A graph neural network predicts a Gaussian distribution N (mu, Sigma) over QAOA angles. The mean initializes a local optimizer, the covariance defines an ellipsoidal trust region that constrains the search, and the predicted uncertainty …",
+      "url": "https://arxiv.org/pdf/2604.24803"
+    },
+    {
+      "title": "Convergence Rates of Sum-of-Squares Hierarchies for Polynomial Semidefinite Programs",
+      "authors": "HA Tran, KC Toh - SIAM Journal on Optimization, 2026",
+      "abstract": "We introduce a novel moment-sum-of-squares (SOS) hierarchy of lower bounds for a polynomial optimization problem whose feasible set is defined by polynomial matrix inequalities. Our hierarchy avoids the Kronecker product structure in Hol and …",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/24M1670184"
+    },
+    {
+      "title": "OptProver: Bridging Olympiad and Optimization through Continual Training in Formal Theorem Proving",
+      "authors": "C Li, Y Nie, Z Ming, G Zhang, K Yuan, Z Wen - arXiv preprint arXiv:2604.23712, 2026",
+      "abstract": "Recent advances in formal theorem proving have focused on Olympiad-level mathematics, leaving undergraduate domains largely unexplored. Optimization, fundamental to machine learning, operations research, and scientific computing …",
+      "url": "https://arxiv.org/pdf/2604.23712"
+    },
+    {
+      "title": "VAE-Inf: A statistically interpretable generative paradigm for imbalanced classification",
+      "authors": "H Wu, R Han, Y Yuan - arXiv preprint arXiv:2604.25334, 2026",
+      "abstract": "Imbalanced classification remains a pervasive challenge in machine learning, particularly when minority samples are too scarce to provide a robust discriminative boundary. In such extreme scenarios, conventional models often suffer from unstable …",
+      "url": "https://arxiv.org/pdf/2604.25334"
+    },
+    {
+      "title": "Stochastic Krasnoselskii-Mann Iterations: Convergence without Uniformly Bounded Variance",
+      "authors": "D Cortild, C Cartis - arXiv preprint arXiv:2604.22581, 2026",
+      "abstract": "We investigate the Stochastic Krasnoselskii-Mann iterations for expected nonexpansive fixed-point problems in a real Hilbert space. We establish convergence guarantees under significantly weaker assumptions on the variance …",
+      "url": "https://arxiv.org/pdf/2604.22581"
+    },
+    {
+      "title": "Beyond minimax optimality: A subgame perfect gradient method: B. Grimmer et al.",
+      "authors": "B Grimmer, K Shu, AL Wang - Mathematical Programming, 2026",
+      "abstract": "The study of convex optimization has historically been concerned with worst-case convergence rates. The development of the Optimized Gradient Method (OGM), due to Drori and Teboulle and Kim and Fessler, marked a major milestone in this study …",
+      "url": "https://link.springer.com/article/10.1007/s10107-026-02362-0"
+    },
+    {
+      "title": "SAJA: A Simple Approach to Judge Alignment for LLM-as-a-Judge",
+      "authors": "S Kola, PK Sharma, S Dey, B Mishra, M Datar - The 64th Annual Meeting of the Association …",
+      "abstract": "LLM-as-a-Judge systems are increasingly used to evaluate text at scale, yet production deployment demands low latency, minimal cost, and compatibility with closed-source APIs. Current approaches fall short in different ways: some require …",
+      "url": "https://openreview.net/forum?id=in7BsIIisN"
+    },
+    {
+      "title": "Scenario-Based Stochastic MPC for Energy Hubs with EV Fleets Under Persistent Grid Outages",
+      "authors": "K Badu Enyam, C Koepele, T Asare, K Wallington… - arXiv e-prints, 2026",
+      "abstract": "Emissions reduction and resilience to outages motivate the adoption of renewable microgrids. Surprisingly, research integrating both probabilistic grid outages and electric vehicle (EV) charging requirements remains limited. This paper addresses …",
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260418268B/abstract"
+    },
+    {
+      "title": "A partial envelope approach for modelling multivariate spatial‐temporal data",
+      "authors": "R Widjaja, W Wu, V De Oliveira, K Ye - Canadian Journal of Statistics, 2026",
+      "abstract": "In the new era of big data, modelling multivariate spatial‐temporal data is a challenging task due to both the high dimensionality of the features and complex associations among the responses across different locations and time points. To improve the estimation efficiency, we propose a spatial‐temporal partial envelope model that is parsimonious and effective in modelling high‐dimensional spatial‐temporal data. The partial envelope model is proposed under a linear …",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/cjs.70052"
+    },
+    {
+      "title": "关于求解平方根损失函数回归问题的自适应邻近梯度-次梯度算法的收敛性分析",
+      "authors": "杨金佶， 沈春根， 宇振盛 - 运筹学学报, 2026",
+      "abstract": "模型由于其对于正则化参数的选择不依赖于残差的方差估计这一特点, 从而受到了广泛关注. 但平方根损失函数存在不可微点, 这给SQRT-Lasso 模型的算法设计带来了困难. 本文在Li 等人(2020) 工作的基础上改进了平方根损失函数的局部光滑性与局部限制强凸性的证明; 为了克服损失函数因存在不可微点而导致的计算困难, 设计了自适应邻近梯度-次梯度算法(APGSA); 在一定的假设条件下, 证明了所提算法在高概率意义下的全局收敛性. 此外, 本文还证明了算法在有限步迭代后 …",
+      "url": "https://www.ort.shu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=22007"
+    },
+    {
+      "title": "PHƯƠNG PHÁP QUÁN TÍNH HAI BƯỚC GIẢI BÀI TOÁN BAO HÀM THỨC BIẾN PHÂN VÀ ỨNG DỤNG TRONG LỰA CHỌN DANH MỤC ĐẦU TƯ THƯA ℓ1",
+      "authors": "NT Sơn, NT Thắng - TNU Journal of Science and Technology, 2026",
+      "abstract": "Tóm tắt Bài báo này nghiên cứu một lớp bài toán bao hàm thức biến phân liên quan đến các toán tử đơn điệu và Lipschitz liên tục, mở rộng ra ngoài khuôn khổ đơn điệu mạnh ngược cổ điển, vốn có thể bị hạn chế trong các ứng dụng thực tiễn. Chúng tôi đề xuất một thuật toán tiến–lùi quán tính hai bước với kích thước bước tự thích nghi và thiết lập sự hội tụ mạnh dưới các giả thiết nhẹ và dễ kiểm chứng. Cơ chế tự thích nghi loại bỏ yêu cầu phải biết trước hằng số Lipschitz, trong khi thành phần quán …",
+      "url": "https://jst.tnu.edu.vn/jst/article/view/14777"
+    },
+    {
+      "title": "Introduction to Experimental Mathematics",
+      "authors": "SB Lindstrom - Handbook of Visual, Experimental and Computational …, 2026",
+      "abstract": "We all do experimental mathematics, whether or not we realize it. A child is told that six and eight make fourteen. They add six marbles to eight and count them, verifying the result. Our goal in this section is twofold:(1) to sample the field's present state and …",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-93954-0_72-1.pdf"
+    }
+  ]
+}

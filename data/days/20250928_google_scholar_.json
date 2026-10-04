@@ -1,0 +1,104 @@
+{
+  "id": "20250928_google_scholar_",
+  "date": "20250928",
+  "source": "historical-import",
+  "messages": 4,
+  "papers": [
+    {
+      "title": "MAGNet: A multimodal knowledge-augmented graph network for early-stage misinformation detection",
+      "authors": "J Wang, H Yang, X Wang, W Wang, Y Li - Neurocomputing, 2025",
+      "abstract": "With the rapid proliferation of multimodal misinformation on social media, detecting such content has become increasingly challenging. Existing approaches often rely on flat or shallow fusion strategies, which fail to capture structured semantic interactions across modalities. Moreover, most methods lack controllable, task-relevant mechanisms for integrating external knowledge, limiting their adaptability to emerging misinformation. In this paper, we present MAGNet, a Multimodal …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231225022052"
+    },
+    {
+      "title": "Clapping: Removing Per-sample Storage for Pipeline Parallel Distributed Optimization with Communication Compression",
+      "authors": "B Kong, X Huang, Y Xu, Y Liang, B Wang, K Yuan - arXiv preprint arXiv:2509.19029, 2025",
+      "abstract": "Pipeline-parallel distributed optimization is essential for large-scale machine learning but is challenged by significant communication overhead from transmitting high-dimensional activations and gradients between workers. Existing approaches often depend on impractical unbiased gradient assumptions or incur sample-size memory overhead. This paper introduces Clapping, a Communication compression algorithm with LAzy samPling for Pipeline-parallel learnING. Clapping adopts a lazy …",
+      "url": "https://arxiv.org/pdf/2509.19029"
+    },
+    {
+      "title": "Large Language Models and Operations Research: A Structured Survey",
+      "authors": "Y Wang, K Li - arXiv preprint arXiv:2509.18180, 2025",
+      "abstract": "Operations research (OR) provides fundamental methodologies for complex system decision-making, with established applications in transportation, supply chain management, and production scheduling. Traditional approaches, which depend on expert-based modeling and manual parameter adjustment, often face challenges in handling large-scale, dynamic, and multi-constraint problems. Recently, large language models (LLMs) have shown potential to address these limitations through …",
+      "url": "https://arxiv.org/pdf/2509.18180"
+    },
+    {
+      "title": "Pareto-optimal Tradeoffs Between Communication and Computation with Flexible Gradient Tracking",
+      "authors": "Y Huang, J Xu, L Chai, J Chen, KH Johansson - arXiv preprint arXiv:2509.18129, 2025",
+      "abstract": "This paper addresses distributed optimization problems in non-iid scenarios, focusing on the interplay between communication and computation efficiency. To this end, we propose FlexGT, a flexible snapshot gradient tracking method with tunable numbers of local updates and neighboring communications in each round. Leveraging a unified convergence analysis framework, we prove that FlexGT achieves a linear or sublinear convergence rate depending on objective-specific …",
+      "url": "https://arxiv.org/pdf/2509.18129"
+    },
+    {
+      "title": "Image Restoration Driven by Dual-Scale Prior",
+      "authors": "W Yuan, C Meng, X Bai - Neural Networks, 2025",
+      "abstract": "With the development of advanced imaging technologies, the demand for high quality images in various fields has increased. However, image degradation due to noise, data loss, and other factors persistently hinder image quality. Image restoration (IR) is a critical task in computer vision, aiming to recover original images from degraded observations. Traditional non-learning prior based methods offer flexibility and interpretability but often yield sub-optimal results due to limited …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608025010184"
+    },
+    {
+      "title": "An Open-Source, Simple, and GPU-Accelerated Method in Python for Seismic Surface-Related Multiple Wave Elimination and Source Inversion",
+      "authors": "X Chai, C Cai, H Long, W Cao, Z Yan, Z Wang - IEEE Journal of Selected Topics in …, 2025",
+      "abstract": "Surface-related multiples (SRMs) can significantly interfere with primaries if not properly addressed. The robust estimation of primaries by sparse inversion (REPSI) eliminates EPSI's free parameters but relies on a highly complex spectral-projected gradient (SPG) algorithm. Compared to SRM elimination (SRME) via prediction and adaptive subtraction, EPSI-type methods require many iterations and incur high computational costs due to extensive matrix multiplications and forward/inverse fast …",
+      "url": "https://ieeexplore.ieee.org/iel8/4609443/10766875/11150695.pdf"
+    },
+    {
+      "title": "BDoG-Net: Algorithm Unrolling for Blind Deconvolution on Graphs",
+      "authors": "C Ye, G Mateos - IEEE Transactions on Signal and Information …, 2025",
+      "abstract": "Starting from first graph signal processing (GSP) principles, we present a novel model-based deep learning approach to blind deconvolution of sparse graph signals. Despite the bilinear nature of the observations, by requiring invertibility of the unknown (diffusion graph filter) forward operator we can formulate a convex optimization problem and solve it using the alternating-direction method of multipliers (ADMM). We then unroll and truncate the novel ADMM iterations to arrive at a …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11159301/"
+    },
+    {
+      "title": "Impact of communication link noise on distributed ATC stochastic optimization: Analysis and algorithmic enhancements",
+      "authors": "Y Peng, S Zhang, Z Zhou, P Wen, F Huang - Signal Processing, 2025",
+      "abstract": "This paper investigates two distributed adapt-then-combine stochastic gradient (DATC-SG) algorithms over networks with noisy communication links. Theoretical analysis establishes that, under suitable conditions on the step-size and combination matrix, both algorithms converge in the mean-square-error sense to a neighborhood of the global minimizer. Unlike gradient tracking algorithms, the DATC-SG methods do not require specific initialization and are not affected by the accumulation of link …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165168425004037"
+    },
+    {
+      "title": "A Lightweight Multi-Attention Network With Denoising Block Designed for Massive MIMO CSI Feedback",
+      "authors": "Z Fan, X Zeng, Q Zhang, Q Zhao, W Li - IEEE Internet of Things Journal, 2025",
+      "abstract": "In massive multiple-input multiple-output (MIMO) systems, the frequency division duplex (FDD) mode significantly enhances data transmission capabilities. However, it requires user equipment (UE) to feedback the channel state information (CSI) to the base station (BS) for efficient precoding. As the number of BS antennas increases, the complexity of CSI feedback grows, making CSI compression techniques essential. Deep learning (DL)-based approaches have shown great potential in …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11153444/"
+    },
+    {
+      "title": "Plug-and-Play Low-rank Tensor Completion and Reconstruction for Improving Applicability of Tensor Decompositions",
+      "authors": "M Mukai, H Hontani, T Yokota - Frontiers in Applied Mathematics and Statistics",
+      "abstract": "In this paper, we propose a new unified optimization algorithm for general tensor completion and reconstruction problems, which is formulated as an inverse problem for low-rank tensors in general linear observation models. The proposed algorithm supports at least three basic loss functions (ℓ 2 loss, ℓ 1 loss, and generalized KL divergence) and various TD models (CP, Tucker, TT, TR decompositions, non-negative matrix/tensor factorizations, and other constrained TD models). We derive …",
+      "url": "https://www.frontiersin.org/journals/applied-mathematics-and-statistics/articles/10.3389/fams.2025.1594873/pdf"
+    },
+    {
+      "title": "Tuning-free stochastic optimization for neural network training in building energy prediction",
+      "authors": "M Zini, S Bellavia, C Carcasci, S Rebegoldi - Engineering Optimization, 2025",
+      "abstract": "Building energy prediction is nowadays a crucial tool for reducing overall building energy consumption. Machine learning models can be used efficiently with this aim; however, performing feature selection and setting up a model is computationally …",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/0305215X.2025.2543279"
+    },
+    {
+      "title": "Approximating Volumetric Shape Gradients for Shape Optimization with Curved Boundaries Constrained by Parabolic PDEs",
+      "authors": "L Mutti, M Ulbrich - SIAM Journal on Numerical Analysis, 2025",
+      "abstract": "We quantify the accuracy of the approximate shape gradient for a shape optimization problem constrained by parabolic PDEs. The focus is on the volume form of the shape gradient, which is discretized using the finite element method and the implicit …",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/24M1681938"
+    },
+    {
+      "title": "A Nonconvex Fractional Regularization Model in Robust Principal Component Analysis via the Symmetric Alternating Direction Method of Multipliers",
+      "authors": "Z Ge, S Zhang, X Zhang, Y Xu - Symmetry, 2025",
+      "abstract": "This paper addresses the NP-hard problem of solving the rank of a matrix in Robust Principal Component Analysis (RPCA) by proposing a nonconvex fractional regularization approximation. Compared to existing convex regularization (which …",
+      "url": "https://www.mdpi.com/2073-8994/17/10/1590"
+    },
+    {
+      "title": "Nonlocal Tensor Wheel Decomposition for Hyperspectral Image Super-Resolution",
+      "authors": "HL Li, TZ Huang, LJ Deng, T Xu - IEEE Signal Processing Letters, 2025",
+      "abstract": "Fusing paired multispectral image (MSI) with hyperspectral image (HSI) has emerged as a prevalent scheme for HSI super-resolution (HSR). We propose a nonlocal tensor wheel decomposition (NLTW) approach for HSR. By introducing TW …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11175007/"
+    },
+    {
+      "title": "High-order tensor nuclear norm with Multiway Delay-embedding Transform for color image recovery",
+      "authors": "Y Jin, JC Li, H Shu - Journal of Computational and Applied Mathematics, 2025",
+      "abstract": "Abstract Recently, Multiway Delay-embedding Transform (MDT)-based low-rank tensor completion has achieved a lot of attention for color image recovery. However, existing studies mostly focus on tensor decomposition to encode the low-rankness of …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042725005928"
+    },
+    {
+      "title": "A Fast Nonlinear Sparse Model for Blind Image Deblurring",
+      "authors": "Z Zhang, Z Guo, Z Xu, H Chen, C Wang, Y Song, J Lai… - Journal of Imaging, 2025",
+      "abstract": "Blind image deblurring, which requires simultaneous estimation of the latent image and blur kernel, constitutes a classic ill-posed problem. To address this, priors based on 𝐿2, 𝐿1, and 𝐿𝑝 regularizations have been widely adopted. Based on this …",
+      "url": "https://www.mdpi.com/2313-433X/11/10/327"
+    }
+  ]
+}

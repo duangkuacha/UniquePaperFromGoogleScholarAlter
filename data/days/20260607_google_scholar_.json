@@ -1,0 +1,122 @@
+{
+  "id": "20260607_google_scholar_",
+  "date": "20260607",
+  "source": "historical-import",
+  "messages": 10,
+  "papers": [
+    {
+      "title": "Stability results for regularized least-squares problems via generalized Hessian expressions and monotone generalized equations",
+      "authors": "L Smulansky, T Hoheisel, TTA Nghia - arXiv preprint arXiv:2606.00526, 2026",
+      "abstract": "We study perturbation and stability properties of solution mappings associated with convex regularized least-squares problems. We first establish an implicit function theorem for generalized equations governed by maximally monotone operators and …",
+      "url": "https://arxiv.org/pdf/2606.00526"
+    },
+    {
+      "title": "OpenWebRL: Demystifying Online Multi-turn Reinforcement Learning for Visual Web Agents",
+      "authors": "R Yang, Q Wu, Y Chen, H Bai, W Yao, H Cheng… - arXiv preprint arXiv …, 2026",
+      "abstract": "Building capable visual web agents requires long-horizon reasoning, precise grounding, and robust interaction with dynamic real-world websites. Despite rapid progress, the strongest systems remain largely proprietary, while open agents still …",
+      "url": "https://arxiv.org/pdf/2606.02031"
+    },
+    {
+      "title": "Stochastic Gradient Methods with Online Scaling",
+      "authors": "W Zhang, W Gao, Y Ye, M Udell",
+      "abstract": "Abstract This paper introduces Stochastic Online Scaled Gradient Methods (SOSGM), a generalization of the recently developed adaptive preconditioning framework in [15, 25] to stochastic optimization. Under standard assumptions, we …",
+      "url": "https://optimization-online.org/wp-content/uploads/2026/05/Stochastic_OSGM-4.pdf"
+    },
+    {
+      "title": "Efficient Exploration for Iterative Nash Preference Optimization",
+      "authors": "T Nan, X Li, C Kroer, T Lin - arXiv preprint arXiv:2606.01382, 2026",
+      "abstract": "Preference alignment is central to improving large language models, but standard reward-based formulations can be restrictive when human preferences are cyclic, non-transitive, or otherwise not representable by a scalar reward. Nash Learning from Human Feedback (NLHF) addresses this limitation by modeling alignment as a preference game and targeting a Nash equilibrium rather than a reward maximizer. However, the learning-theoretic foundations of scalable NLHF remain limited …",
+      "url": "https://arxiv.org/pdf/2606.01382"
+    },
+    {
+      "title": "Understanding Clipping in Zeroth-order Optimization",
+      "authors": "S Gollapudi, E Bertino, S Oh - High-dimensional Learning Dynamics 2026",
+      "abstract": "Zeroth-order optimization has emerged as a resource-efficient alternative to SGD when fine-tuning LLMs, thanks to the inherent low dimensionality of the loss landscape. It relies on two-point estimate of the gradient that only accesses the function value and not the gradient, bypassing resource heavy backpropagation. Recently, it was accidentally discovered that per-sample clipping can improve performance of the trained model, while running differentially private version of …",
+      "url": "https://openreview.net/pdf?id=COcA59DYDt"
+    },
+    {
+      "title": "The Shadow Price of Reasoning: Economic Perspective on Optimal Budget Allocation for LLMs",
+      "authors": "X Wan, S Zhu, J Cai, G Chen, X Huang, W Zhou, M Sun",
+      "abstract": "Inference-time scaling has emerged as a critical avenue for enhancing Large Language Models' performance, yet real-world deployment is constrained by strict computational budgets. In this work, we formulate inference budget allocation as a global constrained optimization problem governed by economic principles. By modeling per-query reasoning utility with a shifted-surge function, we derive an optimal allocation policy based on a global shadow price that equilibrates marginal …",
+      "url": "https://www.researchgate.net/profile/Mingyang-Sun-9/publication/405595402_The_Shadow_Price_of_Reasoning_Economic_Perspective_on_Optimal_Budget_Allocation_for_LLMs/links/6a1d571fe6a87c49dace2c25/The-Shadow-Price-of-Reasoning-Economic-Perspective-on-Optimal-Budget-Allocation-for-LLMs.pdf"
+    },
+    {
+      "title": "Promoting Generalization for Exact Combinatorial Solvers via Adversarial Instance Augmentation",
+      "authors": "H Liu, J Wang, Y Kuang, X Li, Y Zhang, F Wu - IEEE Transactions on Pattern Analysis …, 2026",
+      "abstract": "Machine learning has been successfully applied to accelerate Mixed-Integer Linear Programming (MILP) solvers. However, the learning-based solvers often suffer from severe performance degradation on unseen MILP instances due to the limited number of training instances and diversity of training distributions. To tackle this problem, we propose a novel data augmentation approach, called Adversarial Instance Augmentation, to promote the data diversity for learning-based branching …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11541051/"
+    },
+    {
+      "title": "Accelerating Min-Max Optimization via Power-Law Stepsizes",
+      "authors": "Y Wu, W Zheng, Y Cai, H Luo - arXiv preprint arXiv:2606.01764, 2026",
+      "abstract": "We revisit the convergence guarantees of the Extragradient (EG) method for unconstrained biaffine min-max optimization. It is known that EG with a fixed stepsize achieves a $\\Theta (T^{-1/2}) $ last-iterate convergence rate, which is slower than the optimal $\\mathcal {O}(T^{-1}) $ rate attainable by incorporating additional mechanisms such as anchoring. Motivated by recent advances showing that dynamic stepsizes alone can significantly accelerate gradient descent, we ask …",
+      "url": "https://arxiv.org/pdf/2606.01764"
+    },
+    {
+      "title": "Stochastic convergence of parallel asynchronous adaptive first-order methods",
+      "authors": "S Gratton, PL Toint - arXiv preprint arXiv:2606.01787, 2026",
+      "abstract": "A new class of asynchronous adaptive first-order optimization methods is introduced, comprising asynchronous variants of several popular algorithms. Versions of these methods using momentum and/or inexact normalization are also considered. The convergence of methods in the class on non-convex functions is analyzed in a fully stochastic setting, and is shown to be (up to logarithmic factors) of order O (1/sqrt {t}) under reasonable assumptions. Numerical experiments suggest that such …",
+      "url": "https://arxiv.org/pdf/2606.01787"
+    },
+    {
+      "title": "Don't Let a Few Network Failures Slow the Entire AllReduce",
+      "authors": "P Chen, J Jiang, N Yu, Y Wang, S Xiong, W Wang… - arXiv preprint arXiv …, 2026",
+      "abstract": "Network failures are among the most frequent hardware faults in large-scale GPU clusters and a leading cause of training-job interruptions. Modern collective communication libraries such as NCCL mitigate network failures by rerouting traffic through surviving NICs on the same server, trading reduced inter-node bandwidth for uninterrupted training. However, the degraded server remains on the critical path of the standard ring algorithm, slowing the entire collective. We present the first …",
+      "url": "https://arxiv.org/pdf/2606.01680"
+    },
+    {
+      "title": "FreqLite: A Lightweight Frequency-Decomposed Linear Model with Adaptive Reversible Normalization for Robust Long-Term Time-Series Forecasting",
+      "authors": "MSA Baiga, SA Gillani - arXiv preprint arXiv:2606.01339, 2026",
+      "abstract": "Long-term time-series forecasting needs models that are accurate yet efficient enough for commodity hardware. Lightweight linear forecasters are remarkably strong in this regime, yet they leave two openings: reversible instance normalization (RevIN) de-normalizes the entire horizon with a single lookback statistic, which is inaccurate under non-stationarity, and time-domain trend/seasonal decomposition relies on a fixed, non-adaptive filter. We present FreqLite, an ultra-lightweight …",
+      "url": "https://arxiv.org/pdf/2606.01339"
+    },
+    {
+      "title": "Finite-sample analysis for distributed and neural reinforcement learning",
+      "authors": "H Tian - 2026",
+      "abstract": "This dissertation develops a modular finite-sample theory for reinforcement learning under two realities of modern practice that challenge classical analysis: nonlinear function approximation and trajectory-based, temporally dependent data, including distributed and continuing settings. The central objective is to provide reproducible end-to-end convergence guarantees that explicitly separate the roles of approximation error, Markov dependence, and algorithm design. The theory is …",
+      "url": "https://open.bu.edu/bitstreams/a475b54b-0844-4072-b1a6-981f4e0270a1/download"
+    },
+    {
+      "title": "Learning under Limited Information across Federated, Multi-Agent, and LLM Settings",
+      "authors": "S Kharrat - 2026",
+      "abstract": "Modern machine learning systems increasingly operate under limited information: training data are distributed across silos and cannot be pooled, agents must act from local observations in partially observable environments, and powerful foundation models are often accessible only through black-box interfaces that expose outputs but conceal gradients and internal representations. These structural constraints fundamentally reshape learning and optimization, introducing challenges in …",
+      "url": "https://repository.kaust.edu.sa/bitstreams/4cbbe7d4-1da2-43cd-8474-9f48003736af/download"
+    },
+    {
+      "title": "OCC-RAG: Optimal Cognitive Core for Faithful Question Answering",
+      "authors": "M Savkin, M Goncharov, A Gambashidze, A Chepurova… - arXiv preprint arXiv …, 2026",
+      "abstract": "Recent progress in the development of language models has been defined by scale, with each generation absorbing more of the world's knowledge into its weights. However, many practical applications benefit more from robust reasoning than from …",
+      "url": "https://arxiv.org/pdf/2606.00683"
+    },
+    {
+      "title": "Inexactly Smooth Performance Estimation and New Optimized Gradient Methods",
+      "authors": "A Zoll, B Grimmer - arXiv preprint arXiv:2606.01505, 2026",
+      "abstract": "We consider a general class of``inexactly smooth''convex functions, providing a universal model capturing as special cases $ L $-smooth, $ M $-Lipschitz, and H\\\" older smooth functions, and any combination thereof. Such functions possess a …",
+      "url": "https://arxiv.org/pdf/2606.01505"
+    },
+    {
+      "title": "Riemannian Optimization for Hadamard Products of Low-Rank Matrices",
+      "authors": "P Jawanpuria, A Chandresh, B Mishra - arXiv preprint arXiv:2606.01216, 2026",
+      "abstract": "The elementwise Hadamard product of two low-rank matrices provides a parameter-efficient model for data with multiplicative structure, but its modeling is challenging due to the presence of additional symmetries under coupled row/column scalings …",
+      "url": "https://arxiv.org/pdf/2606.01216"
+    },
+    {
+      "title": "Doubly adaptive precision restarted GMRES",
+      "authors": "E Agullo, L Giraud, P Jolivet, T Mary, A Tabouret - 2026",
+      "abstract": "We introduce a doubly adaptive precision variant of restarted generalized minimal residual (GMRES) for modern multicore processors that combines two complementary mechanisms to reduce solver cost: relaxed GMRES, which …",
+      "url": "https://hal.science/hal-05640635/document"
+    },
+    {
+      "title": "Transpose-free linear algebra",
+      "authors": "D Halikias, ME Hochstenbach, A Townsend - arXiv preprint arXiv:2606.01335, 2026",
+      "abstract": "We study the limitations of matrix-free algorithms that access a matrix $ A $ only through forward matrix-vector products (matvecs) $ x\\mapsto Ax $, without access to the transpose $ A^\\top $ or its action. This setting arises naturally in operator …",
+      "url": "https://arxiv.org/pdf/2606.01335"
+    },
+    {
+      "title": "Iteris: Agentic Research Loops for Computational Mathematics",
+      "authors": "L Chen, Z Liu, W He, B Dong - arXiv preprint arXiv:2606.02484, 2026",
+      "abstract": "Recent advances in large language models and agentic AI systems have enabled significant progress in mathematical discovery, from solving competition problems to tackling research-level conjectures. However, open problems in computational …",
+      "url": "https://arxiv.org/pdf/2606.02484"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "20260712_google_scholar_",
+  "date": "20260712",
+  "source": "historical-import",
+  "messages": 16,
+  "papers": [
+    {
+      "title": "Elastically safeguarded augmented Lagrangian methods",
+      "authors": "EG Birgin, A De Marchi, P Mehlitz - arXiv preprint arXiv:2607.02697, 2026",
+      "abstract": "We investigate, theoretically and numerically, a class of elastically safeguarded augmented Lagrangian methods for nonlinear optimization problems with inequality and equality constraints. Safeguarded augmented Lagrangian methods are known to …",
+      "url": "https://arxiv.org/pdf/2607.02697"
+    },
+    {
+      "title": "SpecGradFilter: A Spectral Gradient Filtering Framework for Taming Federated Heterogeneity",
+      "authors": "L Yuan, Y Yang, D Guo, P Richtarik, Z Lin - arXiv preprint arXiv:2607.04189, 2026",
+      "abstract": "Federated Learning (FL) is fundamentally challenged by statistical heterogeneity, where non-identically distributed (non-IID) data induces client drift that severely hampers global convergence. While existing approaches attempt to mitigate this drift …",
+      "url": "https://arxiv.org/pdf/2607.04189"
+    },
+    {
+      "title": "A Proximal Point Semismooth Newton Algorithm for Structural Composite Cardinality Optimization",
+      "authors": "P Zhang, N Xiu, H Qi - arXiv preprint arXiv:2607.02926, 2026",
+      "abstract": "Many image-processing problems can be formulated as composite cardinality optimization (CCOP), whose objective is the sum of two convex terms and a cardinality function composed with a linear operator. The composite cardinality term …",
+      "url": "https://arxiv.org/pdf/2607.02926"
+    },
+    {
+      "title": "Tensor Completion via Minimum and Maximum Optimization",
+      "authors": "C Wanga, J Nana, X Yana - Journal of Computational and Applied Mathematics, 2026",
+      "abstract": "We propose a novel optimization for tensor completion by considering the minimal and the maximal Tucker rank. The objective function of the new programming is a weighted combination of the minimal and maximal nuclear norm of N-mode matrices …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042726005376"
+    },
+    {
+      "title": "TV Prox-Adan: An Accelerated Algorithm for Robust Tensor Completion under Low Sampling Ratios",
+      "authors": "Q Zheng, T Adam - Digital Signal Processing, 2026",
+      "abstract": "Tensor completion is an essential technique for recovering missing entries in multi-dimensional data, with applications in image restoration, video processing, and hyperspectral imaging. While low-rank tensor models have achieved notable …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1051200426004999"
+    },
+    {
+      "title": "Unified convergence analysis for gradient descent optimization methods in the training of deep neural networks",
+      "authors": "S Ibragimov, A Jentzen - arXiv preprint arXiv:2607.04233, 2026",
+      "abstract": "Gradient based optimization methods are nowadays the methods of choice for training deep neural networks (DNNs) in artificial intelligence (AI) systems. In practically relevant DNN training problems, one does usually not apply the standard …",
+      "url": "https://arxiv.org/pdf/2607.04233"
+    },
+    {
+      "title": "On The Linear Convergence of Bregman Proximal Gradient Methods with Applications to Kullback--Leibler regression",
+      "authors": "J Chirinos-Rodríguez, C Daniele, C Févotte, E Soubies - arXiv preprint arXiv …, 2026",
+      "abstract": "Bregman Proximal Gradient methods (BPGM) exploit the underlying geometry of the objective function through a carefully chosen mirror map. In this work, we introduce a novel notion of strong convexity, termed Restricted Relative Strong Convexity, and …",
+      "url": "https://arxiv.org/abs/2607.05539"
+    },
+    {
+      "title": "Level-Crossing Density as a Mesh-Free High-Frequency Auxiliary Loss for Implicit Neural Representations",
+      "authors": "GL Howe - arXiv preprint arXiv:2607.05815, 2026",
+      "abstract": "The Minkowski functionals of a field's excursion sets--area, boundary measure, and Euler characteristic--describe its level-set morphology; the Euler characteristic is the cheapest handle on topology. We derive smooth Monte-Carlo estimators for all three …",
+      "url": "https://arxiv.org/pdf/2607.05815"
+    },
+    {
+      "title": "Direct Data Driven Natural Gradient Descent for Control",
+      "authors": "R Esmzad, FA Yaghmaie, B Kiumarsi, H Modares - arXiv preprint arXiv:2607.03393, 2026",
+      "abstract": "This paper introduces a novel direct data-driven control framework based on Natural Gradient Descent (NGD) to design interpretable and robust closed-loop policies without requiring explicit model identification. We propose two data-driven NGD …",
+      "url": "https://arxiv.org/pdf/2607.03393"
+    },
+    {
+      "title": "A Semismooth Newton Augmented Lagrangian Method for Sparse Spectral Risk Optimization",
+      "authors": "R Xiao, R Jiang, X Li, D Sun - arXiv preprint arXiv:2607.05991, 2026",
+      "abstract": "Empirical risk minimization is a standard and effective paradigm for learning predictive models by minimizing average loss. In high-stakes decision-making, however, an average-loss criterion may underrepresent rare but severe losses …",
+      "url": "https://arxiv.org/pdf/2607.05991"
+    },
+    {
+      "title": "A Unified Framework for Formalizing Matrix Decomposition Proofs",
+      "authors": "W Ma, Z Wang, Z Wen - arXiv preprint arXiv:2607.05874, 2026",
+      "abstract": "Existence proofs for many matrix decompositions share a recursive routine: a local transformation prepares the matrix, a slice is selected, a recursive solution is obtained, and the result is lifted and transported back. Formalizing this routine …",
+      "url": "https://arxiv.org/pdf/2607.05874"
+    },
+    {
+      "title": "Online Linear Programming for Multi-Objective Routing in LLM Serving",
+      "authors": "Z Chen, Y Ye, Z Zhou - arXiv preprint arXiv:2607.03948, 2026",
+      "abstract": "We study the online routing problem in large language model serving, where requests arrive sequentially and must be dispatched to parallel decode workers under tight batch-size and KV-cache constraints. Unlike widely used routing …",
+      "url": "https://arxiv.org/pdf/2607.03948"
+    },
+    {
+      "title": "Mixed precision Newton's method for optimization",
+      "authors": "N Brisebarre, G Carrino, T Mary, E Riccietti - arXiv preprint arXiv:2607.04828, 2026",
+      "abstract": "Second-order optimization methods, such as Newton's algorithm, achieve fast local convergence and high accuracy, but their practical use is often limited by high computational costs. To mitigate this issue, variants such as inexact and quasi …",
+      "url": "https://arxiv.org/pdf/2607.04828"
+    },
+    {
+      "title": "On the convergence rates of moment-SOS hierarchies approximation of truncated moment sequences: HA Tran, K.-C. Toh",
+      "authors": "HA Tran, KC Toh - Mathematical Programming, 2026",
+      "abstract": "The moment-SOS hierarchy, which is based on Putinar-type (quadratic module) and Schmüdgen-type (preordering) sum-of-squares positivity certificates, is a widely applicable framework to address polynomial optimization problems over basic semi …",
+      "url": "https://link.springer.com/article/10.1007/s10107-026-02394-6"
+    },
+    {
+      "title": "DecompRL: Solving Harder Problems by Learning Modular Code Generation",
+      "authors": "J Decugis, F Gloeckle, F Bach, T Cohen, G Synnaeve - arXiv preprint arXiv …, 2026",
+      "abstract": "How can Large Language Models (LLMs) solve problems they currently cannot? Repeated sampling scales test-time compute but GPU cost grows linearly with attempts, while reinforcement learning (RL) with verifiable rewards improves single …",
+      "url": "https://arxiv.org/pdf/2607.02390"
+    },
+    {
+      "title": "Anytime Detection of Strategic Deviations in Multi-Agent Systems",
+      "authors": "E Gauthier, F Bach, MI Jordan - Forty-third International Conference on Machine …, 2026",
+      "abstract": "In many multi-agent systems, agents interact repeatedly and are expected to settle into stable, rational behavior over time. Yet in practice, behavior often drifts, and detecting such deviations in real time remains an open challenge. We introduce a …",
+      "url": "https://openreview.net/pdf?id=hXO2OP0T4w"
+    },
+    {
+      "title": "Don't Let Gains FADE: Breaking Down Policy Gradient Weights in RL",
+      "authors": "J Decugis, S O'Brien, F Bach, G Synnaeve, T Cohen - arXiv preprint arXiv:2607.01490, 2026",
+      "abstract": "Reinforcement learning post-training dramatically improves LLM reasoning, but suffers from training instability and diversity collapse. Advantage functions offer an appealing fix: they reshape the training objective, reweight which rollouts drive …",
+      "url": "https://arxiv.org/pdf/2607.01490"
+    },
+    {
+      "title": "Regularized Variational and Spectral Log-Density-Ratio Estimation in the Gaussian Location Model",
+      "authors": "F Bach - arXiv preprint arXiv:2607.01895, 2026",
+      "abstract": "We study ridge-regularized log-density-ratio estimation in the Gaussian location model with a common covariance matrix. By affine invariance, the model is written as q $\\sim $ N (0, I), p $\\sim $ N ($\\Delta $, I), with linear features, where $\\Delta $ is a …",
+      "url": "https://arxiv.org/pdf/2607.01895"
+    },
+    {
+      "title": "NonOpt: Nonconvex, Nonsmooth Optimizer: FE Curtis, L. Zebiane",
+      "authors": "FE Curtis, L Zebiane - Mathematical Programming Computation, 2026",
+      "abstract": "NonOpt, a C++ software package for minimizing locally Lipschitz objective functions, is presented. The software is intended primarily for minimizing objective functions that are nonconvex and/or nonsmooth. The package has implementations of two …",
+      "url": "https://link.springer.com/article/10.1007/s12532-026-00322-5"
+    },
+    {
+      "title": "Sketch low-rank dynamics: orthogonal vs. oblique projections",
+      "authors": "B Carrel, L Grigori - arXiv preprint arXiv:2607.03402, 2026",
+      "abstract": "We study how sketching techniques from randomized numerical linear algebra can be incorporated into the dynamical low-rank approximation (DLRA) of large-scale matrix differential equations. A natural approach is to sketch the Galerkin condition …",
+      "url": "https://arxiv.org/pdf/2607.03402"
+    },
+    {
+      "title": "Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory",
+      "authors": "J Liu, G Gao, Z Sun, B Wu, S Liu, J Jiang, H Ju, L Chen… - arXiv preprint arXiv …, 2026",
+      "abstract": "Recent LLM-based mathematical reasoning agents have begun to tackle research-level problems and, in several cases, have contributed to the resolution of open problems. However, scaling and orchestrating such agents effectively remains …",
+      "url": "https://arxiv.org/pdf/2607.06447"
+    }
+  ]
+}

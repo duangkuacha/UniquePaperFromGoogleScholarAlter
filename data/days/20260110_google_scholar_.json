@@ -1,0 +1,104 @@
+{
+  "id": "20260110_google_scholar_",
+  "date": "20260110",
+  "source": "historical-import",
+  "messages": 7,
+  "papers": [
+    {
+      "title": "Low Rank Support Quaternion Matrix Machine",
+      "authors": "W Chen, Z Luo, S Wang - arXiv preprint arXiv:2512.08327, 2025",
+      "abstract": "Input features are conventionally represented as vectors, matrices, or third order tensors in the real field, for color image classification. Inspired by the success of quaternion data modeling for color images in image recovery and denoising tasks …",
+      "url": "https://arxiv.org/pdf/2512.08327"
+    },
+    {
+      "title": "Fractal Dimension-Based Multi-Focus Image Fusion via AGPCNN and Consistency Verification in NSCT Domain",
+      "authors": "M Lv, Z Jia, L Li, H Ma - Fractal and Fractional, 2025",
+      "abstract": "Multi-focus images are essential in various computer vision applications. To mitigate artifacts and information loss in multi-focus image fusion, we propose a novel algorithm based on AGPCNN and fractal dimension in the NSCT domain. The source …",
+      "url": "https://www.mdpi.com/2504-3110/10/1/1"
+    },
+    {
+      "title": "Prior Diffusiveness and Regret in the Linear-Gaussian Bandit",
+      "authors": "Y Zhu, JC Duchi, B Van Roy - arXiv preprint arXiv:2601.02022, 2026",
+      "abstract": "We prove that Thompson sampling exhibits $\\tilde {O}(\\sigma d\\sqrt {T}+ dr\\sqrt {\\mathrm {Tr}(\\Sigma_0)}) $ Bayesian regret in the linear-Gaussian bandit with a $\\mathcal {N}(\\mu_0,\\Sigma_0) $ prior distribution on the coefficients, where $ d $ is …",
+      "url": "https://arxiv.org/pdf/2601.02022"
+    },
+    {
+      "title": "Sparse Tucker Decomposition and Graph Regularization for High-Dimensional Time Series Forecasting",
+      "authors": "S Xia, MK Ng, X Zhang - arXiv preprint arXiv:2601.00377, 2026",
+      "abstract": "Existing methods of vector autoregressive model for multivariate time series analysis make use of low-rank matrix approximation or Tucker decomposition to reduce the dimension of the over-parameterization issue. In this paper, we propose a sparse …",
+      "url": "https://arxiv.org/pdf/2601.00377"
+    },
+    {
+      "title": "Crafting Adversarial Inputs for Large Vision-Language Models Using Black-Box Optimization",
+      "authors": "J Guan, H Jin, H Wang - arXiv preprint arXiv:2601.01747, 2026",
+      "abstract": "Recent advancements in Large Vision-Language Models (LVLMs) have shown groundbreaking capabilities across diverse multimodal tasks. However, these models remain vulnerable to adversarial jailbreak attacks, where adversaries craft subtle perturbations to bypass safety mechanisms and trigger harmful outputs. Existing white-box attacks methods require full model accessibility, suffer from computing costs and exhibit insufficient adversarial transferability, making them …",
+      "url": "https://arxiv.org/pdf/2601.01747"
+    },
+    {
+      "title": "Bayesian Subspace Gradient Estimation for Zeroth-Order Optimization of Large Language Models",
+      "authors": "J Feng, Z Huang - arXiv preprint arXiv:2601.01452, 2026",
+      "abstract": "Fine-tuning large language models (LLMs) with zeroth-order (ZO) optimization reduces memory by approximating gradients through function evaluations, but existing methods rely on one-step gradient estimates from random perturbations. We introduce Bayesian Subspace Zeroth-Order optimization (BSZO), a ZO optimizer that applies Kalman filtering to combine finite-difference information across multiple perturbation directions. By treating each finite-difference measurement as a noisy …",
+      "url": "https://arxiv.org/pdf/2601.01452"
+    },
+    {
+      "title": "Efficient Unrolled Networks for Large-Scale 3D Inverse Problems",
+      "authors": "R Vo, J Tachella - arXiv preprint arXiv:2601.02141, 2026",
+      "abstract": "Deep learning-based methods have revolutionized the field of imaging inverse problems, yielding state-of-the-art performance across various imaging domains. The best performing networks incorporate the imaging operator within the network architecture, typically in the form of deep unrolling. However, in large-scale problems, such as 3D imaging, most existing methods fail to incorporate the operator in the architecture due to the prohibitive amount of memory required by global …",
+      "url": "https://arxiv.org/pdf/2601.02141"
+    },
+    {
+      "title": "HyDRA: Hybrid Denoising Regularization for Measurement-Only DEQ Training",
+      "authors": "M Haltmeier, L Neumann, N Gruber, J Schwab… - arXiv preprint arXiv …, 2026",
+      "abstract": "Solving image reconstruction problems of the form\\(\\mathbf {A}\\mathbf {x}=\\mathbf {y}\\) remains challenging due to ill-posedness and the lack of large-scale supervised datasets. Deep Equilibrium (DEQ) models have been used successfully but typically require supervised pairs\\((\\mathbf {x},\\mathbf {y})\\). In many practical settings, only measurements\\(\\mathbf {y}\\) are available. We introduce HyDRA (Hybrid Denoising Regularization Adaptation), a measurement-only framework for DEQ training that …",
+      "url": "https://arxiv.org/pdf/2601.01228"
+    },
+    {
+      "title": "CNL-Diff: A Nonlinear Data Transformation Framework for Epidemic Scale Prediction Based on Diffusion Models",
+      "authors": "B Ma, Y Du - Mathematics, 2026",
+      "abstract": "In recent years, the complexity and suddenness of infectious disease transmission have posed significant limitations for traditional time-series forecasting methods when dealing with the nonlinearity, non-stationarity, and multi-peak distributions of epidemic scale variations. To address this challenge, this paper proposes a forecasting framework based on diffusion models, called CNL-Diff, aimed at tackling the prediction challenges in complex dynamics, nonlinearity, and non-stationary …",
+      "url": "https://www.mdpi.com/2227-7390/14/2/207"
+    },
+    {
+      "title": "Robust federated learning for cloud environments using evolutionary optimization and blockchain",
+      "authors": "SP Panimalar, S Gunasundari - Scientific Reports, 2026",
+      "abstract": "The growing dependence on cloud-based distributed intelligence requires learning systems that can protect data privacy while maintaining efficiency. Federated learning has become an important method to train models without centralizing raw data, but its effectiveness is hindered by heterogeneous client distributions, adversarial risks, unstable convergence, and inefficient resource utilization. To overcome these challenges, this study introduces FedGenBlk, a federated learning …",
+      "url": "https://www.nature.com/articles/s41598-025-34290-y"
+    },
+    {
+      "title": "Adaptive variational fusion of multi-source lunar digital elevation models based on curvature regularization",
+      "authors": "S Qiu, Z Ye, Y Xu, J Qian, R Huang, T Tao, H Xie… - Computers & Geosciences, 2026",
+      "abstract": "ABSTRACT A good lunar Digital Elevation Model (DEM) is critical for successful lunar landings and exploration missions, providing essential terrain data for landing site selection and mission planning. However, existing lunar DEMs face significant limitations, such as insufficient resolution, incomplete data coverage, and errors arising from observational and processing methods. These limitations hinder their effectiveness in high-precision terrain analysis and practical applications. To address …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S009830042600004X"
+    },
+    {
+      "title": "Hierarchical topological clustering",
+      "authors": "A Carpio, G Duro - arXiv preprint arXiv:2601.00892, 2025",
+      "abstract": "Topological methods have the potential of exploring data clouds without making assumptions on their the structure. Here we propose a hierarchical topological clustering algorithm that can be implemented with any distance choice. The persistence of outliers and clusters of arbitrary shape is inferred from the resulting hierarchy. We demonstrate the potential of the algorithm on selected datasets in which outliers play relevant roles, consisting of images, medical and economic data …",
+      "url": "https://arxiv.org/pdf/2601.00892"
+    },
+    {
+      "title": "Acquisition Protocols and Inverse Methods for 3D Magnetic Resonance Force Microscopy",
+      "authors": "N Prumbaum - 2025",
+      "abstract": "Abstract Magnetic Resonance Force Microscopy (MRFM) is a nanoscale magnetic resonance imaging (nanoMRI) technique that enables three-dimensional, non-destructive, isotope-specific imaging of individual samples with nanometer resolution. It replaces the inductive signal pickup of standard MRI techniques with force detection. The sam-ple is mounted on an ultrasensitive mechanical resonator and positioned in a strong magnetic field gradient, converting modulation of the …",
+      "url": "https://www.research-collection.ethz.ch/bitstreams/23c819dc-ceab-4c9e-87fa-e5806f04a961/download"
+    },
+    {
+      "title": "A MINRES-based Linesearch Algorithm for Nonconvex Optimization with Non-positive Curvature Detection",
+      "authors": "H Zeng, Y Liu, W Ouyang, A Milzarek - arXiv preprint arXiv:2601.01575, 2026",
+      "abstract": "We propose a MINRES-based Newton-type algorithm for solving unconstrained nonconvex optimization problems. Our approach uses the minimal residual method (MINRES), a well-known solver for indefinite symmetric linear systems, to compute …",
+      "url": "https://arxiv.org/pdf/2601.01575"
+    },
+    {
+      "title": "S⊤ S-SVD via sketching and the nearest S⊤ S-orthogonal matrix",
+      "authors": "D Palitta, V Simoncini - BIT Numerical Mathematics, 2026",
+      "abstract": "Sketching techniques have gained popularity in numerical linear algebra to accelerate the solution of least squares problems. The so-called ε-subspace embedding property of a sketching matrix S has been largely used to characterize …",
+      "url": "https://link.springer.com/article/10.1007/s10543-025-01101-9"
+    },
+    {
+      "title": "A Perturbed DCA for Computing d-Stationary Points of Nonsmooth DC Programs",
+      "authors": "Z Feng, Y Yuan - arXiv preprint arXiv:2601.02084, 2026",
+      "abstract": "This paper introduces an efficient perturbed difference-of-convex algorithm (pDCA) for computing d-stationary points of an important class of structured nonsmooth difference-of-convex problems. Compared to the principal algorithms introduced in …",
+      "url": "https://arxiv.org/pdf/2601.02084"
+    }
+  ]
+}

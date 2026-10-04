@@ -1,0 +1,50 @@
+{
+  "id": "20250925_google_scholar_",
+  "date": "20250925",
+  "source": "historical-import",
+  "messages": 3,
+  "papers": [
+    {
+      "title": "Transferable Nonintrusive Load Monitoring in Smart Grids via Frequency-Division Fusion Scattering Time-Series Transformer",
+      "authors": "S Li, Z Su, G Chen, L Chen, H Li, H Jiang, J Zhang… - IEEE Transactions on …, 2025",
+      "abstract": "Nonintrusive load monitoring (NILM) aims to accurately identify appliance-level power consumption patterns solely based on the total household power signal, facilitating fine-grained management of smart grid demands. Previous monitoring methods have often focused on classifying time domain power signals or identifying appliance signatures in the frequency domain, lacking sufficient analysis of diverse, sparsely labeled data across different households in the time-frequency domain. We …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11049807/"
+    },
+    {
+      "title": "Adaptive Batch Size Time Evolving Stochastic Gradient Descent for Federated Learning",
+      "authors": "X An, L Shen, Y Luo, H Hu, D Tao - IEEE Transactions on Pattern Analysis and …, 2025",
+      "abstract": "Variance reduction has been shown to improve the performance of Stochastic Gradient Descent (SGD) in centralized machine learning. However, when it is extended to federated learning systems, many issues may arise, including (i) mega-batch size settings;(ii) additional noise introduced by the gradient difference between the current iteration and the snapshot point; and (iii) gradient (statistical) heterogeneity. In this paper, we propose a lightweight algorithm termed federated …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11164526/"
+    },
+    {
+      "title": "AS-ES: Sparse Black-box Adversarial Attack By Active Subspace Evolution Strategy",
+      "authors": "J Duan, Z Li",
+      "abstract": "In adversarial attacks, most existing methods adopt global attack methods, which attack by changing all image pixels, but this is not realistic. On the contrary, sparse attacks indicate that only perturbing local regions of the input image can deceive DNN models into making incorrect predictions. However, this method requires a large number of queries to generate adversarial examples, and the key issues it faces are locating the perturbation area and optimizing the magnitude of the …",
+      "url": "http://poster-openaccess.com/files/ICIC2025/2920.pdf"
+    },
+    {
+      "title": "CMTFormer: Contrastive Multi-Scale Transformer for Long-Term Time Series Forecasting",
+      "authors": "C Ye, S Zhang, G Xu",
+      "abstract": "Long-term time series forecasting remains challenging due to complex temporal dependencies, diverse data distributions, and computational inefficiencies with extended sequences. We propose CMTFormer, a novel architecture that addresses these limitations through multi-scale temporal modeling and contrastive learning. Our approach combines adaptive trend decomposition across multiple timescales with a representation learning framework that leverages self-attention mechanisms and …",
+      "url": "http://poster-openaccess.com/files/ICIC2025/846.pdf"
+    },
+    {
+      "title": "Distributed Approximate Aggregative Optimization of Unknown Pure-Feedback Systems With Sampled Neighbor Information",
+      "authors": "C Li, Q Wang, HE Psillakis - IEEE Transactions on Cybernetics, 2025",
+      "abstract": "This article addresses the distributed aggregative optimization (DAO) problem for high-order nonlinear systems with unknown pure-feedback dynamics over directed unbalanced networks, with the key contribution being the extension of DAO methods to high-order nonlinear systems. To achieve this, we first introduce auxiliary aggregative variables that integrate agent output and sampled neighbor information, progressively updated through a smoothing function. Using these variables and …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11173691/"
+    },
+    {
+      "title": "Adaptive dynamic guided image filtering for edge preservation and structure extraction",
+      "authors": "J Long, S Chen, Y Liu, K Zhang, Q Luo - Signal Processing, 2025",
+      "abstract": "Image smoothing is a fundamental technique in the field of image processing. Different tasks require different smoothing characteristics. However, the smoothing behavior of a given operator is typically fixed and often cannot simultaneously satisfy multiple tasks, such as detail enhancement, clip-art compression artifacts removal, and structure-texture decomposition. To address this limitation, we propose an adaptive dynamic guided image filtering model that preserves edges and extracts …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165168425004049"
+    },
+    {
+      "title": "A Unified SAM-Guided Self-Prompt Learning Framework for Infrared Small Target Detection",
+      "authors": "Y Fu, J Lyu, P Ma, Z Liu, MK Ng - IEEE Transactions on Geoscience and Remote …, 2025",
+      "abstract": "Infrared small target detection (ISTD) aims to precisely capture the location and morphology of small targets under all-weather conditions. Compared with generic objects, infrared targets in remote fields of view are smaller in size and exhibit lower …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11172325/"
+    }
+  ]
+}

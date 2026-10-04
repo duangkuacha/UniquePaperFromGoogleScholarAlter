@@ -1,0 +1,110 @@
+{
+  "id": "20260816_google_scholar_",
+  "date": "20260816",
+  "source": "historical-import",
+  "messages": 15,
+  "papers": [
+    {
+      "title": "EvoMem: Memory-Augmented Evolution for Code Optimization",
+      "authors": "V Volkov, V Khrulkov, AV Galichin, D Sivtsov… - arXiv preprint arXiv …, 2026",
+      "abstract": "Successful mutation strategies in evolutionary code search may contain reusable knowledge that is useful beyond a single run, and in some cases may transfer across related tasks and domains. However, existing LLM-driven evolutionary frameworks …",
+      "url": "https://arxiv.org/pdf/2608.10795"
+    },
+    {
+      "title": "A lower bound for stepsize-based acceleration of gradient descent",
+      "authors": "J Ma, Y Chen - arXiv preprint arXiv:2608.10418, 2026",
+      "abstract": "Recent work has shown that, for smooth convex optimization, plain gradient descent can be accelerated from its textbook convergence rate of $ O (T^{-1}) $(where $ T $ denotes the number of iterations) to $ O\\big (T^{-\\log_2 (1+\\sqrt {2})}\\big) $ using …",
+      "url": "https://arxiv.org/pdf/2608.10418"
+    },
+    {
+      "title": "Smooth Reparameterizations of Functions on Simplicial Product Spaces: Applications to Probabilistic Tensor Decomposition and Functional Data Registration",
+      "authors": "S Kumar, A Rahman, A Srivastava, PA Absil - arXiv preprint arXiv:2608.02576, 2026",
+      "abstract": "We consider optimization problems defined on product spaces of simplices. Examples of this class of problems include learning low-rank discrete multivariate probability distributions via simplex constrained tensor decomposition and …",
+      "url": "https://arxiv.org/pdf/2608.02576"
+    },
+    {
+      "title": "HoloAegis: Frozen Representation, Topological Inference: Minimally Parametric Safety Manifolds for Zero-Shot LLM Guardrails",
+      "authors": "THA Li, K Liu, LH Lee, KC Ho, P Shum, MK Ng - arXiv preprint arXiv:2608.08485, 2026",
+      "abstract": "Current LLM safety guardrails face a fundamental tension: fine-tuning distorts pre-trained representations while generative judges incur prohibitive inference costs. We challenge the prevailing paradigm by asking: can safety be achieved through pure …",
+      "url": "https://arxiv.org/pdf/2608.08485"
+    },
+    {
+      "title": "Robust Average-Reward Markov Decision Processes: Minimax-Optimal Learning via Plug-in Reductions",
+      "authors": "Y Yang, Y Chen, Y Chi - arXiv preprint arXiv:2608.06545, 2026",
+      "abstract": "Distributionally robust Markov decision processes provide a principled framework for sequential decision making under model uncertainty. We study how many samples are necessary and sufficient to learn an $\\varepsilon $-optimal robust policy under …",
+      "url": "https://arxiv.org/pdf/2608.06545"
+    },
+    {
+      "title": "RosePO: Customized Preference Alignment in LLM-Based Recommendation",
+      "authors": "J Liao, X He, R Xie, J Wu, Y Yuan, X Sun, Z Kang… - ACM Transactions on Information …",
+      "abstract": "Recent advancements in Large Language Models (LLMs) have inspired their application in sequential recommendation systems, often through supervised fine-tuning (SFT). However, conventional SFT methods often struggle to capture nuanced …",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3833420"
+    },
+    {
+      "title": "GPU-Accelerated Conic Quadratic Programming with Local Linear Convergence under Strict Complementarity",
+      "authors": "H Li, Y Huang, H Liu, D Ge, Y Ye - arXiv preprint arXiv:2608.09159, 2026",
+      "abstract": "We present PDHCG-CQP, a GPU-accelerated first-order solver for large-scale conic convex quadratic programming. PDHCG-CQP supports affine constraints and Cartesian products of nonnegative, second-order, rotated second-order, exponential …",
+      "url": "https://arxiv.org/pdf/2608.09159"
+    },
+    {
+      "title": "Linear Convergence of a Frank-Wolfe-type Method over the Spectrahedron without Strict Complementarity",
+      "authors": "D Garber - arXiv preprint arXiv:2608.09569, 2026",
+      "abstract": "We consider smooth convex minimization over the spectrahedron using Frank-Wolfe-type methods based only on extreme-eigenvector computations. In our recent work\\cite {garber2026randomized} we presented the first ambient-dimension …",
+      "url": "https://arxiv.org/pdf/2608.09569"
+    },
+    {
+      "title": "Establishing Boundary KKT Convergence of Mirror Descent through Reparameterization",
+      "authors": "K Ding, KC Toh - arXiv preprint arXiv:2608.07248, 2026",
+      "abstract": "We prove that mirror descent converges to a KKT point for the nonconvex problem without excluding boundary limits. The result holds under verifiable conditions that jointly couple the objective, the Legendre kernel, and the feasible geometry. The key …",
+      "url": "https://arxiv.org/pdf/2608.07248"
+    },
+    {
+      "title": "Radial-type error bounds for semidefinite feasibility problems without strict feasibility: qualitative estimates and asymptotic tightness",
+      "authors": "M Nishijima, G Li, BF Lourenço - arXiv preprint arXiv:2608.09013, 2026",
+      "abstract": "In this paper, we develop a systematic framework for deriving explicit error bounds for semidefinite feasibility problems without assuming strict feasibility (Slater's condition), a setting in which existing results are limited. Our main technical …",
+      "url": "https://arxiv.org/pdf/2608.09013"
+    },
+    {
+      "title": "Robust Tri-Factorized Low-Rank Tensor Modeling for Image Clustering with Convergence Guarantees",
+      "authors": "X Lan, M Yang, W Li - Signal Processing, 2026",
+      "abstract": "Low-rank representation (LRR) captures intrinsic subspaces using low-rank priors. Extending LRR to third-order tensors preserves multi-way structures, but existing tensor LRR methods are computationally expensive because they repeatedly …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165168426003786"
+    },
+    {
+      "title": "Efficient Techniques for Low-Rank Tensor Approximation and Applications in Robust Object Detection",
+      "authors": "S Ahmadi-Asl, N Rezaeian, CF Caiafa, ALF de Almeida - Technologies, 2026",
+      "abstract": "This paper introduces efficient randomized fixed-precision and single-pass algorithms for low-tubal-rank approximation of third-order tensors. The proposed fixed-precision algorithms are faster and more efficient than the existing algorithms …",
+      "url": "https://www.mdpi.com/2227-7080/14/8/501"
+    },
+    {
+      "title": "Freq-LoRA: Frequency-Domain Low-Rank Adaptation for Weather-Robust Aircraft Segmentation in EO Remote Sensing",
+      "authors": "Y Xia, T Yu, W Xi, F Wang, Y Liu, N Liang, W Zhang - Remote Sensing, 2026",
+      "abstract": "Highlights What are the main findings? Freq-LoRA achieves 0.904 test mIoU (95% CI:[0.899, 0.908]) for weather-robust, box-prompted aircraft segmentation, corresponding to approximately 96% of the full fine-tuning result with only 559 K …",
+      "url": "https://www.mdpi.com/2072-4292/18/16/2674"
+    },
+    {
+      "title": "SIAG on Optimization Views and News",
+      "authors": "J Kronqvist, M Menickelly, B Grimmer, K Shu, AL Wang…",
+      "abstract": "Traditional optimization algorithm design has focused on minimax optimal algorithms—that is, those with the best worst-case performance. While worst-case guarantees are conceptually important, problems in practice are rarely adversarial. For this reason …",
+      "url": "https://siagoptimization.github.io/assets/views/ViewsAndNews-34-1.pdf"
+    },
+    {
+      "title": "The Landscape of LLM-based Search Agents: A Survey",
+      "authors": "F Zhang, J Wu, H Li, Z Lian, H Wu, X Geng, G Zhang… - 2026",
+      "abstract": "Search is undergoing a structural shift from ranked retrieval and static retrieval-augmented generation (RAG) to agentic information seeking. Large language models (LLMs) now plan queries, browse pages, inspect evidence, maintain state …",
+      "url": "https://www.preprints.org/frontend/manuscript/b72c897a7d8e63f5bd7a867e3a171a95/download_pub"
+    },
+    {
+      "title": "The Sharp Worst-Case Asymptotic Rate of the Barzilai--Borwein Method in $\\mathbb R^ d $ and Hilbert Spaces",
+      "authors": "S Yang, YX Yuan - arXiv preprint arXiv:2608.07839, 2026",
+      "abstract": "We establish sharp asymptotic rates for the two Barzilai--Borwein (BB) rules on uniformly positive quadratics and local nonlinear problems. In finite dimensions, for either fixed rule and an arbitrary positive first step, the gradient root factor is bounded …",
+      "url": "https://arxiv.org/pdf/2608.07839"
+    },
+    {
+      "title": "Learning Structural Illumination for Unsupervised Low-light Enhancement",
+      "authors": "T Du, P He, H Wang, T Yu, X Guo - arXiv preprint arXiv:2608.08153, 2026",
+      "abstract": "Existing unsupervised low-light image enhancement (LLIE) methods often estimate illumination directly from the entire low-light input, without separating its spatially varying illumination pattern, termed relative illumination structure, from the absolute …",
+      "url": "https://arxiv.org/pdf/2608.08153"
+    }
+  ]
+}

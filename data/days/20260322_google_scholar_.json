@@ -1,0 +1,98 @@
+{
+  "id": "20260322_google_scholar_",
+  "date": "20260322",
+  "source": "historical-import",
+  "messages": 6,
+  "papers": [
+    {
+      "title": "Closed-form dynamics beyond quadratics",
+      "authors": "F Bach",
+      "abstract": "Quadratic functions are the workhorse of the analysis of iterative algorithms such as gradient-based optimization. They lead, in discrete and continuous time, to closed-form dynamics that treat all eigensubspaces of the Hessian matrix independently …",
+      "url": "https://francisbach.com/closed-form-dynamics/"
+    },
+    {
+      "title": "Subspace Information Imputation-Assisted Global-Nonlocal High-Order Structural Representation for Hyperspectral Image Completing and Mixed Denoising",
+      "authors": "M Xie, Y Zhou, Y Li, X Yang, S Deng - Expert Systems with Applications, 2026",
+      "abstract": "Hyperspectral image (HSI) completing and mixed denoising (HCMD) has an urgent need in the filed of remote sensing, where global-nonlocal subspace structural representation-based HCMD has garnered widespread attention benefiting from its …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417426009863"
+    },
+    {
+      "title": "TRT: Harnessing Tensor Ring Transformer for Hyperspectral Image Super-Resolution",
+      "authors": "J Zhu, Y Gu, Y Quan, C Fang, H Qiu, J Zheng - … of the AAAI Conference on Artificial …, 2026",
+      "abstract": "Deep unfolding networks (DUNs) have recently emerged as a promising approach for hyperspectral image super-resolution (HSISR) by combining the benefits of nonlinear deep learning architectures with interpretable optimization techniques …",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38103/42065"
+    },
+    {
+      "title": "Revisiting Extragradient-Type Methods: Part 1—Generalizations and Sublinear Convergence Rates: Q. Tran-Dinh, N. Nguyen-Trung",
+      "authors": "Q Tran-Dinh, N Nguyen-Trung - Computational Optimization and Applications, 2026",
+      "abstract": "This paper presents a comprehensive analysis of the well-known extragradient (EG) method for solving both equation and inclusion problems. First, we unify and generalize EG for [non] linear equations to a broader class of algorithms …",
+      "url": "https://link.springer.com/article/10.1007/s10589-025-00727-3"
+    },
+    {
+      "title": "Less Is More: Rethinking Parameter-Efficient Fine-Tuning from a Subtractive Perspective",
+      "authors": "T Jiang, L Yang, XL Zhao, Z Qin, Q Hu - Proceedings of the AAAI Conference on …, 2026",
+      "abstract": "Currently, pretrained models are rapidly scaling in size, which substantially increases the cost of fine-tuning them for downstream tasks. To address this challenge, parameter-efficient fine-tuning (PEFT) methods have been developed to …",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37460/41422"
+    },
+    {
+      "title": "ESTIMATING CONDITION NUMBER WITH GRAPH NEURAL NETWORKS",
+      "authors": "E Carson, C Prague, X Chen - arXiv preprint arXiv:2603.10277, 2026",
+      "abstract": "In this paper, we propose a fast method for estimating the condition number of sparse matrices using graph neural networks (GNNs). To enable efficient training and inference of GNNs, our proposed feature engineering for GNNs achieves O (nnz+ n) …",
+      "url": "https://arxiv.org/pdf/2603.10277"
+    },
+    {
+      "title": "Traffic Assignment as a Differentiable Program",
+      "authors": "J Li, M Nie - Available at SSRN, 2026",
+      "abstract": "Differentiable programming enables the efficient computation of gradients for complex mathematical models via automatic differentiation. In this note, we examine its application to transportation research by recasting traffic assignment as a differentiable program that can be embedded within broader hierarchical optimization and learning frameworks. Differentiable traffic assignment (DiTA) replaces conventional equilibrium conditions with an\" equilibrium generation\" …",
+      "url": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6346858"
+    },
+    {
+      "title": "LCMF: A LLM-Enhanced Cross-Modal Fusion Framework for Universal Temporal Forecasting",
+      "authors": "S Du, J Jiang, H Shi, Y Yang, J Zhang, T Li, Y Zheng - Knowledge-Based Systems, 2026",
+      "abstract": "Time series forecasting has historically concentrated on numerical data processing, and recent multimodal approaches have predominantly been limited to simple numerical-to-textual conversions. However, in reality, time series data from different domains are characteristically accompanied by abundant contextual information that remains underutilized. This necessitates a universal time series forecasting framework. Existing methods are limited by two issues: first, direct signal-to-text …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705126005307"
+    },
+    {
+      "title": "Adaptive Optimization Algorithms for Step-Size Selection and Online Problem Parameter Estimation",
+      "authors": "JV Cavalcanti Vilela - 2025",
+      "abstract": "Optimization algorithms have long been fundamental tools across science and engineering, and now are also at the center of the rise of machine learning and artificial intelligence. However, extracting good practical performance from many of these algorithms depends on careful manual calibration and tuning. In fact, the algorithms with best theoretical guarantees do not always perform best in practice. In this light, reducing the effort and skill required to set up optimization algorithms can …",
+      "url": "https://dspace.mit.edu/bitstream/handle/1721.1/165140/cavalcanti-vilela-caval-phd-aeroastro-2025-thesis.pdf?sequence=1&isAllowed=y"
+    },
+    {
+      "title": "WARGM-PDPG: A Dual-Phase Policy Gradient Graph Mamba Neural Network for Device Placement Algorithms",
+      "authors": "H Shu, W Hao, M Han, F Li - Neural Networks, 2026",
+      "abstract": "As neural networks continue to scale in size and complexity, the computational capabilities of individual devices have become increasingly constrained, necessitating the development of efficient parallel training strategies. This challenge is particularly pronounced in device placement tasks, where optimal resource allocation is critical. This work proposes the WARGM-PDPG strategy, which integrates the Weight Adaptive Residual Graph Mamba Network (WARGMamba) for …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S089360802600328X"
+    },
+    {
+      "title": "Deep plug-and-play prior for enhanced electrical impedance tomography",
+      "authors": "Z Chen, X Chen, L Zhang, H Li, S Liang - Applied Soft Computing, 2026",
+      "abstract": "The untrained neural network prior (UNNP) provides a novel inverse problem-solving approach for electrical impedance tomography (EIT). Leveraging this, we propose an unsupervised deep plug-and-play prior (DPnPP) framework to enhance electrical impedance image reconstruction. This method employs a plug-and-play (PnP) prior algorithm, integrates normalization steps into the UNNP architecture and optimizes this hybrid prior using the alternating direction method of multipliers …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1568494626004473"
+    },
+    {
+      "title": "Adaptive Momentum and EMA-weighted Modeling for Imbalanced Label Distribution Learning",
+      "authors": "Y Gao, X Sun, C Tan, C Hu, G Lv - Proceedings of the AAAI Conference on Artificial …, 2026",
+      "abstract": "Abstract Label Distribution Learning (LDL) is a groundbreaking paradigm for addressing the task with label ambiguity. Subjectivity in annotating label description degrees often leads to imbalanced label distribution. Existing approaches either adopt representation alignment or decoupling strategies to solve the imbalanced label distribution learning (ILDL). However, representation alignment-based methods overlook the issue of gradient vanishing for non-dominant branches within …",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39269/43230"
+    },
+    {
+      "title": "Smoothing Proximal Gradient Block-coordinate Algorithms for Group Sparse $$\\ell _0 $$ Regularized Nonsmooth Convex Regression Problem",
+      "authors": "X Li, W Bian - Journal of Optimization Theory and Applications, 2026",
+      "abstract": "In this paper, we study a class of constrained group sparse\\(\\ell _0\\) regularized optimization problems, where the loss function is convex but nonsmooth and the feasible set is defined by box constraints. First, we propose a smoothing proximal gradient block-coordinate (SPGBC) algorithm, which is a novel combination of the proximal gradient block-coordinate algorithm and the smoothing method. We prove that any accumulation point of the iterates generated by it is a local minimizer of the …",
+      "url": "https://link.springer.com/article/10.1007/s10957-026-02955-x"
+    },
+    {
+      "title": "Featurized Occupation Measures for Structured Global Search in Numerical Optimal Control",
+      "authors": "Q Wei, J Tao, H Tan, H Nie - arXiv preprint arXiv:2603.16231, 2026",
+      "abstract": "Numerical optimal control is commonly divided between globally structured but dimensionally intractable Hamilton-Jacobi-Bellman (HJB) methods and scalable but local trajectory optimization. We introduce the Featurized Occupation Measure (FOM), a finite-dimensional primal-dual interface for the occupation-measure formulation that unifies trajectory search and global HJB-type certification. FOM is broad yet numerically tractable, covering both explicit weak-form schemes and …",
+      "url": "https://arxiv.org/pdf/2603.16231"
+    },
+    {
+      "title": "Linearized Bregman Iterations for Sparse Spiking Neural Networks",
+      "authors": "D Windhager, BA Moser, M Lunglmayr - arXiv preprint arXiv:2603.16462, 2026",
+      "abstract": "Spiking Neural Networks (SNNs) offer an energy efficient alternative to conventional Artificial Neural Networks (ANNs) but typically still require a large number of parameters. This work introduces Linearized Bregman Iterations (LBI) as an optimizer for training SNNs, enforcing sparsity through iterative minimization of the Bregman distance and proximal soft thresholding updates. To improve convergence and generalization, we employ the AdaBreg optimizer, a momentum and bias …",
+      "url": "https://arxiv.org/pdf/2603.16462"
+    }
+  ]
+}

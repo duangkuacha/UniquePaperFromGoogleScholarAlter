@@ -1,0 +1,122 @@
+{
+  "id": "20250927_google_scholar_",
+  "date": "20250927",
+  "source": "historical-import",
+  "messages": 11,
+  "papers": [
+    {
+      "title": "Spectral Analysis of the Weighted Frobenius Objective",
+      "authors": "V Trifonov, I Oseledets, E Muravleva - arXiv preprint arXiv:2509.16783, 2025",
+      "abstract": "We analyze a weighted Frobenius loss for approximating symmetric positive definite matrices in the context of preconditioning iterative solvers. Unlike the standard Frobenius norm, the weighted loss penalizes error components associated with …",
+      "url": "https://arxiv.org/pdf/2509.16783"
+    },
+    {
+      "title": "Practical Nonconvex Nonsmooth Optimization",
+      "authors": "FE Curtis, DP Robinson - 2025",
+      "abstract": "Mathematical optimization is the discipline of applied mathematics focused on theory and algorithms pertaining to minimizing (or maximizing) an objective function defined with respect to a decision variable. The field of mathematical optimization has many …",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611978599"
+    },
+    {
+      "title": "Bayesian distributionally robust variational inequalities: regularization and quantification",
+      "authors": "W Ma, Z Chen, X Chen - arXiv preprint arXiv:2509.16537, 2025",
+      "abstract": "We propose a Bayesian distributionally robust variational inequality (DRVI) framework that models the data-generating distribution through a finite mixture family, which allows us to study the DRVI on a tractable finite-dimensional parametric …",
+      "url": "https://arxiv.org/pdf/2509.16537"
+    },
+    {
+      "title": "Adaptive Algorithms with Sharp Convergence Rates for Stochastic Hierarchical Optimization",
+      "authors": "X Gong, J Hao, M Liu - arXiv preprint arXiv:2509.15399, 2025",
+      "abstract": "Hierarchical optimization refers to problems with interdependent decision variables and objectives, such as minimax and bilevel formulations. While various algorithms have been proposed, existing methods and analyses lack adaptivity in stochastic optimization settings: they cannot achieve optimal convergence rates across a wide spectrum of gradient noise levels without prior knowledge of the noise magnitude. In this paper, we propose novel adaptive algorithms for two important classes of …",
+      "url": "https://arxiv.org/pdf/2509.15399"
+    },
+    {
+      "title": "Large Language Models as End-to-end Combinatorial Optimization Solvers",
+      "authors": "X Jiang, Y Wu, M Li, Z Cao, Y Zhang - arXiv preprint arXiv:2509.16865, 2025",
+      "abstract": "Combinatorial optimization (CO) problems, central to decision-making scenarios like logistics and manufacturing, are traditionally solved using problem-specific algorithms requiring significant domain expertise. While large language models (LLMs) have shown promise in automating CO problem solving, existing approaches rely on intermediate steps such as code generation or solver invocation, limiting their generality and accessibility. This paper introduces a novel framework that empowers …",
+      "url": "https://arxiv.org/pdf/2509.16865"
+    },
+    {
+      "title": "A primal-dual algorithm with coupled extrapolation: bridging the Chambolle–Pock and Peaceman–Rachford methods",
+      "authors": "J Wu, F Ma - Numerical Algorithms, 2025",
+      "abstract": "The primal-dual hybrid gradient method (PDHG), also known as the Chambolle–Pock method (CPM), is a widely used first-order algorithm for solving saddle-point problems and composite convex optimization models. It is known that CPM reduces to the Douglas–Rachford splitting method (DRSM) when the extrapolation parameter θ= 1, and to the Arrow–Hurwicz method when θ= 0. However, for the general case θ∈(0, 1), the convergence behavior of CPM remains incompletely understood and …",
+      "url": "https://link.springer.com/article/10.1007/s11075-025-02207-5"
+    },
+    {
+      "title": "Unrolled Graph Neural Networks for Constrained Optimization",
+      "authors": "S Hadou, A Ribeiro - arXiv preprint arXiv:2509.17156, 2025",
+      "abstract": "In this paper, we unroll the dynamics of the dual ascent (DA) algorithm in two coupled graph neural networks (GNNs) to solve constrained optimization problems. The two networks interact with each other at the layer level to find a saddle point of the Lagrangian. The primal GNN finds a stationary point for a given dual multiplier, while the dual network iteratively refines its estimates to reach an optimal solution. We force the primal and dual networks to mirror the dynamics of the DA algorithm by …",
+      "url": "https://arxiv.org/pdf/2509.17156"
+    },
+    {
+      "title": "The Multi-Query Paradox in Zeroth-Order Optimization",
+      "authors": "W Lin, Q Song, H Xu - arXiv preprint arXiv:2509.15552, 2025",
+      "abstract": "Zeroth-order (ZO) optimization provides a powerful framework for problems where explicit gradients are unavailable and have to be approximated using only queries to function value. The prevalent single-query approach is simple, but suffers from high estimation variance, motivating a multi-query paradigm to improves estimation accuracy. This, however, creates a critical trade-off: under a fixed budget of queries (ie cost), queries per iteration and the total number of optimization iterations are …",
+      "url": "https://arxiv.org/pdf/2509.15552"
+    },
+    {
+      "title": "An attention-enhanced TimesNet time series model for predicting the commodity price",
+      "authors": "X Cai - Alexandria Engineering Journal, 2025",
+      "abstract": "Commodity price prediction is a critical task in economic management, financial investment, and market regulation. Traditional prediction models, such as ARIMA and GARCH, often encounter limitations in capturing the complex nonlinear dynamics and time-dependent nature of price fluctuations. In this study, we present an enhanced TimesNet model that integrates self-attention mechanisms with two-dimensional time–frequency transformations. This combination improves the model's …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1110016825009822"
+    },
+    {
+      "title": "Uncertainty-Based Smooth Policy Regularisation for Reinforcement Learning with Few Demonstrations",
+      "authors": "Y Zhu, CA Hepburn, M Thorpe, G Montana - arXiv preprint arXiv:2509.15981, 2025",
+      "abstract": "In reinforcement learning with sparse rewards, demonstrations can accelerate learning, but determining when to imitate them remains challenging. We propose Smooth Policy Regularisation from Demonstrations (SPReD), a framework that addresses the fundamental question: when should an agent imitate a demonstration versus follow its own policy? SPReD uses ensemble methods to explicitly model Q-value distributions for both demonstration and policy actions, quantifying uncertainty …",
+      "url": "https://arxiv.org/pdf/2509.15981"
+    },
+    {
+      "title": "Deep Feedback Models",
+      "authors": "D Calhas, AL Oliveira - arXiv preprint arXiv:2509.15905, 2025",
+      "abstract": "Deep Feedback Models (DFMs) are a new class of stateful neural networks that combine bottom up input with high level representations over time. This feedback mechanism introduces dynamics into otherwise static architectures, enabling DFMs to iteratively refine their internal state and mimic aspects of biological decision making. We model this process as a differential equation solved through a recurrent neural network, stabilized via exponential decay to ensure convergence. To evaluate …",
+      "url": "https://arxiv.org/pdf/2509.15905"
+    },
+    {
+      "title": "HyP-ASO: A Hybrid Policy-based Adaptive Search Optimization Framework for Large-Scale Integer Linear Programs",
+      "authors": "N Xu, J Zhang, Y Wu, H Ye, H Xu, H Xu, Y Zhang - arXiv preprint arXiv:2509.15828, 2025",
+      "abstract": "Directly solving large-scale Integer Linear Programs (ILPs) using traditional solvers is slow due to their NP-hard nature. While recent frameworks based on Large Neighborhood Search (LNS) can accelerate the solving process, their performance is often constrained by the difficulty in generating sufficiently effective neighborhoods. To address this challenge, we propose HyP-ASO, a hybrid policy-based adaptive search optimization framework that combines a customized formula …",
+      "url": "https://arxiv.org/pdf/2509.15828"
+    },
+    {
+      "title": "Variable-preconditioned transformed primal-dual method for generalized Wasserstein Gradient Flows",
+      "authors": "J Zeng, D Zhan, R Guo, C Wei - arXiv preprint arXiv:2509.15385, 2025",
+      "abstract": "We propose a Variable-Preconditioned Transformed Primal-Dual (VPTPD) method for solving generalized Wasserstein gradient flows via a structure-preserving JKO scheme. This is a nontrivial extension of the TPD method [Chen et al.(2023) arXiv: 2312.12355] incorporating proximal splitting techniques to address the challenges arising from the nonsmoothness of the objective function. Our key contributions include:(i) a semi-implicit-explicit iteration that combines proximal steps for the …",
+      "url": "https://arxiv.org/pdf/2509.15385"
+    },
+    {
+      "title": "Conditional Gradient Methods: From Core Principles to AI Applications",
+      "authors": "G Braun, A Carderera, CW Combettes, H Hassani… - 2025",
+      "abstract": "This book provides a detailed exploration of constrained optimization, with a primary focus on Frank–Wolfe methods and Conditional Gradients—a family of first-order algorithms known for their efficiency, scalability, and ability to handle structured …",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611978568"
+    },
+    {
+      "title": "Spotlight inversion by orthogonal projections",
+      "authors": "D Calvetti, N Hyvönen, V Kolehmainen, E Somersalo - arXiv preprint arXiv …, 2025",
+      "abstract": "In inverse problems, the goal is to estimate unknown parameters from indirect noisy observations. It is not uncommon that the forward model assigning the observed variables to given values of the unknowns depend on variables that are not of …",
+      "url": "https://arxiv.org/pdf/2509.15512"
+    },
+    {
+      "title": "Curvature-guided cartoon-texture decomposition of a color image",
+      "authors": "J Wang, W Wang - Journal of Computational and Applied Mathematics, 2025",
+      "abstract": "In this paper, we propose a novel curvature-guided variational model for color image decomposition. In particular, we integrate the curvature priors into the traditional variational model to steer the evolution towards preserving curvature information …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042725005898"
+    },
+    {
+      "title": "Whitening Spherical Gaussian Mixtures in the Large-Dimensional Regime",
+      "authors": "MRM Boudjemaa, A Kalle, X Mai, JHM Goulart… - arXiv preprint arXiv …, 2025",
+      "abstract": "Whitening is a classical technique in unsupervised learning that can facilitate estimation tasks by standardizing data. An important application is the estimation of latent variable models via the decomposition of tensors built from high-order …",
+      "url": "https://arxiv.org/pdf/2509.17636"
+    },
+    {
+      "title": "Computing the Zeros of a Holomorphic Function Using Quadrature-Based Subdivision and Rational Approximation of the Logarithmic Derivative",
+      "authors": "J Bowhay, Y Nakatsukasa, I Zaid - arXiv preprint arXiv:2509.15936, 2025",
+      "abstract": "We introduce a new method that uses AAA approximation to reliably compute all the zeros of a holomorphic function in a specified search region in the complex plane. Specifically, the method is based on rational approximation of the logarithmic …",
+      "url": "https://arxiv.org/pdf/2509.15936"
+    },
+    {
+      "title": "On the complexity of a simple primal-dual coordinate method: A. Alacaoglu et al.",
+      "authors": "A Alacaoglu, V Cevher, SJ Wright - Mathematical Programming, 2025",
+      "abstract": "We prove new complexity bounds for the primal-dual algorithm with random extrapolation and coordinate descent (PURE-CD), which has been shown to obtain promising practical performance for solving convex-concave min-max problems with …",
+      "url": "https://link.springer.com/article/10.1007/s10107-025-02247-8"
+    }
+  ]
+}

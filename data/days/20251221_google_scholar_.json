@@ -1,0 +1,92 @@
+{
+  "id": "20251221_google_scholar_",
+  "date": "20251221",
+  "source": "historical-import",
+  "messages": 5,
+  "papers": [
+    {
+      "title": "RaLo: Rank-aware Low-rank Adaptation for Pre-trained Foundation Models",
+      "authors": "Y Deng, G Zhou, Q Zhao - Neural Networks, 2025",
+      "abstract": "In the era of large language models (LLMs), low-rank adaptation (LoRA) has emerged as an essential technique for parameter-efficient fine-tuning, significantly reducing the computational and memory overhead during model adaptation …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608025013048"
+    },
+    {
+      "title": "ODE-Based Learning to Optimize: Z. Xie et al.",
+      "authors": "Z Xie, W Yin, Z Wen - Mathematical Programming, 2025",
+      "abstract": "Recent years have seen a growing interest in understanding acceleration methods through the lens of ordinary differential equations (ODEs). Despite the theoretical advancements, translating the rapid convergence observed in continuous-time …",
+      "url": "https://link.springer.com/article/10.1007/s10107-025-02303-3"
+    },
+    {
+      "title": "Advancing Mathematical Research via Human-AI Interactive Theorem Proving",
+      "authors": "C Li, Z Lai, D An, J Hu, Z Wen - arXiv e-prints, 2025",
+      "abstract": "We investigate how large language models can be used as research tools in scientific computing while preserving mathematical rigor. We propose a human-in-the-loop workflow for interactive theorem proving and discovery with LLMs. Human …",
+      "url": "https://ui.adsabs.harvard.edu/abs/2025arXiv251209443L/abstract"
+    },
+    {
+      "title": "FLAME: Flow Enhanced Legendre Memory Models for General Time Series Forecasting",
+      "authors": "X Wu, H Cheng, X Qiu, Z Li, J Hu, C Guo, B Yang - arXiv preprint arXiv:2512.14253, 2025",
+      "abstract": "In this work, we introduce FLAME, a family of extremely lightweight and capable Time Series Foundation Models, which support both deterministic and probabilistic forecasting via generative probabilistic modeling, thus ensuring both efficiency and robustness. FLAME utilizes the Legendre Memory for strong generalization capabilities. Through adapting variants of Legendre Memory, ie, translated Legendre (LegT) and scaled Legendre (LegS), in the Encoding and Decoding phases, FLAME …",
+      "url": "https://arxiv.org/pdf/2512.14253"
+    },
+    {
+      "title": "Dual-Mode Data-Driven Iterative Learning Control: Applications in Precision Manufacturing and Intelligent Transportation Systems",
+      "authors": "L Wang, M Wei, Z Huangfu, S Zhu, X Ge, Z Li - Computers, Materials and Continua, 2025",
+      "abstract": "Iterative Learning Control (ILC) provides an effective framework for optimizing repetitive tasks, making it particularly suitable for high-precision applications in both precision manufacturing and intelligent transportation systems (ITS). This paper presents a systematic review of ILC's developmental progress, current methodologies, and practical implementations across these two critical domains. The review first analyzes the key technical challenges encountered when integrating ILC …",
+      "url": "https://www.sciencedirect.com/org/science/article/pii/S1546221825012731"
+    },
+    {
+      "title": "FusAD: Time-Frequency Fusion with Adaptive Denoising for General Time Series Analysis",
+      "authors": "D Zhang, B Li, Z Zhao, F Nie, J Gao, X Li - arXiv preprint arXiv:2512.14078, 2025",
+      "abstract": "Time series analysis plays a vital role in fields such as finance, healthcare, industry, and meteorology, underpinning key tasks including classification, forecasting, and anomaly detection. Although deep learning models have achieved remarkable progress in these areas in recent years, constructing an efficient, multi-task compatible, and generalizable unified framework for time series analysis remains a significant challenge. Existing approaches are often tailored to single tasks or …",
+      "url": "https://arxiv.org/pdf/2512.14078"
+    },
+    {
+      "title": "DAMA: A Unified Accelerated Approach for Decentralized Nonconvex Minimax Optimization-Part I: Algorithm Development and Results",
+      "authors": "H Cai, SA Alghunaim, AH Sayed - arXiv preprint arXiv:2512.13920, 2025",
+      "abstract": "In this work and its accompanying Part II [1], we develop an accelerated algorithmic framework, DAMA (Decentralized Accelerated Minimax Approach), for nonconvex Polyak-Lojasiewicz minimax optimization over decentralized multi-agent networks. Our approach integrates online and offline stochastic minimax algorithms with various decentralized learning strategies, yielding a versatile framework with broader flexibility than existing methods. Our unification is threefold:(i) we propose a unified …",
+      "url": "https://arxiv.org/pdf/2512.13920"
+    },
+    {
+      "title": "BraveANN: Robust Approximate Nearest Neighbor Search for Billion-Scale Vectors",
+      "authors": "S Zhu, Y Wang, X Jin, J Zeng, S Wang, Y Sun, Y Lai… - World Wide Web, 2026",
+      "abstract": "Approximate nearest neighbor search (ANNS) is a widely used technique in data retrieval, yet its performance is often compromised by the presence of outliers, which can significantly distort the indexing structure and retrieval results. To address this issue, we propose BraveANN, a memory-disk hybrid vector indexing and search system designed to improve robustness against outliers while maintaining low latency. The core of BraveANN is our newly proposed clustering approach, RKM …",
+      "url": "https://link.springer.com/article/10.1007/s11280-025-01389-1"
+    },
+    {
+      "title": "An accelerated hybrid three-term derivative-free projection method with applications",
+      "authors": "P Liu, L Li, F Shao, K Li - Optimization Letters, 2025",
+      "abstract": "In this paper, we focus on using a derivative-free projection method to solve the pseudo-monotone system of nonlinear equations. Specifically, we develop a new hybrid three-term search direction that incorporates a flexible conjugate parameter. This direction always satisfies the sufficient descent condition and the trust region property without the need for a line search. By integrating an inertial acceleration technique, an adaptive line search, and the hyperplane projection method, we …",
+      "url": "https://link.springer.com/article/10.1007/s11590-025-02262-w"
+    },
+    {
+      "title": "DAMA: A Unified Accelerated Approach for Decentralized Nonconvex Minimax Optimization-Part II: Convergence and Performance Analyses",
+      "authors": "H Cai, SA Alghunaim, AH Sayed - arXiv preprint arXiv:2512.13923, 2025",
+      "abstract": "In Part I of this work [1], we developed an accelerated algorithmic framework, DAMA (Decentralized Accelerated Minimax Approach), for nonconvex Polyak-Lojasiewicz (PL) minimax optimization over decentralized multi-agent networks. To further enhance convergence in online and offline scenarios, Part I of this work [1] also proposed a novel accelerated gradient estimator, namely, GRACE (GRadient ACceleration Estimator), which unifies several momentum-based methods (eg …",
+      "url": "https://arxiv.org/pdf/2512.13923"
+    },
+    {
+      "title": "Weighted Group Lasso for a static EEG problem",
+      "authors": "OL Elvetun, BF Nielsen, N Sudheer - arXiv preprint arXiv:2512.14163, 2025",
+      "abstract": "We investigate the weighted Group Lasso formulation for the static inverse electroencephalography (EEG) problem, aiming at reconstructing the unknown underlying neuronal sources from voltage measurements on the scalp. By modelling the three orthogonal dipole components at each location as a single coherent group, we demonstrate that depth bias and orientation bias can be effectively mitigated through the proposed regularization framework. On the theoretical front, we provide …",
+      "url": "https://arxiv.org/pdf/2512.14163"
+    },
+    {
+      "title": "Multiple Scale Methods For Optimization Of Discretized Continuous Functions",
+      "authors": "NJE Richardson, N Marusenko, MP Friedlander - arXiv preprint arXiv:2512.13993, 2025",
+      "abstract": "A multiscale optimization framework for problems over a space of Lipschitz continuous functions is developed. The method solves a coarse-grid discretization followed by linear interpolation to warm-start project gradient descent on progressively finer grids. Greedy and lazy variants are analyzed and convergence guarantees are derived that show the multiscale approach achieves provably tighter error bounds at lower computational cost than single-scale optimization. The …",
+      "url": "https://arxiv.org/pdf/2512.13993"
+    },
+    {
+      "title": "Unfolded Methods for Channel Estimation Denoising",
+      "authors": "WK Wong - 2025",
+      "abstract": "In wireless communications, accurate channel estimation is critical for reliable signal recovery, particularly in multiple-input multiple-output (MIMO) systems. Pilot observations first yield a least squares (LS) estimate of the channel, which provides an unbiased but noisy observation of the true channel. To refine this estimate, traditional methods such as hard windowing apply fixed linear filters to denoise the LS output, but their non-adaptive nature can suppress valid channel components …",
+      "url": "https://aaltodoc.aalto.fi/bitstreams/c89f58a6-9f3a-4417-bea4-175da7b99eac/download"
+    },
+    {
+      "title": "Scalable artificial intelligence framework for defect detection in metal additive manufacturing",
+      "authors": "DN Phan, S Jha, JP Mavo, EL Lanigan, L Nguyen… - The International Journal of …, 2025",
+      "abstract": "Additive manufacturing is transforming the manufacturing sector by enabling efficient production of intricately designed products and small-batch components. However, metal parts produced via additive manufacturing can include flaws that cause inferior …",
+      "url": "https://link.springer.com/article/10.1007/s00170-025-17114-1"
+    }
+  ]
+}

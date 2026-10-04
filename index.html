@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Scholar 文献库</title>
+  <style>
+    :root { --ink:#172033; --muted:#697386; --line:#e7eaf0; --brand:#3b5bdb; --soft:#f6f8ff; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:#f4f6fa; font-family:system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(1120px,calc(100% - 32px)); margin:32px auto 64px; }
+    header { padding:28px; color:white; border-radius:20px; background:linear-gradient(135deg,#263b80,#4c6fff); box-shadow:0 12px 32px #263b8030; }
+    h1 { margin:0 0 8px; font-size:clamp(26px,4vw,40px); }
+    header p { margin:0; color:#e6ebff; }
+    .controls { display:grid; grid-template-columns:1.5fr 1fr; gap:12px; margin:20px 0; }
+    input,select { width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:10px; background:#fff; color:var(--ink); font:inherit; }
+    .stats { display:flex; flex-wrap:wrap; gap:10px; margin:12px 0 18px; }
+    .stat { padding:11px 14px; border:1px solid var(--line); border-radius:12px; background:white; color:var(--muted); }
+    .stat strong { color:var(--ink); }
+    #status { color:var(--muted); margin:12px 0; }
+    .paper { margin:12px 0; padding:20px; border:1px solid var(--line); border-radius:14px; background:#fff; box-shadow:0 4px 14px #1b2a4a0a; }
+    .paper h2 { margin:0 0 8px; font-size:19px; line-height:1.4; }
+    .paper h2 a { color:var(--brand); text-decoration:none; }
+    .paper h2 a:hover { text-decoration:underline; }
+    .authors { margin-bottom:10px; color:#19704a; font-size:14px; }
+    .abstract { margin:0; color:#4f596d; line-height:1.65; }
+    .empty { padding:44px 20px; text-align:center; border:1px dashed #cdd4e1; border-radius:14px; color:var(--muted); background:white; }
+    .load-more { display:block; margin:18px auto; padding:11px 22px; border:1px solid #b8c4f4; border-radius:10px; background:var(--soft); color:var(--brand); cursor:pointer; font:inherit; }
+    .load-more:hover { background:#e9edff; }
+    footer { margin-top:28px; color:var(--muted); font-size:13px; }
+    @media (max-width:680px) { main { width:min(100% - 20px,1120px); margin-top:10px; } header { padding:22px; } .controls { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Google Scholar 文献库</h1>
+    <p>按日期浏览邮件中整理的去重论文，支持标题、作者和摘要搜索。</p>
+  </header>
+  <section class="controls" aria-label="筛选">
+    <input id="search" type="search" placeholder="搜索标题、作者或摘要…" aria-label="搜索论文">
+    <select id="date" aria-label="选择日期"><option value="all">全部日期</option></select>
+  </section>
+  <div id="stats" class="stats"></div>
+  <div id="status">正在读取数据…</div>
+  <section id="papers"></section>
+  <button id="load-more" class="load-more" type="button" hidden>加载更多</button>
+  <footer>数据由 GitHub Actions 定时从 Gmail Google Scholar Alert 邮件更新。页面只包含论文元数据，不保存 OAuth 凭据。</footer>
+</main>
+<script>
+  const state = { days: [], papers: [], page: 1, pageSize: 50 };
+  const $ = (id) => document.getElementById(id);
+  const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const formatDate = (date) => date && date.length === 8 ? `${date.slice(0,4)}-${date.slice(4,6)}-${date.slice(6,8)}` : date;
+
+  function render() {
+    const query = $('search').value.trim().toLocaleLowerCase();
+    const selected = $('date').value;
+    const filtered = state.papers.filter(item => {
+      const dateOk = selected === 'all' || item.date === selected;
+      const haystack = `${item.title} ${item.authors} ${item.abstract}`.toLocaleLowerCase();
+      return dateOk && (!query || haystack.includes(query));
+    });
+    const visible = filtered.slice(0, state.page * state.pageSize);
+    $('stats').innerHTML = `<div class="stat">显示 <strong>${visible.length} / ${filtered.length}</strong> 篇论文</div><div class="stat">收录 <strong>${state.days.length}</strong> 个日期文件</div>`;
+    $('status').textContent = filtered.length ? `最后筛选结果：${filtered.length} 篇` : '没有匹配的论文';
+    if (!filtered.length) { $('papers').innerHTML = '<div class="empty">没有找到符合条件的论文。</div>'; $('load-more').hidden = true; return; }
+    $('papers').innerHTML = visible.map(item => {
+      const title = escapeHtml(item.title);
+      const titleHtml = item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${title}</a>` : title;
+      return `<article class="paper"><h2>${titleHtml}</h2><div class="authors">${escapeHtml(item.authors || '作者信息未提供')} · ${formatDate(item.date)}</div><p class="abstract">${escapeHtml(item.abstract || '没有摘要')}</p></article>`;
+    }).join('');
+    $('load-more').hidden = visible.length >= filtered.length;
+  }
+
+  async function start() {
+    try {
+      const response = await fetch('data/catalog.json', { cache:'no-store' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const catalog = await response.json();
+      state.days = catalog.days || [];
+      state.papers = state.days.flatMap(day => (day.papers || []).map(paper => ({ ...paper, date: day.date })));
+      const dates = [...new Set(state.days.map(day => day.date))].sort().reverse();
+      $('date').innerHTML += dates.map(date => `<option value="${date}">${formatDate(date)}</option>`).join('');
+      render();
+    } catch (error) {
+      $('status').textContent = '数据暂时无法读取，请稍后刷新页面。';
+      $('papers').innerHTML = '<div class="empty">尚未生成公开数据目录。</div>';
+    }
+  }
+  function resetAndRender() { state.page = 1; render(); }
+  $('search').addEventListener('input', resetAndRender);
+  $('date').addEventListener('change', resetAndRender);
+  $('load-more').addEventListener('click', () => { state.page += 1; render(); });
+  start();
+</script>
+</body>
+</html>

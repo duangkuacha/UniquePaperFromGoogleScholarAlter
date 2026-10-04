@@ -1,0 +1,146 @@
+{
+  "id": "20260601_google_scholar_",
+  "date": "20260601",
+  "source": "historical-import",
+  "messages": 9,
+  "papers": [
+    {
+      "title": "OR-Space: A Full-Lifecycle Workspace Benchmark for Industrial Optimization Agents",
+      "authors": "C Zhou, X Lu, J Zhao, J Lin, D Ge, Y Ye - arXiv preprint arXiv:2605.28158, 2026",
+      "abstract": "Large language model (LLM) agents are increasingly used to assist with operations research (OR) modeling, yet existing OR-oriented benchmarks often reduce evaluation to one-shot translation from a self-contained problem statement into a …",
+      "url": "https://arxiv.org/pdf/2605.28158"
+    },
+    {
+      "title": "ON SOLUTION STABILITY OF THE LINEAR",
+      "authors": "MS GOWDA, JSHI PANG",
+      "abstract": "In the paper [5], C, D Ha introduced the notion of stability of a linear complementarity problem at a solution point and established several sufficient conditions for stability to hold. In the present paper, we derive some new stability results which significantly …",
+      "url": "https://openurl.ebsco.com/fulltext/gcd:4475415?sid=ebsco%3Aplink%3Acrawler-gcd&id=ebsco%3Agcd%3A4475415&crl=f&jrnl=0364765X"
+    },
+    {
+      "title": "ZOO-Prune: Training-Free Token Pruning via Zeroth-Order Gradient Estimation in Vision-Language Models",
+      "authors": "Y Kim, Y Zhang, H Liu, A Jung, S Lee, S Hong - … of the IEEE/CVF Conference on …, 2026",
+      "abstract": "Abstract Large Vision-Language Models (VLMs) enable strong multimodal reasoning but incur heavy inference costs from redundant visual tokens. Token pruning alleviates this issue, yet existing approaches face limitations. Attention-based methods rely on raw attention scores, which are often unstable across layers and heads and can lead to redundant selections. Diversity-based methods improve robustness by selecting tokens far apart in feature space, but risk dropping regions …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_ZOO-Prune_Training-Free_Token_Pruning_via_Zeroth-Order_Gradient_Estimation_in_Vision-Language_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Generating Robust Portfolios of Optimization Models using Large Language Models",
+      "authors": "E Straitouri, CW Kim, M Tambe - arXiv preprint arXiv:2605.27013, 2026",
+      "abstract": "Mathematical optimization is a powerful tool for structured decision-making across domains such as resource allocation and planning. Formulating optimization models faithful to reality, though, remains a significant bottleneck as it typically demands both domain expertise and optimization knowledge that are often scarce. Recent advances in large language models (LLMs) promise to bridge this gap, enabling the generation of candidate optimization models from natural language descriptions …",
+      "url": "https://arxiv.org/pdf/2605.27013"
+    },
+    {
+      "title": "FedCVC: Federated Primal-Dual Learning with Client-Driven Virtual Compensation for Mitigating Dual Drift",
+      "authors": "J Lai, T Huang, B Jiang, L Xiang, Q Ma, J Hu - … of the IEEE/CVF Conference on …, 2026",
+      "abstract": "Abstract Data heterogeneity in Federated Learning (FL) results in inconsistencies between global and local model updates, adversely affecting the convergence speed and accuracy of the global model. To address it, Federated Primal-Dual (FedPD) learning dynamically synchronizes local updates with global consensus by jointly optimizing primal and dual variables. However, partial client participation leads to a surge in local stale dual variables, resulting in unsynchronized primal-dual updates …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Lai_FedCVC_Federated_Primal-Dual_Learning_with_Client-Driven_Virtual_Compensation_for_Mitigating_CVPRF_2026_paper.pdf"
+    },
+    {
+      "title": "ESTGFormer: A Spatio-Temporal Graph Transformer with Embedding and Structure-Aware Loss for Traffic Forecasting",
+      "authors": "F Mou, Z Lv, X Jin, L Yun, Z Chen - Neural Networks, 2026",
+      "abstract": "Accurate traffic forecasting is a challenging task due to the complex spatiotemporal dependencies and nonstationary dynamics present in irregular road networks. In this work, we introduce ESTGFormer, a spatiotemporal graph Transformer for multi-horizon forecasting. The model integrates multi-head temporal self-attention with a serial spatial pathway. This pathway first applies global spatial self-attention and is followed by learnable graph convolution, which effectively separates non-local …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S089360802600643X"
+    },
+    {
+      "title": "PnP-CM: Consistency Models as Plug-and-Play Priors for Inverse Problems",
+      "authors": "M Gulle, J Yun, YU Alcalar, M Akcakaya - Proceedings of the IEEE/CVF Conference …, 2026",
+      "abstract": "Diffusion models have found extensive use in solving inverse problems, by sampling from an approximate posterior distribution of data given the measurements. Recently, consistency models (CMs) have been proposed to directly predict the final output from any point on the diffusion ODE trajectory, enabling high-quality sampling in just a few neural function evaluations (NFEs). CMs have also been utilized for inverse problems, but existing CM-based solvers either require additional task-specific …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Gulle_PnP-CM_Consistency_Models_as_Plug-and-Play_Priors_for_Inverse_Problems_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Seeing Depth Through Frequency and Motion: A Progressive Training Paradigm for Monocular Depth Estimation",
+      "authors": "K Li, B Song, H Liu - Proceedings of the IEEE/CVF Conference on Computer …, 2026",
+      "abstract": "Self-supervised monocular depth estimation has achieved remarkable progress in recent years, yet frequency aliasing and the lack of fine-grained cross-frame motion modeling still lead to blurred depth boundaries and suboptimal camera motion estimation. To address these challenges, we propose a progressive self-supervised framework that integrates a Frequency-Guided Depth Network (FGDepth) and a PoseQuery Network (PQNet). FGDepth incorporates a plug-and-play Frequency …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Seeing_Depth_Through_Frequency_and_Motion_A_Progressive_Training_Paradigm_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "A deep learning approach for solving a fractional order Monkeypox transmission model using a harmonic neural network optimized with SGDM",
+      "authors": "N Shoket, A Mannan, JU Rahman, E Alzahrani… - Scientific Reports, 2026",
+      "abstract": "This study investigates the transmission dynamics of Monkeypox disease using a Harmonic neural network (HNN) framework optimized through stochastic gradient descent with momentum (SGDM). The proposed HNN-SGDM approach is applied to a nonlinear Monkeypox model consisting of nine coupled differential equations describing the interactions between human and rodent populations. HNN are employed because traditional non-oscillatory activation functions often struggle to …",
+      "url": "https://www.nature.com/articles/s41598-026-52610-8_reference.pdf"
+    },
+    {
+      "title": "A Deep Image Prior-Based Hybrid Non-convex Variation Model for High-density Impulse Noise Removal",
+      "authors": "Z Xue, J Zhu, Y Wang, B Hao - Signal Processing, 2026",
+      "abstract": "The removal of impulse noise poses a significant challenge to image restoration, particularly at high corruption levels. In this paper, we propose a hybrid non-convex denoising framework that combines ℓ 0-norm data fidelity, deep image prior (DIP), and weighted total variation (WTV) regularization. The ℓ 0-norm term enables robust outlier detection, DIP captures structural image priors without external training data, and WTV ensures spatially adaptive smoothing while preserving fine details. To …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S016516842600246X"
+    },
+    {
+      "title": "Asynchronous Distributed Generalized Nash Equilibrium Computation for Aggregative Games with Coupling Constraint",
+      "authors": "L Ran, H Li, Z Wang, Q Lü, J Li, L Zheng - Journal of Computational and Applied …, 2026",
+      "abstract": "This paper introduces a new synchronous distributed proximal splitting algorithm (SyDPsGNE), and its asynchronous version (AsyDPsGNE), specifically designed for seeking the generalized Nash equilibrium (GNE) in aggregative games with coupling constraints over delayed communication networks. Both algorithms operate under partial-information scenarios, where individual players possess local estimates of the aggregate value and engage solely with neighboring players. When executed …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042726004772"
+    },
+    {
+      "title": "A Multi-Fidelity Kriging-Based Experiment Optimization Framework with an Augmented Lagrangian Method for Distributed Optimal Design",
+      "authors": "S Zhang, J Ma - Aerospace, 2026",
+      "abstract": "Distributed optimal design brings significant solutions for experiment optimization in complex engineering design problems. A Kriging-based augmented Lagrangian Method is proposed with the help of the Multi-fidelity Hamiltonian Kriging (MHK) surrogate model. The Multi-fidelity Hamiltonian Kriging-based Augmented Lagrangian Method (MHK-ALM) uses subsystem surrogate models constructed from multi-fidelity data to speed up the inner loop solution of ALM, while also reducing the …",
+      "url": "https://www.mdpi.com/2226-4310/13/6/503"
+    },
+    {
+      "title": "Fast Dpp Sampling for Nystrom with Application to Kernel Methods Chengtao Li ctli@ mit. edu Stefanie Jegelka stefje@ csail. mit. edu",
+      "authors": "S Sra",
+      "abstract": "Fast Dpp Sampling for Nystrom with Application to Kernel Methods Chengtao Li [redacted] Stefanie Jegelka [redacted] Suvrit Sra [redacted] Massachusetts Institute of Technology Abstract The Nystrom method has long been popular for scaling …",
+      "url": "https://dspace.mit.edu/server/api/core/bitstreams/81296174-2fb9-492a-bb4f-16329ae7575f/content"
+    },
+    {
+      "title": "Stochastic Gradient Descent with Momentum is Algorithmically Stable",
+      "authors": "Y Lei, Z Wang, X Yuan - arXiv preprint arXiv:2605.28517, 2026",
+      "abstract": "Stochastic gradient descent with momentum (SGDM) is one of the most widely used optimization algorithms in machine learning. While optimization properties of SGDM have been extensively studied in the literature, it remains insufficiently understood …",
+      "url": "https://arxiv.org/pdf/2605.28517"
+    },
+    {
+      "title": "Learning Theory of the SVRG: Generalization and Convergence Analysis",
+      "authors": "Y Lei, Z Wang, X Yuan - arXiv preprint arXiv:2605.28513, 2026",
+      "abstract": "Variance reduction (VR) methods employ stochastic gradients with decreasing variance, and they have been widely applied to solve large-scale optimization problems in machine learning because of their efficiency. Existing theoretical studies …",
+      "url": "https://arxiv.org/pdf/2605.28513"
+    },
+    {
+      "title": "Low-Rank quaternion tensor function representation with spatiotemporal SVTV for color video recovery",
+      "authors": "JP Zou, H Ren, M Chen, Q He, X Wang - Pattern Recognition, 2026",
+      "abstract": "As an innovative approach to color video recovery, low-rank quaternion tensor completion represents a color video as a unified quaternion structure to characterize the correlations among RGB channels. However, most existing methods rely on low …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031320326010423"
+    },
+    {
+      "title": "Low-rank reduced biquaternion matrix completion with application to color image inpainting",
+      "authors": "Z Wang, L He, J Miao, LJ Deng, J Liu - Pattern Recognition, 2026",
+      "abstract": "Low-rank matrix completion (LRMC) is effective for grayscale image inpainting, but its extension to color images often introduces color distortions and artifacts by failing to adequately exploit inter-channel correlations. Although low-rank quaternion matrix …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031320326009866"
+    },
+    {
+      "title": "Self-Attention Driven Tensor Representation for High-Order Data Recovery",
+      "authors": "ZW Shi, YB Zheng, HC Li - Proceedings of the IEEE/CVF Conference on Computer …, 2026",
+      "abstract": "Low-rank tensor representation (LRTR) is an effective tool for compactly modeling high-order data. While nonlinear LRTR models can better capture real-world nonlinear dependencies, most existing methods rely on fixed local mappings of …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shi_Self-Attention_Driven_Tensor_Representation_for_High-Order_Data_Recovery_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Fractional-gradient Sparsity with Autoencoding Sequential Deep Image Prior for 3D CT Reconstruction",
+      "authors": "H Yuan, C Huang, S Bandopadhyay, L Shen… - Proceedings of the IEEE …, 2026",
+      "abstract": "Abstract 3D volumetric reconstruction from incomplete or noisy measurements is a fundamental problem in medical imaging and computational tomography. Deep image prior (DIP)-based methods have recently shown strong capability for solving …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026W/VISION26/papers/Yuan_Fractional-Gradient_Sparsity_with_Autoencoding_Sequential_Deep_Image_Prior_for_3D_CVPRW_2026_paper.pdf"
+    },
+    {
+      "title": "Dynamic MRI Reconstruction Via Dual Deep Priors and Low-Rank Plus Sparse Modeling",
+      "authors": "Y Sun, S Gautam, C Huang, N Seiberlich, I Alkhouri… - arXiv preprint arXiv …, 2026",
+      "abstract": "Dynamic MRI reconstruction from undersampled measurements is a challenging inverse problem that requires preserving both spatial reconstruction quality and temporal consistency across the frames of the cine series. While recent learning …",
+      "url": "https://arxiv.org/pdf/2605.18709"
+    },
+    {
+      "title": "A Nonmonotone Descent Method for Optimization Problems Defined by Upper-$\\mathcal {C}^ 2$ Functions over Submanifolds",
+      "authors": "C Kanzow, L Lehmann - arXiv preprint arXiv:2605.26909, 2026",
+      "abstract": "We consider the optimization problem of minimizing a nonsmooth function characterized by a nonsmooth formulation of the descent lemma over a manifold. In the unconstrained case over a Euclidean space, this class of functions is called …",
+      "url": "https://arxiv.org/pdf/2605.26909"
+    },
+    {
+      "title": "Computer Science and Artificial Intelligence Laboratory Technical Report massachusettsinstitut eoftechnology, cambridge, ma 0 213 9 usa? ww w. csail. mit. edu MIT …",
+      "authors": "A Chiesa, S Micali, ZA Zhu",
+      "abstract": "Computer Science and Artificial Intelligence Laboratory Technical Report massachusettsinstitut eoftechnology, cambridge , ma 0 213 9 usa ? ww w. csail . mit . edu MIT-CSAIL-TR-2013-029 December 3, 2013 Bridging Utility Maximization and …",
+      "url": "https://dspace.mit.edu/server/api/core/bitstreams/6ef4f1fe-c89e-4710-a9c3-d433a6a4ff8c/content"
+    },
+    {
+      "title": "Internally Referenced Low-Light Enhancement",
+      "authors": "P He, H Wang, H Liu, M Li, X Guo - arXiv preprint arXiv:2605.28605, 2026",
+      "abstract": "Self-supervised low-light image enhancement (LLIE) is highly appealing as it eliminates the reliance on external paired data. However, the lack of external references causes networks to struggle with decoupling entangled illumination …",
+      "url": "https://arxiv.org/abs/2605.28605"
+    }
+  ]
+}

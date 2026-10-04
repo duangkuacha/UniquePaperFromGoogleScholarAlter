@@ -1,0 +1,128 @@
+{
+  "id": "20260307_google_scholar_",
+  "date": "20260307",
+  "source": "historical-import",
+  "messages": 9,
+  "papers": [
+    {
+      "title": "Bridging continuous and discrete tensor formats of multivariate functions via QTT",
+      "authors": "P Benner, BN Khoromskij, B Sun",
+      "abstract": "Continuous (functional) low-rank tensor formats of multivariate functions have gained lots of attention recently. These formats approximate f:[− 1, 1] d→ R as a rank-structured separable summation of univariate functions and numerical coefficients. In …",
+      "url": "https://csc.mpi-magdeburg.mpg.de/mpcsc/seminare/csc/2026/abstract_bonan.pdf"
+    },
+    {
+      "title": "Dynamic Proximal Gradient Algorithms for Schatten-$ p $ Quasi-Norm Regularized Problems",
+      "authors": "W Shen, L Zhu, Y Hu, C Li, X Yang - arXiv preprint arXiv:2603.00333, 2026",
+      "abstract": "This paper investigates numerical solution methods for the Schatten-$ p $ quasi-norm regularized problem with $ p\\in [0, 1] $, which has been widely studied for finding low-rank solutions of linear inverse problems and gained successful …",
+      "url": "https://arxiv.org/pdf/2603.00333"
+    },
+    {
+      "title": "Riemannian Dueling Optimization",
+      "authors": "Y Ren, A Roy, S Ma - arXiv preprint arXiv:2603.00023, 2026",
+      "abstract": "Dueling optimization considers optimizing an objective with access to only a comparison oracle of the objective function. It finds important applications in emerging fields such as recommendation systems and robotics. Existing works on …",
+      "url": "https://arxiv.org/pdf/2603.00023"
+    },
+    {
+      "title": "Beyond singular value gaps in randomized subspace approximation",
+      "authors": "C Wang, A Townsend - arXiv preprint arXiv:2603.01191, 2026",
+      "abstract": "The success of randomized range finders (RRFs) is typically analyzed via the singular value gaps of a target matrix $ A $. In this work, we show that the so-called Frobenius singular value ratio provides a sharper analysis of an RRF's subspace …",
+      "url": "https://arxiv.org/pdf/2603.01191"
+    },
+    {
+      "title": "Reparameterized Tensor Ring Functional Decomposition for Multi-Dimensional Data Recovery",
+      "authors": "Y Xu, J Ke, YW Wen, C Wang - arXiv preprint arXiv:2603.01034, 2026",
+      "abstract": "Tensor Ring (TR) decomposition is a powerful tool for high-order data modeling, but is inherently restricted to discrete forms defined on fixed meshgrids. In this work, we propose a TR functional decomposition for both meshgrid and non-meshgrid data …",
+      "url": "https://arxiv.org/pdf/2603.01034"
+    },
+    {
+      "title": "Content-Aware Frequency Encoding for Implicit Neural Representations with Fourier-Chebyshev Features",
+      "authors": "J Ke, Y Xu, YW Wen, C Wang - arXiv preprint arXiv:2603.01028, 2026",
+      "abstract": "Implicit Neural Representations (INRs) have emerged as a powerful paradigm for various signal processing tasks, but their inherent spectral bias limits the ability to capture high-frequency details. Existing methods partially mitigate this issue by using …",
+      "url": "https://arxiv.org/abs/2603.01028"
+    },
+    {
+      "title": "Adaptive primal dual hybrid gradient algorithms based on average spectrum for saddle point problems",
+      "authors": "S Xu, B He - arXiv preprint arXiv:2603.00644, 2026",
+      "abstract": "The primal dual hybrid gradient algorithm (PDHG), which is also known as the Arrow-Hurwicz method, is a fundamental algorithm for saddle point problems especially in imaging. It also inspires a great number of influential algorithms such as the …",
+      "url": "https://arxiv.org/pdf/2603.00644"
+    },
+    {
+      "title": "Multi-Sourced, Multi-Agent Evidence Retrieval for Fact-Checking",
+      "authors": "S Gong, RO Sinnott, J Qi, C Paris, P Nakov, Z Xie - arXiv preprint arXiv:2603.00267, 2026",
+      "abstract": "Misinformation spreading over the Internet poses a significant threat to both societies and individuals, necessitating robust and scalable fact-checking that relies on retrieving accurate and trustworthy evidence. Previous methods rely on semantic and social-contextual patterns learned from training data, which limits their generalization to new data distributions. Recently, Retrieval Augmented Generation (RAG) based methods have been proposed to utilize the reasoning capability of LLMs with …",
+      "url": "https://arxiv.org/pdf/2603.00267"
+    },
+    {
+      "title": "GATRO: GPU-Accelerated Trajectory Optimization with Application to Tractor-trailers",
+      "authors": "B Yang, Z Li, Z Yu, Q Wang, J Wei, Y Mo - IEEE Transactions on Automation Science …, 2026",
+      "abstract": "In this article, we propose GPU-Accelerated TRajectory Optimization (GATRO), a framework that casts trajectory optimization as a simplified Semidefinite Programming (SDP) problem and employs a custom parallelized differentiable solver for GPU acceleration. We primarily demonstrate GATRO on tractor-trailer trajectory planning, as it represents one of the most challenging scenarios in autonomous vehicle motion planning due to its non-holonomic kinematics and complex …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11418674/"
+    },
+    {
+      "title": "FusionNet-FR: a DualNet transformer architecture using frequency modeling and relational learning for enhanced long-term time series forecasting",
+      "authors": "AM Shiddiqi, AL Putra, RNE Anggraini, FR Mahhisa… - PeerJ Computer Science, 2026",
+      "abstract": "Long-term time series forecasting is essential for predicting future values based on historical patterns over extended periods. However, it poses significant challenges in effectively capturing both global trends and local variations. This research introduces FusionNet-FR, a novel DualNet Transformer architecture based on ensemble deep learning, which integrates fast-learning with slow-learning components to improve forecast accuracy. The fast learners are designed to extract high-frequency …",
+      "url": "https://peerj.com/articles/cs-3620/"
+    },
+    {
+      "title": "Adam Converges Without Any Modification On Update Rules",
+      "authors": "Y Zhang, B Li, C Chen, ZQ Luo, R Sun - arXiv preprint arXiv:2603.02092, 2026",
+      "abstract": "Adam is the default algorithm for training neural networks, including large language models (LLMs). However,\\citet {reddi2019convergence} provided an example that Adam diverges, raising concerns for its deployment in AI model training. We identify a key mismatch between the divergence example and practice:\\citet {reddi2019convergence} pick the problem after picking the hyperparameters of Adam, ie, $(\\beta_1,\\beta_2) $; while practical applications often fix the problem first and …",
+      "url": "https://arxiv.org/pdf/2603.02092"
+    },
+    {
+      "title": "Bilevel Optimization with Lower-Level Uniform Convexity: Theory and Algorithm",
+      "authors": "Y Wu, X Gong, J Hao, M Liu - arXiv preprint arXiv:2603.00027, 2026",
+      "abstract": "Bilevel optimization is a hierarchical framework where an upper-level optimization problem is constrained by a lower-level problem, commonly used in machine learning applications such as hyperparameter optimization. Existing bilevel optimization methods typically assume strong convexity or Polyak-{\\L} ojasiewicz (PL) conditions for the lower-level function to establish non-asymptotic convergence to a solution with small hypergradient. However, these assumptions may not hold in …",
+      "url": "https://arxiv.org/pdf/2603.00027"
+    },
+    {
+      "title": "Deep Unrolled Networks for Nonnegative Least Squares Problem: Analysis and Application",
+      "authors": "A Sen, CS Sastry - IEEE Signal Processing Letters, 2026",
+      "abstract": "The problem of nonnegative least squares (NNLS) has numerous applications in signal analysis. Recently, the algorithm unrolling has gained significant attention due to its superior approximation results compared to iterative methods. In this paper, we discuss the NNLS probelm in an interpretable data-driven set up using unrolled proximal gradient descent method (UPGDM), and establish its analytical guarantees. An advantage of this method over its conventional counterparts is that it provides a …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11417883/"
+    },
+    {
+      "title": "Fuzzy Rule-guided Multi-view Differentiable Representation Learning with Dual-Space Information Extraction",
+      "authors": "W Zhang, J Zhou, G Wang, Z Deng, W Ding, W Pedrycz - IEEE Transactions on Fuzzy …, 2026",
+      "abstract": "Effectively extracting discriminative information from multi-view data remains a key challenge in multi-view learning. Existing methods typically focus on exploring inter-view consistency via linear or nonlinear transformation. While nonlinear methods tend to yield better performance, their limited transparency and interpretability limit their practical applications. Takagi-Sugeno-Kang Fuzzy Systems (TSK-FS), as a rule-based model with high interpretability, have been applied to multi-view tasks …",
+      "url": "https://ieeexplore.ieee.org/iel8/91/4358784/11417910.pdf"
+    },
+    {
+      "title": "riMESA: Consensus ADMM for Real-World Collaborative SLAM",
+      "authors": "D McGann, M Kaess - arXiv preprint arXiv:2603.01178, 2026",
+      "abstract": "Collaborative Simultaneous Localization and Mapping (C-SLAM) is a fundamental capability for multi-robot teams as it enables downstream tasks like planning and navigation. However, existing C-SLAM back-end algorithms that are required to solve this problem struggle to address the practical realities of real-world deployments (ie communication limitations, outlier measurements, and online operation). In this paper we propose Robust Incremental Manifold Edge-based …",
+      "url": "https://arxiv.org/pdf/2603.01178"
+    },
+    {
+      "title": "Sparse Representation Methods for Effective Data Recovery in Wireless Sensor Networks: A Review",
+      "authors": "SH Sayem, J He, VW Arachchi, X Liu, C Alahakoon - IEEE Sensors Journal, 2026",
+      "abstract": "Missing and corrupted data remain persistent challenges in Wireless Sensor Networks (WSNs), particularly under energy constraints, harsh operating environments, and structured loss patterns. This review systematically examines sparse-representation based data recovery methods by categorizing them into two methodological classes: low-order sparsity and high-order sparsity frameworks. The analysis emphasizes how these approaches exploit spatial, temporal, and multi …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11418568/"
+    },
+    {
+      "title": "Neural Operator-Grounded Continuous Tensor Function Representation and Its Applications",
+      "authors": "R Su, XL Zhao, S Liu, WH Wu, Y Luo, MK Ng - arXiv preprint arXiv:2603.01812, 2026",
+      "abstract": "Recently, continuous tensor functions have attracted increasing attention, because they can unifiedly represent data both on mesh grids and beyond mesh grids. However, since mode-$ n $ product is essentially discrete and linear, the potential of …",
+      "url": "https://arxiv.org/pdf/2603.01812"
+    },
+    {
+      "title": "Low-Rank Tensor Completion with Fractal-Inspired Multi-Scale Energy Regularization",
+      "authors": "C Wen, W Liang, C Xu, Y Zou - Frontiers in Applied Mathematics and Statistics",
+      "abstract": "Low-rank tensor completion has become a fundamental tool for recovering high-dimensional data from incomplete observations. However, conventional methods rely primarily on algebraic low-rank priors and do not explicitly regulate how signal …",
+      "url": "https://www.frontiersin.org/journals/applied-mathematics-and-statistics/articles/10.3389/fams.2026.1809903/full"
+    },
+    {
+      "title": "On the robustness of EMG tensor completion under various missing patterns",
+      "authors": "T Liang, H Jia, C Li, CF Caiafa, R Himeno… - … Signal Processing and …, 2026",
+      "abstract": "Objective: Electromyographic (EMG) data integrity is vital for accurate analysis in neuromuscular research. However, data loss or corruption during acquisition can compromise signal fidelity and subsequent interpretations. This study aims to …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1746809426005823"
+    },
+    {
+      "title": "Decentralized Federated Learning by Partial Message Exchange",
+      "authors": "S Sha, S Zhou, X Wang, L Kong, GY Li - arXiv preprint arXiv:2603.01730, 2026",
+      "abstract": "Decentralized federated learning (DFL) has emerged as a transformative server-free paradigm that enables collaborative learning over large-scale heterogeneous networks. However, it continues to face fundamental challenges, including data …",
+      "url": "https://arxiv.org/pdf/2603.01730"
+    }
+  ]
+}

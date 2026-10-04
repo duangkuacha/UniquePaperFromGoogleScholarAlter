@@ -1,0 +1,128 @@
+{
+  "id": "20260209_google_scholar_",
+  "date": "20260209",
+  "source": "historical-import",
+  "messages": 10,
+  "papers": [
+    {
+      "title": "Electroless plating of high-quality Ni microbumps for high-density micro-LEDs realized via surface plasma treatment and solution wettability enhancement",
+      "authors": "S Wang, Z Wang, P Zheng, Y Zhou, C Wu, T Lang… - Displays, 2026",
+      "abstract": "To fabricate high-quality bump arrays on Micro-LEDs, thereby enhance the yield and reliability of high-density Micro-LED devices. We employed plasma treatment on Micro-LED samples and added a specific concentration of surfactant to the …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0141938226000338"
+    },
+    {
+      "title": "Dual Quaternion SE (3) Synchronization with Recovery Guarantees",
+      "authors": "J Zhao, L Zhu, AMC So - arXiv preprint arXiv:2602.00324, 2026",
+      "abstract": "Synchronization over the special Euclidean group SE (3) aims to recover absolute poses from noisy pairwise relative transformations and is a core primitive in robotics and 3D vision. Standard approaches often require multi-step heuristic procedures to …",
+      "url": "https://arxiv.org/pdf/2602.00324"
+    },
+    {
+      "title": "Proof-RM: A Scalable and Generalizable Reward Model for Math Proof",
+      "authors": "H Yang, Z Wang, S Kang, S Yang, W Yu, X Niu, Y Sun… - arXiv preprint arXiv …, 2026",
+      "abstract": "While Large Language Models (LLMs) have demonstrated strong math reasoning abilities through Reinforcement Learning with* Verifiable Rewards*(RLVR), many advanced mathematical problems are proof-based, with no guaranteed way to …",
+      "url": "https://arxiv.org/pdf/2602.02377"
+    },
+    {
+      "title": "HeaPA: Difficulty-Aware Heap Sampling and On-Policy Query Augmentation for LLM Reinforcement Learning",
+      "authors": "W Wang, X Liu, B Huang, H Cui, R Zhang, C Yu, S Jin… - arXiv preprint arXiv …, 2026",
+      "abstract": "RLVR is now a standard way to train LLMs on reasoning tasks with verifiable outcomes, but when rollout generation dominates the cost, efficiency depends heavily on which prompts you sample and when. In practice, prompt pools are often static or only loosely tied to the model's learning progress, so uniform sampling can't keep up with the shifting capability frontier and ends up wasting rollouts on prompts that are already solved or still out of reach. Existing approaches improve efficiency …",
+      "url": "https://arxiv.org/pdf/2601.22448"
+    },
+    {
+      "title": "Neuro-symbolic agentic AI: Architectures, integration patterns, applications, open challenges and future research directions",
+      "authors": "SB Hakim, M Adil, A Velasquez, HH Song - Computer Science Review, 2026",
+      "abstract": "Neuro-symbolic AI synergizes neural networks' pattern recognition with symbolic reasoning's logical structure, addressing fundamental limitations each paradigm exhibits independently. This systematic survey analyzes 178 papers (2020–November 2025) using PRISMA methodology, establishing a comprehensive taxonomy across architectural configurations (single-agent, multi-agent) and integration dimensions: knowledge representation (44%), learning and inference …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1574013726000110"
+    },
+    {
+      "title": "Reasoning in a Combinatorial and Constrained World: Benchmarking LLMs on Natural-Language Combinatorial Optimization",
+      "authors": "X Jiang, J Chen, C Zhang, J Gao, C Hu, C Zhang, Y Wu… - arXiv preprint arXiv …, 2026",
+      "abstract": "While large language models (LLMs) have shown strong performance in math and logic reasoning, their ability to handle combinatorial optimization (CO)--searching high-dimensional solution spaces under hard constraints--remains underexplored. To bridge the gap, we introduce NLCO, a\\textbf {N} atural\\textbf {L} anguage\\textbf {C} ombinatorial\\textbf {O} ptimization benchmark that evaluates LLMs on end-to-end CO reasoning: given a language-described decision-making scenario, the model …",
+      "url": "https://arxiv.org/pdf/2602.02188"
+    },
+    {
+      "title": "FedKRSO: Communication and Memory Efficient Federated Fine-Tuning of Large Language Models",
+      "authors": "G Yang, T Wu, Y Guo, Y Sun, Y Gong - arXiv preprint arXiv:2602.03019, 2026",
+      "abstract": "Fine-tuning is essential to adapt general-purpose large language models (LLMs) to domain-specific tasks. As a privacy-preserving framework to leverage decentralized data for collaborative model training, Federated Learning (FL) is gaining popularity in LLM fine-tuning, but remains challenging due to the high cost of transmitting full model parameters and computing full gradients on resource-constrained clients. While Parameter-Efficient Fine-Tuning (PEFT) methods are widely used in FL to …",
+      "url": "https://arxiv.org/pdf/2602.03019"
+    },
+    {
+      "title": "Quality-Diversity Optimization as Multi-Objective Optimization",
+      "authors": "X Lin, P Guo, Y Liu, Q Zhang, J Sun - arXiv preprint arXiv:2602.00478, 2026",
+      "abstract": "The Quality-Diversity (QD) optimization aims to discover a collection of high-performing solutions that simultaneously exhibit diverse behaviors within a user-defined behavior space. This paradigm has stimulated significant research interest and demonstrated practical utility in domains including robot control, creative design, and adversarial sample generation. A variety of QD algorithms with distinct design principles have been proposed in recent years. Instead of proposing a new QD …",
+      "url": "https://arxiv.org/pdf/2602.00478"
+    },
+    {
+      "title": "Sample Complexity Analysis for Constrained Bilevel Reinforcement Learning",
+      "authors": "N Saxena, V Aggarwal - arXiv preprint arXiv:2602.00282, 2026",
+      "abstract": "Several important problem settings within the literature of reinforcement learning (RL), such as meta-learning, hierarchical learning, and RL from human feedback (RL-HF), can be modelled as bilevel RL problems. A lot has been achieved in these domains empirically; however, the theoretical analysis of bilevel RL algorithms hasn't received a lot of attention. In this work, we analyse the sample complexity of a constrained bilevel RL algorithm, building on the progress in the unconstrained …",
+      "url": "https://arxiv.org/pdf/2602.00282"
+    },
+    {
+      "title": "On the Convergence of Jacobian-Free Backpropagation for Optimal Control Problems with Implicit Hamiltonians",
+      "authors": "E Gelphman, D Verma, NT Yang, S Osher, SW Fung - arXiv preprint arXiv …, 2026",
+      "abstract": "Optimal feedback control with implicit Hamiltonians poses a fundamental challenge for learning-based value function methods due to the absence of closed-form optimal control laws. Recent work~\\cite {gelphman2025end} introduced an implicit deep learning approach using Jacobian-Free Backpropagation (JFB) to address this setting, but only established sample-wise descent guarantees. In this paper, we establish convergence guarantees for JFB in the stochastic minibatch setting …",
+      "url": "https://arxiv.org/pdf/2602.00921"
+    },
+    {
+      "title": "SOR-Unrolled Learning-to-Solve Method for Absolute Value Equations",
+      "authors": "CX Song, ZY Zhang, RZ Zhou, LF Niu, YH Dai - … of the Operations Research Society of …, 2026",
+      "abstract": "The absolute value equation (AVE), which is equivalent to the linear complementarity problem and mixed integer programming, has wide applications. Determining a solution to the AVE is NP-hard, and many algorithms have been proposed. SOR-like iteration, which is designed based on fixed point iteration and has a simple form and good theoretical guarantee, is one of the state-of-the-art methods for solving the AVE. However, its performance heavily relies on complex parameter selection. In this …",
+      "url": "https://link.springer.com/article/10.1007/s40305-025-00670-4"
+    },
+    {
+      "title": "Exact Instance Compression for Convex Empirical Risk Minimization via Color Refinement",
+      "authors": "B Zhu, Z Chen - arXiv preprint arXiv:2602.00437, 2026",
+      "abstract": "Empirical risk minimization (ERM) can be computationally expensive, with standard solvers scaling poorly even in the convex setting. We propose a novel lossless compression framework for convex ERM based on color refinement, extending prior work from linear programs and convex quadratic programs to a broad class of differentiable convex optimization problems. We develop concrete algorithms for a range of models, including linear and polynomial regression, binary and multiclass …",
+      "url": "https://arxiv.org/pdf/2602.00437"
+    },
+    {
+      "title": "PHAT: Modeling Period Heterogeneity for Multivariate Time Series Forecasting",
+      "authors": "J Ma, G Wang, Q Huang, S Huang, H Ma, Z Zhou… - arXiv preprint arXiv …, 2026",
+      "abstract": "While existing multivariate time series forecasting models have advanced significantly in modeling periodicity, they largely neglect the periodic heterogeneity common in real-world data, where variates exhibit distinct and dynamically changing periods. To effectively capture this periodic heterogeneity, we propose PHAT (Period Heterogeneity-Aware Transformer). Specifically, PHAT arranges multivariate inputs into a three-dimensional\" periodic bucket\" tensor, where the dimensions correspond …",
+      "url": "https://arxiv.org/pdf/2602.00654"
+    },
+    {
+      "title": "Second order continuous and discrete dynamical systems for solving inverse quasi-variational inequalities",
+      "authors": "P Viet Hai, TQ Trinh, PT Vuong - arXiv e-prints, 2026",
+      "abstract": "In this paper, we investigate the inverse quasi-variational inequality problem in finite-dimensional spaces. First, we introduce a second-order dynamical system whose trajectory converges exponentially to the solution of the inverse quasi-variational …",
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260111300V/abstract"
+    },
+    {
+      "title": "Construction-Verification: A Benchmark for Applied Mathematics in Lean 4",
+      "authors": "B Yang, Y Yuan, C Li, Z Wang, L Li, B Zhang, Z Li… - arXiv preprint arXiv …, 2026",
+      "abstract": "Recent advances in large language models have demonstrated impressive capabilities in mathematical formalization. However, existing benchmarks focus on logical verification of declarative propositions, often neglecting the task of explicitly …",
+      "url": "https://arxiv.org/pdf/2602.01291"
+    },
+    {
+      "title": "CARE-RFT: Confidence-Anchored Reinforcement Finetuning for Reliable Reasoning in Large Language Models",
+      "authors": "S Li, J Cao, B Hu, A Mokhtari, L Liu, A Zhang - arXiv preprint arXiv:2602.00085, 2026",
+      "abstract": "Reinforcement finetuning (RFT) has emerged as a powerful paradigm for unlocking reasoning capabilities in large language models. However, we identify a critical trade-off: while unconstrained RFT achieves strong reasoning performance, it severely …",
+      "url": "https://arxiv.org/pdf/2602.00085"
+    },
+    {
+      "title": "A New Convergence Analysis of Plug-and-Play Proximal Gradient Descent Under Prior Mismatch",
+      "authors": "G Xu, J Li, J Tang - arXiv preprint arXiv:2601.09831, 2026",
+      "abstract": "In this work, we provide a new convergence theory for plug-and-play proximal gradient descent (PnP-PGD) under prior mismatch where the denoiser is trained on a different data distribution to the inference task at hand. To the best of our …",
+      "url": "https://arxiv.org/pdf/2601.09831"
+    },
+    {
+      "title": "Hyperspectral Image Fusion with Spectral-Band and Fusion-Scale Agnosticism",
+      "authors": "YJ Liang, Z Cao, LJ Deng, Y Yang, M Zhang - arXiv preprint arXiv:2602.01681, 2026",
+      "abstract": "Current deep learning models for Multispectral and Hyperspectral Image Fusion (MS/HS fusion) are typically designed for fixed spectral bands and spatial scales, which limits their transferability across diverse sensors. To address this, we propose …",
+      "url": "https://arxiv.org/pdf/2602.01681"
+    },
+    {
+      "title": "Ultrasound-Guided Sound Speed Correction for Photoacoustic Computed Tomography",
+      "authors": "X Zhang, Z Qu, B Ouyang, L Wang - Photoacoustics, 2026",
+      "abstract": "Photoacoustic computed tomography (PACT) reconstructs high-resolution images of various chromophores in deep biological tissue. A key to high-quality reconstruction is accurate compensation for the spatially heterogeneous speed of sound (SoS) in …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2213597926000108"
+    },
+    {
+      "title": "Think Dense, Not Long: Dynamic Decoupled Conditional Advantage for Efficient Reasoning",
+      "authors": "K Peng, Y Ouyang, X Liu, Z Tian, R Han, Y Yuan… - arXiv preprint arXiv …, 2026",
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) can elicit strong multi-step reasoning, yet it often encourages overly verbose traces. Moreover, naive length penalties in group-relative optimization can severely hurt accuracy. We attribute this …",
+      "url": "https://arxiv.org/pdf/2602.02099"
+    }
+  ]
+}

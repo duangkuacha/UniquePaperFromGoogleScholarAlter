@@ -1,0 +1,68 @@
+{
+  "id": "20260622_google_scholar_",
+  "date": "20260622",
+  "source": "historical-import",
+  "messages": 1,
+  "papers": [
+    {
+      "title": "End-to-End Depositional Microfacies Identification from Variable-Log Inputs Using CNN and Attention-CRF",
+      "authors": "Z Dong, C Gao, Y Ren, Y Ji, D Zhong, C Xu, R Xu, Y Li - IEEE Transactions on …, 2026",
+      "abstract": "Reliable identification of sedimentary microfacies from well logging data is essential for reconstructing depositional environments and conducting fine-scale reservoir characterization, yet remains challenging due to complex curve morphology, strong vertical heterogeneity, and limited logging information in mature fields. Although recent machine learning and deep learning methods have improved automation and overall accuracy compared with traditional manual interpretation, most existing …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11552782/"
+    },
+    {
+      "title": "Graph modeling and optimization in process systems engineering",
+      "authors": "L Anthony, L Ghilardi, Y Xie, A del Río Chanona… - Computers & Chemical …, 2026",
+      "abstract": "Graphs provide a natural language to mathematically represent a set of entities and their relationships and are used extensively across Process Systems Engineering (PSE). In particular, many PSE problems are composed of interconnected substructures, eg, from molecules and flowsheets to supply chains and optimization models. In these settings, graph representations can expose underlying problem structures such as sparsity, modularity, connectivity, and separability. Moreover …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0098135426002140"
+    },
+    {
+      "title": "A multi-periodicity learning model for tidal current speed forecasting",
+      "authors": "T Cheng, Y Huang, L Xiao, Y Dong - Electric Power Systems Research, 2026",
+      "abstract": "Tidal energy is a key contributor to increasing renewable-energy penetration. Achieving high tidal-energy penetration in power grids requires accurate tidal current speed forecasting. Forecast errors are often driven by model inaccuracies. Prior studies have mainly relied on physical models for tidal current speed prediction; however, tidal-current variations are modulated by the orbital periods of celestial bodies, making precise physical modeling difficult. Therefore, investigating tidal multi …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378779626006917"
+    },
+    {
+      "title": "Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers",
+      "authors": "S Movahedi, V Milovanović, SL Feigin, A Theus… - arXiv preprint arXiv …, 2026",
+      "abstract": "Looped architectures provide an inductive bias toward learning step-by-step procedures for tasks that require compositional reasoning. The number of effective layers reached by looping determines the quality of the solution these models find. Like deep architectures, looped architectures are prone to a signal propagation problem induced by depth as the halting decision is postponed. In this paper, we address this signal propagation issue using pre-norm layers and residual scaling …",
+      "url": "https://arxiv.org/pdf/2606.18206"
+    },
+    {
+      "title": "Scheduling for Hybrid Microgrids with Renewable Energy Sources and Hydrogen Storage: Data-Correlated Uncertainty Modeling and Semi-Convex Relaxation",
+      "authors": "Z Liang, CY Chung, X Yin, Q Wang, H Chen, J Zhu - IEEE Transactions on …, 2026",
+      "abstract": "The increasing integration of renewable energy sources (RESs), hydrogen energy storage (HES), and electric vehicles (EVs) is critical to the decarbonization of electric power production; however, it introduces significant challenges for microgrid energy management owing principally to RES uncertainty and the non-convex constraints associated with HES and EV operations. The present work addresses these challenges by applying data-driven uncertainty set optimization and semi-convex …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11568737/"
+    },
+    {
+      "title": "Robust respiratory signal extraction from cone-beam CT projections using projection enhancement and statistical analysis of breathing variability",
+      "authors": "ATM Amin, SS Mokri, R Ahmad, F Ismail, AA Abd Rahni - … Signal Processing and …, 2026",
+      "abstract": "Respiratory motion signals extracted from Cone-Beam CT (CBCT) projections can be treated as physiological time-series signals with breathing information embedded within imaging data. However, the robustness of existing projection-based respiratory signal estimation methods under clinically relevant breathing variability and anatomical visibility changes remains insufficiently characterized. This work presents a systematic robustness evaluation of four widely used data-driven …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1746809426014023"
+    },
+    {
+      "title": "Efficient Sparse DOA Estimation in Collocated Large-Scale Arrays via Consensus Optimization",
+      "authors": "X Jia, X Wu, WP Zhu - IEEE Transactions on Vehicular Technology, 2026",
+      "abstract": "Traditional direction-of-arrival (DOA) estimation methods rely on a single processor to handle array data. In recent years, the growing scale of sensor arrays has imposed a heavy computational burden on a single processor. Distributed optimization using multiple local processors has become a prominent research topic due to the advantages of parallel computing. In this paper, we investigate two distributed DOA estimation algorithms designed for large-scale arrays within the framework of …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11568734/"
+    },
+    {
+      "title": "Accelerated Convex Optimization via Hamiltonian Dynamics with Deterministic Integration Time",
+      "authors": "X Wang, V Srinivasan, Q Fu, S Mitra, A Wilson… - arXiv preprint arXiv …, 2026",
+      "abstract": "We develop Hamiltonian dynamics-based algorithms for smooth convex optimization that achieve accelerated rates of convergence. By exploiting contraction of averaged Hamiltonian flow trajectories rather than requiring contraction at trajectory endpoints, we show that Hamiltonian dynamics-based optimization methods admit deterministic and accelerated convergence guarantees, extending prior work that is limited to quadratic objectives or holds only in expectation. We analyze an idealized …",
+      "url": "https://arxiv.org/pdf/2606.17260"
+    },
+    {
+      "title": "Constrained Optimization Algorithms for Orbital Optimization in Quantum Chemistry",
+      "authors": "J Zhang, S Hu, B Gu - arXiv preprint arXiv:2606.17761, 2026",
+      "abstract": "We present a modular constrained-orbital-optimization framework for quantum chemistry. The formulation separates the correlated electronic-structure solver from the orbital optimizer: the solver supplies one-and two-particle reduced density matrices, while the molecular orbitals are updated on the orthonormality-constrained Stiefel manifold with an implicit steepest-descent algorithm. Because the orbital optimizer only requires reduced density matrices, MP2, CASCI, and DMRG can be …",
+      "url": "https://arxiv.org/pdf/2606.17761"
+    },
+    {
+      "title": "Sparse recovery networks for target detection in OFDM-based passive radar",
+      "authors": "Z Zhao, B Liang, Y Chen, H Zhou - International Journal of Microwave and Wireless …, 2026",
+      "abstract": "With advances in deep learning for signal recovery based on sparse representation, this paper proposes two efficient sparse recovery (SR) networks to solve the target detection problem and generate range-Doppler maps in orthogonal frequency division multiplexing-based passive radar systems. First, by unfolding the alternating direction method of multipliers (ADMM) into a deep network with learnable parameters, a deep unfolding SR-ADMM-Net is developed, which avoids manual …",
+      "url": "https://www.cambridge.org/core/journals/international-journal-of-microwave-and-wireless-technologies/article/sparse-recovery-networks-for-target-detection-in-ofdmbased-passive-radar/1594B1EF8329C09AB047E23E7E66DD30"
+    }
+  ]
+}

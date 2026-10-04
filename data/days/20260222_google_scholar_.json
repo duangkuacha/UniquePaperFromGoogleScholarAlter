@@ -1,0 +1,44 @@
+{
+  "id": "20260222_google_scholar_",
+  "date": "20260222",
+  "source": "historical-import",
+  "messages": 3,
+  "papers": [
+    {
+      "title": "Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?",
+      "authors": "A Korznikov, A Galichin, A Dontsov, O Rogov… - arXiv preprint arXiv …, 2026",
+      "abstract": "Sparse Autoencoders (SAEs) have emerged as a promising tool for interpreting neural networks by decomposing their activations into sparse sets of human-interpretable features. Recent work has introduced multiple SAE variants and …",
+      "url": "https://arxiv.org/pdf/2602.14111"
+    },
+    {
+      "title": "Snapshot Compressive Hyperspectral Image Reconstruction via Complementary Priors",
+      "authors": "Y Zang, M Huang, L Gao, L Zhuang - IEEE Transactions on Computational Imaging, 2026",
+      "abstract": "Coded aperture snapshot spectral imaging (CASSI) systems compressively project 3D hyperspectral data onto 2D measurements, offering high imaging speed and data efficiency. However, existing CASSI reconstruction algorithms still suffer from …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11395992/"
+    },
+    {
+      "title": "Zero-Order Optimization for LLM Fine-Tuning via Learnable Direction Sampling",
+      "authors": "V Parfenov, G Evseev, A Veprikov, N Bushkov… - arXiv preprint arXiv …, 2026",
+      "abstract": "Fine-tuning large pretrained language models (LLMs) is a cornerstone of modern NLP, yet its growing memory demands (driven by backpropagation and large optimizer States) limit deployment in resource-constrained settings. Zero-order (ZO) methods bypass backpropagation by estimating directional derivatives from forward evaluations, offering substantial memory savings. However, classical ZO estimators suffer from high variance and an adverse dependence on the parameter …",
+      "url": "https://arxiv.org/pdf/2602.13659"
+    },
+    {
+      "title": "On Surprising Effectiveness of Masking Updates in Adaptive Optimizers",
+      "authors": "T Joo, W Xia, C Kim, M Zhang, E Ie - arXiv preprint arXiv:2602.15322, 2026",
+      "abstract": "Training large language models (LLMs) relies almost exclusively on dense adaptive optimizers with increasingly sophisticated preconditioners. We challenge this by showing that randomly masking parameter updates can be highly effective, with a masked variant of RMSProp consistently outperforming recent state-of-the-art optimizers. Our analysis reveals that the random masking induces a curvature-dependent geometric regularization that smooths the optimization trajectory …",
+      "url": "https://arxiv.org/pdf/2602.15322"
+    },
+    {
+      "title": "Covariance-Aware Transformers for Quadratic Programming and Decision Making",
+      "authors": "K Tire, Y Zhang, EO Taga, S Oymak - arXiv preprint arXiv:2602.14506, 2026",
+      "abstract": "We explore the use of transformers for solving quadratic programs and how this capability benefits decision-making problems that involve covariance matrices. We first show that the linear attention mechanism can provably solve unconstrained QPs by tokenizing the matrix variables (eg~ $ A $ of the objective $\\frac {1}{2} x^\\top Ax+ b^\\top x $) row-by-row and emulating gradient descent iterations. Furthermore, by incorporating MLPs, a transformer block can solve (i) $\\ell_1 $-penalized QPs by …",
+      "url": "https://arxiv.org/pdf/2602.14506"
+    },
+    {
+      "title": "Advances in Global Solvers for 3D Vision",
+      "authors": "Z Zhao, H Yang, B Liao, Y Zeng, S Yan, Y Gu, P Liu… - arXiv preprint arXiv …, 2026",
+      "abstract": "Global solvers have emerged as a powerful paradigm for 3D vision, offering certifiable solutions to nonconvex geometric optimization problems traditionally addressed by local or heuristic methods. This survey presents the first systematic review of global solvers in geometric vision, unifying the field through a comprehensive taxonomy of three core paradigms: Branch-and-Bound (BnB), Convex Relaxation (CR), and Graduated Non-Convexity (GNC). We present their …",
+      "url": "https://arxiv.org/pdf/2602.14662"
+    }
+  ]
+}

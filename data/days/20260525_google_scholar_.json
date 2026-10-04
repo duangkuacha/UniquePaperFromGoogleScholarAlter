@@ -1,0 +1,122 @@
+{
+  "id": "20260525_google_scholar_",
+  "date": "20260525",
+  "source": "historical-import",
+  "messages": 8,
+  "papers": [
+    {
+      "title": "A Bitter Lesson for Data Filtering",
+      "authors": "C Mohri, J Duchi, T Hashimoto - arXiv preprint arXiv:2605.19407, 2026",
+      "abstract": "We investigate data filtering for large model pretraining via new scaling studies that target the high compute, data-scarce regime. In spite of an apparently common belief that filtering data to include only high-quality information is essential, our …",
+      "url": "https://arxiv.org/pdf/2605.19407"
+    },
+    {
+      "title": "Scalable parallel 3-D TEM inversion via rational approximation of the matrix exponential",
+      "authors": "RU Börner, S Güttel, T Günther - arXiv preprint arXiv:2605.19951, 2026",
+      "abstract": "We present a novel parallel implementation for large-scale three-dimensional electromagnetic inversion based on a Gauss-Newton framework combined with a rational near-best approximation of the matrix exponential for transient simulations …",
+      "url": "https://arxiv.org/pdf/2605.19951"
+    },
+    {
+      "title": "Sharp analysis of sketched least squares and randomized low-rank approximation",
+      "authors": "EN Epperly, RJ Webber - arXiv preprint arXiv:2605.19096, 2026",
+      "abstract": "Two widely used randomized algorithms are the sketch-and-solve method for least-squares regression and the randomized SVD for low-rank approximation. These algorithms apply a random embedding to compress a target matrix, and they perform …",
+      "url": "https://arxiv.org/pdf/2605.19096"
+    },
+    {
+      "title": "Distributed Gradient-Regularized Newton Method: Scheduled Consensus and O (epsilon^{-1}) Global Iteration Complexity",
+      "authors": "W Hu, P Xie, YX Yuan, L Zhang - arXiv preprint arXiv:2605.19396, 2026",
+      "abstract": "We propose DisGrem, a fully decentralized second-order method for convex consensus optimization over networks. Each agent solves a local Newton system with vanishing gradient-norm regularization and an eigenvalue-shift stabilizer …",
+      "url": "https://arxiv.org/pdf/2605.19396"
+    },
+    {
+      "title": "Tensor Completion via Linear Combination of Nuclear Norms",
+      "authors": "X Yan, S Gong, K Wang - Symmetry, 2026",
+      "abstract": "Tensor completion is commonly formulated by minimizing a convex combination of nuclear norms of mode-wise unfolding matrices. Although effective, the non-negative weight constraint can limit the flexibility of mode balancing, especially when different …",
+      "url": "https://www.mdpi.com/2073-8994/18/5/863"
+    },
+    {
+      "title": "A Factorized Column Sparse Approach to the CP Rank Regularized Tensor Optimization Problem",
+      "authors": "K Gao, Y Xu - Numerical Linear Algebra with Applications, 2026",
+      "abstract": "Tensor optimization problems with rank regularization have attracted significant attentions in recent years due to their extensive applications in various fields. In this paper, we focus on the CANDECOMP/PARAFAC (CP) rank regularized tensor …",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/nla.70085"
+    },
+    {
+      "title": "Dynamic MRI Reconstruction Via Dual Deep Priors and Low-Rank Plus Sparse Modeling",
+      "authors": "Y Sun, S Gautam, C Huang, N Seiberlich, I Alkhouri… - arXiv preprint arXiv …, 2026",
+      "abstract": "Dynamic MRI reconstruction from undersampled measurements is a challenging inverse problem that requires preserving both spatial reconstruction quality and temporal consistency across the frames of the cine series. While recent learning …",
+      "url": "https://arxiv.org/pdf/2605.18709"
+    },
+    {
+      "title": "Analysis of the alternating minimization method for low-rank canonical polyadic decomposition in the Chebyshev norm",
+      "authors": "S Morozov - Calcolo, 2026",
+      "abstract": "The approximation of tensors in a low-para metric format is a crucial component in many mathematical modelling and data analysis tasks. Among the widely used low-parametric representations, the canonical polyadic (CP) decomposition is known to …",
+      "url": "https://link.springer.com/article/10.1007/s10092-026-00696-x"
+    },
+    {
+      "title": "Convergence of iterates and improved rates for accelerated augmented Lagrangian methods for linearly constrained convex optimization",
+      "authors": "X He, NJ Hang, YB Xiao, YP Fang - arXiv preprint arXiv:2605.19467, 2026",
+      "abstract": "We consider a linearly constrained convex optimization problem with a differentiable objective function. Motivated by an inertial primal-dual dynamical system with vanishing damping, we propose a class of accelerated augmented Lagrangian methods with Nesterov extrapolation parameters. The framework contains two variants: an implicit-gradient scheme for convex continuously differentiable objectives and a partially explicit scheme for convex smooth objectives. Under …",
+      "url": "https://arxiv.org/pdf/2605.19467"
+    },
+    {
+      "title": "Artificial Social Intelligence",
+      "authors": "O MADMON",
+      "abstract": "Authors' Contact Information: Moshe Tennenholtz, moshet@ technion. ac. il, Technion-Israel Institute of Technology, Haifa, Israel; Omer Madmon, omermadmon@ campus. technion. ac. il, Technion-Israel Institute of Technology, Haifa, Israel. 1",
+      "url": "https://mdds.net.technion.ac.il/files/2026/05/Artificial_Social_Intelligence-1.pdf"
+    },
+    {
+      "title": "Three-Operator Splitting with Stale Gradients for Faster Non-Linear Optimal Transport",
+      "authors": "J Lindbäck, D Alvarez-Melis, M Johansson, S Harvard - The 29th International Conference …",
+      "abstract": "Scalable optimization for non-linear optimal transport (OT) poses unique challenges; it requires efficient memory management of large matrices, effective parallelization strategies suited for modern accelerators like GPUs, and theoretical guarantees that support practical implementation patterns. To address these challenges, we introduce a new algorithm based on three-operator splitting that reduces gradient computation costs by allowing gradient evaluations to run asynchronously and in …",
+      "url": "https://openreview.net/pdf?id=HLw6b0S8PN"
+    },
+    {
+      "title": "Dpwmixer: dual-path wavelet mixer for long-term time series forecasting: Q. Li et al.",
+      "authors": "Q Li, X Zhang, S Wang, J Wei - The Journal of Supercomputing, 2026",
+      "abstract": "Long-term time series forecasting is a critical task in computational intelligence, playing a vital role in real-time decision-making systems. However, modeling large-scale multivariate time series requires extreme computational and memory efficiency. While Transformer-based models capture long-range dependencies, their quadratic complexity creates a severe memory bottleneck, significantly limiting real-time throughput. Conversely, highly efficient linear models fail to represent intricate …",
+      "url": "https://link.springer.com/article/10.1007/s11227-026-08499-1"
+    },
+    {
+      "title": "Scaled Graph Bounding Techniques for Reset Systems",
+      "authors": "T de Groot - IFAC-PapersOnLine proceedings series, 2026",
+      "abstract": "Reset systems can overcome fundamental limitations of linear time-invariant control. The recently introduced notion of scaled (relative) graphs provides a promising framework for developing graphical analysis and design tools for reset systems, in line with widely adopted loopshaping methods for linear systems. The aim of this paper is to derive techniques for over-bounding the scaled graph of reset systems, and obtain insights in their accuracy. We exploit connections between quadratic …",
+      "url": "https://research.tue.nl/files/390699971/Scaled_Graph_Bounding_Techniques_for_Reset_Systems_Pure_Version_.pdf"
+    },
+    {
+      "title": "Sensing Performance Optimization for ISAC with ITS and IRS",
+      "authors": "W Du, Z Chu, P Xiao, M Hua, Z Zhu, Y Wang, Q Wang - IEEE Transactions on …, 2026",
+      "abstract": "In this paper, a novel integrated sensing and communication (ISAC) system architecture is introduced that incorpo rates an intelligent transmission surface (ITS) in the transmitter and an intelligent reflecting surface (IRS) in the transmission channel. The ITS introduces a novel signal modulation architecture for coordinated operation with the base station (BS), while the IRS facilitates efficient signal transmission for the communication users and the sensing target. The main goal is to …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11527017/"
+    },
+    {
+      "title": "Research Fronts 2025: Mapping the evolving landscape of global science and technology",
+      "authors": "H Wang, Q Zhou, W Fan, J Yuan, Y Xing, J Li, Y Ji, Y Li… - The Innovation, 2026",
+      "abstract": "This study employs co-citation analysis of highly cited core papers, complemented by expert interpretation, to identify 128 hot and emerging Research Fronts for 2025 across 11 broad areas of natural and social sciences. By combining a macroscopic overview with microscopic examinations, the study characterizes the developmental momentum of each area and conducts in-depth interpretations of selected key Fronts to elucidate their strategic value and scientific breakthroughs. Prominent themes …",
+      "url": "https://www.cell.com/the-innovation/pdf/S2666-6758(26)00174-8.pdf"
+    },
+    {
+      "title": "Dual Tensor Completion Network-Based Joint Frequency and DOA Estimation Under Spatio-Temporal Sub-Nyquist Sampling",
+      "authors": "X Zhi, D Gao, Q Guo, X Liu, Y Yue, Z Song, G Liao - IEEE Transactions on Aerospace …, 2026",
+      "abstract": "This paper presents a joint carrier frequency and two-dimensional (2-D) direction-of-arrival (DOA) estimation method for spatio-temporal sub-Nyquist sampling systems equipped with sparse planar arrays. An identical-delay sub-Nyquist sampling architecture is adopted to couple temporal frequency information with spatial measurements, and the resulting observations are formulated as a third-order tensor with structured missing entries caused by sensor sparsity. To reliably recover this …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11523573/"
+    },
+    {
+      "title": "Minimization Over the ℓ p Ball Using A Hybrid First-Order Method: X. Yang et al.",
+      "authors": "X Yang, H Wang, Y Zhu, X Wang - Journal of Scientific Computing, 2026",
+      "abstract": "We study a class of nonconvex optimization problems in which the feasible set is defined by the nonconvex ℓ p ball, and the objective function is continuously differentiable. To tackle such structured problems, we propose a novel hybrid algorithm that combines the Frank-Wolfe method with the gradient projection method. The Frank-Wolfe step is amenable to a closed-form solution, while the gradient projection step can be efficiently performed in a reduced subspace. We prove the …",
+      "url": "https://link.springer.com/article/10.1007/s10915-026-03307-7"
+    },
+    {
+      "title": "Information-Theoretic Unsupervised Embedding Quality Evaluation",
+      "authors": "M Kuznetsov, I Butakov, M Munkhoeva, A Frolov…",
+      "abstract": "This study revisits existing unsupervised measures of embedding quality and introduces new metrics rooted in Information Theory. We establish that classical spectral metrics such as rank, effective rank, and NESum form a unified family of …",
+      "url": "https://openreview.net/pdf?id=EwaNoLlEXT"
+    },
+    {
+      "title": "Cubic orthogonal spline collocation method for the viscoelastic hyperbolic integro-differential equation with nonlinear-nonlocal damping",
+      "authors": "L Ouyang, K Li - Mathematics and Computers in Simulation, 2026",
+      "abstract": "AbstractThis work is devoted to the numerical analysis of a class of nonlinear hyperbolic integro-differential equations arising in viscoelasticity, featuring nonlinear nonlocal damping and memory kernels of variable-sign or exponential-logarithmic …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378475426002090"
+    }
+  ]
+}

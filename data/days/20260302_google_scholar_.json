@@ -1,0 +1,98 @@
+{
+  "id": "20260302_google_scholar_",
+  "date": "20260302",
+  "source": "historical-import",
+  "messages": 7,
+  "papers": [
+    {
+      "title": "Robust Tensor Completion via Tensor Wheel Decomposition with Difference Factors Regularization for Hyperspectral Image Restoration",
+      "authors": "X Feng, J Zhao, S Fang, T Zhang, S Chen - Applied Mathematical Modelling, 2026",
+      "abstract": "Robust tensor completion (RTC) aims to recover a low-rank tensor from a partially observed tensor corrupted by sparse noise and has shown great promise in hyperspectral image (HSI) restoration. The recently proposed tensor wheel (TW) …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0307904X26001307"
+    },
+    {
+      "title": "A variance reduced framework for (non) smooth nonconvex-nonconcave stochastic minimax problems with extended Kurdyka-Lojasiewicz property",
+      "authors": "M Khan, Y Xu - arXiv preprint arXiv:2602.20357, 2026",
+      "abstract": "In this paper, we study stochastic constrained minimax optimization problems with nonconvex-nonconcave structure, a central problem in modern machine learning, for which reliable and efficient algorithms remain largely unexplored due to its inherent …",
+      "url": "https://arxiv.org/pdf/2602.20357"
+    },
+    {
+      "title": "Matrix Perturbation Theory in the Tangent Space of Isospectral Matrices",
+      "authors": "F Hrobat, Y Nakatsukasa - arXiv preprint arXiv:2602.22084, 2026",
+      "abstract": "Eigenvalue and eigenvector perturbation theory is a fundamental topic in several disciplines, including numerical linear algebra, quantum physics, and related fields. The central problem is to understand how the eigenvalues and eigenvectors of a …",
+      "url": "https://arxiv.org/pdf/2602.22084"
+    },
+    {
+      "title": "Subspace gradient descent method for linear tensor equations",
+      "authors": "M Iannacito, L Piccinini, V Simoncini - arXiv preprint arXiv:2602.21974, 2026",
+      "abstract": "The numerical solution of algebraic tensor equations is a largely open and challenging task. Assuming that the operator is symmetric and positive definite, we propose two new gradient-descent type methods for tensor equations that generalize …",
+      "url": "https://arxiv.org/pdf/2602.21974"
+    },
+    {
+      "title": "Narrowing the Gap: SOS Ranks of $4\\times 3$ Biquadratic Forms and a Lower Bound of $8$",
+      "authors": "Y Xu, C Cui, L Qi - arXiv preprint arXiv:2602.21570, 2026",
+      "abstract": "We investigate the maximum sum-of-squares (SOS) rank of biquadratic forms in the critical case of $4\\times 3$ variables, where the general bounds are currently $7\\leq\\mathrm {BSR}(4, 3)\\leq 11$. By analyzing two important structured …",
+      "url": "https://arxiv.org/pdf/2602.21570"
+    },
+    {
+      "title": "A unified theoretical framework for the last-iterate convergence of stochastic adaptive optimization",
+      "authors": "Y Liang, D Xu - Artificial Intelligence, 2026",
+      "abstract": "Stochastic adaptive methods are extensively employed in training neural networks for deep learning tasks. However, their empirical success has not been fully understood in theory. To this end, this paper explores the convergence properties of stochastic adaptive algorithms in the non-convex scenario from a unified perspective. In particular, we introduce an algorithmic framework called AdaFamily, which covers a class of stochastic adaptive methods. Based on the AdaFamily framework, we …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0004370226000305"
+    },
+    {
+      "title": "Primal-Dual Strategy for Composite Optimization over Directed Graphs",
+      "authors": "S Zandi, M Esfandiari, S Zhao - IEEE Transactions on Control of Network Systems, 2026",
+      "abstract": "We introduce a distributed optimization framework for directed graph networks that addresses composite objective functions with smooth local components and a shared convex regulariser. Our method employs a novel primal-dual (PD) algorithm that incorporates time-varying adaptive coefficient weights and operates efficiently under the constraints of directed network topologies. The proposed approach achieves provable convergence guarantees under strong convexity conditions …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11408861/"
+    },
+    {
+      "title": "EvoX: Meta-Evolution for Automated Discovery",
+      "authors": "S Liu, S Agarwal, M Maheswaran, M Cemri, Z Li… - 2026",
+      "abstract": "Recent work such as AlphaEvolve has shown that combining LLM-driven optimization with evolutionary search can effectively improve programs, prompts, and algorithms across domains. In this paradigm, previously evaluated solutions are reused to guide the model toward new candidate solutions. Crucially, the effectiveness of this evolution process depends on the search strategy: how prior solutions are selected and varied to generate new candidates. However, most …",
+      "url": "https://escholarship.org/content/qt68v0c7vf/qt68v0c7vf.pdf"
+    },
+    {
+      "title": "Subspace-Frequency Regularization for Hyperspectral Image Super-Resolution",
+      "authors": "C Fang, Y Li, J Zhu, H Qiu, H Xu, J Zheng - Knowledge-Based Systems, 2026",
+      "abstract": "Hyperspectral image super-resolution (HSISR) aims to fuse a high-resolution multispectral image (HR-MSI) with a low-resolution hyperspectral image (LR-HSI). However, existing deep learning methods often neglect the intrinsic low-rank spectral property of hyperspectral data, while classical subspace approaches rely on manually limited priors and computationally intensive iterations. To bridge this gap, we propose SSFNR, a subspace-based deep prior regularization framework that …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705126003606"
+    },
+    {
+      "title": "CPFL: Lightweight Communication-Efficient and Privacy-Preserving Federated Learning",
+      "authors": "L Yang, Y Miao, R Xie, X Li, J Wu, G Xu, Z Liu… - IEEE Transactions on …, 2026",
+      "abstract": "The combination of Deep Learning (DL) and Federated Learning (FL) makes it a popular paradigm to train powerful models securely on large-scale data in a distributed way. However, current solutions face challenges such as significant communication overheads for clients with limited resources, potential privacy risks arising from FL's distributed nature, and the inability to maintain model accuracy without loss under high compression ratios. To solve these issues, we propose a …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11409442/"
+    },
+    {
+      "title": "Learning Unknown Interdependencies for Decentralized Root Cause Analysis in Nonlinear Dynamical Systems",
+      "authors": "A Mohanty, P Ramanan, N Gebraeel - arXiv preprint arXiv:2602.21928, 2026",
+      "abstract": "Root cause analysis (RCA) in networked industrial systems, such as supply chains and power networks, is notoriously difficult due to unknown and dynamically evolving interdependencies among geographically distributed clients. These clients represent heterogeneous physical processes and industrial assets equipped with sensors that generate large volumes of nonlinear, high-dimensional, and heterogeneous IoT data. Classical RCA methods require partial or full knowledge of the system's …",
+      "url": "https://arxiv.org/pdf/2602.21928"
+    },
+    {
+      "title": "Parallel Continuous-Time Relative Localization with Augmented Clamped Non-Uniform B-Splines",
+      "authors": "J Lu, Z Li, T Han, M Xu, C Xu, Y Cao - arXiv preprint arXiv:2602.22006, 2026",
+      "abstract": "Accurate relative localization is critical for multi-robot cooperation. In robot swarms, measurements from different robots arrive asynchronously and with clock time-offsets. Although Continuous-Time (CT) formulations have proved effective for handling asynchronous measurements in single-robot SLAM and calibration, extending CT methods to multi-robot settings faces great challenges to achieve high-accuracy, low-latency, and high-frequency performance. Especially, existing CT …",
+      "url": "https://arxiv.org/pdf/2602.22006"
+    },
+    {
+      "title": "Learning spatially adaptive sparsity level maps for arbitrary convolutional dictionaries",
+      "authors": "J Schulz, D Schote, C Kolbitsch, K Papafitsoros… - arXiv preprint arXiv …, 2026",
+      "abstract": "State-of-the-art learned reconstruction methods often rely on black-box modules that, despite their strong performance, raise questions about their interpretability and robustness. Here, we build on a recently proposed image reconstruction method, which is based on embedding data-driven information into a model-based convolutional dictionary regularization via neural network-inferred spatially adaptive sparsity level maps. By means of improved network design and dedicated training …",
+      "url": "https://arxiv.org/pdf/2602.21707"
+    },
+    {
+      "title": "Multichannel multicentroid motion-compensated single pixel imaging of a 2D arbitrarily moving rigid-body target",
+      "authors": "C Shao, Y Cao, S Li, XR Yao, Q Zhao - Communications Engineering, 2026",
+      "abstract": "Abstract Single-pixel imaging (SPI), distinguished by its cost-efficiency, exceptional spectral adaptability, and robust sub-Nyquist-Shannon sampling reconstruction capabilities, demonstrates transformative potential across imaging applications yet faces critical limitations in capturing arbitrarily moving targets. This work introduces a simple yet effective SPI architecture capable of simultaneous real-time tracking and high-fidelity imaging of objects undergoing unconstrained 2D planar motion …",
+      "url": "https://www.nature.com/articles/s44172-026-00619-2"
+    },
+    {
+      "title": "Interleaved Head Attention",
+      "authors": "SS Duvvuri, C Ekbote, R Bansal, R Tiwari, D Khatri… - arXiv preprint arXiv …, 2026",
+      "abstract": "Multi-Head Attention (MHA) is the core computational primitive underlying modern Large Language Models (LLMs). However, MHA suffers from a fundamental linear scaling limitation: $ H $ attention heads produce exactly $ H $ independent attention …",
+      "url": "https://arxiv.org/pdf/2602.21371"
+    }
+  ]
+}

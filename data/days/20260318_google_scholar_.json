@@ -1,0 +1,104 @@
+{
+  "id": "20260318_google_scholar_",
+  "date": "20260318",
+  "source": "historical-import",
+  "messages": 5,
+  "papers": [
+    {
+      "title": "A nonparametric independence test via penalized mutual information",
+      "authors": "Z Cai, Y Zhang, X Guo, L Zhu, R Li - Science China Mathematics, 2026",
+      "abstract": "In this paper, we propose a nonparametric independence test based on mutual information. Distinguished from the existing works, we estimate the mutual information in a conditional density form, whose dimension could be reduced to 1 …",
+      "url": "https://link.springer.com/article/10.1007/s11425-024-2486-1"
+    },
+    {
+      "title": "A Non-convex Regularization Fusing Low-rankness and Smoothness for Tensor Recovery",
+      "authors": "H Ge, Y Zhang, MK Ng - Journal of Mathematical Imaging and Vision, 2026",
+      "abstract": "Recently, the tensor recovery problem has witnessed significant advancements with the non-convex relaxation methods, compared with convex relaxation methods. In this article, we propose a novel non-convex relaxation method for the low-rank tensor …",
+      "url": "https://link.springer.com/article/10.1007/s10851-026-01283-z"
+    },
+    {
+      "title": "Blind Hyperspectral and Multispectral Images Fusion: A Unified Tensor Fusion Framework from Coupled Inverse Problem Perspective",
+      "authors": "Y Gao, MK Ng - arXiv preprint arXiv:2603.11530, 2026",
+      "abstract": "Hyperspectral and multispectral images fusion aims at integrating a low-resolution hyperspectral image (LR-HSI) and a high-resolution multispectral image (HR-MSI) to construct a high-resolution hyperspectral image (HR-HSI). It is generally assumed …",
+      "url": "https://arxiv.org/abs/2603.11530"
+    },
+    {
+      "title": "Image decomposition based on non local operator via Nash game equilibrium for noise removal: R. Addouch et al.",
+      "authors": "R Addouch, N Moussaid, O Gouasnouane… - Computational and Applied …, 2026",
+      "abstract": "In this paper, we introduce a variational image decomposition model based on non-local total variation and formulated through a Nash equilibrium framework. The proposed method aims to separate a noisy image into two distinct components: a …",
+      "url": "https://link.springer.com/article/10.1007/s40314-026-03701-9"
+    },
+    {
+      "title": "Joint Randomized Algorithms for the Federated Low-Multilinear-Rank Approximation of Modified Tucker Decomposition",
+      "authors": "F Wu, C Li - Journal of Scientific Computing, 2026",
+      "abstract": "Federated learning is widely adopted in scientific and engineering fields, with tensors forming the core structure for handling massive datasets. Federated tensor decomposition has thus emerged as a critical tool in federated data processing …",
+      "url": "https://link.springer.com/article/10.1007/s10915-026-03228-5"
+    },
+    {
+      "title": "A symmetric primal-dual method with double extrapolation for composite convex optimization involving three functions: L. Zhou, F. Ma",
+      "authors": "L Zhou, F Ma - Computational Optimization and Applications, 2026",
+      "abstract": "Symmetry is a recurring feature in algorithms for monotone operator theory and convex optimization, particularly in problems involving the sum of two operators, as exemplified by the Peaceman–Rachford splitting scheme. However, in more general settings–such as composite optimization problems with three convex functions or structured convex-concave saddle-point formulations–existing algorithms often exhibit inherent asymmetry. Notably, while both the Condat–Vũ algorithm and the …",
+      "url": "https://link.springer.com/article/10.1007/s10589-025-00760-2"
+    },
+    {
+      "title": "A first-order algorithm for decentralised min-max problems: Y. Malitsky, MK Tam",
+      "authors": "Y Malitsky, MK Tam - Numerische Mathematik, 2026",
+      "abstract": "In this work, we consider a connected network of finitely many agents working cooperatively to solve a min-max problem with convex-concave structure. We propose a decentralised first-order algorithm which can be viewed as a non-trivial combination of two algorithms: PG-EXTRA for decentralised minimisation problems and the forward reflected backward method for (non-distributed) min-max problems. In each iteration of our algorithm, each agent computes the gradient of the smooth …",
+      "url": "https://link.springer.com/article/10.1007/s00211-026-01530-w"
+    },
+    {
+      "title": "AdaWaveNet: Adaptive wavelet network for non-stationary time series forecasting via end-to-end learning",
+      "authors": "T Jin, Y Ji, J Liu, D Cheng, S Jia - Journal of King Saud University Computer and …, 2026",
+      "abstract": "Non-stationary time series forecasting remains a fundamental challenge in machine learning, requiring effective extraction of multi-scale temporal patterns while adapting to time-varying statistical properties. Traditional wavelet transforms employ fixed basis functions that lack adaptability to data-specific characteristics, while existing deep learning methods often assume stationarity or provide only implicit frequency modeling. This paper presents AdaWaveNet, an end-to-end deep learning …",
+      "url": "https://link.springer.com/article/10.1007/s44443-026-00537-5"
+    },
+    {
+      "title": "Delta-net: Deep dual-domain alternating optimization network for high pitch helical ct reconstruction",
+      "authors": "X Zhong, G Zhu, L Chen, Y Zhang, Q Feng, X Ji… - IEEE Transactions on …, 2025",
+      "abstract": "High pitch helical Computed Tomography (CT) scanning significantly reduces radiation dose while improving temporal resolution, offering substantial clinical benefits. However, the incomplete scanning data commonly leads to artifacts in the reconstructed images, degrading image quality and potentially affecting clinical diagnosis. Existing high pitch reconstruction methods primarily operate within the image domain or combine image-domain networks with traditional iterative …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11193774/"
+    },
+    {
+      "title": "Optimal design of resolvent splitting algorithms: R. Bassett, P. Barkley",
+      "authors": "RL Bassett, P Barkley - Mathematical Programming Computation, 2026",
+      "abstract": "In this paper, we introduce a novel semidefinite programming framework for designing custom frugal resolvent splitting algorithms which find a zero in the sum of n monotone operators. This framework features a number of design choices which facilitate creating resolvent splitting algorithms with specific communication structure. We illustrate these design choices using a variety of constraint sets and objective functions, as well as the use of a mixed-integer SDP to minimize time per iteration or …",
+      "url": "https://link.springer.com/article/10.1007/s12532-026-00304-7"
+    },
+    {
+      "title": "Breaking the Bottleneck of Heterogeneity in Federated Learning Through GBG: Grouping, Block Training, and Global Distillation",
+      "authors": "Z Zhang, L Dong, J Guo, J Jiang - IEEE Transactions on Mobile Computing, 2026",
+      "abstract": "Federated learning (FL) collaboratively trains a global model across multiple clients without sharing local data, effectively utilizing data while preserving privacy. However, real-world data are often non-independently and identically distributed (non-IID) and heterogeneous across clients, making standard FL less suitable for practical deployment. To tackle these challenges, we propose a novel framework named GBG which includes grouping, block training and global distillation. First, it …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11433074/"
+    },
+    {
+      "title": "Dual nonnegative and orthogonal reconstruction for multi-view clustering",
+      "authors": "W Sun, Q Li, N Han, X Fang, Y Huang, Y Li - International Journal of Machine …, 2026",
+      "abstract": "The objective of clustering is to group data points into distinct categories based on their varying representations of characteristics. Two well-known clustering methods are K-means clustering and spectral clustering. K-means clustering partitions the data points by minimizing the squared distance between each sample and the cluster prototype. In contrast, spectral clustering divides data points by learning the spectral embedding, which is achieved through the eigendecomposition of the …",
+      "url": "https://link.springer.com/article/10.1007/s13042-025-02834-3"
+    },
+    {
+      "title": "A practical three-operator splitting method with applications to image and clustering problems: W. Shi et al.",
+      "authors": "W Shi, Y Dong, Z Chen - The Journal of Supercomputing, 2026",
+      "abstract": "In this paper, we consider a system of monotonic inclusions involving three operators in real Hilbert spaces with the third being linearly composed. Such problems frequently arise in fields such as image processing, clustering, and others. We propose a new splitting algorithm to address this issue, extending the unknown variables to matrix form. A key advantage of our algorithm is that at each iteration, it requires computing only the resolvent of each individual operator, which can be …",
+      "url": "https://link.springer.com/article/10.1007/s11227-026-08365-0"
+    },
+    {
+      "title": "Auto-Calibration and Biconvex Compressive Sensing with Applications to Parallel MRI: Y. Ni, T. Strohmer",
+      "authors": "Y Ni, T Strohmer - Journal of Fourier Analysis and Applications, 2026",
+      "abstract": "We study an auto-calibration problem in which a transform-sparse signal is acquired via compressive sensing by multiple sensors in parallel, but with unknown calibration parameters of the sensors. This inverse problem has an important application in pMRI reconstruction, where the calibration parameters of the receiver coils are often difficult and costly to obtain explicitly, but nonetheless are a fundamental requirement for high-precision reconstructions. Most auto-calibration strategies for this problem …",
+      "url": "https://link.springer.com/article/10.1007/s00041-025-10223-1"
+    },
+    {
+      "title": "A second-order descent method with active-set prediction for group-sparse optimization: JC De los Reyes et al.",
+      "authors": "DR JC, S López-Ordóñez, P Merino - Computational Optimization and Applications, 2026",
+      "abstract": "In this paper, we propose a second-order descent algorithm with an active-set prediction phase for solving group-sparse nonconvex optimization problems, with applications to PDE-constrained optimization. Based on the steepest descent direction of the nonsmooth problem, we propose an active-set prediction strategy, which relies on an iterative interpretation of the problem's optimality condition, determining the active set for the next iteration based on the angle between the …",
+      "url": "https://link.springer.com/article/10.1007/s10589-026-00774-4"
+    },
+    {
+      "title": "Convergence of overlapping Schwarz within the Finite Volume framework",
+      "authors": "MJ Gander, L Halpern, F Hubert, S Krell - … Methods in Science and Engineering XXIX, 2025",
+      "abstract": "Overlapping Schwarz with Two Point Flux Approximation Finite Volume Discretization We are interested in proving convergence of alternating Schwarz algorithms discretized with Two-Point Flux Approximation (TPFA) finite volume …",
+      "url": "https://hal.science/hal-05551234/document"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "20260510_google_scholar_",
+  "date": "20260510",
+  "source": "historical-import",
+  "messages": 7,
+  "papers": [
+    {
+      "title": "A class of low-rank short recurrences for nonsymmetric linear matrix equations",
+      "authors": "D Palitta, CE Powell, V Simoncini - arXiv preprint arXiv:2605.01276, 2026",
+      "abstract": "We propose a new class of short matrix recurrences for the solution of nonsymmetric linear equations of the type $\\mathbf {A} _1\\mathbf {X}\\mathbf {B} _1+\\ldots+\\mathbf {A} _p\\mathbf {X}\\mathbf {B} _p= CD^ T $. These iterative methods combine local …",
+      "url": "https://arxiv.org/pdf/2605.01276"
+    },
+    {
+      "title": "A Parameter-Free First-Order Algorithm for Non-Convex Optimization with $\\tilde {\\mkern1mu O}(\\epsilon^{-5/3}) $ Global Rate",
+      "authors": "S Xiong, S Jerad, C Cartis - arXiv preprint arXiv:2605.02127, 2026",
+      "abstract": "We introduce PF-AGD, the first parameter-free, deterministic, accelerated first-order method to achieve $ O (\\epsilon^{-5/3}\\log (1/\\epsilon)) $ oracle complexity bound when minimizing sufficiently smooth, non-convex functions; this is the best-known …",
+      "url": "https://arxiv.org/pdf/2605.02127"
+    },
+    {
+      "title": "A Theory of Composition and Duality of Extremal Optimal Fixed-Point Algorithms",
+      "authors": "TH Yoon, B Grimmer - arXiv preprint arXiv:2605.02231, 2026",
+      "abstract": "In this work, we reveal a rich combinatorial structure underlying exact minimax optimal algorithms for classical nonexpansive fixed-point problems. This viewpoint unifies all extremal optimal methods and provides a systematic and practical …",
+      "url": "https://arxiv.org/pdf/2605.02231"
+    },
+    {
+      "title": "ORPilot: A Production-Oriented Agentic LLM-for-OR Tool for Optimization Modeling",
+      "authors": "G Xie - arXiv preprint arXiv:2605.02728, 2026",
+      "abstract": "This paper presents ORPilot, an open-source agentic AI system that translates real-world business problems into solver-ready optimization models. Unlike academic LLM-for-OR tools that assume clean problem specifications with preformatted inline data, ORPilot is designed for production conditions: ambiguous descriptions, large-scale raw operational data, and the need for portability across solver backends. The system introduces four novel components:(1) a conversational interview agent to …",
+      "url": "https://arxiv.org/pdf/2605.02728"
+    },
+    {
+      "title": "Bilevel learning",
+      "authors": "R Grazzi, M Pontil, S Salzo, A Zemkoho - arXiv preprint arXiv:2605.01621, 2026",
+      "abstract": "Bilevel learning refers to machine learning problems that can be formulated as bilevel optimization models, where decisions are organized in a hierarchical structure. This paradigm has recently gained considerable attention in machine learning, as gradient-based algorithms built on the implicit function reformulation have enabled the computation of large-scale problems involving possibly millions of variables. Despite these advances, the implicit function framework relies on …",
+      "url": "https://arxiv.org/pdf/2605.01621"
+    },
+    {
+      "title": "FEDIN: Frequency-Enhanced Deep Interest Network for Click-Through Rate Prediction",
+      "authors": "Z Dai, J Wang, J Pan, D Liu, L Xiao, ST Xia - arXiv preprint arXiv:2605.01726, 2026",
+      "abstract": "Sequential recommendation models often struggle to capture latent periodic patterns in user interests, primarily due to the noise inherent in time-domain behavioral data. While frequency-domain analysis offers a global perspective to address this, existing approaches typically treat user sequences in isolation, overlooking the crucial context of the target item. In this work, we present a novel empirical observation: user attention scores exhibit distinct spectral entropy distributions when conditioned on …",
+      "url": "https://arxiv.org/pdf/2605.01726"
+    },
+    {
+      "title": "A Line-search-free Method for Adaptive Decentralized Optimization",
+      "authors": "X Chen, I Kuruzov, G Scutari - arXiv preprint arXiv:2605.00711, 2026",
+      "abstract": "We study decentralized optimization over networks where agents cooperatively minimize a smooth (strongly) convex sum of local losses while communicating only with immediate neighbors. Prevailing decentralized methods require either centralized knowledge of global problem and network parameters for stepsize tuning--hence impractical, or costly per-iteration line-searches that demand access to local function values. We propose line-search-free, fully decentralized algorithms in which …",
+      "url": "https://arxiv.org/pdf/2605.00711"
+    },
+    {
+      "title": "Visual Implicit Autoregressive Modeling",
+      "authors": "P Jiang, J Luo, L Lin, Z Huang, X Li - arXiv preprint arXiv:2605.01220, 2026",
+      "abstract": "Visual Autoregressive Modeling (VAR) based on next-scale prediction achieves strong generation quality, but their explicit deep stacks fix the amount of computation per scale and inflate memory at high resolutions. We introduce Visual Implicit Autoregressive Modeling (VIAR), a next-scale autoregressive generator that embeds an implicit equilibrium layer between shallow pre/post blocks. The implicit layer is trained with Jacobian-Free Backpropagation, yielding constant training memory …",
+      "url": "https://arxiv.org/pdf/2605.01220"
+    },
+    {
+      "title": "Developing koopmanism in power and energy systems: Theory, applications, and prospects",
+      "authors": "Y Xu, Q Wang, L Mili, M Korkali, W Gu, S Lu, Y Jia… - Renewable and Sustainable …, 2026",
+      "abstract": "AbstractThe integration of renewable energy alongside other energy sources into modern power systems has markedly transformed them, posing new challenges in their operation and control. Currently, the ubiquitous deployment of metering devices has laid the groundwork for the proliferation of data-driven methodologies. In this context, the Koopman operator is increasingly gaining attention as an interpretable, data-driven, and model-free approach. This paper explores the principles and …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1364032126003606"
+    },
+    {
+      "title": "Unfolded ISTA for deep sparse subspace clustering",
+      "authors": "T Huang, T Xu, XJ Wu, J Kittler - Pattern Recognition, 2026",
+      "abstract": "In recent years, the integration of deep learning techniques has significantly advanced subspace clustering. However, existing deep subspace clustering methods predominantly rely on self-expressive layer structures, generally lacking solid theoretical foundations and interpretability. Furthermore, these methods typically require loading the entire dataset into memory simultaneously for learning, a strategy that not only consumes substantial computational resources but also …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031320326008459"
+    },
+    {
+      "title": "Optimal Local Convergence Rates of Stochastic First-Order Methods under Local Alpha-PL",
+      "authors": "S Masiha, S Salehkaleybar, N He, N Kiyavash… - The 29th International Conference …",
+      "abstract": "We study the local oracle complexity of stochastic first-order methods under a local α–Polyak–Łojasiewicz (α–PŁ) condition in a neighborhood of a target connected component M′ of the local minimizer set. The parameter α∈[1, 2] is the exponent of the gradient norm in the α–PŁ inequality: α= 2 recovers the classical PŁ case, α= 1 corresponds to Hölder-type error bounds, and intermediate values interpolate between these regimes. Our performance criterion is the number of oracle queries …",
+      "url": "https://openreview.net/pdf?id=1IBbgLlQf3"
+    },
+    {
+      "title": "High-Probability Convergence in Decentralized Stochastic Optimization with Gradient Tracking",
+      "authors": "A Armacki, H Cai, AH Sayed - arXiv preprint arXiv:2605.00281, 2026",
+      "abstract": "We study high-probability (HP) convergence guarantees in decentralized stochastic optimization, where multiple agents collaborate to jointly train a model over a network. Existing HP results in decentralized settings almost exclusively focus on the Decentralized Stochastic Gradient Descent ($\\mathtt {DSGD} $) algorithm, which requires strong assumptions, such as bounded data heterogeneity, or strong convexity of each agent's cost. This is contrary to the mean-squared error (MSE) …",
+      "url": "https://arxiv.org/pdf/2605.00281"
+    },
+    {
+      "title": "Stability and Generalization for Decentralized Markov SGD",
+      "authors": "J Wang, Z Wen, P Luo, D Li, T Sun - arXiv preprint arXiv:2605.01701, 2026",
+      "abstract": "Stochastic gradient methods are central to large-scale learning, yet their generalization theory typically relies on independent sampling assumptions. In many practical applications, data are generated by Markov chains and learning is performed in a decentralized manner, which introduces significant analytical challenges. In this work, we investigate the stability and generalization of decentralized stochastic gradient descent (SGD) and stochastic gradient descent …",
+      "url": "https://arxiv.org/pdf/2605.01701"
+    },
+    {
+      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "authors": "SN Ramachandran, S Sra - arXiv preprint arXiv:2605.00414, 2026",
+      "abstract": "Decision trees and diffusion models are ostensibly disparate model classes, one discrete and hierarchical, the other continuous and dynamic. This work unifies the two by establishing a crisp mathematical correspondence between hierarchical …",
+      "url": "https://arxiv.org/pdf/2605.00414"
+    },
+    {
+      "title": "A second-order method on the Stiefel manifold via Newton $\\unicode {x2013} $ Schulz",
+      "authors": "X Xiong, B Gao, PA Absil - arXiv preprint arXiv:2605.02838, 2026",
+      "abstract": "Retraction-free approaches offer attractive low-cost alternatives to Riemannian methods on the Stiefel manifold, but they are often first-order, which may limit the efficiency under high-accuracy requirements. To this end, we propose a second …",
+      "url": "https://arxiv.org/pdf/2605.02838"
+    },
+    {
+      "title": "A Geodesic‑Aware Quaternion Neural Network for Orientation Estimation",
+      "authors": "M Butt, AS Tisan, D Mandic, CC Took - IEEE World Congress on Computational …, 2026",
+      "abstract": "Quaternion-valued neural networks are the natural candidates for orientation estimation due to their numerous advantages in modelling rotations. However, existing quaternion algorithms ignore the curved geometry of the hypersphere …",
+      "url": "https://pure.royalholloway.ac.uk/en/publications/a-geodesicaware-quaternion-neural-network-for-orientation-estimat/"
+    }
+  ]
+}

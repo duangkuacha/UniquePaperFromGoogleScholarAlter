@@ -1,0 +1,110 @@
+{
+  "id": "20250915_google_scholar_",
+  "date": "20250915",
+  "source": "historical-import",
+  "messages": 9,
+  "papers": [
+    {
+      "title": "Bregman Douglas-Rachford Splitting Method",
+      "authors": "S Ma, L Xiao, R Zhao - arXiv preprint arXiv:2509.08739, 2025",
+      "abstract": "In this paper, we propose the Bregman Douglas-Rachford splitting (BDRS) method and its variant Bregman Peaceman-Rachford splitting method for solving maximal monotone inclusion problem. We show that BDRS is equivalent to a Bregman …",
+      "url": "https://arxiv.org/pdf/2509.08739"
+    },
+    {
+      "title": "Theoretical Analysis on how Learning Rate Warmup Accelerates Convergence",
+      "authors": "Y Liu, Y Ge, R Pan, A Kang, T Zhang - arXiv preprint arXiv:2509.07972, 2025",
+      "abstract": "Learning rate warmup is a popular and practical technique in training large-scale deep neural networks. Despite the huge success in practice, the theoretical advantages of this strategy of gradually increasing the learning rate at the beginning …",
+      "url": "https://arxiv.org/pdf/2509.07972"
+    },
+    {
+      "title": "Householder Symposium",
+      "authors": "A Montoison, D Orban, M Saunders",
+      "abstract": "Suppose\\(A\\in\\R^{n\\times n}\\) is a large symmetric matrix for which matrix-vector products\\(Av\\) can be computed eﬀiciently for any vector\\(v\\in\\R^ n\\). We present a Krylov subspace method called MinAres for computing a solution to the following …",
+      "url": "https://householder-symposium.github.io/abstracts/paper81.html"
+    },
+    {
+      "title": "Some New Insights from Highly Optimized Polyhedral Passages",
+      "authors": "R Gosain, B Grimmer - arXiv preprint arXiv:2509.08190, 2025",
+      "abstract": "A shape possesses Rupert's property if a hole can be cut through it such that a second identical copy of the shape can cleanly pass straight through the interior of the first. Such a passage proving cubes are Rupert was first shown more than 300 …",
+      "url": "https://arxiv.org/pdf/2509.08190"
+    },
+    {
+      "title": "A Systematic Survey on Large Language Models for Evolutionary Optimization: From Modeling to Solving",
+      "authors": "Y Zhang, R Cheng, G Yi, KC Tan - arXiv preprint arXiv:2509.08269, 2025",
+      "abstract": "Large Language Models (LLMs), with their strong understanding and reasoning capabilities, are increasingly being explored for tackling optimization problems, especially in synergy with evolutionary computation. Despite rapid progress, however, the field still lacks a unified synthesis and a systematic taxonomy. This survey addresses this gap by providing a comprehensive review of recent developments and organizing them within a structured framework. We classify …",
+      "url": "https://arxiv.org/pdf/2509.08269"
+    },
+    {
+      "title": "Lightweight Deep Unfolding Networks with Enhanced Robustness for Infrared Small Target Detection",
+      "authors": "J Liu, Y Han, X Xiu, J Zhang, W Liu - arXiv preprint arXiv:2509.08205, 2025",
+      "abstract": "Infrared small target detection (ISTD) is one of the key techniques in image processing. Although deep unfolding networks (DUNs) have demonstrated promising performance in ISTD due to their model interpretability and data adaptability, existing methods still face significant challenges in parameter lightweightness and noise robustness. In this regard, we propose a highly lightweight framework based on robust principal component analysis (RPCA) called L …",
+      "url": "https://arxiv.org/pdf/2509.08205"
+    },
+    {
+      "title": "Finding a Multiple Follower Stackelberg Equilibrium: A Fully First-Order Method",
+      "authors": "A Niu, K Wang, J Ziani - arXiv preprint arXiv:2509.08161, 2025",
+      "abstract": "In this work, we propose the first fully first-order method to compute an epsilon stationary Stackelberg equilibrium with convergence guarantees. To achieve this, we first reframe the leader follower interaction as single level constrained optimization. Second, we define the Lagrangian and show that it can approximate the leaders gradient in response to the equilibrium reached by followers with only first-order gradient evaluations. These findings suggest a fully first order algorithm that …",
+      "url": "https://arxiv.org/pdf/2509.08161"
+    },
+    {
+      "title": "A Monte Carlo Approach to Nonsmooth Convex Optimization via Proximal Splitting Algorithms",
+      "authors": "N Di, EC Chi, SW Fung - arXiv preprint arXiv:2509.07914, 2025",
+      "abstract": "Operator splitting algorithms are a cornerstone of modern first-order optimization, relying critically on proximal operators as their fundamental building blocks. However, explicit formulas for proximal operators are available only for limited classes of functions, restricting the applicability of these methods. Recent work introduced HJ-Prox, a zeroth-order Monte Carlo approximation of the proximal operator derived from Hamilton-Jacobi PDEs, which circumvents the need for closed …",
+      "url": "https://arxiv.org/pdf/2509.07914"
+    },
+    {
+      "title": "DFCon: Dominant frequency enhanced ultra-long time series contrastive forecasting",
+      "authors": "Q Liu, H Liu, MJ Yang, Y Wei, J Du - Neurocomputing, 2025",
+      "abstract": "Ultra-long time series forecasting (ULTSF) is crucial for fields like energy management, traffic planning, and climate prediction. However, as the forecast horizon increases, concept drift becomes a major challenge, as a fixed-length historical window struggles to generalize ultra-long temporal patterns. Extending the input series length increases computational costs and demands a higher model capacity for capturing longer temporal dependencies. To address these issues, we …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231225020909"
+    },
+    {
+      "title": "Frequency-Aware Tensor Network Decomposition for Multi-Dimensional Image Recovery",
+      "authors": "ZL Han, TZ Huang, XL Zhao, TY Ji, H Zhang - Journal of Scientific Computing, 2025",
+      "abstract": "Recently, tensor network decomposition has gained significant attention for its promising performance in multi-dimensional image recovery, which has allowed for a customized low-rank representation of the given tensor. However, the different frequency components of the original tensor are mixed together, while the standard tensor network decompositions attempt to treat these components equally, which limits their ability to capture different components during image recovery …",
+      "url": "https://link.springer.com/article/10.1007/s10915-025-03046-1"
+    },
+    {
+      "title": "RoseCDL: Robust and Scalable Convolutional Dictionary Learning for Rare-event Detection",
+      "authors": "J Yehya, M Benbakoura, CÃŠ Allain, BÃŽ Malezieux… - arXiv preprint arXiv …, 2025",
+      "abstract": "Identifying recurring patterns and rare events in large-scale signals is a fundamental challenge in fields such as astronomy, physical simulations, and biomedical science. Convolutional Dictionary Learning (CDL) offers a powerful framework for modeling local structures in signals, but its use for detecting rare or anomalous events remains largely unexplored. In particular, CDL faces two key challenges in this setting: high computational cost and sensitivity to artifacts and outliers. In this paper, we introduce …",
+      "url": "https://arxiv.org/pdf/2509.07523"
+    },
+    {
+      "title": "An Inexact Proximal Framework for Nonsmooth Riemannian Difference-of-Convex Optimization",
+      "authors": "B Jiang, M Xu, X Cai, YF Liu - arXiv preprint arXiv:2509.08561, 2025",
+      "abstract": "Nonsmooth Riemannian optimization has attracted increasing attention, especially in problems with sparse structures. While existing formulations typically involve convex nonsmooth terms, incorporating nonsmooth difference-of-convex (DC) penalties can enhance recovery accuracy. In this paper, we study a class of nonsmooth Riemannian optimization problems whose objective is the sum of a smooth function and a nonsmooth DC term. We establish, for the first time in the manifold setting, the …",
+      "url": "https://arxiv.org/pdf/2509.08561"
+    },
+    {
+      "title": "Decentralized Online Riemannian Optimization Beyond Hadamard Manifolds",
+      "authors": "E Sahinoglu, S Shahrampour - arXiv preprint arXiv:2509.07779, 2025",
+      "abstract": "We study decentralized online Riemannian optimization over manifolds with possibly positive curvature, going beyond the Hadamard manifold setting. Decentralized optimization techniques rely on a consensus step that is well understood in Euclidean spaces because of their linearity. However, in positively curved Riemannian spaces, a main technical challenge is that geodesic distances may not induce a globally convex structure. In this work, we first analyze a curvature-aware …",
+      "url": "https://arxiv.org/pdf/2509.07779"
+    },
+    {
+      "title": "Model Extraction for Image Denoising Networks",
+      "authors": "H Teng, Y Quan, Y Xu, J Huang, H Ji - IEEE Transactions on Information Forensics …, 2025",
+      "abstract": "Model Extraction (ME) replicates the performance of another entity's pretrained model without authorization. While extensively studied in image classification, object detection and other tasks, ME for image restoration has been scarcely studied …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11153562/"
+    },
+    {
+      "title": "Tensorized Multi-View Subspace Clustering via Tensor Nuclear Norm and Block Diagonal Representation",
+      "authors": "GY Tang, GF Lu, Y Wang, LL Fan - Mathematics, 2025",
+      "abstract": "Recently, a growing number of researchers have focused on multi-view subspace clustering (MSC) due to its potential for integrating heterogeneous data. However, current MSC methods remain challenged by limited robustness and insufficient …",
+      "url": "https://www.mdpi.com/2227-7390/13/17/2710"
+    },
+    {
+      "title": "FractalPINN-Flow: A Fractal-Inspired Network for Unsupervised Optical Flow Estimation with Total Variation Regularization",
+      "authors": "S Behnamian, R Khaksarinezhad, A Langer - arXiv preprint arXiv:2509.08670, 2025",
+      "abstract": "We present FractalPINN-Flow, an unsupervised deep learning framework for dense optical flow estimation that learns directly from consecutive grayscale frames without requiring ground truth. The architecture centers on the Fractal Deformation Network …",
+      "url": "https://arxiv.org/abs/2509.08670"
+    },
+    {
+      "title": "On Global Rates for Regularization Methods based on Secant Derivative Approximations",
+      "authors": "C Cartis, S Jerad - arXiv preprint arXiv:2509.07580, 2025",
+      "abstract": "An inexact framework for high-order adaptive regularization methods is presented, in which approximations may be used for the $ p $ th-order tensor, based on lower-order derivatives. Between each recalculation of the $ p $ th-order derivative …",
+      "url": "https://arxiv.org/pdf/2509.07580"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "20260330_google_scholar_",
+  "date": "20260330",
+  "source": "historical-import",
+  "messages": 7,
+  "papers": [
+    {
+      "title": "Enclosing minima in nonsmooth optimization via trust regions of higher-order cutting-plane models",
+      "authors": "B Gebken, M Ulbrich - arXiv preprint arXiv:2603.23261, 2026",
+      "abstract": "We propose a globally convergent trust-region bundle method for minimizing lower-$ C^ 2$ functions using higher-order cutting-plane models. Under certain growth assumptions on the objective around its minimum, the method is able to compute …",
+      "url": "https://arxiv.org/abs/2603.23261"
+    },
+    {
+      "title": "Superlinear convergence in nonsmooth optimization via higher-order cutting-plane models",
+      "authors": "B Gebken, M Ulbrich - arXiv preprint arXiv:2603.23236, 2026",
+      "abstract": "A cutting-plane model for a nonsmooth function is the maximum of several first-order expansions centered at different points. Using such a model in a bundle method leads to linear convergence (of serious steps) to a minimum. In smooth optimization …",
+      "url": "https://arxiv.org/pdf/2603.23236"
+    },
+    {
+      "title": "Credible Grouping of Heterogeneous Clients for Personalized Federated Learning via Block-Term Decomposition",
+      "authors": "T Liao, S Zhao, L Fu, S Huang, M Ng, Z Zheng, C Chen - Information Fusion, 2026",
+      "abstract": "Clustered federated learning (FL) has demonstrated promising results in personalized modeling by grouping clients with similar data distribution into the same cluster. However, existing methods either fix the client grouping before training …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1566253526001971"
+    },
+    {
+      "title": "Accelerated Preconditioning Half Thresholding Algorithms for L1/2 Regularization",
+      "authors": "S Su, ZQ Wang - Journal of Computational and Applied Mathematics, 2026",
+      "abstract": "The L 1/2 regularization plays a crucial role in promoting sparsity of the solution in the optimization models. The half thresholding algorithm, which is derived based on the threshold representation theorem, serves as an efficient solver for the non …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042726002256"
+    },
+    {
+      "title": "A convergent Plug-and-Play Majorization-Minimization algorithm for linear Poisson inverse problems",
+      "authors": "T Modrzyk, A Etxebeste, E Bretin, V Maxim",
+      "abstract": "In this paper, we present a novel variational plugand-play algorithm for Poisson inverse problems. Our approach minimizes an explicit functional which is the sum of a Kullback-Leibler data fidelity term and a regularization term based on a pre-trained …",
+      "url": "https://www.researchgate.net/profile/Thibaut-Modrzyk/publication/403047889_A_convergent_Plug-and-Play_Majorization-Minimization_algorithm_for_linear_Poisson_inverse_problems/links/69c1461760c0371a60ed9bd6/A-convergent-Plug-and-Play-Majorization-Minimization-algorithm-for-linear-Poisson-inverse-problems.pdf"
+    },
+    {
+      "title": "Rethinking Multimodal Fusion for Time Series: Auxiliary Modalities Need Constrained Fusion",
+      "authors": "S Lee, J Seo, J Lee, S Yoo, M Kim, TY Lim, D Kang… - arXiv preprint arXiv …, 2026",
+      "abstract": "Recent advances in multimodal learning have motivated the integration of auxiliary modalities such as text or vision into time series (TS) forecasting. However, most existing methods provide limited gains, often improving performance only in specific datasets or relying on architecture-specific designs that limit generalization. In this paper, we show that multimodal models with naive fusion strategies (eg, simple addition or concatenation) often underperform unimodal TS models, which we …",
+      "url": "https://arxiv.org/pdf/2603.22372"
+    },
+    {
+      "title": "Time-Varying Biological Time Series Prediction and Pattern Interpretation via Koopman Theory and Large Language Model",
+      "authors": "Y You, Y Ji, F Zhao, M Xiao, L Zhang - 2026",
+      "abstract": "Biological time series data characterizes the dynamic evolution of biological systems and plays a crucial role in genetic inheritance, disease diagnosis, and biological microenvironment. However, accurate prediction for biological time-series data remains challenging due to their pronounced timevarying, non-stationary, and noisy characteristics. Existing approaches often fail to capture latent distribution shifts and the coupled evolution of global and local patterns, limiting both predictive …",
+      "url": "https://www.preprints.org/frontend/manuscript/a97ba291bdf4ec768a061b31fa572f3f/download_pub"
+    },
+    {
+      "title": "Explicitly Provable Gradient Network for Unrolled Medical Image Reconstruction Algorithms",
+      "authors": "B Shi, L Huang, W Xu, Y Su - Knowledge-Based Systems, 2026",
+      "abstract": "Recently, unrolled algorithms have demonstrated outstanding empirical performance in solving medical image reconstruction problems; however, they face two primary limitations. First, proving that designed networks explicitly satisfy boundary or Lipschitz constraints—necessary for guaranteed convergence—is inherently challenging due to their black-box nature and limited interpretability. Second, the final imaging quality is limited because the prior network does not utilise the …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705126005587"
+    },
+    {
+      "title": "Communication-Efficient Approximate Gradient Coding",
+      "authors": "S Munim, A Ramamoorthy - arXiv preprint arXiv:2603.22514, 2026",
+      "abstract": "Large-scale distributed learning aims at minimizing a loss function $ L $ that depends on a training dataset with respect to a $ d $-length parameter vector. The distributed cluster typically consists of a parameter server (PS) and multiple workers. Gradient coding is a technique that makes the learning process resilient to straggling workers. It introduces redundancy within the assignment of data points to the workers and uses coding theoretic ideas so that the PS can recover $\\nabla L $ exactly or …",
+      "url": "https://arxiv.org/pdf/2603.22514"
+    },
+    {
+      "title": "Distributed and Data-Driven Optimization Frameworks for Logistics-Oriented Decision Support Under Partial and Asynchronous Information",
+      "authors": "MJCS Reis - Algorithms, 2026",
+      "abstract": "This paper introduces D3O-GT, a distributed optimization framework designed to operate under partial, heterogeneous, and delayed information—conditions commonly encountered in large-scale logistics and networked decision support systems. The proposed approach integrates gradient tracking with delay-aware updates to address the steady-state bias and instability that often affect classical distributed gradient methods. We formulate a consensus optimization model that …",
+      "url": "https://www.mdpi.com/1999-4893/19/4/246"
+    },
+    {
+      "title": "Generalized Primal-Dual Conic Optimization: A Unified Framework for Conic Programming and Gap Analysis",
+      "authors": "J Zhang - learning",
+      "abstract": "This paper proposes a novel Generalized Primal-Dual Conic Optimization (GPDC) model that organically combines traditional general cone programming with primal-dual gap theory, achieving integrated optimization of the objective function, constraint structure, and dual convergence. By introducing an adaptive gap adjustment function, this model not only unifies the primal-dual analysis framework but also theoretically overcomes the limitations of traditional cone programming …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/403016676_Generalized_Primal-Dual_Conic_Optimization_A_Unified_Framework_for_Conic_Programming_and_Gap_Analysis/links/69bf50749f53d47411bebaca/Generalized-Primal-Dual-Conic-Optimization-A-Unified-Framework-for-Conic-Programming-and-Gap-Analysis.pdf"
+    },
+    {
+      "title": "Generalized Complementarity-Constrained Conic Programming: A Novel Optimization Framework",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel optimization theory—Generalized Complementarity-Constrained Conic Programming (GCCP)—which integrates the core ideas of** General Conic Programming(CP)** and** Complementarity Slackness (CS)**, constructing a self-consistent and highly scalable optimization framework. Compared with traditional conic programming, this theory can not only handle linear and nonlinear conicconstrained problems, but also explicitly control the complementary …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/402968817_Generalized_Complementarity-Constrained_Conic_Programming_A_Novel_Optimization_Framework/links/69be0c06ac381228755f97a5/Generalized-Complementarity-Constrained-Conic-Programming-A-Novel-Optimization-Framework.pdf"
+    },
+    {
+      "title": "Conic Stackelberg Nested Programming: A Multi-Level KKT Embedding Framework for Convex Cone Optimization",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel multi-level cone-constrained optimization framework—Conic Stackelberg Nested Programming (CSNP). This method combines the convex cone constraint handling capability of general cone programming with the nested KKT conditional solution method in Stackelberg games, achieving unified modeling and analysis of multi-level decision problems. Compared with traditional cone programming or singlelevel Stackelberg optimization, this method can not only …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/402968609_Conic_Stackelberg_Nested_Programming_A_Multi-Level_KKT_Embedding_Framework_for_Convex_Cone_Optimization/links/69be0b39e8c97366295ce15f/Conic-Stackelberg-Nested-Programming-A-Multi-Level-KKT-Embedding-Framework-for-Convex-Cone-Optimization.pdf"
+    },
+    {
+      "title": "Generalized Orthogonal Conic Programming with Extragradient Optimization",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel optimization framework—Generalized Orthogonal Conic Programming with Extragradient (GOCP-EG). This model deeply integrates the constraint structure of traditional general conic programming with the extragradient iterative update method. By introducing a generalized orthogonal projection operator and a dynamic step-size strategy, it theoretically guarantees the consistency of convergence and optimality, while extending the applicability of traditional conic …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/403017440_Generalized_Orthogonal_Conic_Programming_with_Extragradient_Optimization/links/69bf502160c0371a60ece0f7/Generalized-Orthogonal-Conic-Programming-with-Extragradient-Optimization.pdf"
+    },
+    {
+      "title": "A Learning Method with Gap-Aware Generation for Heterogeneous DAG Scheduling",
+      "authors": "R Zhou, H Zou, L Zhou, C Sun, Z Wen - arXiv preprint arXiv:2603.23249, 2026",
+      "abstract": "Efficient scheduling of directed acyclic graphs (DAGs) in heterogeneous environments is challenging due to resource capacities and dependencies. In practice, the need for adaptability across environments with varying resource pools …",
+      "url": "https://arxiv.org/pdf/2603.23249"
+    },
+    {
+      "title": "First Proof solutions and comments",
+      "authors": "M Abouzaid, AJ Blumberg, M Hairer, J Kileel, TG Kolda… - 2026",
+      "abstract": "Here we provide our solutions to the First Proof questions. We also discuss the best responses from publicly available AI systems that we were able to obtain in our experiments prior to the release of the problems on February 5, 2025. We hope this …",
+      "url": "https://1stproof.org/documents/FirstProofSolutionsComments.pdf"
+    },
+    {
+      "title": "Efficient Implementation of Third-order Tensor Methods with Adaptive Regularization for Unconstrained Optimization: C. Cartis et al.",
+      "authors": "C Cartis, R Hauser, Y Liu, K Welzel, W Zhu - Mathematical Programming Computation, 2026",
+      "abstract": "High-order tensor methods that employ local Taylor models of degree p within adaptive regularization frameworks (AR p) have recently received significant attention, due to their improved/optimal global and local rates of convergence, for …",
+      "url": "https://link.springer.com/article/10.1007/s12532-026-00313-6"
+    }
+  ]
+}

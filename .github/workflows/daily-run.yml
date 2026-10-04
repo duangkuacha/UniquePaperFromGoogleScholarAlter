@@ -1,0 +1,102 @@
+name: Fetch Scholar mail and publish site
+
+on:
+  schedule:
+    # 08:00 Asia/Shanghai (UTC 00:00). GitHub may delay scheduled jobs.
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scholar-daily
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    env:
+      TZ: ${{ vars.TIMEZONE || 'Asia/Shanghai' }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Write OAuth files to runner temporary storage
+        env:
+          CREDENTIALS_JSON: ${{ secrets.GMAIL_CREDENTIALS_JSON }}
+          TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
+        run: |
+          test -n "$CREDENTIALS_JSON"
+          test -n "$TOKEN_JSON"
+          printf '%s' "$CREDENTIALS_JSON" > "$RUNNER_TEMP/credentials.json"
+          printf '%s' "$TOKEN_JSON" > "$RUNNER_TEMP/token.json"
+
+      - name: Fetch unread Scholar Alert mail
+        env:
+          SCHOLAR_QUERY: ${{ vars.SCHOLAR_QUERY }}
+          MAX_MESSAGES: ${{ vars.MAX_MESSAGES }}
+        run: |
+          args=(
+            --credentials-file "$RUNNER_TEMP/credentials.json"
+            --token-file "$RUNNER_TEMP/token.json"
+            --output-dir data/days
+          )
+          if [ -n "$SCHOLAR_QUERY" ]; then args+=(--query "$SCHOLAR_QUERY"); fi
+          if [ -n "$MAX_MESSAGES" ]; then args+=(--max-messages "$MAX_MESSAGES"); fi
+          python UniquePaper.py "${args[@]}"
+
+      - name: Build public catalog
+        run: python build_site.py --input-dir data/days --output data/catalog.json
+
+      - name: Commit updated public data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ index.html build_site.py UniquePaper.py requirements.txt .gitignore README.md server.py UniquePaper.bat UniquePaper.vbs .github/workflows/daily-run.yml
+          if git diff --cached --quiet; then
+            echo "No public data changes to commit."
+          else
+            git commit -m "Update Scholar paper catalog $(date -u +%F)"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Assemble Pages site
+        run: |
+          rm -rf _site
+          mkdir -p _site/data
+          cp index.html _site/index.html
+          cp data/catalog.json _site/data/catalog.json
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Remove temporary OAuth files
+        if: always()
+        run: rm -f "$RUNNER_TEMP/credentials.json" "$RUNNER_TEMP/token.json"
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,116 @@
+{
+  "id": "20260310_google_scholar_",
+  "date": "20260310",
+  "source": "historical-import",
+  "messages": 8,
+  "papers": [
+    {
+      "title": "Optimization with Parametric Variational Inequality Constraints on a Moving Set",
+      "authors": "X Chen, J Zhang, Y Zhang - arXiv preprint arXiv:2603.05196, 2026",
+      "abstract": "This paper focuses on optimization problems constrained by Parametric Variational Inequalities (PVI) defined on a moving set. Unlike most existing works on mathematical programs with equilibrium constraints, the equilibrium constraints have …",
+      "url": "https://arxiv.org/pdf/2603.05196"
+    },
+    {
+      "title": "Gradient low-rank sparse representation: spatial-spectral group sparse total variation for hyperspectral image denoising",
+      "authors": "L Wang, X Zhang, F Wang, J Zou - … International Conference on Graphics and Image …, 2026",
+      "abstract": "Hyperspectral images (HSIs) mixed noise removal is a challenge and essential preprocessing part in remote sensing fields. In this paper, To address the challenge of mixed noise suppression in HSI, we introduce a composite denoising framework …",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14124/141242H/Gradient-low-rank-sparse-representation--spatial-spectral-group-sparse/10.1117/12.3094753.short"
+    },
+    {
+      "title": "Anisotropic Total Generalized Variation Enhanced Deep Image Prior for Image Denoising",
+      "authors": "J Wang, J Xu, Y Hao, L Huo, Z Wang, B Li - Symmetry, 2026",
+      "abstract": "To enhance the performance of deep image prior, we propose a novel image denoising model that embeds an anisotropic diffusion tensor into the total generalized variation model and combines it with the deep image prior. The …",
+      "url": "https://www.mdpi.com/2073-8994/18/3/452"
+    },
+    {
+      "title": "A novel non-convex regularized model for third-order tensor compressive sensing",
+      "authors": "C Huang, H Ge, X Su - Seventeenth International Conference on Graphics and …, 2026",
+      "abstract": "Nonconvex optimization, while more challenging to design and analyze, has shown strong ability to model the nonlinearities and intricacies of real-world problems, often yielding more accurate solutions than convex counterparts. In this context, the 𝛾 …",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14124/141242C/A-novel-non-convex-regularized-model-for-third-order-tensor/10.1117/12.3094814.short"
+    },
+    {
+      "title": "RE-LL1: AN EFFECTIVE REGULARIZED (L, L, 1)-TENSOR DECOMPOSITION METHOD FOR VIDEO BACKGROUND MODELING AND FOREGROUND …",
+      "authors": "NQ Dang, TT Le, NL Trung, K Abed-Meraim",
+      "abstract": "In this paper, we proposed an efficient regularized (L, L, 1)-decomposition method, called Re-LL1, to factorize a timeseries tensor into block low-rank terms and sparse components. Re-LL1 integrates three types of regularization techniques, including …",
+      "url": "https://www.researchgate.net/profile/Thanh-Le-104/publication/401486120_Re-LL1_An_Effective_Regularized_LL1-Tensor_Decomposition_Method_For_Video_Background_Modeling_and_Foreground_Separation/links/69a6b4fa43ad5e30a854cc32/Re-LL1-An-Effective-Regularized-L-L-1-Tensor-Decomposition-Method-For-Video-Background-Modeling-and-Foreground-Separation.pdf"
+    },
+    {
+      "title": "Zeroth-Order Optimization at the Edge of Stability",
+      "authors": "M Song, L Zhang, B Li, N He, M Muehlebach, S Oh - Workshop on Scientific Methods for …",
+      "abstract": "Zeroth-order (ZO) methods are widely used when gradients are unavailable or prohibitively expensive, including black-box learning and memory-efficient fine-tuning of large models, yet their optimization dynamics in deep learning remain underexplored. In this work, we provide an explicit step size condition that exactly captures the (mean-square) linear stability of a family of ZO methods based on the standard two-point estimator. Our characterization reveals a sharp contrast with first …",
+      "url": "https://openreview.net/pdf?id=InkMd89Pju"
+    },
+    {
+      "title": "Optimize information sharing locations in locally connected mobility systems",
+      "authors": "Z Guo - Transportation Research Part C: Emerging …, 2026",
+      "abstract": "Abstract Information collection and communication are fundamental to smart mobility, but designing an optimal information-sharing system for transportation networks presents challenges due to the intricate interplay between travelers' routing behavior, cyber networks, and physical transportation infrastructure. The goal of this paper is to optimize the locations for sharing traffic information, considering en-route information sharing and adaptive routing behavior in response to en-route information updates …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X26000689"
+    },
+    {
+      "title": "Joint Topology and Beamforming Optimization for Decentralized Federated Learning",
+      "authors": "H Feng, R Wang, E Liu, W Ni, D Niyato, A Jamalipour - IEEE Transactions on …, 2026",
+      "abstract": "Decentralized Federated Learning (DFL) enables collaborative model training without central coordination. However, DFL faces challenges in dynamic networks, where existing methods struggle to balance consensus rate and communication efficiency, while overlooking practical issues such as topology variation. This paper presents Dynamic AirComp-enabled DFL (DA-DFL), a novel framework that integrates over-the-air computation (AirComp) with the BASE-GRAPH consensus …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11421483/"
+    },
+    {
+      "title": "FOZO: Forward-Only Zeroth-Order Prompt Optimization for Test-Time Adaptation",
+      "authors": "X Wang, T Wang - arXiv preprint arXiv:2603.04733, 2026",
+      "abstract": "Test-Time Adaptation (TTA) is essential for enabling deep learning models to handle real-world data distribution shifts. However, current approaches face significant limitations: backpropagation-based methods are not suitable for low-end deployment devices, due to their high computation and memory requirements, as well as their tendency to modify model weights during adaptation; while traditional backpropagation-free techniques exhibit constrained adaptation capabilities. In this …",
+      "url": "https://arxiv.org/pdf/2603.04733"
+    },
+    {
+      "title": "Computing Scaled Relative Graphs of Discrete-time LTI Systems from Data",
+      "authors": "T Nauta, R Pates - arXiv preprint arXiv:2603.05239, 2026",
+      "abstract": "Graphical methods for system analysis have played a central role in control theory. A recently emerging tool in this field is the Scaled Relative Graph (SRG). In this paper, we further extend its applicability by showing how the SRG of discrete-time linear-time-invariant (LTI) systems can be computed exactly from its state-space representation using linear matrix inequalities. We additionally propose a fully data-driven approach where we demonstrate how to compute the SRG exclusively from …",
+      "url": "https://arxiv.org/pdf/2603.05239"
+    },
+    {
+      "title": "TSDeblur: A Long-Range Temporal-Spatial Framework for Video Deblurring",
+      "authors": "Z Li, F Fang, T Wang, Q Yi, G Zhang - IEEE Transactions on Computational Imaging, 2026",
+      "abstract": "Video deblurring remains challenging due to the difficulty of modeling long-range temporal dependencies and global spatial structures in a stable and efficient manner. Existing temporal approaches typically rely on short-frame windows or implicit recurrent propagation, both of which struggle to maintain controllable information flow over extended sequences and often accumulate errors. Spatially, global modeling with convolutions or attention incurs high computational costs …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11421081/"
+    },
+    {
+      "title": "InverseNet: Benchmarking Operator Mismatch and Calibration Across Compressive Imaging Modalities",
+      "authors": "C Yang, X Yuan - arXiv preprint arXiv:2603.04538, 2026",
+      "abstract": "State-of-the-art EfficientSCI loses 20.58 dB when its assumed forward operator deviates from physical reality in just eight parameters, yet no existing benchmark quantifies operator mismatch, the default condition in deployed compressive imaging systems. We introduce InverseNet, the first cross-modality benchmark for operator mismatch, spanning CASSI, CACTI, and single-pixel cameras. Evaluating 12 methods under a four-scenario protocol (ideal, mismatched, oracle-corrected, blind …",
+      "url": "https://arxiv.org/pdf/2603.04538"
+    },
+    {
+      "title": "Conic-Valued Recourse Programming: A Unified Variational and Duality Framework for Stochastic Conic Optimization",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel framework for stochastic cone optimization—Conic-Valued Recourse Programming (CVRP). Unlike the construction of scalar remedial functions in traditional two-stage stochastic programming, we generalize the remedial mapping to a cone-space value mapping and establish its variational analysis and duality theory on a general closed convex cone K. We prove that, under appropriate measurability and Slater conditions, the cone-valued remedial function …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/401521406_Conic-Valued_Recourse_Programming_A_Unified_Variational_and_Duality_Framework_for_Stochastic_Conic_Optimization/links/69a7925ad1599a2cb7f63d86/Conic-Valued-Recourse-Programming-A-Unified-Variational-and-Duality-Framework-for-Stochastic-Conic-Optimization.pdf"
+    },
+    {
+      "title": "DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval",
+      "authors": "M Sun, Y Wu, Y Xie, R Han, B Jiang, D Sun, Y Yuan… - arXiv preprint arXiv …, 2026",
+      "abstract": "Large Language Model (LLM) agents can automate data-science workflows, but many rigorous statistical methods implemented in R remain underused because LLMs struggle with statistical knowledge and tool retrieval. Existing retrieval …",
+      "url": "https://arxiv.org/pdf/2603.04743"
+    },
+    {
+      "title": "ProSMA-UNet: Decoder Conditioning for Proximal-Sparse Skip Feature Selection",
+      "authors": "CW Cheng, Y Cheng, P Jing, G Yang, CB Schönlieb… - arXiv preprint arXiv …, 2026",
+      "abstract": "Medical image segmentation commonly relies on U-shaped encoder-decoder architectures such as U-Net, where skip connections preserve fine spatial detail by injecting high-resolution encoder features into the decoder. However, these skip …",
+      "url": "https://arxiv.org/pdf/2603.03187"
+    },
+    {
+      "title": "Inverse-distilled Diffusion Language Models",
+      "authors": "D Li, N Gushchin, D Abulkhanov, E Moulines… - ICLR 2026 2nd Workshop on …",
+      "abstract": "Diffusion Language Models (DLMs) have recently achieved strong results in text generation. However, their multi-step sampling leads to slow inference, limiting practical use. To address this, we extend Inverse Distillation, a technique originally …",
+      "url": "https://openreview.net/forum?id=Mb3aOyNRSo"
+    },
+    {
+      "title": "Biquadratic SOS Rank and Double Zarankiewicz Number",
+      "authors": "L Qi, C Cui, Y Xu - arXiv preprint arXiv:2603.04912, 2026",
+      "abstract": "The maximum sum-of-squares (SOS) rank of an $ m\\times n $ biquadratic form, denoted $\\operatorname {BSR}(m, n) $, has recently been shown to be bounded below by the classical Zarankiewicz number $ z (m, n) $, the maximum number of …",
+      "url": "https://arxiv.org/pdf/2603.04912"
+    },
+    {
+      "title": "DEPANet: Power Doppler-guided deep learning for solving the limited-view problem in linear-array photoacoustic imaging",
+      "authors": "Z Qu, X Zhang, B Ouyang, C Mai, X Tang, L Wang - Photons Plus Ultrasound: Imaging …, 2026",
+      "abstract": "We introduce DEPANet, a deep learning framework that integrates ultrasound Power Doppler with multi-wavelength photoacoustic imaging to address the limited-view problem in linear-array systems. Unlike conventional methods that rely solely on …",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC13851/PC138510Y/DEPANet--Power-Doppler-guided-deep-learning-for-solving-the/10.1117/12.3082222.short"
+    }
+  ]
+}

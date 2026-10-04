@@ -1,0 +1,86 @@
+{
+  "id": "20260112_google_scholar_",
+  "date": "20260112",
+  "source": "historical-import",
+  "messages": 3,
+  "papers": [
+    {
+      "title": "Local Interpolation via Low-Rank Tensor Trains",
+      "authors": "SE Guzman, E Tiunov, L Aolita - arXiv preprint arXiv:2601.03885, 2026",
+      "abstract": "Tensor Train (TT) decompositions provide a powerful framework to compress grid-structured data, such as sampled function values, on regular Cartesian grids. Such high compression, in turn, enables efficient high-dimensional computations. Exact TT …",
+      "url": "https://arxiv.org/pdf/2601.03885"
+    },
+    {
+      "title": "GBGCN: Adaptive granular-ball graph representation and clarity-aware GCN for multi-focus image fusion",
+      "authors": "Z Xu, H Zhai, Z Zeng, B Lin, M Deng - Knowledge-Based Systems, 2026",
+      "abstract": "Multi-focus image fusion technology aims to combine images taken at different focal lengths into a globally clear all-in-focus image. However, traditional methods and existing deep learning methods still face challenges in balancing global semantic …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705126000158"
+    },
+    {
+      "title": "Beyond-Backpropagation Training: Methods, Applications, and Perspectives",
+      "authors": "R Ye, C Ye, C Huang, M Tang, Y Liu",
+      "abstract": "Artificial intelligence has revolutionized numerous domains, including computer vision, natural language processing, and autonomous systems. These breakthroughs have been largely driven by the backpropagation (BP) algorithm, which allows neural networks to be trained efficiently. However, BP suffers from limited biological plausibility, computational inefficiency, and memory bottleneck, all of which hinder its applicability to neuromorphic, edge, and large-scale distributed …",
+      "url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176740426.63642005"
+    },
+    {
+      "title": "Robust Evaluation Framework On Adversarial Purification",
+      "authors": "Y Du - 2025",
+      "abstract": "This dissertation proposes novel Energy-Based Model (EBM) learning strategies and adversarial robustness evaluation framework that addresses critical gaps in iterative purification defenses. First, we introduce strategies to learn EBMs by controlling MCMC sampling trajectory lengths for distinct applications:(i) short-run sampling for state-of-the-art unconditional image generation on CIFAR-10 and ImageNet;(ii) mid-run sampling for classifier-agnostic adversarial purification; and (iii) long-run …",
+      "url": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?article=1610&context=etd2024"
+    },
+    {
+      "title": "Backpropagation-Free Learning: On the Emergence of Forward-Only Algorithms",
+      "authors": "B Huang, A Ororbia, A Aminifar",
+      "abstract": "Backpropagation of errors (BP) plays a vital role in the deep learning domain and exhibits impressive performance in real-world applications. Training state-of-the-art deep neural networks (DNNs) relies almost exclusively on BP, which consumes massive amounts of resources. However, the human brain learns new tasks with remarkable efficiency. This contrast has led to criticism of BP for its biologically implausible nature, underscoring the significant disparity in performance between …",
+      "url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176739859.93468234"
+    },
+    {
+      "title": "A Single-Loop Bilevel Deep Learning Method for Optimal Control of Obstacle Problems",
+      "authors": "Y Song, S Zeng, J Zhang, L Zhang - arXiv preprint arXiv:2601.04120, 2026",
+      "abstract": "Optimal control of obstacle problems arises in a wide range of applications and is computationally challenging due to its nonsmoothness, nonlinearity, and bilevel structure. Classical numerical approaches rely on mesh-based discretization and typically require solving a sequence of costly subproblems. In this work, we propose a single-loop bilevel deep learning method, which is mesh-free, scalable to high-dimensional and complex domains, and avoids repeated solution of discretized …",
+      "url": "https://arxiv.org/pdf/2601.04120"
+    },
+    {
+      "title": "A Comprehensive Survey of Distributed Optimization Methods and Technological Enablers for Sustainable Energy Communities",
+      "authors": "K BASARAN, P SIANO, M ABDELKADER… - Energy, 2026",
+      "abstract": "Sustainable energy communities (ECs) are rapidly expanding in scale and heterogeneity, making fully centralized energy management increasingly impractical due to computational burden and privacy concerns. In this context, this review synthesizes distributed optimization (DO) as a practical management paradigm for ECs, identifies key application areas (demand response, distributed generation and storage management, and microgrid or smart-grid integration) and profiles …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S036054422600085X"
+    },
+    {
+      "title": "Distributed aggregative optimization for nonlinear multi-agent systems with state delays under time-varying graphs using sampling technology",
+      "authors": "C Li, Q Wang - Journal of the Franklin Institute, 2026",
+      "abstract": "This paper investigates the distributed aggregative optimization (DAO) problem for high-order nonlinear multi-agent systems over time-varying graphs. We first introduce a new class of aggregative regulation variables that integrate sampled neighbor data during each sampling period, these variables are upgraded through an auxiliary function. By leveraging the C-step consensus contraction method alongside these variables, we reformulate the time-varying directed graphs DAO …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0016003226000037"
+    },
+    {
+      "title": "Zak-OTFS ISAC with Bistatic Sensing via Semi-Blind Atomic Norm Denoising Scheme",
+      "authors": "K Zhang, W Yuan, MS Greco - arXiv preprint arXiv:2601.03639, 2026",
+      "abstract": "Integrated sensing and communication (ISAC) through Zak-transform-based orthogonal time frequency space (Zak-OTFS) modulation is a promising solution for high-mobility scenarios. Realizing accurate bistatic sensing and robust communication necessitates precise channel estimation; however, this remains a formidable challenge in doubly dispersive environments, where fractional delay-Doppler shifts induce severe channel spreading. This paper proposes a semi-blind …",
+      "url": "https://arxiv.org/pdf/2601.03639"
+    },
+    {
+      "title": "Provably Convergent Decentralized Optimization over Directed Graphs under Generalized Smoothness",
+      "authors": "Y Bo, Y Wang - arXiv preprint arXiv:2601.03566, 2026",
+      "abstract": "Decentralized optimization has become a fundamental tool for large-scale learning systems; however, most existing methods rely on the classical Lipschitz smoothness assumption, which is often violated in problems with rapidly varying gradients. Motivated by this limitation, we study decentralized optimization under the generalized $(L_0, L_1) $-smoothness framework, in which the Hessian norm is allowed to grow linearly with the gradient norm, thereby accommodating rapidly …",
+      "url": "https://arxiv.org/pdf/2601.03566"
+    },
+    {
+      "title": "Joint Power and Admission Control for Fluid Antenna System-Aided Interference Channels",
+      "authors": "S Cai, Y Chen, J Zhang, Q Zhang, ZQ Lian, YF Liu - IEEE Communications Letters, 2025",
+      "abstract": "Joint power and admission control (JPAC) is crucial for interference management in wireless networks, but its mixed-integer nature renders the problem NP-hard. This letter pioneers JPAC optimization for fluid antenna system (FAS)-aided interference channels, where users leverage dynamic port selection to enhance spatial diversity. We formulate the FAS-JPAC problem for a K-link single-input single-output (SISO) interference channel as a unified sparse-minimization problem. The introduction of …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11300894/"
+    },
+    {
+      "title": "Provable Acceleration of Distributed Optimization with Local Updates",
+      "authors": "Z Wang, Y Wang - arXiv preprint arXiv:2601.03442, 2026",
+      "abstract": "In conventional distributed optimization, each agent performs a single local update between two communication rounds with its neighbors to synchronize solutions. Inspired by the success of using multiple local updates in federated learning, incorporating local updates into distributed optimization has recently attracted increasing attention. However, unlike federated learning, where multiple local updates can accelerate learning by improving gradient estimation under mini-batch …",
+      "url": "https://arxiv.org/pdf/2601.03442"
+    },
+    {
+      "title": "A single-loop stochastic feasible interior-point algorithm for nonlinear inequality-constrained optimization: F. Curtis et al.",
+      "authors": "FE Curtis, X Jiang, Q Wang - Mathematical Programming, 2026",
+      "abstract": "An interior-point algorithm framework is proposed, analyzed, and tested for solving nonlinearly constrained continuous optimization problems. The main setting of interest is when the objective and inequality constraint functions may be nonlinear …",
+      "url": "https://link.springer.com/article/10.1007/s10107-025-02320-2"
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+{
+  "id": "20250704_google_scholar_",
+  "date": "20250704",
+  "source": "historical-import",
+  "messages": 78,
+  "papers": [
+    {
+      "title": "Evaluating and improving streaming methods for large scale SVD problems",
+      "authors": "A Stathopoulos, J Myers, T Tran",
+      "abstract": "Large scale eigenvalue and singular value problems are typically solved using iterative methods [10, 12]. For extreme scale matrix sizes randomized projection methods can be much faster while still delivering sufficient accuracy, measured as …",
+      "url": "https://householder-symposium.github.io/abstracts/paper208.pdf"
+    },
+    {
+      "title": "Householder Symposium",
+      "authors": "A Stathopoulos, J Myers, T Tran",
+      "abstract": "Large scale eigenvalue and singular value problems are typically solved using iterative methods [10, 12]. For extreme scale matrix sizes randomized projection methods can be much faster while still delivering suﬀicient accuracy, measured as …",
+      "url": "https://householder-symposium.github.io/abstracts/paper208.html"
+    },
+    {
+      "title": "From Zolotarev Problems in Linear Algebra to a New Approach to Quadrature",
+      "authors": "LN Trefethen",
+      "abstract": "Abstract Beckermann, Townsend, Wilber, and Rubin have recently drawn attention to the importance of the classical Zolotarev rational approximation problems, in their generalized forms as analyzed among others by Gonchar, Starke, Istace, Thiran …",
+      "url": "https://householder-symposium.github.io/abstracts/paper153.pdf"
+    },
+    {
+      "title": "Structured Representations of Rational Functions for Learning Mechanical Dynamical Systems: A Barycentric Approach",
+      "authors": "SWR Werner, MS Ackermann, IV Gosea, S Gugercin",
+      "abstract": "In recent years, the importance of learning dynamical systems from data has emerged as a pivotal area of research, bridging the realms of mathematics, engineering, and data science. Dynamical systems, which describe how states …",
+      "url": "https://householder-symposium.github.io/abstracts/paper186.pdf"
+    },
+    {
+      "title": "Randomized Algorithms for the Simultaneous Compression and LU Factorization of Hierarchical Matrices",
+      "authors": "A Yesypenko, PG Martinsson",
+      "abstract": "Dense matrices related to solving elliptic PDEs often have internal structure that allows for the linear system Ax= b to be solved in linear or near-linear time. The hierarchical matrix (H2-matrix) formalism [1] partitions A into blocks, with each block …",
+      "url": "https://householder-symposium.github.io/abstracts/paper216.pdf"
+    },
+    {
+      "title": "Any nonincreasing convergence curves are simultaneously possible for GMRES and weighted GMRES, as well as for left and right preconditioned GMRES",
+      "authors": "P Matalon, N Spillane - arXiv preprint arXiv:2506.17193, 2025",
+      "abstract": "The convergence of the GMRES linear solver is notoriously hard to predict. A particularly enlightening result by [Greenbaum, Pt\\'ak, Strako\\v {s}, 1996] is that, given any convergence curve, one can build a linear system for which GMRES …",
+      "url": "https://arxiv.org/pdf/2506.17193"
+    },
+    {
+      "title": "Optimising Language Models for Downstream Tasks: A Post-Training Perspective",
+      "authors": "Z Shi - arXiv preprint arXiv:2506.20917, 2025",
+      "abstract": "Language models (LMs) have demonstrated remarkable capabilities in NLP, yet adapting them efficiently and robustly to specific tasks remains challenging. As their scale and complexity grow, fine-tuning LMs on labelled data often underutilizes …",
+      "url": "https://arxiv.org/pdf/2506.20917"
+    },
+    {
+      "title": "The Evolution of Natural Language Processing: How Prompt Optimization and Language Models are Shaping the Future",
+      "authors": "S Saleem, MN Asim, S Zulfiqar, A Dengel - arXiv preprint arXiv:2506.17700, 2025",
+      "abstract": "Large Language Models (LLMs) have revolutionized the field of Natural Language Processing (NLP) by automating traditional labor-intensive tasks and consequently accelerated the development of computer-aided applications. As researchers …",
+      "url": "https://arxiv.org/pdf/2506.17700"
+    },
+    {
+      "title": "Distilling On-device Language Models for Robot Planning with Minimal Human Intervention",
+      "authors": "Z Ravichandran, I Hounie, F Cladera, A Ribeiro… - arXiv preprint arXiv …, 2025",
+      "abstract": "Large language models (LLMs) provide robots with powerful contextual reasoning abilities and a natural human interface. Yet, current LLM-enabled robots typically depend on cloud-hosted models, limiting their usability in environments with …",
+      "url": "https://arxiv.org/pdf/2506.17486"
+    },
+    {
+      "title": "BSLoRA: Enhancing the Parameter Efficiency of LoRA with Intra-Layer and Inter-Layer Sharing",
+      "authors": "Y Zhou, R Li, C Zhou, F Yang, A Pan - Forty-second International Conference on Machine …",
+      "abstract": "Low-Rank Adaptation (LoRA) is a widely adopted parameter-efficient fine-tuning method for large language models (LLMs) to adapt to downstream tasks. However, in scenarios where multiple LoRA models are deployed simultaneously, standard …",
+      "url": "https://openreview.net/pdf?id=IXYBuwCOMl"
+    },
+    {
+      "title": "Think or Not? Selective Reasoning via Reinforcement Learning for Vision-Language Models",
+      "authors": "W Jiaqi, KQ Lin, J Cheng, MZ Shou - The Exploration in AI Today Workshop at ICML 2025",
+      "abstract": "Reinforcement Learning (RL) has proven to be an effective post-training strategy for enhancing reasoning in vision–language models (VLMs). Group Relative Policy Optimization (GRPO) is a recent prominent method that encourages models to …",
+      "url": "https://openreview.net/pdf?id=iMfaTyDpRA"
+    },
+    {
+      "title": "GenRecal: Generation after Recalibration from Large to Small Vision-Language Models",
+      "authors": "BK Lee, R Hachiuma, YM Ro, YCF Wang, YH Wu - arXiv preprint arXiv:2506.15681, 2025",
+      "abstract": "Recent advancements in vision-language models (VLMs) have leveraged large language models (LLMs) to achieve performance on par with closed-source systems like GPT-4V. However, deploying these models in real-world scenarios, particularly …",
+      "url": "https://arxiv.org/pdf/2506.15681"
+    },
+    {
+      "title": "A Survey on Large Language Models for Mathematical Reasoning",
+      "authors": "PY Wang, TS Liu, C Wang, YD Wang, S Yan, CX Jia… - arXiv preprint arXiv …, 2025",
+      "abstract": "Mathematical reasoning has long represented one of the most fundamental and challenging frontiers in artificial intelligence research. In recent years, large language models (LLMs) have achieved significant advances in this area. This …",
+      "url": "https://arxiv.org/pdf/2506.08446"
+    },
+    {
+      "title": "LoRA-Gen: Specializing Large Language Model via Online LoRA Generation",
+      "authors": "Y Xiao, L Song, R Yang, C Cheng, Y Ge, X Li, Y Shan - arXiv preprint arXiv …, 2025",
+      "abstract": "Recent advances have highlighted the benefits of scaling language models to enhance performance across a wide range of NLP tasks. However, these approaches still face limitations in effectiveness and efficiency when applied to …",
+      "url": "https://arxiv.org/pdf/2506.11638"
+    },
+    {
+      "title": "Data Mixing Optimization for Supervised Fine-Tuning of Large Language Models",
+      "authors": "Y Li, Z Liu, EP Xing - Forty-second International Conference on Machine …",
+      "abstract": "Optimizing data mixtures for supervised fine-tuning (SFT) of large language models (LLMs) is critical for developing general-purpose models, yet this area remains underexplored. In this paper, we frame data mixing as an optimization problem and …",
+      "url": "https://openreview.net/pdf?id=19kqoNoc2N"
+    },
+    {
+      "title": "Token Signature: Predicting Chain-of-Thought Gains with Token Decoding Feature in Large Language Models",
+      "authors": "P Liu, F Xu, Y Li - arXiv preprint arXiv:2506.06008, 2025",
+      "abstract": "Chain-of-Thought (CoT) technique has proven effective in improving the performance of large language models (LLMs) on complex reasoning tasks. However, the performance gains are inconsistent across different tasks, and the …",
+      "url": "https://arxiv.org/pdf/2506.06008"
+    },
+    {
+      "title": "A Near-Optimal Single-Loop Stochastic Algorithm for Convex Finite-Sum Coupled Compositional Optimization",
+      "authors": "B Wang, T Yang - Forty-second International Conference on Machine …",
+      "abstract": "This paper studies a class of convex Finite-sum Coupled Compositional Optimization (cFCCO) problems with applications including group distributionally robust optimization (GDRO) and learning with imbalanced data. To better address these …",
+      "url": "https://openreview.net/pdf?id=ZCgzSqZ7gD"
+    },
+    {
+      "title": "Online Learning-guided Learning Rate Adaptation via Gradient Alignment",
+      "authors": "R Jiang, A Kavis, A Mokhtari - arXiv preprint arXiv:2506.08419, 2025",
+      "abstract": "The performance of an optimizer on large-scale deep learning models depends critically on fine-tuning the learning rate, often requiring an extensive grid search over base learning rates, schedules, and other hyperparameters. In this paper, we …",
+      "url": "https://arxiv.org/pdf/2506.08419"
+    },
+    {
+      "title": "A Double-Inertial Two-Subgradient Extragradient Algorithm for Solving Variational Inequalities with Minimum-Norm Solutions",
+      "authors": "IK Argyros, F Amir, H Rehman, C Argyros - Mathematics, 2025",
+      "abstract": "Variational inequality problems (VIPs) provide a versatile framework for modeling a wide range of real-world applications, including those in economics, engineering, transportation, and image processing. In this paper, we propose a novel iterative …",
+      "url": "https://www.researchgate.net/profile/Fouzia-Amir-2/publication/392725548_A_Double-Inertial_Two-Subgradient_Extragradient_Algorithm_for_Solving_Variational_Inequalities_with_Minimum-Norm_Solutions/links/6855078793040b17338c2f17/A-Double-Inertial-Two-Subgradient-Extragradient-Algorithm-for-Solving-Variational-Inequalities-with-Minimum-Norm-Solutions.pdf"
+    },
+    {
+      "title": "Full conformal adaptation of medical vision-language models",
+      "authors": "J Silva-Rodríguez, L Fillioux, PH Cournède… - arXiv preprint arXiv …, 2025",
+      "abstract": "Vision-language models (VLMs) pre-trained at large scale have shown unprecedented transferability capabilities and are being progressively integrated into medical image analysis. Although its discriminative potential has been widely …",
+      "url": "https://arxiv.org/pdf/2506.06076"
+    },
+    {
+      "title": "Esoteric Language Models",
+      "authors": "SS Sahoo, Z Yang, Y Akhauri, J Liu, D Singh, Z Cheng… - arXiv preprint arXiv …, 2025",
+      "abstract": "Diffusion-based language models offer a compelling alternative to autoregressive (AR) models by enabling parallel and controllable generation. Among this family of models, Masked Diffusion Models (MDMs) achieve the strongest performance but …",
+      "url": "https://arxiv.org/pdf/2506.01928"
+    },
+    {
+      "title": "Online assessment of degradation status for metro wheel with robust unsupervised tensor domain adaptation",
+      "authors": "H Liu, W Mao, N Wang, L Kou - Mechanical Systems and Signal Processing, 2025",
+      "abstract": "With on-board collected vibration signals, machine learning-assisted metro wheel's degradation status assessment has received sustained attention in most recent years. Despite promising advances, the acquired vibration signals, heavily interfered …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0888327025005953"
+    },
+    {
+      "title": "CoPINN: Cognitive Physics-Informed Neural Networks",
+      "authors": "S Duan, W Wu, P Hu, Z Ren, D Peng, Y Sun - Forty-second International Conference on …",
+      "abstract": "Physics-informed neural networks (PINNs) aim to constrain the outputs and gradients of deep learning models to satisfy specified governing physics equations, which have demonstrated significant potential for solving partial differential equations …",
+      "url": "https://openreview.net/pdf?id=4vAa0A98xI"
+    },
+    {
+      "title": "Flex-DD: Deep denoising model with flexible prior for sparse-view CT reconstruction",
+      "authors": "Y Li, H Wu, Z Li, W Dai, C Ye - Measurement, 2025",
+      "abstract": "Abstract Sparse-view Computed Tomography (SVCT) can effectively reduce radiation risk and improve scan-imaging speed. However, the severe streak artifacts will degrade the reconstruction results. Traditional iterative reconstruction methods …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0263224125014800"
+    },
+    {
+      "title": "AeSPa: Attention-guided Self-supervised Parallel Imaging for MRI Reconstruction",
+      "authors": "J Joo, H Kim, H Won, D Lee, T Eo, D Hwang - … of the Computer Vision and Pattern …, 2025",
+      "abstract": "This study introduces a novel zero-shot scan-specific self-supervised reconstruction method for magnetic resonance imaging (MRI) to reduce scan times. Conventional supervised reconstruction methods require large amounts of fully-sampled reference …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Joo_AeSPa__Attention-guided_Self-supervised_Parallel_Imaging_for_MRI_Reconstruction_CVPR_2025_paper.pdf"
+    },
+    {
+      "title": "Robust multi‐coil MRI reconstruction via self‐supervised denoising",
+      "authors": "A Aali, M Arvinte, S Kumar, YI Arefeen, JI Tamir - Magnetic Resonance in Medicine, 2025",
+      "abstract": "Purpose To examine the effect of incorporating self‐supervised denoising as a pre‐processing step for training deep learning (DL) based reconstruction methods on data corrupted by Gaussian noise. K‐space data employed for training are typically …",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.30591"
+    },
+    {
+      "title": "Unrolling Nonconvex Graph Total Variation for Image Denoising",
+      "authors": "S Wei, G Cheung, F Chen, I Selesnick - arXiv preprint arXiv:2506.02381, 2025",
+      "abstract": "Conventional model-based image denoising optimizations employ convex regularization terms, such as total variation (TV) that convexifies the $\\ell_0 $-norm to promote sparse signal representation. Instead, we propose a new non-convex total …",
+      "url": "https://arxiv.org/pdf/2506.02381"
+    },
+    {
+      "title": "Implicit Neural Representation-Based MRI Reconstruction Method with Sensitivity Map Constraints",
+      "authors": "L Rao, X Zhang, Y Huang, T Tan, T Tong - arXiv preprint arXiv:2506.06043, 2025",
+      "abstract": "Magnetic Resonance Imaging (MRI) is a widely utilized diagnostic tool in clinical settings, but its application is limited by the relatively long acquisition time. As a result, fast MRI reconstruction has become a significant area of research. In recent …",
+      "url": "https://arxiv.org/pdf/2506.06043"
+    },
+    {
+      "title": "Self-Cascaded Diffusion Models for Arbitrary-Scale Image Super-Resolution",
+      "authors": "J Bang, J Lee, K Lee, H Lee, DU Kang, SY Chun - arXiv preprint arXiv:2506.07813, 2025",
+      "abstract": "Arbitrary-scale image super-resolution aims to upsample images to any desired resolution, offering greater flexibility than traditional fixed-scale super-resolution. Recent approaches in this domain utilize regression-based or generative models …",
+      "url": "https://arxiv.org/pdf/2506.07813"
+    },
+    {
+      "title": "Glioma Segmentation on 3D MRI Using 2D U-Net: A Study on the BraTS Dataset",
+      "authors": "M Adwan, I Elaff - 2025",
+      "abstract": "Gliomas are highly aggressive brain tumors, and their precise segmentation in MRI scans is important for treatment planning. In this study, we employ a 2D U-Net model for automatic segmentation of brain tumors using the BraTS dataset. Our technique …",
+      "url": "https://www.researchgate.net/profile/Ihab-Elaff/publication/393065228_Glioma_Segmentation_on_3D_MRI_Using_2D_U-Net_AStudy_on_the_BraTS_Dataset/links/685df9dee9b6c13c89e4bd12/Glioma-Segmentation-on-3D-MRI-Using-2D-U-Net-AStudy-on-the-BraTS-Dataset.pdf"
+    },
+    {
+      "title": "SFBD Flow: A Continuous-Optimization Framework for Training Diffusion Models with Noisy Samples",
+      "authors": "H Lu, D Lo, Y Yu - arXiv preprint arXiv:2506.02371, 2025",
+      "abstract": "Diffusion models achieve strong generative performance but often rely on large datasets that may include sensitive content. This challenge is compounded by the models' tendency to memorize training data, raising privacy concerns. SFBD (Lu et …",
+      "url": "https://arxiv.org/pdf/2506.02371"
+    },
+    {
+      "title": "Flexiffusion: Training-Free Segment-Wise Neural Architecture Search for Efficient Diffusion Models",
+      "authors": "H Huang, X Chang, L Yao - arXiv preprint arXiv:2506.02488, 2025",
+      "abstract": "Diffusion models (DMs) are powerful generative models capable of producing high-fidelity images but are constrained by high computational costs due to iterative multi-step inference. While Neural Architecture Search (NAS) can optimize DMs, existing …",
+      "url": "https://arxiv.org/pdf/2506.02488"
+    },
+    {
+      "title": "LGDM: Latent Guidance in Diffusion Models for Perceptual Evaluations",
+      "authors": "S Saini, RL Liao, Y Ye, A Bovik - Forty-second International Conference on Machine …",
+      "abstract": "Despite recent advancements in latent diffusion models that generate high-dimensional image data and perform various downstream tasks, there has been little exploration into perceptual consistency within these models on the task of No …",
+      "url": "https://openreview.net/pdf?id=lIdcR7vU76"
+    },
+    {
+      "title": "RIEMANNIAN CHANGE POINT DETECTION ON MANIFOLDS WITH ROBUST CENTROID ESTIMATION",
+      "authors": "X Wang, R Borsoi, A Breloy, C Richard",
+      "abstract": "Non-parametric change-point detection in streaming time series data is a long-standing challenge in signal processing. Recent advancements in statistics and machine learning have increasingly addressed this problem for data residing on …",
+      "url": "http://www.cedric-richard.fr/Articles/wang2025riemannian2.pdf"
+    },
+    {
+      "title": "Algorithm for crack detection of terracotta warriors based on fusion of multi-network hyperspectral images",
+      "authors": "S Qiu, P Zhang, X Tang, Z Zeng, S Li, B Hu - Journal of the Franklin Institute, 2025",
+      "abstract": "Terracotta warriors possess significant historical research value. Affected by environmental and human factors, they often exhibit varying degrees of defects, with cracks being the most common and having a high rate of missed detection, which …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0016003225003539"
+    },
+    {
+      "title": "A Hybrid High-Order Method for the Gross--Pitaevskii Eigenvalue Problem",
+      "authors": "M Hauck, Y Liang - arXiv preprint arXiv:2506.19944, 2025",
+      "abstract": "We introduce a hybrid high-order method for approximating the ground state of the nonlinear Gross--Pitaevskii eigenvalue problem. Optimal convergence rates are proved for the ground state approximation, as well as for the associated eigenvalue …",
+      "url": "https://arxiv.org/pdf/2506.19944"
+    },
+    {
+      "title": "Mind the Gap: a Spectral Analysis of Rank Collapse and Signal Propagation in Attention Layers",
+      "authors": "TN Saada, A Naderi, J Tanner - Forty-second International Conference on Machine …",
+      "abstract": "Attention layers are the core component of transformers, the current state-of-the-art neural network architecture. Alternatives to softmax-based attention are being explored due to its tendency to hinder effective information flow. Even* at …",
+      "url": "https://openreview.net/pdf?id=sRKtbGsebH"
+    },
+    {
+      "title": "Convergence guarantees for gradient descent in deep neural networks with non-convex loss functions",
+      "authors": "A Aich, AB Aich, B Wade - International Journal of Computer Mathematics, 2025",
+      "abstract": "Despite the empirical success of deep neural networks (DNNs), theoretical understanding of their optimization dynamics remains limited due to non-convex loss landscapes. We address this gap by introducing locally quasi-convex regions …",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00207160.2025.2522349"
+    },
+    {
+      "title": "Analyzing the Implicit Bias of Adversarial Training from a Generalized Margin Perspective",
+      "authors": "B Lyu, Z Zhu - IEEE Transactions on Pattern Analysis and Machine …, 2025",
+      "abstract": "Adversarial training has been empirically demonstrated as an effective strategy to improve the robustness of deep neural networks (DNNs) against adversarial examples. However, the underlying reason of its effectiveness is still non …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11020710/"
+    },
+    {
+      "title": "Policy gradient methods for ordinal policies",
+      "authors": "S Weinberger, J Cugliari - arXiv preprint arXiv:2506.18614, 2025",
+      "abstract": "In reinforcement learning, the softmax parametrization is the standard approach for policies over discrete action spaces. However, it fails to capture the order relationship between actions. Motivated by a real-world industrial problem, we …",
+      "url": "https://arxiv.org/pdf/2506.18614"
+    },
+    {
+      "title": "On Volume Minimization in Conformal Regression",
+      "authors": "P Humbert - Forty-second International Conference on Machine …",
+      "abstract": "We study the question of volume optimality in split conformal regression, a topic still poorly understood in comparison to coverage control. Using the fact that the calibration step can be seen as an empirical volume minimization problem, we first …",
+      "url": "https://openreview.net/pdf?id=f2inwmDR4g"
+    },
+    {
+      "title": "Sample Complexity of Distributionally Robust Off-Dynamics Reinforcement Learning with Online Interaction",
+      "authors": "Y He, Z Liu, W Wang, P Xu - Forty-second International Conference on Machine …",
+      "abstract": "Off-dynamics reinforcement learning (RL), where training and deployment transition dynamics are different, can be formulated as learning in a robust Markov decision process (RMDP) where uncertainties in transition dynamics are imposed. Existing …",
+      "url": "https://openreview.net/pdf?id=pJdMOKqdSV"
+    },
+    {
+      "title": "Stability and Generalization Analysis of Decentralized SGD: Sharper Bounds Beyond Lipschitzness and Smoothness",
+      "authors": "S Zeng, Y Lei - Forty-second International Conference on Machine …",
+      "abstract": "Decentralized SGD (D-SGD) is a popular optimization method to train large-scale machine learning models. In this paper, we study the generalization behavior of D-SGD for both smooth and nonsmooth problems by leveraging the algorithm stability …",
+      "url": "https://openreview.net/pdf?id=g4eTrS2U8o"
+    },
+    {
+      "title": "QBCR2O method for solving quaternion matrix equation with its applications",
+      "authors": "X Zhang, C Song - Journal of Mathematical Analysis and Applications, 2025",
+      "abstract": "Many recent color image encryption models are mathematically characterized by a numerical solution problem of quaternion matrix equation. In this paper, QBCR2O algorithm is firstly provided by means of a new real representation of quaternion …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022247X25005967"
+    },
+    {
+      "title": "Randomized orthogonalization in GMRES with deflation and augmentation",
+      "authors": "Y Jang, L Grigori - Householder Symposium XXII, 2025",
+      "abstract": "In the context of large-scale linear algebra, random sketching has emerged as a powerful technique to reduce computational costs and memory requirements. As data dimensions grow, traditional methods often become impractical. Random …",
+      "url": "https://hal.science/hal-05114633v1/file/main.pdf"
+    },
+    {
+      "title": "Simultaneous identification of the order and potential coefficient in a time fractional diffusion-wave equation by a deep neural networks method",
+      "authors": "Y Luo, M Pei, T Wei - Computational and Applied Mathematics, 2025",
+      "abstract": "This paper investigates a nonlinear inverse problem of identifying simultaneously the order of time-fractional derivative and the space-dependent potential coefficient in a one-dimensional time-fractional diffusion-wave equation from the lateral Cauchy …",
+      "url": "https://link.springer.com/article/10.1007/s40314-025-03295-8"
+    },
+    {
+      "title": "Identification of the spatial dependent source and the fractional order in a time-fractional convection diffusion-wave equation",
+      "authors": "M Chang, T Wei - Inverse Problems and Imaging, 2025",
+      "abstract": "Identification of the spatial dependent source and the fractional order in a time-fractional convection diffusion-wave equation AIMS share this content in Facebook share this content in Twitter share this content in Linkedin share this content in ResearchGate 2.AIMS …",
+      "url": "https://www.aimsciences.org/article/doi/10.3934/ipi.2025029"
+    },
+    {
+      "title": "Numerical Analysis of a Class of Fractional-Order Nonlinearity Anomalous Subdiffusion Systems",
+      "authors": "Y Gu, H Wang, Y Yu - Fractal and Fractional, 2025",
+      "abstract": "Many natural phenomena, such as physical, chemical, and biological processes, can be described using n-coupled nonlinearity anomalous subdiffusion systems. Furthermore, fractional differential equations are a useful tool for modeling practical …",
+      "url": "https://www.mdpi.com/2504-3110/9/7/420"
+    },
+    {
+      "title": "A DT $$ _ {\\textrm {HS}} $$ S-$$\\tau $$ Preconditioner for the Discretized Linear Systems of Space-Fractional Diffusion Equations",
+      "authors": "SP Tang, YM Huang - Communications on Applied Mathematics and …, 2025",
+      "abstract": "In this paper, the backward Euler method and the shifted Grünwald-Letnikov formulas are utilized to discretize the space-fractional diffusion equations. The discretized result is a system of linear equations with a coefficient matrix being the …",
+      "url": "https://link.springer.com/article/10.1007/s42967-025-00491-5"
+    },
+    {
+      "title": "ALTERNATING BREGMAN PROJECTIONS AND CONVERGENCE OF THE EM ALGORITHM",
+      "authors": "D NOLL",
+      "abstract": "We investigate convergence of alternating Bregman projections between non-convex sets and prove convergence to a point in the intersection, or to points realizing a gap between the two sets. The speed of convergence is generally sub …",
+      "url": "https://www.math.univ-toulouse.fr/~noll/PAPERS/bregman.pdf"
+    },
+    {
+      "title": "TSP: A Two-Sided Smoothed Primal-Dual Method for Nonconvex Bilevel Optimization",
+      "authors": "S Lu - Forty-second International Conference on Machine …",
+      "abstract": "Extensive research has shown that a wide range of machine learning problems can be formulated as bilevel optimization, where two levels of learning processes intertwine through distinct sets of optimization variables. However, prevailing …",
+      "url": "https://openreview.net/pdf?id=TiEsk0mf7r"
+    },
+    {
+      "title": "On Optimality Conditions for a Class of Nondifferentiable Multiobjective Programming Problems with Vanishing Constraints",
+      "authors": "T Antczak - Acta Applicandae Mathematicae, 2025",
+      "abstract": "Extremum problems with vanishing constraints are models several applications in structural and topology optimization. In this paper, a class of nonsmooth vector optimization problems with both inequality, equality and vanishing constraints is …",
+      "url": "https://link.springer.com/article/10.1007/s10440-025-00733-x"
+    },
+    {
+      "title": "Low-rank tensor recovery via jointing the non-convex regularization and deep prior",
+      "authors": "Q Liu, H Ge, X Su - Neurocomputing, 2025",
+      "abstract": "This paper addresses the low-rank tensor completion (LRTC) and tensor robust principal component analysis (TRPCA), which have broad applications in the recovery of real-world multi-dimensional data. To enhance recovery performance, we …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231225012822"
+    },
+    {
+      "title": "A Low-Rank Tensor Completion Algorithm for Elec-tromagnetic Spectrum Based on SIDWT",
+      "authors": "Y Niu, Y Fan, S Ma, Z Xu, S Fang - IEEE Internet of Things Journal, 2025",
+      "abstract": "The comprehensive acquisition of electromagnetic spectrum data is crucial for applications such as cognitive radio and electromagnetic mapping in electromagnetic environment monitoring. However, the inherent limitations of …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11048895/"
+    },
+    {
+      "title": "Adaptive Acceleration Without Strong Convexity Priors Or Restarts",
+      "authors": "JV Cavalcanti, L Lessard, AC Wilson - arXiv preprint arXiv:2506.13033, 2025",
+      "abstract": "Accelerated optimization methods are typically parametrized by the Lipschitz smoothness and strong convexity parameters of a given problem, which are rarely known in practice. While the Lipschitz smoothness parameter L can be easily …",
+      "url": "https://arxiv.org/pdf/2506.13033"
+    },
+    {
+      "title": "Existence and stability theorems in vector-valued metric spaces for fixed point and coincidence point problems governed by multi-valued weak contractions",
+      "authors": "A Petruşel, G Petruşel - Journal of Optimization Theory and Applications, 2025",
+      "abstract": "In this work, in the setting of a vector-valued metric space X, the fixed point inclusion\\(x\\in G (x), x\\in X\\) governed by a multi-valued operator\\(G: X\\multimap X\\) satisfying a weak contraction type condition on its graph is studied. Some stability …",
+      "url": "https://link.springer.com/article/10.1007/s10957-025-02758-6"
+    },
+    {
+      "title": "Inexact Projected Preconditioned Gradient Methods with Variable Metrics: General Convergence Theory via Lyapunov Approach",
+      "authors": "R Guo, J Zou - arXiv preprint arXiv:2506.03671, 2025",
+      "abstract": "Projected gradient methods are widely used for constrained optimization. A key application is for partial differential equations (PDEs), where the objective functional represents physical energy and the linear constraints enforce conservation laws …",
+      "url": "https://arxiv.org/pdf/2506.03671"
+    },
+    {
+      "title": "GLoSS: Generative Language Models with Semantic Search for Sequential Recommendation",
+      "authors": "K Acharya, AV Petrov, J Ziani - arXiv preprint arXiv:2506.01910, 2025",
+      "abstract": "We propose Generative Low-rank language model with Semantic Search (GLoSS), a generative recommendation framework that combines large language models with dense retrieval for sequential recommendation. Unlike prior methods such as …",
+      "url": "https://arxiv.org/pdf/2506.01910"
+    },
+    {
+      "title": "Flexible Realignment of Language Models",
+      "authors": "W Zhu, R Xie, W Zhang, R Wang - arXiv preprint arXiv:2506.12704, 2025",
+      "abstract": "Realignment becomes necessary when a language model (LM) fails to meet expected performance. We propose a flexible realignment framework that supports quantitative control of alignment degree during training and inference. This …",
+      "url": "https://arxiv.org/pdf/2506.12704"
+    },
+    {
+      "title": "Alleviating User-Sensitive bias with Fair Generative Sequential Recommendation Model",
+      "authors": "Y Liu, F Wu, X Zhu - arXiv preprint arXiv:2506.19777, 2025",
+      "abstract": "Recommendation fairness has recently attracted much attention. In the real world, recommendation systems are driven by user behavior, and since users with the same sensitive feature (eg, gender and age) tend to have the same patterns …",
+      "url": "https://arxiv.org/pdf/2506.19777"
+    },
+    {
+      "title": "LLM-Enhanced Multimodal Fusion for Cross-Domain Sequential Recommendation",
+      "authors": "W Wu, Z Chen, X Qiu, S Song, X Huang, F Ma, J Xiao - arXiv preprint arXiv …, 2025",
+      "abstract": "Cross-Domain Sequential Recommendation (CDSR) predicts user behavior by leveraging historical interactions across multiple domains, focusing on modeling cross-domain preferences and capturing both intra-and inter-sequence item …",
+      "url": "https://arxiv.org/pdf/2506.17966"
+    },
+    {
+      "title": "Improving Contrastive Learning with Explanation Method for Sequential Recommendation",
+      "authors": "H Wang, Y Fan, Y Du, X Li, X Wang - Expert Systems with Applications, 2025",
+      "abstract": "Contrastive learning has been widely applied to address data sparsity in recommendation systems, achieving promising results. However, the existing contrastive learning paradigms fail to ensure that the positive sequence obtained by …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417425021530"
+    },
+    {
+      "title": "Intent-driven multi-level augmentation with contrastive learning for sequential recommendation",
+      "authors": "S Ni, W Zhou, F Luo, Y Zhang, J Zeng, J Wen - Knowledge-Based Systems, 2025",
+      "abstract": "Sequential recommendation aims to learn users' historical behavior to predict items for future interactions. Existing approaches combine deep and contrastive learning to mitigate data sparsity. However, most sequential recommendation methods model …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705125006525"
+    },
+    {
+      "title": "Impact of alleviating misinformation: an impulsive buying-aware model for sequential recommendation",
+      "authors": "H Wu, X Fang, H Li, J Sun, J Jing, L Zhang, Y Meng… - Expert Systems with …, 2025",
+      "abstract": "Sequential recommendation systems are often misled by large-scale traffic data containing misinformation, which can trigger impulsive buying and reduce prediction accuracy. However, most existing methods either focus solely on long-term user …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417425021323"
+    },
+    {
+      "title": "IntentRec: Incorporating latent user intent via contrastive alignment for sequential recommendation",
+      "authors": "S Hwang, Y Lee - Electronic Commerce Research and Applications, 2025",
+      "abstract": "Predicting the next item a user will interact with is a core task in sequential recommendation (SR). Traditional approaches predominantly focus on modeling patterns in item purchase sequences, yet often fall short in uncovering the underlying …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S156742232500047X"
+    },
+    {
+      "title": "Confidence Is All You Need: Few-Shot RL Fine-Tuning of Language Models",
+      "authors": "P Li, M Skripkin, A Zubrey, A Kuznetsov, I Oseledets - arXiv preprint arXiv:2506.06395, 2025",
+      "abstract": "Large language models (LLMs) excel at reasoning, yet post-training remains critical for aligning their behavior with task goals. Existing reinforcement learning (RL) methods often depend on costly human annotations or external reward models. We …",
+      "url": "https://arxiv.org/pdf/2506.06395"
+    },
+    {
+      "title": "Discovering Hierarchical Latent Capabilities of Language Models via Causal Representation Learning",
+      "authors": "J Jin, V Syrgkanis, S Kakade, H Zhang - arXiv preprint arXiv:2506.10378, 2025",
+      "abstract": "Faithful evaluation of language model capabilities is crucial for deriving actionable insights that can inform model development. However, rigorous causal evaluations in this domain face significant methodological challenges, including complex …",
+      "url": "https://arxiv.org/abs/2506.10378"
+    },
+    {
+      "title": "Exponential convergence rates of a second-order dynamic system and algorithm for a linear equality constrained optimization problem",
+      "authors": "K Ding, L Liu, PT Vuong - Optimization Methods and Software, 2025",
+      "abstract": "The O (1/t 2) convergence rate of second-order dynamical systems with asymptotic vanishing viscous damping is faster than the O (1/t) rate of systems with fixed viscous damping in unconstrained and linear equality constrained optimization problems. We …",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/10556788.2025.2517174"
+    },
+    {
+      "title": "HAPE: Hardware-Aware LLM Pruning For Efficient On-Device Inference Optimization",
+      "authors": "W Zhao, L Zou, Z Wang, X Yao, B Yu - ACM Transactions on Design Automation of …, 2025",
+      "abstract": "Over the past few years, large language models (LLMs) have demonstrated remarkable performance and versatility across a variety of complex tasks. However, their deployment has been challenged by their substantial model size and …",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3744244"
+    },
+    {
+      "title": "SLiM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression",
+      "authors": "M Mozaffari, A Yazdanbakhsh, MM Dehnavi - Forty-second International Conference on …",
+      "abstract": "Conventional model compression techniques for LLMs address high memory consumption and slow inference challenges but typically require computationally expensive retraining to preserve accuracy. In contrast, one-shot compression …",
+      "url": "https://openreview.net/pdf?id=4UfRP8MopP"
+    },
+    {
+      "title": "Olica: Efficient Structured Pruning of Large Language Models without Retraining",
+      "authors": "J He, H Lin - arXiv preprint arXiv:2506.08436, 2025",
+      "abstract": "Most existing structured pruning methods for Large Language Models (LLMs) require substantial computational and data resources for retraining to reestablish the corrupted correlations, making them prohibitively expensive. To address this, we …",
+      "url": "https://arxiv.org/pdf/2506.08436"
+    },
+    {
+      "title": "LoX: Low-Rank Extrapolation Robustifies LLM Safety Against Fine-tuning",
+      "authors": "GJ Perin, R Chen, X Chen, NST Hirata, Z Wang… - arXiv preprint arXiv …, 2025",
+      "abstract": "Large Language Models (LLMs) have become indispensable in real-world applications. However, their widespread adoption raises significant safety concerns, particularly in responding to socially harmful questions. Despite substantial efforts to …",
+      "url": "https://arxiv.org/pdf/2506.15606"
+    },
+    {
+      "title": "PAG: Multi-Turn Reinforced LLM Self-Correction with Policy as Generative Verifier",
+      "authors": "Y Jiang, Y Xiong, Y Yuan, C Xin, W Xu, Y Yue, Q Zhao… - arXiv preprint arXiv …, 2025",
+      "abstract": "Large Language Models (LLMs) have demonstrated impressive capabilities in complex reasoning tasks, yet they still struggle to reliably verify the correctness of their own outputs. Existing solutions to this verification challenge often depend on …",
+      "url": "https://arxiv.org/pdf/2506.10406"
+    },
+    {
+      "title": "SDMPrune: Self-Distillation MLP Pruning for Efficient Large Language Models",
+      "authors": "H Zhu, C Shen - arXiv preprint arXiv:2506.11120, 2025",
+      "abstract": "In spite of strong performance achieved by LLMs, the costs of their deployment are unaffordable. For the compression of LLMs, gradient-based pruning methods present promising effectiveness. However, in these methods, the gradient computation with …",
+      "url": "https://arxiv.org/pdf/2506.11120"
+    },
+    {
+      "title": "VReST: Enhancing Reasoning in Large Vision-Language Models through Tree Search and Self-Reward Mechanism",
+      "authors": "C Zhang, J Peng, Z Wang, Y Lai, H Sun, H Chang… - arXiv preprint arXiv …, 2025",
+      "abstract": "Large Vision-Language Models (LVLMs) have shown exceptional performance in multimodal tasks, but their effectiveness in complex visual reasoning is still constrained, especially when employing Chain-of-Thought prompting techniques. In …",
+      "url": "https://arxiv.org/pdf/2506.08691"
+    },
+    {
+      "title": "Let LLM Tell What to Prune and How Much to Prune",
+      "authors": "M Yang, S Lin, C Li, X Chang - Forty-second International Conference on Machine …",
+      "abstract": "Large language models (LLMs) have revolutionized various AI applications. However, their billions of parameters pose significant challenges for practical deployment. Structured pruning is a hardware-friendly compression technique and …",
+      "url": "https://openreview.net/pdf?id=zFR5aWGaUs"
+    },
+    {
+      "title": "Development of Importance Measures Reflecting the Risk Triplet in Dynamic Probabilistic Risk Assessment: A Case Study Using MELCOR and RAPID",
+      "authors": "X Zheng, H Tamaki, Y Sibamoto, Y Maruyama… - Journal of Nuclear …, 2025",
+      "abstract": "While traditional risk importance measures in probabilistic risk assessment are effective for ranking safety-significant components, they often overlook critical aspects such as the timing of accident progression and consequences. Dynamic …",
+      "url": "https://www.mdpi.com/2673-4362/6/3/21"
+    },
+    {
+      "title": "Multi-fidelity design optimisation of installed aero-engines with non-axisymmetric exhausts",
+      "authors": "J Hueso Rebassa, DG MacManus, F Sánchez Moreno… - Journal of Engineering for …, 2025",
+      "abstract": "Abstract Larger Ultra-High Bypass Ratio aero-engines introduce an aerodynamic integration challenge. In close-coupled, podded under-wing configurations, the aerodynamic interference between the propulsion system and the airframe could …",
+      "url": "https://asmedigitalcollection.asme.org/gasturbinespower/article-pdf/doi/10.1115/1.4069036/7517494/gtp-25-1005.pdf"
+    },
+    {
+      "title": "A MULTI-FIDELITY APPROACH TO SENSITIVITY ESTIMATION IN LARGE EDDY SIMULATIONS",
+      "authors": "W Arias, J Larsson, A Riaz, JD Baeder, JH Duncan…",
+      "abstract": "C?? D, i: aerodynamic drag coefficient mean of batch i. C?= 1 niD, i ni? j= 1 CD, jC? L, i: aerodynamic lift coefficient mean of a batch i. C?= 1 niL, inj= 1 C? D, j. iCD: aerodynamic drag coefficient mean of the batches mean. C 1 nbD=? i= 1 C? n D …",
+      "url": "https://api.drum.lib.umd.edu/server/api/core/bitstreams/8afbcd34-179f-4454-8a31-da19f1673919/content"
+    },
+    {
+      "title": "A case study: dynamic behavior of a typical Micro-LED chips during laser induced forward transfer process",
+      "authors": "Z Li, J Wang, L Ji, J Zhang, Y Liu - Optics & Laser Technology, 2025",
+      "abstract": "Abstract In Laser Induced Forward Transfer (LIFT) technology, low transfer yield of micrometer-scale chips, especially with tens of millions, limits Micro-LED large-scale use. Many studies explore LIFT process parameters, but few examine the chip …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0030399225010023"
+    },
+    {
+      "title": "The Performance Degradation of Red, Green, and Blue Micro-LEDs Under High-Temperature Electrical Stress",
+      "authors": "C Tong, Y Liu, Q Deng, L Pan, G Chen, Y Lu, T Wu… - Crystals, 2025",
+      "abstract": "In this work, the degradation in luminous characteristics of red, green, and blue (RGB) micro-LEDs (10 µm× 10 µm) under electrical stress at 360 K has been investigated. After 280 h of aging, the AlGaInP-based red micro-LEDs exhibit a …",
+      "url": "https://www.mdpi.com/2073-4352/15/7/604"
+    },
+    {
+      "title": "Machine-learning assisted prediction of peak wavelengths in four-primary light-emitting diode displays with arbitrary Rec. 2020",
+      "authors": "S Ke, L Ye, X Yin, Q Kuang, Y Lin, Z Li, Y Zheng… - Journal of Luminescence, 2025",
+      "abstract": "The color gamut is an important quality evaluation metric for LED (Light-Emitting Diode, LED) displays. Based on GA (Genetic Algorithm, GA) and LM-BP (Levenberg-Marquardt Back-Propagation, LM-BP) neural network model, this paper proposes an …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S002223132500328X"
+    },
+    {
+      "title": "Improving Zero-Shot Adversarial Robustness in Vision-Language Models by Closed-form Alignment of Adversarial Path Simplices",
+      "authors": "J Dong, P Koniusz, Y Zhang, H Zhu, W Liu, X Qu… - Forty-second International …",
+      "abstract": "Vision-Language Models (VLMs) such as CLIP excel at zero-shot classification due to large-scale pre-training but are vulnerable to adversarial examples. Adversarial fine-tuning robustifies zero-shot models by aligning prediction scores of individual …",
+      "url": "https://openreview.net/pdf?id=WR0ahlhOoy"
+    },
+    {
+      "title": "Iterative pseudo-labeling based adaptive copy-paste supervision for semi-supervised tumor segmentation",
+      "authors": "Q Jin, H Cui, J Wang, C Sun, Y He, P Xuan, L Wang… - Knowledge-Based Systems, 2025",
+      "abstract": "Semi-supervised learning (SSL) has attracted considerable attention in medical image processing. The latest SSL methods use a combination of consistency regularization and pseudo-labeling to achieve remarkable success. However, most …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705125008317"
+    },
+    {
+      "title": "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics",
+      "authors": "E Zhou, J An, C Chi, Y Han, S Rong, C Zhang, P Wang… - arXiv preprint arXiv …, 2025",
+      "abstract": "Spatial referring is a fundamental capability of embodied robots to interact with the 3D physical world. However, even with the powerful pretrained vision language models (VLMs), recent approaches are still not qualified to accurately understand the …",
+      "url": "https://arxiv.org/pdf/2506.04308"
+    },
+    {
+      "title": "Proximal-Type Algorithms for Solving Nonconvex Mixed Multivalued Quasi-Variational Inequality Problems",
+      "authors": "SM Grad, LD Muu, TV Thang - Journal of Optimization Theory and Applications, 2025",
+      "abstract": "We propose iterative algorithms of proximal point type for solving two classes of mixed multivalued quasi-variational inequality problems in real Euclidean spaces involving nonconvex functions, for which no similar algorithms are currently known …",
+      "url": "https://link.springer.com/article/10.1007/s10957-025-02733-1"
+    },
+    {
+      "title": "Distributed Resilient Nash Equilibrium Seeking for Aggregative Games of Second‐Order Systems Under Dos Attacks",
+      "authors": "Y Yang, P Yi, SM Cheng, M Yao - International Journal of Robust and Nonlinear …, 2025",
+      "abstract": "This paper investigates the distributed Nash equilibrium seeking problem for aggregative games over a second‐order multi‐agent network subject to denial‐of‐service (DoS) attacks. To solve this problem, a novel distributed algorithm is …",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.70027"
+    },
+    {
+      "title": "Real algorithms for special least squares solutions of the complex split quaternion matrix equations $$ AX= B $$ and $$ AXC= B $$",
+      "authors": "Z Zhou, Z Meng, Y Zhang, Y Song, F Zhang┬á- Numerical Algorithms, 2025",
+      "abstract": "In this paper, we first propose the real representation matrix of the complex split quaternion matrix by using the semi-tensor product. Then, applying its properties, the MP inverse, the\\(\\varvec {vec}\\) operator and the Kronecker product of real matrices┬áÔÇŽ",
+      "url": "https://link.springer.com/article/10.1007/s11075-025-02138-1"
+    },
+    {
+      "title": "Two-grid domain decomposition methods for the coupled Dual-Porosity-Navier-Stokes system with Beavers-Joseph interface condition",
+      "authors": "C Zhang, G Du, X Sun - Finite Elements in Analysis and Design, 2025",
+      "abstract": "In this paper, two kinds of two-grid domain decomposition methods for the coupled Dual-Porosity-Navier-Stokes system are proposed and analyzed by integrating the established robin-type domain decomposition approach with a two-grid strategy …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168874X25000927"
+    },
+    {
+      "title": "ISGM-Fus: Internal structure-guided model for multispectral and hyperspectral image fusion",
+      "authors": "C Liu, J Qian, F Fang - Neurocomputing, 2025",
+      "abstract": "Fusing a high-resolution multispectral image (HR-MSI) and a low-resolution hyperspectral image (LR-HSI) is an important way to reconstruct a high-spatial-resolution hyperspectral image (HR-HSI). Most of the deep learning-based and …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231225014493"
+    },
+    {
+      "title": "Dimensionality Reduction of Hyperspectral Imagery Based on Spatial-Spectral Neighborhood Tensor Graph Embedding",
+      "authors": "G Shi, W Xiang, F Chen - Journal of the Franklin Institute, 2025",
+      "abstract": "Graph learning techniques have been widely used to address the curse of dimensionality in hyperspectral imagery (HSI). However, these methods often rely on vectorized data representations, and fail to fully exploit the inherent higher-order …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0016003225003552"
+    },
+    {
+      "title": "Segmented Fractional Wavelet Filter Based Low Memory Hyperspectral Image Coding Algorithm for Wireless Multimedia Sensor Networks",
+      "authors": "SB Rajesh, NR Kidwai",
+      "abstract": "Recently, the rapid development of transform-based coding has improved the performance of hyperspectral image sensors. Each hyperspectral image has a size of more than a hundred MB, which needs to be compressed before the transmission …",
+      "url": "https://www.researchgate.net/profile/Shrish-Bajpai/publication/393091264_Segmented_Fractional_Wavelet_Filter_Based_Low_Memory_Hyperspectral_Image_Coding_Algorithm_for_Wireless_Multimedia_Sensor_Networks/links/685ebc5207b3253fd1ca152b/Segmented-Fractional-Wavelet-Filter-Based-Low-Memory-Hyperspectral-Image-Coding-Algorithm-for-Wireless-Multimedia-Sensor-Networks.pdf"
+    },
+    {
+      "title": "On Conditional Independence Graph Learning From Multi-Attribute Gaussian Dependent Time Series",
+      "authors": "JK Tugnait - IEEE Open Journal of Signal Processing, 2025",
+      "abstract": "Estimation of the conditional independence graph (CIG) of high-dimensional multivariate Gaussian time series from multi-attribute data is considered. Existing methods for graph estimation for such data are based on single-attribute models …",
+      "url": "https://ieeexplore.ieee.org/iel8/8782710/9006934/11030300.pdf"
+    },
+    {
+      "title": "A Dynamic Penalization Framework for Online rank− 1 Semidefinite Programming Relaxations",
+      "authors": "A Al-Tawaha, J Lavaei, M Jin - Proceedings of Machine Learning Research vol, 2025",
+      "abstract": "We propose a unified framework for solving sequences of semidefinite programs (SDPs) with rankone constraints—critical in domains such as combinatorial optimization and power systems. Enforcing rank− 1 feasibility in SDP relaxations is …",
+      "url": "https://raw.githubusercontent.com/mlresearch/v283/main/assets/al-tawaha25a/al-tawaha25a.pdf"
+    },
+    {
+      "title": "Global Convergence of Gradient EM for Over-Parameterized Gaussian Mixtures",
+      "authors": "M Zhou, W Xu, M Fazel, SS Du - arXiv preprint arXiv:2506.06584, 2025",
+      "abstract": "Learning Gaussian Mixture Models (GMMs) is a fundamental problem in machine learning, with the Expectation-Maximization (EM) algorithm and its popular variant gradient EM being arguably the most widely used algorithms in practice. In the exact …",
+      "url": "https://arxiv.org/pdf/2506.06584"
+    },
+    {
+      "title": "DTZO: Distributed Trilevel Zeroth Order Learning with Provable Non-Asymptotic Convergence",
+      "authors": "Y Jiao, K Yang, C Jian - Forty-second International Conference on Machine …",
+      "abstract": "Trilevel learning (TLL) with zeroth order constraints is a fundamental problem in machine learning, arising in scenarios where gradient information is inaccessible due to data privacy or model opacity, such as in federated learning, healthcare, and …",
+      "url": "https://openreview.net/pdf?id=EvzArsKUww"
+    },
+    {
+      "title": "Convergence Guaranteed Federated Learning through Gradient Trajectory Smoothing with Triple-Objective Decomposition",
+      "authors": "H Zong, X Zhang, R Li, J Duan, D Zou, W Li - ACM Transactions on Knowledge Discovery …",
+      "abstract": "Federated Learning (FL) has been widely adopted as a distributed machine learning paradigm aiming to derive a global model without transferring local data to the server. In the context of heterogeneous environments typical of many FL …",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3743142"
+    },
+    {
+      "title": "Sign-SGD is the Golden Gate between Multi-Node to Single-Node Learning: Significant Boost via Parameter-Free Optimization",
+      "authors": "D Medyakov, S Stanko, G Molodtsov, P Zmushko… - arXiv preprint arXiv …, 2025",
+      "abstract": "Quite recently, large language models have made a significant breakthrough across various disciplines. However, training them is an extremely resource-intensive task, even for major players with vast computing resources. One of the methods gaining …",
+      "url": "https://arxiv.org/pdf/2506.03725"
+    },
+    {
+      "title": "Multi-Timescale Gradient Sliding for Distributed Optimization",
+      "authors": "J Zhang, P Jaillet - arXiv preprint arXiv:2506.15387, 2025",
+      "abstract": "We propose two first-order methods for convex, non-smooth, distributed optimization problems, hereafter called Multi-Timescale Gradient Sliding (MT-GS) and its accelerated variant (AMT-GS). Our MT-GS and AMT-GS can take advantage of …",
+      "url": "https://arxiv.org/pdf/2506.15387"
+    },
+    {
+      "title": "SPIRE: Conditional Personalization for Federated Diffusion Generative Models",
+      "authors": "K Ozkara, R Zhou, S Diggavi - arXiv preprint arXiv:2506.12303, 2025",
+      "abstract": "Recent advances in diffusion models have revolutionized generative AI, but their sheer size makes on device personalization, and thus effective federated learning (FL), infeasible. We propose Shared Backbone Personal Identity Representation …",
+      "url": "https://arxiv.org/pdf/2506.12303"
+    },
+    {
+      "title": "StreamBP: Memory-Efficient Exact Backpropagation for Long Sequence Training of LLMs",
+      "authors": "Q Luo, M Li, L Zhao, X Li - arXiv preprint arXiv:2506.03077, 2025",
+      "abstract": "Training language models on long sequence data is a demanding requirement for enhancing the model's capability on complex tasks, eg, long-chain reasoning. However, as the sequence length scales up, the memory cost for storing activation …",
+      "url": "https://arxiv.org/pdf/2506.03077"
+    },
+    {
+      "title": "Sample Complexity of Branch-length Estimation by Maximum Likelihood",
+      "authors": "D Clancy Jr, H Lyu, S Roch - Forty-second International Conference on Machine …",
+      "abstract": "We consider the branch-length estimation problem on a bifurcating tree: a character evolves along the edges of a binary tree according to a two-state symmetric Markov process, and we seek to recover the edge transition probabilities from repeated …",
+      "url": "https://openreview.net/pdf?id=CbEp1ubnQy"
+    },
+    {
+      "title": "Functional Tensor Regression",
+      "authors": "T Li, F Yao, AR Zhang - arXiv preprint arXiv:2506.09358, 2025",
+      "abstract": "Tensor regression has attracted significant attention in statistical research. This study tackles the challenge of handling covariates with smooth varying structures. We introduce a novel framework, termed functional tensor regression, which …",
+      "url": "https://arxiv.org/pdf/2506.09358"
+    },
+    {
+      "title": "Rigorous Maximum Likelihood Estimation for Quantum States",
+      "authors": "K Aditi, S Becker - arXiv preprint arXiv:2506.16646, 2025",
+      "abstract": "Existing quantum state tomography methods are limited in scalability due to their high computation and memory demands, making them impractical for recovery of large quantum states. In this work, we address these limitations by reformulating the …",
+      "url": "https://arxiv.org/pdf/2506.16646"
+    },
+    {
+      "title": "Accelerated Discovery of Set Cover Solutions via Graph Neural Networks",
+      "authors": "Z Shafi, BA Miller, T Eliassi-Rad, RS Caceres - International Conference on the …, 2025",
+      "abstract": "Abstract Machine learning (ML) approaches are increasingly being used to accelerate combinatorial optimization (CO) problems. We investigate the Set Cover Problem (SCP) and propose Graph-SCP, a graph neural network method that augments existing optimization solvers by learning to identify a smaller sub-problem that contains the solution space. Graph-SCP uses both supervised learning from prior solved instances and unsupervised learning to minimize the SCP objective. We …",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-95976-9_12"
+    },
+    {
+      "title": "Advances in Deep Learning Techniques for Breast Cancer Classification: A Comprehensive Review",
+      "authors": "K Kansal, S Kumar, K Kansal - Archives of Computational Methods in Engineering, 2025",
+      "abstract": "Breast cancer (BC) is a serious global health concern, impacting around 2.1 million people each year. Because no permanent therapy is currently available, early and precise diagnosis is critical to lowering mortality. Advances in computer-aided detection (CAD) systems and deep learning (DL) models have greatly enhanced the ability to detect and classify breast cancer from photographs. This review examines state-of-the-art DL techniques for BC detection across different publically available …",
+      "url": "https://link.springer.com/article/10.1007/s11831-025-10306-8"
+    },
+    {
+      "title": "CFPT: Empowering Time Series Forecasting through Cross-Frequency Interaction and Periodic-Aware Timestamp Modeling",
+      "authors": "F Kou, J Wang, L Shi, Y Yao, Y Li, S Zhu, Z Zhang, J Du - Forty-second International …",
+      "abstract": "Long-term time series forecasting has been widely studied, yet two aspects remain insufficiently explored: the interaction learning between different frequency components and the exploitation of periodic characteristics inherent in timestamps. To address the above issues, we propose** CFPT**, a novel method that empowering time series forecasting through** C** ross-** F** requency Interaction (CFI) and** P** eriodic-Aware** T** imestamp Modeling (PTM). To learn cross …",
+      "url": "https://openreview.net/pdf?id=hHYjiOJFum"
+    },
+    {
+      "title": "Towards Memory-Efficient and Sustainable Machine Unlearning on Edge using Zeroth-Order Optimizer",
+      "authors": "C Zhang, C Yang, Q Tan, J Liu, A Li, Y Wang, J Lu… - Proceedings of the Great …, 2025",
+      "abstract": "Under increasing regulatory demands for data privacy, machine unlearning has emerged as a critical and effective technique for removing the influence of specific data points from a trained model. Although retraining from scratch typically yields the most ideal unlearning effect, it incurs prohibitive computational cost and resource waste. As a result, gradient ascent (GA)-based MU methods have become popular due to their efficiency. However, the reliance of GA on backpropagation leads to …",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3716368.3735273"
+    },
+    {
+      "title": "Towards industrially relevant total variation based reconstruction of few-view computed tomography by exploiting noise level estimation",
+      "authors": "M Bahrkazemi, A Rohde, J Hess, S Gondrom-Linke… - CIRP Journal of …, 2025",
+      "abstract": "To extend the applicability of in-line computed tomography (CT) within Industry 4.0, accelerating the data acquisition and image reconstruction process is essential to meet the demands of real-time, high-throughput inspection. This paper focuses on accelerating in-line CT by addressing the trade-off between image quality and angular sampling reduction through the development of dedicated reconstruction algorithms. Various inherent properties of in-line CT are leveraged as a priori …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1755581725000999"
+    },
+    {
+      "title": "Joint Reference Microphone Selection and Filter Order Determination in Multi-channel Active Noise Control",
+      "authors": "D Hu, S Liu, Y He",
+      "abstract": "Multi-channel active noise control (MCANC) systems have been widely investigated for acoustic noise attenuation over a spatial region. In MCANC systems, incorporating more reference microphones (RMs) can boost noise reduction performance but increase the computational complexity, which may affect real-time processing capability. To improve the computational efficiency, we propose a joint approach for RM selection and filter order (FO) determination in MCANC systems …",
+      "url": "https://www.researchgate.net/profile/De-Hu-3/publication/393065220_Joint_Reference_Microphone_Selection_and_Filter_Order_Determination_in_Multi-channel_Active_Noise_Control/links/685df4bae9b6c13c89e4bcc7/Joint-Reference-Microphone-Selection-and-Filter-Order-Determination-in-Multi-channel-Active-Noise-Control.pdf"
+    },
+    {
+      "title": "Double Low-Rank 4D Tensor Decomposition for Circular RIS-Aided mmWave MIMO-NOMA System Channel Estimation in Mobility Scenarios",
+      "authors": "W Cai, X Jin, Y Li, M Sheng, M Huang, Q Qi, Q Guo - arXiv preprint arXiv:2506.07909, 2025",
+      "abstract": "Channel estimation is not only essential to highly reliable data transmission and massive device access but also an important component of the integrated sensing and communication (ISAC) in the sixth-generation (6G) mobile communication …",
+      "url": "https://arxiv.org/pdf/2506.07909"
+    },
+    {
+      "title": "Multilayer Matrix Factorization via Dimension-Reducing Diffusion Variational Inference",
+      "authors": "J Liu, F Farnia, WK Ma - Forty-second International Conference on Machine …",
+      "abstract": "Multilayer matrix factorization (MMF) has recently emerged as a generalized model of, and potentially a more expressive approach than, the classic matrix factorization. This paper considers MMF under a probabilistic formulation, and our focus is on …",
+      "url": "https://openreview.net/pdf?id=Dd7Qo7TJpf"
+    },
+    {
+      "title": "Low-Rank Tensor Encoding Models Decompose Natural Speech Comprehension Processes",
+      "authors": "L Lewis, X Pitkow, L Wehbe - bioRxiv, 2025",
+      "abstract": "How does the brain process language over time? Research suggests that natural human language is processed hierarchically across brain regions over time. However, attempts to characterize this computation have thus far been limited to …",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/03/2025.06.02.657514.full.pdf"
+    },
+    {
+      "title": "A Saddle Point Algorithm for Robust Data-Driven Factor Model Problems",
+      "authors": "S Khodakaramzadeh, S Shafiee, GA Gleizer… - arXiv preprint arXiv …, 2025",
+      "abstract": "We study the factor model problem, which aims to uncover low-dimensional structures in high-dimensional datasets. Adopting a robust data-driven approach, we formulate the problem as a saddle-point optimization. Our primary contribution is a …",
+      "url": "https://arxiv.org/pdf/2506.09776"
+    },
+    {
+      "title": "Block Coordinate Descent Network Simplex for Optimal Transport",
+      "authors": "L Li, N Yamashita - arXiv preprint arXiv:2506.21231, 2025",
+      "abstract": "We propose the Block Coordinate Descent Network Simplex (BCDNS) method for solving large-scale discrete Optimal Transport (OT) problems. BCDNS integrates the Network Simplex (NS) algorithm with a block coordinate descent (BCD) strategy …",
+      "url": "https://arxiv.org/pdf/2506.21231"
+    },
+    {
+      "title": "Nonconvex tensor multiview subspace clustering with bipartite graph regularization",
+      "authors": "M Li, X Yao, M Xiao, W Wang - Pattern Recognition, 2025",
+      "abstract": "In this paper, we present a nonconvex tensor method with bipartite graph regularization for multiview subspace clustering. Departing from conventional approaches, we employ anchor points to learn coefficient matrices, significantly …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031320325004789"
+    },
+    {
+      "title": "On the Adversarial Robustness of Multi-Kernel Clustering",
+      "authors": "H Yu, W Liang, K Liang, S Liu, M Liu, X Liu - Forty-second International Conference on …",
+      "abstract": "Multi-kernel clustering (MKC) has emerged as a powerful method for capturing diverse data patterns, offering robust and generalized representations of data structures. However, the increasing deployment of MKC in real-world applications …",
+      "url": "https://openreview.net/pdf?id=xAGDSXAJgf"
+    },
+    {
+      "title": "Structure regularized consensus dynamic anchor graph learning for incomplete multi-view clustering",
+      "authors": "B Hu, L Han, Y Xu, C Tang, J Zhu, GF Lu - Neural Networks, 2025",
+      "abstract": "Dynamic anchor graph-based incomplete multi-view clustering (IMVC) algorithms have garnered extensive research attention in recent years owing to their relatively low time complexity. However, these algorithms suffer from two limitations. First, most …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608025006458"
+    },
+    {
+      "title": "Bidirectional Probabilistic Multi-graph Learning and Decomposition for Multi-view Clustering",
+      "authors": "X Wang, Y Zhang, Y Zhou - IEEE Transactions on Image Processing, 2025",
+      "abstract": "Graph-based multi-view clustering has attracted remarkable attention due to its impressive performance. However, the typical framework consisting of graph learning and indicator generation may fail to align learned graphs with the …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11027637/"
+    },
+    {
+      "title": "The Architecture Design and Training Optimization of Spiking Neural Network with Low-Latency and High-Performance for Classification and Segmentation",
+      "authors": "W Ye, S Chen, H Liu, Y Liu, Y Chen, Y Cui, W Lin - Neural Networks, 2025",
+      "abstract": "Abstract Spiking Neural Networks (SNNs) are the new third generation of bio-mimetic neural networks suitable for large-scale parallel computation due to its advantages of low power consumption and low latency. However, most of the training algorithms …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608025006707"
+    },
+    {
+      "title": "Unaligned multi-view clustering via diversified anchor graph fusion",
+      "authors": "H Jiang, H Tao, Z Jiang, C Hou - Pattern Recognition, 2025",
+      "abstract": "Clear sample correspondence across views is a key presupposition of traditional multi-view clustering. However, in practical applications, uncertainties during the data collection process may lead to the violation of this presupposition, producing …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031320325006375"
+    },
+    {
+      "title": "Bifurcate then Alienate: Incomplete Multi-view Clustering via Coupled Distribution Learning with Linear Overhead",
+      "authors": "S Yu, Y Cheung, S Wang, X Liu, E Zhu - Forty-second International Conference on Machine …",
+      "abstract": "Despite remarkable advances, existing incomplete multi-view clustering (IMC) methods typically leverage either perspective-shared or perspective-specific determinants to encode cluster representations. To address this limitation, we …",
+      "url": "https://openreview.net/pdf?id=EFMAjY8dVZ"
+    },
+    {
+      "title": "Multi-View Graph Clustering via Node-Guided Contrastive Encoding",
+      "authors": "Y Ren, J Ke, Z Wen, T Wu, Y Yang, X Pu, L He - Forty-second International Conference on …",
+      "abstract": "Multi-view clustering has gained significant attention for integrating multi-view information in multimedia applications. With the growing complexity of graph data, multi-view graph clustering (MVGC) has become increasingly important. Existing …",
+      "url": "https://openreview.net/pdf?id=Ae5qnQxAxQ"
+    },
+    {
+      "title": "Exploring the Fourier Domain for Fast Multi-view Subspace Clustering",
+      "authors": "Y Zhang, C Liu, HS Wong - International Conference on Neural Information …, 2025",
+      "abstract": "Anchor-based multi-view clustering (MVC) has received wide attention due to its effectiveness and scalability. However, most existing works explore prior structure knowledge in the spatial domain for anchors or embeddings. Ignorance of the …",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-96-6969-1_11"
+    },
+    {
+      "title": "Vortex equilibria using least-squares methods",
+      "authors": "SJ Harris, NR McDonald - Theoretical and Computational Fluid Dynamics, 2025",
+      "abstract": "Numerical methods and results for computing rotating or stationary equilibria of vortex patches and sheets, some in the presence of point vortices, are presented. The methods are based on those recently developed by Trefethen and colleagues …",
+      "url": "https://link.springer.com/article/10.1007/s00162-025-00746-0"
+    },
+    {
+      "title": "A New Look at the Hornich-Hlawka Inequality",
+      "authors": "DŞ Marinescu, CP Niculescu - Results in Mathematics, 2025",
+      "abstract": "A New Look at the Hornich-Hlawka Inequality | Results in Mathematics Skip to main content Springer Nature Link Account Menu Find a journal Publish with us Track your research Search Cart 1.Home 2.Results in Mathematics 3.Article A New Look at the …",
+      "url": "https://link.springer.com/article/10.1007/s00025-025-02464-9"
+    },
+    {
+      "title": "Convex Markov Games: A New Frontier for Multi-Agent Reinforcement Learning",
+      "authors": "I Gemp, AA Haupt, L Marris, S Liu, G Piliouras - Forty-second International Conference on …",
+      "abstract": "Behavioral diversity, expert imitation, fairness, safety goals and others give rise to preferences in sequential decision making domains that do not decompose additively across time. We introduce the class of convex Markov games that allow …",
+      "url": "https://openreview.net/pdf?id=yIfCq03hsM"
+    },
+    {
+      "title": "On Understanding Attention-Based In-Context Learning for Categorical Data",
+      "authors": "AT Wang, W Convertino, X Cheng, R Henao, L Carin - Forty-second International …",
+      "abstract": "In-context learning based on attention models is examined for data with categorical outcomes, with inference in such models viewed from the perspective of functional gradient descent (GD). We develop a network composed of attention blocks, with …",
+      "url": "https://openreview.net/pdf?id=7Daf4TMtX9"
+    },
+    {
+      "title": "BDCA with Exact Line Search for Symmetric Eigenvalue Complementarity Problems",
+      "authors": "YS Niu, HA Le Thi, T Pham Dinh - … Conference on Applied Mathematics and Computer …, 2025",
+      "abstract": "We propose an accelerated Difference-of-Convex algorithm (Boosted-DCA, or BDCA) with exact line search for efficiently solving Symmetric Eigenvalue Complementarity Problems (SEiCP). We first reformulate SEiCP to involve only …",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-90606-0_14"
+    },
+    {
+      "title": "RePIC: Reinforced Post-Training for Personalizing Multi-Modal Language Models",
+      "authors": "Y Oh, J Mok, D Chung, J Shin, S Park, J Barthelemy… - arXiv preprint arXiv …, 2025",
+      "abstract": "Recent multi-modal large language models (MLLMs) often struggle to generate personalized image captions, even when trained on high-quality captions. In this work, we observe that such limitations persist in existing post-training-based MLLM …",
+      "url": "https://arxiv.org/pdf/2506.18369"
+    },
+    {
+      "title": "Provable Reinforcement Learning from Human Feedback with an Unknown Link Function",
+      "authors": "Q Zhang, L Ying - arXiv preprint arXiv:2506.03066, 2025",
+      "abstract": "Link functions, which characterize how human preferences are generated from the value function of an RL problem, are a crucial component in designing RLHF algorithms. Almost all RLHF algorithms, including state-of-the-art ones in empirical …",
+      "url": "https://arxiv.org/pdf/2506.03066"
+    },
+    {
+      "title": "Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification",
+      "authors": "C Liu, Y Yuan, Y Yin, Y Xu, X Xu, Z Chen, Y Wang… - arXiv preprint arXiv …, 2025",
+      "abstract": "Chain-of-Thought (CoT) prompting has become the de facto method to elicit reasoning capabilities from large language models (LLMs). However, to mitigate hallucinations in CoT that are notoriously difficult to detect, current methods such as …",
+      "url": "https://arxiv.org/pdf/2506.04592"
+    },
+    {
+      "title": "Boosting LLM Reasoning via Spontaneous Self-Correction",
+      "authors": "X Zhao, T Xu, X Wang, Z Chen, D Jin, L Tan, Z Yu… - arXiv preprint arXiv …, 2025",
+      "abstract": "While large language models (LLMs) have demonstrated remarkable success on a broad range of tasks, math reasoning remains a challenging one. One of the approaches for improving math reasoning is self-correction, which designs self …",
+      "url": "https://arxiv.org/pdf/2506.06923"
+    },
+    {
+      "title": "BNPO: Beta Normalization Policy Optimization",
+      "authors": "C Xiao, M Zhang, Y Cao - arXiv preprint arXiv:2506.02864, 2025",
+      "abstract": "Recent studies, including DeepSeek-R1 and Kimi-k1. 5, have demonstrated that reinforcement learning with rule-based, binary-valued reward functions can significantly enhance the reasoning capabilities of large language models. These …",
+      "url": "https://arxiv.org/pdf/2506.02864"
+    },
+    {
+      "title": "Computational Thinking Reasoning in Large Language Models",
+      "authors": "K Zhang, G Li, J Li, H Zhang, J Xu, H Zhu, L Wang… - arXiv preprint arXiv …, 2025",
+      "abstract": "While large language models (LLMs) have demonstrated remarkable reasoning capabilities, they often struggle with complex tasks that require specific thinking paradigms, such as divide-and-conquer and procedural deduction,\\etc Previous …",
+      "url": "https://arxiv.org/pdf/2506.02658"
+    },
+    {
+      "title": "Does Thinking More always Help? Understanding Test-Time Scaling in Reasoning Models",
+      "authors": "SS Ghosal, S Chakraborty, A Reddy, Y Lu, M Wang… - arXiv preprint arXiv …, 2025",
+      "abstract": "Recent trends in test-time scaling for reasoning models (eg, OpenAI o1, DeepSeek R1) have led to a popular belief that extending thinking traces using prompts like\" Wait\" or\" Let me rethink\" can improve performance. This raises a natural question …",
+      "url": "https://arxiv.org/pdf/2506.04210"
+    },
+    {
+      "title": "PoisonBench: Assessing Language Model Vulnerability to Poisoned Preference Data",
+      "authors": "T Fu, M Sharma, P Torr, SB Cohen, D Krueger, F Barez - Forty-second International …",
+      "abstract": "Preference learning is a central component for aligning current LLMs, but this process can be vulnerable to data poisoning attacks. To address this concern, we introduce PoisonBench, a benchmark for evaluating large language models' …",
+      "url": "https://openreview.net/pdf?id=21kAulloDG"
+    },
+    {
+      "title": "Progressive Mastery: Customized Curriculum Learning with Guided Prompting for Mathematical Reasoning",
+      "authors": "M Wu, Q Qian, W Liu, X Wang, Z Huang, D Liang… - arXiv preprint arXiv …, 2025",
+      "abstract": "Large Language Models (LLMs) have achieved remarkable performance across various reasoning tasks, yet post-training is constrained by inefficient sample utilization and inflexible difficulty samples processing. To address these limitations …",
+      "url": "https://arxiv.org/pdf/2506.04065"
+    },
+    {
+      "title": "Diffusion policy distillation for offline reinforcement learning",
+      "authors": "J Zhang, Y Cheng, CLP Chen, H Zhang, X Wang - Neural Networks, 2025",
+      "abstract": "Offline reinforcement learning aims to learn a well-performing target policy from a static empirical dataset. Leveraging its powerful distribution expression capabilities, the diffusion model has been widely adopted as a type of policy in offline …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S089360802500574X"
+    },
+    {
+      "title": "Random Conditioning for Diffusion Model Compression with Distillation",
+      "authors": "D Kim, S Park, G Han, SW Kim, PH Seo - Proceedings of the Computer Vision and …, 2025",
+      "abstract": "Diffusion models generate high-quality images through progressive denoising but are computationally intensive due to large model sizes and repeated sampling. Knowledge distillation--transferring knowledge from a complex teacher to a simpler …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_Random_Conditioning_for_Diffusion_Model_Compression_with_Distillation_CVPR_2025_paper.pdf"
+    },
+    {
+      "title": "Prototypical Distribution Divergence Loss for Image Restoration",
+      "authors": "J Peng, J Fu, D Liu - IEEE Transactions on Image Processing, 2025",
+      "abstract": "Neural networks have achieved significant advances in the field of image restoration and much research has focused on designing new architectures for convolutional neural networks (CNNs) and Transformers. The choice of loss functions, despite …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11018214/"
+    },
+    {
+      "title": "SEC-Prompt: SEmantic Complementary Prompting for Few-Shot Class-Incremental Learning",
+      "authors": "Y Liu, M Yang - Proceedings of the Computer Vision and Pattern …, 2025",
+      "abstract": "Few-shot class-incremental learning (FSCIL) presents a significant challenge in machine learning, requiring models to integrate new classes from limited examples while preserving performance on previously learned classes. Recently, prompt …",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_SEC-PromptSEmantic_Complementary_Prompting_for_Few-Shot_Class-Incremental_Learning_CVPR_2025_paper.pdf"
+    },
+    {
+      "title": "Large Stepsizes Accelerate Gradient Descent for Regularized Logistic Regression",
+      "authors": "J Wu, P Marion, P Bartlett - arXiv preprint arXiv:2506.02336, 2025",
+      "abstract": "We study gradient descent (GD) with a constant stepsize for $\\ell_2 $-regularized logistic regression with linearly separable data. Classical theory suggests small stepsizes to ensure monotonic reduction of the optimization objective, achieving …",
+      "url": "https://arxiv.org/pdf/2506.02336"
+    },
+    {
+      "title": "Single-Cell Proteomic Technologies: Tools in the quest for principles",
+      "authors": "N Slavov - arXiv preprint arXiv:2506.18198, 2025",
+      "abstract": "Over the last decade, proteomic analysis of single cells by mass spectrometry transitioned from an uncertain possibility to a set of robust and rapidly advancing technologies supporting the accurate quantification of thousands of proteins. We …",
+      "url": "https://arxiv.org/pdf/2506.18198"
+    },
+    {
+      "title": "Energy-Efficient Quantization-Aware Training with Dynamic Bit-Width Optimization",
+      "authors": "A Karkehabadi, A Sasan - Proceedings of the Great Lakes Symposium on VLSI …, 2025",
+      "abstract": "Deploying deep neural networks on resource-constrained devices remains challenging due to their computational demands and energy consumption. While quantization reduces precision to improve efficiency, conventional approaches apply …",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3716368.3735291"
+    },
+    {
+      "title": "A full-NT step interior-point method for weighted linear complementarity problem over symmetric cones",
+      "authors": "B Kheirfam, IS Aniversario - Communications in Combinatorics and Optimization, 2025",
+      "abstract": "A full Nesterov-Todd step interior point method is designed and analyzed in this paper to solve the weighted linear complementarity problem in Euclidean Jordan algebra. Under appropriate conditions, it is proven that the full Nesterov-Todd step is …",
+      "url": "https://comb-opt.azaruniv.ac.ir/article_14973_827d19cd26c2c681903c9d056e5f4b1b.pdf"
+    },
+    {
+      "title": "Preconditioned Riemannian Gradient Descent Algorithm for Low-Multilinear-Rank Tensor Completion",
+      "authors": "Y Zhang, F Bian, X Zhang, JF Cai - Forty-second International Conference on Machine …",
+      "abstract": "Tensors play a crucial role in numerous scientific and engineering fields. This paper addresses the low-multilinear-rank tensor completion problem, a fundamental task in tensor-related applications. By exploiting the manifold structure inherent to the fixed …",
+      "url": "https://openreview.net/pdf?id=pNyodFNPhv"
+    },
+    {
+      "title": "Overcoming Spurious Solutions in Semi-Dual Neural Optimal Transport: A Smoothing Approach for Learning the Optimal Transport Plan",
+      "authors": "J Choi, J Choi, D Kwon - Forty-second International Conference on Machine …",
+      "abstract": "We address the convergence problem in learning the Optimal Transport (OT) map, where the OT Map refers to a map from one distribution to another while minimizing the transport cost. Semi-dual Neural OT, a widely used approach for learning OT …",
+      "url": "https://openreview.net/pdf?id=0qRROKHVdZ"
+    },
+    {
+      "title": "Protocol Models: Scaling Decentralized Training with Communication-Efficient Model Parallelism",
+      "authors": "S Ramasinghe, T Ajanthan, G Avraham, Y Zuo, A Long - arXiv preprint arXiv …, 2025",
+      "abstract": "Scaling models has led to significant advancements in deep learning, but training these models in decentralized settings remains challenging due to communication bottlenecks. While existing compression techniques are effective in data-parallel …",
+      "url": "https://arxiv.org/pdf/2506.01260"
+    }
+  ]
+}

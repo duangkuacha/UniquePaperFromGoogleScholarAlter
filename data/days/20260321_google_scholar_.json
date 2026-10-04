@@ -1,0 +1,140 @@
+{
+  "id": "20260321_google_scholar_",
+  "date": "20260321",
+  "source": "historical-import",
+  "messages": 8,
+  "papers": [
+    {
+      "title": "A practical randomized trust-region method to escape saddle points in high dimension",
+      "authors": "RA Dragomir, X Jiang, B Sun, N Boumal - arXiv preprint arXiv:2603.15494, 2026",
+      "abstract": "Without randomization, escaping the saddle points of $ f\\colon\\mathbb {R}^ d\\to\\mathbb {R} $ requires at least $\\Omega (d) $ pieces of information about $ f $(values, gradients, Hessian-vector products). With randomization, this can be …",
+      "url": "https://arxiv.org/pdf/2603.15494"
+    },
+    {
+      "title": "WiT: Waypoint Diffusion Transformers via Trajectory Conflict Navigation",
+      "authors": "H Wang, M Li, X Guo - arXiv preprint arXiv:2603.15132, 2026",
+      "abstract": "While recent Flow Matching models avoid the reconstruction bottlenecks of latent autoencoders by operating directly in pixel space, the lack of semantic continuity in the pixel manifold severely intertwines optimal transport paths. This induces severe …",
+      "url": "https://arxiv.org/abs/2603.15132"
+    },
+    {
+      "title": "Anchor then Polish for Low-light Enhancement",
+      "authors": "T Du, M Li, H Wang, X Guo - arXiv preprint arXiv:2603.15472, 2026",
+      "abstract": "Low-light image enhancement is challenging due to entangled degradations, mainly including poor illumination, color shifts, and texture interference. Existing methods often rely on complex architectures to address these issues jointly but may overfit …",
+      "url": "https://arxiv.org/abs/2603.15472"
+    },
+    {
+      "title": "A two-stage proximal gradient algorithm for sparse optimization problems",
+      "authors": "J Shen, Z Huang, W Yang, W Zhu - Signal Processing, 2026",
+      "abstract": "Sparse signal recovery and image reconstruction represent crucial areas within sparse optimization research. This work extends the nonconvex ℓ 0 minimization framework to complex-valued problems, enhancing sparsity promotion in noisy …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165168426001143"
+    },
+    {
+      "title": "Efficient Anchor-Guided Multi-View Clustering via Diversity–Consistency Learning and Low-Rank Tensor Recovery",
+      "authors": "R Fan, K Kang, Q Zhang, C Liu, Y Hu, C Peng - Electronics, 2026",
+      "abstract": "Multi-view clustering (MVC) is a fundamental unsupervised learning task for exploring latent structures from heterogeneous multi-view data. Existing MVC methods face critical challenges including the high computational cost of full-graph …",
+      "url": "https://www.mdpi.com/2079-9292/15/5/1136"
+    },
+    {
+      "title": "Neural Approximation and Its Applications",
+      "authors": "WH Wu, TZ Huang, XL Zhao, Y Luo, D Meng - arXiv preprint arXiv:2603.13311, 2026",
+      "abstract": "Multivariate function approximation is a fundamental problem in machine learning. Classic multivariate function approximations rely on hand-crafted basis functions (eg, polynomial basis and Fourier basis), which limits their approximation ability and data …",
+      "url": "https://arxiv.org/pdf/2603.13311"
+    },
+    {
+      "title": "An Efficient Cumulative Edge-Detection Method for Image Reconstruction",
+      "authors": "T Okunola, M Pasha, ME Kilmer - arXiv preprint arXiv:2603.15151, 2026",
+      "abstract": "When reconstructing images from noisy measurements, such as in medical scans or scientific imaging, we face an inverse problem: recovering an unknown image from indirect, corrupted observations. These problems are typically ill-posed, meaning …",
+      "url": "https://arxiv.org/pdf/2603.15151"
+    },
+    {
+      "title": "Unbiased and Biased Variance-Reduced Forward-Reflected-Backward Splitting Methods for Stochastic Composite Inclusions",
+      "authors": "Q Tran-Dinh, N Nguyen-Trung - arXiv preprint arXiv:2603.15576, 2026",
+      "abstract": "This paper develops new variance-reduction techniques for the forward-reflected-backward splitting (FRBS) method to solve a class of possibly nonmonotone stochastic composite inclusions. Unlike unbiased estimators such as mini-batching …",
+      "url": "https://arxiv.org/pdf/2603.15576"
+    },
+    {
+      "title": "Topology-Optimal Multiple Gossip Steps for Decentralized Federated Learning via Gossip Tensor",
+      "authors": "Y Zhong, L Ma, X Yan - IEEE Transactions on Neural Networks and Learning …, 2026",
+      "abstract": "Decentralized federated learning (DFL) has gained significant attention as a framework for analyzing large-scale data distributed across multiple sites, where communication between sites is constrained by a decentralized graph structure. Due to privacy concerns and high communication costs, reducing the number of communication rounds in DFL has become an important area of research. This article investigates the effects of the decentralized graph's topology on the …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11429702/"
+    },
+    {
+      "title": "ZO-SAM: Zero-Order Sharpness-Aware Minimization for Efficient Sparse Training",
+      "authors": "J Ji, G Li, K Deng, F Afghah, X Ma - arXiv preprint arXiv:2603.13115, 2026",
+      "abstract": "Deep learning models, despite their impressive achievements, suffer from high computational costs and memory requirements, limiting their usability in resource-constrained environments. Sparse neural networks significantly alleviate these constraints by dramatically reducing parameter count and computational overhead. However, existing sparse training methods often experience chaotic and noisy gradient signals, severely hindering convergence and generalization performance …",
+      "url": "https://arxiv.org/pdf/2603.13115"
+    },
+    {
+      "title": "Stochastic Halpern iteration in normed spaces and applications to reinforcement learning: M. Bravo, JP Contreras",
+      "authors": "M Bravo, JP Contreras - Mathematical Programming, 2026",
+      "abstract": "We analyze the oracle complexity of the stochastic Halpern iteration with minibatch, where we aim to approximate fixed-points of nonexpansive and contractive operators in a normed finite-dimensional space. We show that if the underlying stochastic oracle has uniformly bounded variance, our method exhibits an overall oracle complexity of O~(ε-5), to obtain ε expected fixed-point residual for nonexpansive operators, improving recent rates established for the stochastic Krasnoselskii-Mann …",
+      "url": "https://link.springer.com/article/10.1007/s10107-026-02345-1"
+    },
+    {
+      "title": "Accelerating Byzantine-Robust Distributed Learning with Compressed Communication via Double Momentum and Variance Reduction",
+      "authors": "Y Li, C Liu, Y Yi - arXiv preprint arXiv:2603.15144, 2026",
+      "abstract": "In collaborative and distributed learning, Byzantine robustness reflects a major facet of optimization algorithms. Such distributed algorithms are often accompanied by transmitting a large number of parameters, so communication compression is essential for an effective solution. In this paper, we propose Byz-DM21, a novel Byzantine-robust and communication-efficient stochastic distributed learning algorithm. Our key innovation is a novel gradient estimator based on a double …",
+      "url": "https://arxiv.org/pdf/2603.15144"
+    },
+    {
+      "title": "Hybrid beamforming for MU-MISO communication via deep unfolding",
+      "authors": "L Dangpeng, H Xin, H Haoming - China Communications, 2026",
+      "abstract": "In hybrid beamforming design using the conventional gradient projection (GP) algorithm, it is common to use a fixed step size, which results in a slow convergence rate and unsatisfactory achievable rate performance. This paper employs a deep unfolding algorithm within a small fixed number of iterations to tackle the hybrid beamforming optimization problem. The optimal step size is obtained by combining the conventional GP algorithm with the deep learning technique, and every step in …",
+      "url": "https://ieeexplore.ieee.org/iel8/6245522/11433541/11433545.pdf"
+    },
+    {
+      "title": "求解非凸非光滑优化问题的一类惯性Moreau 包络交替方向乘子法",
+      "authors": "史梦蝶 - Advances in Applied Mathematics, 2026",
+      "abstract": "针对一类带有线性约束的非凸非光滑优化问题, 本文提出了一类惯性Moreau 包络交替方向乘子法(IMADMM). 该方法通过引入Moreau 包络对非光滑项进行光滑近似, 并嵌入惯性步以加速迭代; 另外, 在每次迭代中采用Armijo 线搜索确定步长, 在保持算法稳定性的同时提升了收敛速度. 在理论分析方面, 在Kurdyka-Łojasiewicz (KŁ) 框架下证明了算法的全局收敛性. 最后, 数值实验以稀疏最小二乘问题为例, 验证了所提算法的有效性和优越性. Abstract: This paper proposes an inertial Moreau …",
+      "url": "https://www.hanspub.org/journal/paperinformation?paperID=137362"
+    },
+    {
+      "title": "Non-convex Transfer Subspace Learning via Embedded Distribution Alignment",
+      "authors": "T Luo, Y Liu, X Zhang, C Hou - IEEE Transactions on Image Processing, 2026",
+      "abstract": "Transfer subspace learning plays a critical role in unsupervised domain adaptation by establishing a shared embedding space where source domain data can be linearly reconstructed to match target domain distributions. While existing methods exploit the low-rank structures of reconstruction matrix, they frequently overlook the alignment of cross-domain joint probability distributions in the learned low-dimensional subspace. To address these challenges, we propose a novel non …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11433534/"
+    },
+    {
+      "title": "Hyperspectral Imaging Compressed Sensing Based on Spatial-Spectral Deep Unfolding for Agricultural Products",
+      "authors": "Z Han, X Liu, G Yang, M Wang, J Li, Y Zhang, T Han - Knowledge-Based Systems, 2026",
+      "abstract": "To address the challenge of balancing compressive-reconstruction performance, reconstruction speed, and interpretability in hyperspectral imaging (HSI) compressed sensing (CS) for agricultural products, this study proposes a spatial-spectral deep unfolding-based HSI CS model (SS-DUHCS). The model leverages the spatial-spectral characteristics of agricultural product HSI by unfolding the datacube row-wise into spatial-spectral slices for block-wise compressive measurement, enhancing …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705126005137"
+    },
+    {
+      "title": "Ultra-low sampling fiber imaging system based on physical-enhanced IPSR",
+      "authors": "X Huang, H Zeng, L Tang, Y Deng, X Pang, Y Li… - Optics Express, 2026",
+      "abstract": "Multimode fiber (MMF) imaging holds great potential in the field of minimally invasive endoscopy due to its ultra-fine outer diameter. However, the requirements for real-time monitoring and reduced phototoxicity force the system to operate at extremely low sampling rates, resulting in a severe loss of fidelity with traditional methods. Here, we introduce a physical-enhanced IPSR (Phys-IPSR) imaging framework. By implementing a deterministic front-end screening strategy to minimize mutual …",
+      "url": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-6-10645"
+    },
+    {
+      "title": "Pathwise optimization for bridge-type estimators and its applications: A. De Gregorio, F. Iafrate",
+      "authors": "A De Gregorio, F Iafrate - Statistics and Computing, 2026",
+      "abstract": "Sparse parametric models are of great interest in statistical learning and are often analyzed by means of regularized estimators. Pathwise methods allow us to efficiently compute the full solution path for penalized estimators, for any possible value of the penalization parameter λ. In this paper we deal with the pathwise optimization for bridge-type problems; ie, we are interested in the minimization of a loss function, such as negative log-likelihood or residual sum of squares, plus the …",
+      "url": "https://link.springer.com/article/10.1007/s11222-026-10856-2"
+    },
+    {
+      "title": "Real-time reconstruction of 3D bone models via very-low-dose protocols",
+      "authors": "Y Lin, H Sun, Y Li, R Aslam, LF Tse, T Cheng, CS Chui… - npj Digital Medicine, 2026",
+      "abstract": "Patient-specific bone models are essential for designing surgical guides and preoperative planning, as they enable the visualization of intricate anatomical structures. However, traditional CT-based approaches for creating bone models are …",
+      "url": "https://www.nature.com/articles/s41746-026-02389-9"
+    },
+    {
+      "title": "A Technical Note on the Implementation and Use of PDCS",
+      "authors": "Z Lin, Z Xiong, D Ge, Y Ye - arXiv preprint arXiv:2603.15504, 2026",
+      "abstract": "This technical note documents the implementation and use of the Primal-Dual Conic Programming Solver (PDCS), a first-order solver for large-scale conic optimization problems introduced by Lin et al.(arXiv: 2505.00311). It describes the algorithmic and …",
+      "url": "https://arxiv.org/pdf/2603.15504"
+    },
+    {
+      "title": "A Single-Sample Polylogarithmic Regret Bound for Nonstationary Online Linear Programming",
+      "authors": "H Xu, O Shen, P Glynn, Y Ye, P Jaillet - arXiv preprint arXiv:2603.14673, 2026",
+      "abstract": "We study nonstationary Online Linear Programming (OLP), where $ n $ orders arrive sequentially with reward-resource consumption pairs that form a sequence of independent, but not necessarily identically distributed, random vectors. At the …",
+      "url": "https://arxiv.org/pdf/2603.14673"
+    },
+    {
+      "title": "A Level Set Method with Secant Iterations for the Least-Squares Constrained Nuclear Norm Minimization",
+      "authors": "C Ma, J Ma, D Sun - arXiv preprint arXiv:2603.12812, 2026",
+      "abstract": "We present an efficient algorithm for least-squares constrained nuclear norm minimization, a computationally challenging problem with broad applications. Our approach combines a level set method with secant iterations and a proximal …",
+      "url": "https://arxiv.org/pdf/2603.12812"
+    }
+  ]
+}

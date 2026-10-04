@@ -1,0 +1,140 @@
+{
+  "id": "20260621_google_scholar_",
+  "date": "20260621",
+  "source": "historical-import",
+  "messages": 13,
+  "papers": [
+    {
+      "title": "Deep Learning Approach for Microwave Imaging Based on Deep Convolutional Asymmetric Encoder-Decoder Structure and Physics-Induced Loss",
+      "authors": "HM Yao, S Song, M Ng, L Jiang - IEEE Transactions on Computational Imaging, 2026",
+      "abstract": "In this paper, we introduce an innovative deep learning (DL) methodology designed for real-time quantitative microwave imaging (MWI). Our approach is centered around the utilization of a deep convolutional asymmetric encoder-decoder structure …",
+      "url": "https://ieeexplore.ieee.org/iel8/6745852/6960042/11561077.pdf"
+    },
+    {
+      "title": "Learning Graph Topology with Functional Priors via Bilevel Optimization",
+      "authors": "C Zhang, S Liu, HT Wai, AMC So - arXiv preprint arXiv:2606.13885, 2026",
+      "abstract": "Learning graph topology of complex networks is challenging due to limited data availability and imprecise data models. Different from prior works that focus on structural priors with explicit control on macroscopic properties such as sparsity, this …",
+      "url": "https://arxiv.org/pdf/2606.13885"
+    },
+    {
+      "title": "Zero-order Parameter-free Optimization for LMO-based Methods: Novel Approach for Efficient Fine-tuning",
+      "authors": "D Bystrov, D Medyakov, D Bylinkin, A Beznosikov - arXiv preprint arXiv:2606.14970, 2026",
+      "abstract": "Fine-tuning large language models (LLMs) has become a central application of modern optimization, enabling pretrained models to adapt to diverse downstream tasks and domain-specific data. A major obstacle in large-scale fine-tuning is the memory overhead of backpropagation, which requires storing activations, gradients, and optimizer states. Zeroth-order (ZO) optimization offers a memory-efficient alternative, but its performance is highly sensitive to the stepsize and smoothing …",
+      "url": "https://arxiv.org/pdf/2606.14970"
+    },
+    {
+      "title": "Scalable Deep Unfolding of Conic Optimizers",
+      "authors": "A Oshin, RV Ghosh, EA Theodorou - arXiv preprint arXiv:2606.13825, 2026",
+      "abstract": "Deep unfolding (DU) accelerates iterative optimizers by introducing learnable components and training them through unrolled iterations, but extending DU to the large-scale semidefinite programs (SDPs) common in robotics has remained limited. Unrolling a full-update conic solver such as COSMO exposes two obstacles that prior work on learned conic solvers has not: backpropagating through the per-iteration linear-system solve incurs memory quadratic in the problem size once the coefficient …",
+      "url": "https://arxiv.org/pdf/2606.13825"
+    },
+    {
+      "title": "TEA-Mamba: Textual Event-Aware Mamba for Multimodal Time Series Forecasting",
+      "authors": "H Ran, Z Wang, M Sun - Proceedings of the 2026 International Conference on …, 2026",
+      "abstract": "Multimodal time series forecasting with exogenous textual variables is an under-explored direction in time series analysis. Existing prompt-based textual fusion methods fail to fully exploit event information in exogenous text and even cause severe modality mismatch due to forced modality alignment, as time series and textual data reside in distinct manifolds with discrepant sampling frequencies and future-influencing patterns. To address this, we propose a Textual Event-Aware …",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3805622.3810853"
+    },
+    {
+      "title": "Preserving Texture in Chaos: Texture-Aware Deep Unfolding for Secure Compressed Sensing",
+      "authors": "H Zheng, A Zhou, D Xiao - Proceedings of the 2026 International Conference on …, 2026",
+      "abstract": "High-frequency texture details are crucial for perceptual fidelity and feature discrimination in visual content processing. Although compressive sensing (CS) enables efficient data acquisition, improved sampling efficiency should not compromise data usability. The high-frequency texture details, which are systematically lost by current deep CS reconstruction methods, are precisely the critical features for downstream tasks such as content retrieval and intelligent …",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3805622.3810749"
+    },
+    {
+      "title": "LP-VFedNN: A Lightweight and Lossless Privacy-Preserving Vertical Federated Learning Framework For Heterogeneous Neural Network Via Homomorphic …",
+      "authors": "H Sun, L Wu, Z Wang, B Li, H Zhuang, W Wang… - Proceedings of the 2026 …, 2026",
+      "abstract": "Vertical federated learning (VFL) enhances model performance by jointly leveraging features from multiple parties. However, its intensive interactions increase the risk of privacy leakage. Existing privacy-preserving VFL solutions based on cryptographic primitives suffer from high computation and communication costs, limited algorithmic support, and poor scalability. We propose LP-VFedNN, a lightweight and lossless heterogeneous neural network framework for VFL that integrates CKKS fully …",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3805622.3810704"
+    },
+    {
+      "title": "Variance Reduction for Non-Log-Concave Sampling with Applications to Inverse Problems",
+      "authors": "MB Sahin, AE Tanriverdi, B Sharif, A Hashemi - arXiv preprint arXiv:2606.16257, 2026",
+      "abstract": "Sampling from high-dimensional, non-log-concave distributions with unnormalized densities is a fundamental challenge in machine learning, particularly when the exact gradient of the potential is unavailable and must be approximated via stochastic gradients that exhibit high variance under a fixed budget of gradient computations per iteration. Although variance reduction techniques such as SGD with momentum, STORM, and PAGE have demonstrated improved convergence …",
+      "url": "https://arxiv.org/pdf/2606.16257"
+    },
+    {
+      "title": "Inexact Warped Resolvent iterations",
+      "authors": "RT Marcavillaca, F Roldan - arXiv preprint arXiv:2606.15426, 2026",
+      "abstract": "In this paper we aim to solve structured monotone inclusions using inexact warped resolvents evaluated under a relative-error criterion. The resulting algorithms admit a geometric interpretation as relaxed projection methods onto dynamically generated cuts, extending classical projection--proximal and hybrid extragradient proximal frameworks to nonlinear warped resolvent. Under mild assumptions, we establish weak convergence of the iterates. We further derive strong convergence results by …",
+      "url": "https://arxiv.org/pdf/2606.15426"
+    },
+    {
+      "title": "Chebyshev polynomials meet Nevanlinna-Pick interpolation: An automated procedure for algorithm synthesis",
+      "authors": "IK Ozaslan, TT Georgiou, MR Jovanovic - Proceedings of Machine Learning Research …, 2026",
+      "abstract": "The synthesis of optimization algorithms typically follows a design-first-analyze-later paradigm, a practice that often obscures fundamental performance limits and hampers the systematic design of algorithms operating near these limits. In this paper, we build on a recently proposed frequencydomain control framework that enables a principled approach to algorithm design, integrating the analysis and synthesis stages and thereby elucidating the fundamental performance boundaries …",
+      "url": "https://raw.githubusercontent.com/mlresearch/v331/main/assets/ozaslan26a/ozaslan26a.pdf"
+    },
+    {
+      "title": "Big Data Analytics with Federated Learning for Privacy-Preserving Distributed Intelligence Systems",
+      "authors": "H Sharma, K Satyanarayana, S Sumaiya… - International Journal of …, 2026",
+      "abstract": "Big data analytics has now become an essential part of the modern artificial intelligence, allowing intelligent decision-making in the areas of healthcare, finance, smart cities, and industrial automation. This is however not true because the traditional centralized machine learning methods usually force the collection and storage of user data in centralized servers in large quantities and hence the consideration of serious privacy, security, and data leakage issues. These problems …",
+      "url": "https://svedbergopen.com/index.php/ijaiml/article/download/219/171"
+    },
+    {
+      "title": "Centro de Investigación en Ingenierıa Matemática (CI 2 MA)",
+      "authors": "L Briceno-Arias, F Roldán",
+      "abstract": "In this paper, we introduce a simple methodology to leverage strong convexity and smoothness in order to obtain an optimal linear convergence rate for the Peaceman–Rachford splitting (PRS) scheme applied to optimization problems involving two smooth strongly convex functions. The approach consists of adding and subtracting suitable quadratic terms from one function to the other so as to redistribute strong convexity in the primal formulation and smoothness in the dual formulation. This …",
+      "url": "https://www.ci2ma.udec.cl/pdf/pre-publicaciones2/2026/pp26-07.pdf"
+    },
+    {
+      "title": "Linear algebra at exponential scale via tensor network dimension reduction",
+      "authors": "C Camaño, EN Epperly, RA Meyer, JA Tropp - arXiv preprint arXiv:2606.15350, 2026",
+      "abstract": "Many problems in modern scientific computing are challenging because of a\\emph {curse of dimension}, where their mathematical formulation involves objects whose dimension is\\emph {exponential} in the nominal\" size\" of the problem. Tensor …",
+      "url": "https://arxiv.org/pdf/2606.15350"
+    },
+    {
+      "title": "Representation Costs in Data Science: Foundations and the Quasi-Banach Spaces of Deep Neural Networks",
+      "authors": "G Ongie, R Parhi - arXiv preprint arXiv:2606.14954, 2026",
+      "abstract": "We develop a general framework for analyzing representation costs of parametric data-fitting methods through their parameter-space regularizers. From this abstract perspective, we define representation costs for arbitrary parametric models and …",
+      "url": "https://arxiv.org/pdf/2606.14954"
+    },
+    {
+      "title": "Open-World LLM Logical Reasoning",
+      "authors": "Y Mo, C Zhou, F Cheng, J Yu, F Liu, L Pan, S Zhou…",
+      "abstract": "Abstract Large Language Models (LLMs) achieve remarkable performance but struggle with complex logical reasoning, particularly in real-world settings. Existing research is largely confined to the closed-world assumption, which posits that all …",
+      "url": "https://zhoushengisnoob.github.io/papers/ICML2026-OpenIKLR.pdf"
+    },
+    {
+      "title": "Free Heavy-Tailed Lunch for Muon: A Theoretical Justification of Empirical Success",
+      "authors": "F Hübler, T Pethick, S Sra - arXiv preprint arXiv:2606.14560, 2026",
+      "abstract": "Non-Euclidean optimisation methods with matrix-valued updates, such as Muon and Scion, have recently shown strong empirical performance for training Transformer models, yet their theoretical advantages over Euclidean methods remain poorly …",
+      "url": "https://arxiv.org/pdf/2606.14560"
+    },
+    {
+      "title": "An Algebraic Matrix Spencer Theorem",
+      "authors": "E Akbas, S Sra - arXiv preprint arXiv:2606.16005, 2026",
+      "abstract": "We develop an algebraic approach to matrix discrepancy based on the representation theory of finite-dimensional C $^* $-algebras. As an application, we resolve a substantial structured special case of the Matrix Spencer conjecture. In …",
+      "url": "https://arxiv.org/pdf/2606.16005"
+    },
+    {
+      "title": "Policy Optimization for Unknown Systems using Differentiable MPC",
+      "authors": "R Zuliani, EC Balta, J Lygeros - Annual Learning for Dynamics and Control …, 2026",
+      "abstract": "Abstract Model-based policy optimization often struggles with inaccurate system dynamics models, leading to suboptimal closed-loop performance. This challenge is especially evident in Model Predictive Control (MPC) policies, which rely on the …",
+      "url": "https://proceedings.mlr.press/v331/zuliani26a.html"
+    },
+    {
+      "title": "Two-view CBCT Reconstruction via Preconditioned Gradient Descent with Plug-and-play Diffusion Anatomical Prior",
+      "authors": "J Li, Q Guo, L Lv, Y Zhang, X Tong, H Ji, H Gao - Journal of Mathematical Imaging …, 2026",
+      "abstract": "Cone-beam computed tomography (CBCT) is widely used in radiotherapy (RT) for patient setup. However, full-view projection data are not always acquired for every treatment fraction, whereas two orthogonal projections are routinely available. In …",
+      "url": "https://link.springer.com/article/10.1007/s10851-026-01307-8"
+    },
+    {
+      "title": "A Hyperspectral Target Detection Method by Combining Robust Dictionaries and Constrained Energy Minimization Regularized Low-Rank and Sparse …",
+      "authors": "S Lin, E Cai, Y Zeng, Y Zhu, W Zhao, L Zhang, B Cao - Advances in Space Research, 2026",
+      "abstract": "Hyperspectral target detection (HTD), which aims to search for targets in a hyperspectral image (HSI) through the provided target spectra, has become a research hotspot recently. In the HTD community, low-rank and sparse …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0273117726007921"
+    },
+    {
+      "title": "Generalized Eluder Coefficient: A Unified Framework for Interactive Decision Making in Markov Decision Processes, Partially Observable Markov Decision Processes …",
+      "authors": "H Zhong, W Xiong, S Zheng, L Wang, Z Wang, Z Yang… - Mathematics of Operations …, 2026",
+      "abstract": "We study sample-efficient reinforcement learning (RL) under the general framework of interactive decision making, which includes the Markov decision process, partially observable Markov decision process, and predictive state representation (PSR) as …",
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/moor.2023.0195"
+    },
+    {
+      "title": "Restarted Reflected Halpern Acceleration for Augmented Primal-Dual Methods",
+      "authors": "B Liu, J Cao, W Yin, Z Wen - arXiv preprint arXiv:2606.16552, 2026",
+      "abstract": "We study linearly constrained composite convex optimization with a smooth term and a proximable nonsmooth term. We develop a unified augmented primal-dual framework with primal-dual hybrid gradient-type and augmented Chambolle-Pock …",
+      "url": "https://arxiv.org/pdf/2606.16552"
+    }
+  ]
+}

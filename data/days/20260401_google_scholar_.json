@@ -1,0 +1,110 @@
+{
+  "id": "20260401_google_scholar_",
+  "date": "20260401",
+  "source": "historical-import",
+  "messages": 8,
+  "papers": [
+    {
+      "title": "Fast and Accurate CP-HIFI Tensor Decompositions: Exploiting Kronecker Structure",
+      "authors": "JJ Brust, TG Kolda - arXiv preprint arXiv:2603.25691, 2026",
+      "abstract": "Tensor decompositions are a fundamental tool in scientific computing and data analysis. In many applications--such as simulation data on irregular grids, surrogate modeling for parameterized PDEs, or spectroscopic measurements--the data has …",
+      "url": "https://arxiv.org/pdf/2603.25691"
+    },
+    {
+      "title": "Tractable hierarchies of convex relaxations for polynomial optimization on the nonnegative orthant: NHA Mai et al.",
+      "authors": "NHA Mai, V Magron, JB Lasserre, KC Toh - Computational Optimization and …, 2026",
+      "abstract": "We consider polynomial optimization problems (POP) on a semialgebraic set contained in the nonnegative orthant (every POP on a compact set can be put in this format by a simple translation of the origin). Such a POP can be converted to an …",
+      "url": "https://link.springer.com/article/10.1007/s10589-026-00782-4"
+    },
+    {
+      "title": "Eigenvalue Repulsion",
+      "authors": "LN Trefethen - 2026",
+      "abstract": "The recent death of Peter Lax reminded me of the cover image of his wonderfully deep textbook of linear algebra [4](Figure 1), which alerted many of us to the phenomenon of eigenvalue repulsion.(The mathematics goes back to von Neumann …",
+      "url": "https://people.maths.ox.ac.uk/trefethen/repulsion.pdf"
+    },
+    {
+      "title": "New Characterizations of Nonsmooth Convex Functions via Generalized Derivatives",
+      "authors": "VT Phat - arXiv preprint arXiv:2603.24951, 2026",
+      "abstract": "This paper studies the convexity properties of nonsmooth extended-real-valued weakly convex functions, a class of functions that is central to modern optimization and its applications. We establish new characterizations of convexity using second …",
+      "url": "https://arxiv.org/pdf/2603.24951"
+    },
+    {
+      "title": "Robust Principal Component Completion",
+      "authors": "Y Wang, W Li, Y Gui, JE Fowler, G Vivone - arXiv preprint arXiv:2603.25132, 2026",
+      "abstract": "Robust principal component analysis (RPCA) seeks a low-rank component and a sparse component from their summation. Yet, in many applications of interest, the sparse foreground actually replaces, or occludes, elements from the low-rank …",
+      "url": "https://arxiv.org/pdf/2603.25132"
+    },
+    {
+      "title": "Tensor singular value-preserving norm for robust visual data recovery",
+      "authors": "L Yang, H Yang, T Wu, Y Wang, T Yang, YY Tang - Knowledge-Based Systems, 2026",
+      "abstract": "Tensor robust principal component analysis (TRPCA) has shown significant promise in recovering visual tensor data by separating low-rank components from sparse noise. However, traditional Tensor Nuclear Norm (TNN)-based methods apply …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705126005575"
+    },
+    {
+      "title": "Scalable LLM Reasoning Acceleration with Low-rank Distillation",
+      "authors": "H Dong, B Acun, B Chen, Y Chi - The Third Conference on Parsimony and Learning …",
+      "abstract": "Due to long generations, large language model (LLM) math reasoning demands significant computational resources and time. While many existing efficient inference methods have been developed with excellent performance preservation on …",
+      "url": "https://openreview.net/pdf?id=VPLVS6htID"
+    },
+    {
+      "title": "Variational modulus of convexity under Moreau envelopes: attenuation, recovery, and oracle tuning",
+      "authors": "S Adly, RT Rockafellar - 2026",
+      "abstract": "The variational modulus of convexity at a pair in the graph of the subgradient mapping for a generally nonconvex extended-real-valued function captures in a single number the degree of variational convexity, uniform quadratic growth, and …",
+      "url": "https://hal.science/hal-05563788/document"
+    },
+    {
+      "title": "Theorem of Alternative for Extended Homogeneous Linear System and its Application in Conic Optimization",
+      "authors": "Y Nesterov - arXiv preprint arXiv:2603.21500, 2026",
+      "abstract": "In this paper, we develop a new framework for constructing infeasible-start primal-dual methods for Conic Optimization. Our approach can be seen as a straightforward consequence of Gordan Theorem of Alternative. Given by the target upper bound …",
+      "url": "https://arxiv.org/pdf/2603.21500"
+    },
+    {
+      "title": "Self-Improvement of Large Language Models: A Technical Overview and Future Outlook",
+      "authors": "H Yang, M Xerri, S Park, H Zhang, Y Feng… - arXiv preprint arXiv …, 2026",
+      "abstract": "As large language models (LLMs) continue to advance, improving them solely through human supervision is becoming increasingly costly and limited in scalability. As models approach human-level capabilities in certain domains, human feedback may no longer provide sufficiently informative signals for further improvement. At the same time, the growing ability of models to make autonomous decisions and execute complex actions naturally enables abstractions in which components of the model …",
+      "url": "https://arxiv.org/pdf/2603.25681"
+    },
+    {
+      "title": "Stochastic Dimension-Free Zeroth-Order Estimator for High-Dimensional and High-Order PINNs",
+      "authors": "Z Liang, J Zhang - arXiv preprint arXiv:2603.24002, 2026",
+      "abstract": "Physics-Informed Neural Networks (PINNs) for high-dimensional and high-order partial differential equations (PDEs) are primarily constrained by the $\\mathcal {O}(d^ k) $ spatial derivative complexity and the $\\mathcal {O}(P) $ memory overhead of backpropagation (BP). While randomized spatial estimators successfully reduce the spatial complexity to $\\mathcal {O}(1) $, their reliance on first-order optimization still leads to prohibitive memory consumption at scale. Zeroth-order (ZO) optimization …",
+      "url": "https://arxiv.org/pdf/2603.24002"
+    },
+    {
+      "title": "Automating Reformulation for Parallel ADMM",
+      "authors": "K Sun, B Wu, K Yuan, W Yin - arXiv preprint arXiv:2603.19417, 2026",
+      "abstract": "Many real-world optimization models contain exploitable sparsity and block structure, but this structure is often obscured in algebraic form, limiting the effectiveness of modern parallel algorithms. We propose an automatic pipeline that converts a generic multiblock problem into a canonical two-block formulation suitable for parallel Alternating Direction Method of Multipliers (ADMM). The method constructs a coupling graph, applies an edge-subdivision-based bipartization to obtain a bipartite …",
+      "url": "https://arxiv.org/pdf/2603.19417"
+    },
+    {
+      "title": "Deep Autocorrelation Modeling for Time-Series Forecasting: Progress and Prospects",
+      "authors": "H Wang, L Pan, Q Wen, J Yu, Z Chen, C Zheng, X Li… - arXiv preprint arXiv …, 2026",
+      "abstract": "Autocorrelation is a defining characteristic of time-series data, where each observation is statistically dependent on its predecessors. In the context of deep time-series forecasting, autocorrelation arises in both the input history and the label sequences, presenting two central research challenges:(1) designing neural architectures that model autocorrelation in history sequences, and (2) devising learning objectives that model autocorrelation in label sequences. Recent studies …",
+      "url": "https://arxiv.org/pdf/2603.19899"
+    },
+    {
+      "title": "Uniform a priori bounds and error analysis for the Adam stochastic gradient descent optimization method",
+      "authors": "S Dereich, T Do, A Jentzen - arXiv preprint arXiv:2603.18899, 2026",
+      "abstract": "The adaptive moment estimation (Adam) optimizer proposed by Kingma & Ba (2014) is presumably the most popular stochastic gradient descent (SGD) optimization method for the training of deep neural networks (DNNs) in artificial intelligence (AI) systems. Despite its groundbreaking success in the training of AI systems, it still remains an open research problem to provide a complete error analysis of Adam, not only for optimizing DNNs but even when applied to strongly convex stochastic …",
+      "url": "https://arxiv.org/pdf/2603.18899"
+    },
+    {
+      "title": "Structure, Analysis, and Synthesis of First-Order Algorithms",
+      "authors": "J Miller, C Scherer, F Jakob, A Iannelli - arXiv preprint arXiv:2603.24795, 2026",
+      "abstract": "Optimization algorithms can be interpreted through the lens of dynamical systems as the interconnection of linear systems and a set of subgradient nonlinearities. This dynamical systems formulation allows for the analysis and synthesis of optimization algorithms by solving robust control problems. In this work, we use the celebrated internal model principle in control theory to structurally factorize convergent composite optimization algorithms into suitable network-dependent internal models …",
+      "url": "https://arxiv.org/pdf/2603.24795"
+    },
+    {
+      "title": "Optimal low-rank stochastic gradient estimation for LLM training",
+      "authors": "Z Li, T Ren, Z Zhang, X Chen, Y Peng - arXiv preprint arXiv:2603.20632, 2026",
+      "abstract": "Large language model (LLM) training is often bottlenecked by memory constraints and stochastic gradient noise in extremely high-dimensional parameter spaces. Motivated by empirical evidence that many LLM gradient matrices are effectively low-rank during training, we present an unbiased, memory-efficient, low-rank matrix estimator with the lowest variance that is applicable across common stochastic gradient estimation paradigms. The core idea is to project a high-dimensional …",
+      "url": "https://arxiv.org/pdf/2603.20632"
+    },
+    {
+      "title": "Optimality in Decentralized Optimization under Bandwidth Constraints",
+      "authors": "A Tyurin - arXiv preprint arXiv:2603.20735, 2026",
+      "abstract": "We consider a realistic decentralized setup with bandwidth-constrained communication and derive optimal time complexities for non-convex stochastic parallel and asynchronous optimization (up to logarithmic factors). We develop the corresponding methods, Grace SGD and Leon SGD, for both homogeneous and heterogeneous settings. Unlike previous work, our optimal bounds are characterized in terms of min-cut/max-flow quantities and rely on tools from Gomory-Hu trees and …",
+      "url": "https://arxiv.org/pdf/2603.20735"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "20260104_google_scholar_",
+  "date": "20260104",
+  "source": "historical-import",
+  "messages": 7,
+  "papers": [
+    {
+      "title": "Weighted Total Variation for Hyperspectral Image Denoising Based on Hyper-Laplacian Scale Mixture Distribution",
+      "authors": "X Yu, J Zhao, S Fang, T Zhang, L Li, X Huang - Remote Sensing, 2025",
+      "abstract": "Highlights What are the main findings? Proposes a Hyper-Laplacian Scale Mixture prior for HSI gradient modeling. Introduces a region-adaptive weighted total variation model for HSI denoising. What are the implications of the main findings? Improves …",
+      "url": "https://www.mdpi.com/2072-4292/18/1/135"
+    },
+    {
+      "title": "Low-rank tensor methods for evolution problems balancing accuracy and approximation ranks",
+      "authors": "M Bachmayr - Matrix Equations and Tensor Techniques XI",
+      "abstract": "For low-rank tensor approximations of high-dimensional evolution problems, a range of different techniques have been proposed in the literature, such as dynamical lowrank approximations based on the classical Dirac-Frenkel principle, step …",
+      "url": "https://homes.esat.kuleuven.be/~mettxi/download/booklet.pdf"
+    },
+    {
+      "title": "Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice",
+      "authors": "JT Wang, T Wu, K Lyu, J Zou, D Song, R Jia, P Mittal - arXiv preprint arXiv …, 2025",
+      "abstract": "Data teams at frontier AI companies routinely train small proxy models to make critical decisions about pretraining data recipes for full-scale training runs. However, the community has a limited understanding of whether and when conclusions drawn from small-scale experiments reliably transfer to full-scale model training. In this work, we uncover a subtle yet critical issue in the standard experimental protocol for data recipe assessment: the use of identical small-scale model training …",
+      "url": "https://arxiv.org/pdf/2512.24503"
+    },
+    {
+      "title": "Policy Mirror Descent with Temporal Difference Learning: Sample Complexity under Online Markov Data",
+      "authors": "W Li, H Chen, J Liu, K Wei - arXiv preprint arXiv:2512.24056, 2025",
+      "abstract": "This paper studies the policy mirror descent (PMD) method, which is a general policy optimization framework in reinforcement learning and can cover a wide range of policy gradient methods by specifying difference mirror maps. Existing sample complexity analysis for policy mirror descent either focuses on the generative sampling model, or the Markovian sampling model but with the action values being explicitly approximated to certain pre-specified accuracy. In contrast, we consider the …",
+      "url": "https://arxiv.org/pdf/2512.24056"
+    },
+    {
+      "title": "PRISM: A hierarchical multiscale approach for time series forecasting",
+      "authors": "Z Chen, A Andre, W Ma, I Knight, S Shuvaev, E Dyer - arXiv preprint arXiv …, 2025",
+      "abstract": "Forecasting is critical in areas such as finance, biology, and healthcare. Despite the progress in the field, making accurate forecasts remains challenging because real-world time series contain both global trends, local fine-grained structure, and features on multiple scales in between. Here, we present a new forecasting method, PRISM (Partitioned Representation for Iterative Sequence Modeling), that addresses this challenge through a learnable tree-based partitioning of the signal. At the root of …",
+      "url": "https://arxiv.org/pdf/2512.24898"
+    },
+    {
+      "title": "Adaptive Learning Guided by Bias-Noise-Alignment Diagnostics",
+      "authors": "A Samanta, S Williamson - arXiv preprint arXiv:2512.24445, 2025",
+      "abstract": "Learning systems deployed in nonstationary and safety-critical environments often suffer from instability, slow convergence, or brittle adaptation when learning dynamics evolve over time. While modern optimization, reinforcement learning, and meta-learning methods adapt to gradient statistics, they largely ignore the temporal structure of the error signal itself. This paper proposes a diagnostic-driven adaptive learning framework that explicitly models error evolution through a principled …",
+      "url": "https://arxiv.org/pdf/2512.24445"
+    },
+    {
+      "title": "Edge Priors Guided Deep Unrolling Network for Single Image Super-resolution",
+      "authors": "H Song, J Han, H Ma, H Jia, X Shen, J Gou, Y Lai… - Expert Systems with …, 2025",
+      "abstract": "The field of single image super-resolution (SISR) has garnered significant consideration over the past few decades. The primary challenge of SISR lies in restoring the high-frequency details in low-resolution (LR) images, which are crucial for human perception. Current deep learning-based SISR methods either increase the depth of the network or indiscriminately incorporate emerging technologies, such as attention mechanisms, to address this challenge. However, these methods treat …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417425046342"
+    },
+    {
+      "title": "Distributed economic dispatch for microgrids with vehicle-to-grid under time-varying network",
+      "authors": "CF Lu, GP Liu, R Yan, J Cui - Journal of Energy Storage, 2026",
+      "abstract": "As distributed energy sources are increasingly integrated into power grids, centralized optimization approaches face challenges including limited robustness, high communication and computational overhead, and privacy concerns. Distributed economic dispatch algorithms, leveraging edge computing for local optimization and inter-agent communication for collaborative decision-making, offer a promising solution. However, existing methods often struggle to solve large-scale mixed-integer …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352152X25047218"
+    },
+    {
+      "title": "Time-varying Mixing Matrix Design for Energy-efficient Decentralized Federated Learning",
+      "authors": "X Zhang, T Nguyen, T He - arXiv preprint arXiv:2512.24069, 2025",
+      "abstract": "We consider the design of mixing matrices to minimize the operation cost for decentralized federated learning (DFL) in wireless networks, with focus on minimizing the maximum per-node energy consumption. As a critical hyperparameter for DFL, the mixing matrix controls both the convergence rate and the needs of agent-to-agent communications, and has thus been studied extensively. However, existing designs mostly focused on minimizing the communication time, leaving open the …",
+      "url": "https://arxiv.org/pdf/2512.24069"
+    },
+    {
+      "title": "Decentralized Optimization over Time-Varying Row-Stochastic Digraphs",
+      "authors": "L Liang, Y Song, K Yuan - arXiv preprint arXiv:2512.24483, 2025",
+      "abstract": "Decentralized optimization over directed graphs is essential for applications such as robotic swarms, sensor networks, and distributed learning. In many practical scenarios, the underlying network is a Time-Varying Broadcast Network (TVBN), where only row-stochastic mixing matrices can be constructed due to inaccessible out-degree information. Achieving exact convergence over TVBNs has remained a long-standing open question, as the limiting distribution of time-varying row …",
+      "url": "https://arxiv.org/pdf/2512.24483"
+    },
+    {
+      "title": "Tensor Based Proximal Alternating Minimization Method for A Kind of Inhomogeneous Quartic Optimization Problem",
+      "authors": "H Chen, Y Chen, C Wang, Q Fan - arXiv preprint arXiv:2512.24872, 2025",
+      "abstract": "In this paper, we propose an efficient numerical approach for solving a specific type of quartic inhomogeneous polynomial optimization problem inspired by practical applications. The primary contribution of this work lies in establishing an inherent equivalence between the quartic inhomogeneous polynomial optimization problem and a multilinear optimization problem (MOP). This result extends the equivalence between fourth-order homogeneous polynomial optimization and multilinear …",
+      "url": "https://arxiv.org/pdf/2512.24872"
+    },
+    {
+      "title": "LLM4Laser: Large Language Models Automate the Design of Lasers",
+      "authors": "R Li, C Zhang, S Mao, X Zhou, F Yin, S Theodoridis… - 2025",
+      "abstract": "With the rapid evolution of global autonomous driving technology, the demand for its core sensing hardware, Light Detection and Ranging (LiDAR), is escalating. As the light source part of the LiDAR system, lasers, particularly the cutting-edge Photonic Crystal Surface Emitting Lasers (PCSEL), have correspondingly attracted extensive research attention. The conventional manual design and optimization of PCSEL typically require expertise in semiconductor physics and months of dedicated effort to …",
+      "url": "https://reflex-sight.com/pdf/llm-automated-laser-design.pdf"
+    },
+    {
+      "title": "A novel semi-implicit finite difference approach for the Sobolev equation with generalized Burgers-type nonlinear term",
+      "authors": "K Li, H Zhang, O Nikan, W Qiu - Mathematics and Computers in Simulation, 2025",
+      "abstract": "This paper investigates the approximate solution of the Sobolev equation with generalized Burgers-type nonlinear term. For this purpose, a backward Euler (BE) semi-implicit difference approach is proposed, whose primary advantage is that …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378475425005555"
+    },
+    {
+      "title": "Optimization over Trained Neural Networks: Going Large with Gradient-Based Algorithms",
+      "authors": "J Tong, Y Zhu, T Serra, S Burer - arXiv preprint arXiv:2512.24295, 2025",
+      "abstract": "When optimizing a nonlinear objective, one can employ a neural network as a surrogate for the nonlinear function. However, the resulting optimization model can be time-consuming to solve globally with exact methods. As a result, local search that …",
+      "url": "https://arxiv.org/pdf/2512.24295"
+    },
+    {
+      "title": "Fourier Analysis of Finite Difference Schemes for the Helmholtz Equation in 1D with Dirichlet Conditions: Sharp Estimates and Relative Errors",
+      "authors": "M Gander, H Zhang - 2025",
+      "abstract": "We propose an approach based on Fourier analysis to wavenumber explicit sharp estimation of absolute and relative errors of finite difference methods for the Helmholtz equation {in 1D with Dirichlet boundary conditions} and general source …",
+      "url": "https://www.researchsquare.com/article/rs-7917103/latest.pdf"
+    },
+    {
+      "title": "Adaptive Algorithms for Nonconvex Bilevel Optimization under P {\\L} Conditions",
+      "authors": "X Shi, Y Du, R Xiao, R Jiang - arXiv preprint arXiv:2512.24291, 2025",
+      "abstract": "Existing methods for nonconvex bilevel optimization (NBO) require prior knowledge of first-and second-order problem-specific parameters (eg, Lipschitz constants and the Polyak-{\\L} ojasiewicz (P {\\L}) parameters) to set step sizes, a requirement that …",
+      "url": "https://arxiv.org/pdf/2512.24291"
+    },
+    {
+      "title": "Reinforced Diffusion: Learning to Push the Limits of Anisotropic Diffusion for Image Denoising",
+      "authors": "X Qin, Y Quan, R Xu, H Ji - arXiv preprint arXiv:2512.24035, 2025",
+      "abstract": "Image denoising is an important problem in low-level vision and serves as a critical module for many image recovery tasks. Anisotropic diffusion is a wide family of image denoising approaches with promising performance. However, traditional …",
+      "url": "https://arxiv.org/pdf/2512.24035"
+    }
+  ]
+}

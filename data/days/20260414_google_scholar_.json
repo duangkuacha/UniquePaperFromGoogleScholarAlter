@@ -1,0 +1,86 @@
+{
+  "id": "20260414_google_scholar_",
+  "date": "20260414",
+  "source": "historical-import",
+  "messages": 5,
+  "papers": [
+    {
+      "title": "Stochastic Auto-conditioned Fast Gradient Methods with Optimal Rates",
+      "authors": "Y Ji, G Lan - arXiv preprint arXiv:2604.06525, 2026",
+      "abstract": "Achieving optimal rates for stochastic composite convex optimization without prior knowledge of problem parameters remains a central challenge. In the deterministic setting, the auto-conditioned fast gradient method has recently been proposed to …",
+      "url": "https://arxiv.org/pdf/2604.06525"
+    },
+    {
+      "title": "ℓ 1-2 Regularization for Sparse Optimization: Consistency and Global Convergence",
+      "authors": "Y Hu, H Wang, X Yang - Mathematics of Operations Research, 2026",
+      "abstract": "The ℓ 1-2 regularization method has a strong sparsity-promoting capability in approaching sparse solutions of linear inverse problems and gains successful applications in various mathematics disciplines and applied science fields. This …",
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/moor.2025.1095"
+    },
+    {
+      "title": "Two-level Schwarz methods using more subdomains than MPI processes: time and energy investigations",
+      "authors": "MJ Gander, S Van Criekingen",
+      "abstract": "The idea of using domain decomposition on computers already emerged when those where only sequential: in 1953 [12] 1, G. Kron, an engineer at General Electric, presented numerical results on a UNIVAC computer using what would now be called …",
+      "url": "https://sergevancriekingen.wordpress.com/wp-content/uploads/2026/03/volumedd29.pdf"
+    },
+    {
+      "title": "Merged Q1 Coarse Spaces for Schwarz Methods",
+      "authors": "MJ Gander, S Van Criekingen",
+      "abstract": "Conclusions We consider the RAS [Cai and Sarkis 1999] method (as implemented in PETSc's PCASM) applied to the Laplace problem−∆ u= 0 or, adding advection, to the non-symmetric problem−∆ u+ a·∇ u= 0 using the 5-point finite difference scheme …",
+      "url": "https://sergevancriekingen.wordpress.com/wp-content/uploads/2026/04/svc_petsc24.pdf"
+    },
+    {
+      "title": "FreAPNet: Learnable Amplitude–Phase Parameterization and Dual‐Path Frequency Learning for Multivariate Time Series Forecasting",
+      "authors": "N Xu, K Xu, Y Cui, G Yang, M Huang - Concurrency and Computation: Practice and …, 2026",
+      "abstract": "Multivariate time series forecasting remains challenging. Key hurdles include long‐range temporal dependencies, temporal misalignment, and complex cross‐variable interactions. This paper presents FreAPNet, a frequency‐domain forecasting framework built upon two complementary components. The first component is a learnable amplitude–phase parameterization. It separately models spectral magnitude and phase to refine periodic strength and temporal alignment. The …",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.70675"
+    },
+    {
+      "title": "DeepLrn-Source: Deep learning powered landslide source identification",
+      "authors": "LY Ju, ZN Zhao, SH Xiao, YE Pang, J He, YH Lv… - Engineering Geology, 2026",
+      "abstract": "A large rainstorm or earthquake can trigger thousands of landslides, threatening human lives and infrastructure in mountainous regions. Each landslide has a source area, a runout area and a deposition area. Reliable identification of landslide boundaries, particularly the source areas, is critical for assessing the scale of landslide clusters and understanding landslide dynamics. Traditional methods often rely on field surveys or post-event digital terrain models (DTMs), which may not …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0013795226002073"
+    },
+    {
+      "title": "Sparse-Aware Neural Networks for Nonlinear Functionals: Mitigating the Exponential Dependence on Dimension",
+      "authors": "J Li, S Huang, H Feng, DX Zhou, G Kutyniok - arXiv preprint arXiv:2604.06774, 2026",
+      "abstract": "Deep neural networks have emerged as powerful tools for learning operators defined over infinite-dimensional function spaces. However, existing theories frequently encounter difficulties related to dimensionality and limited interpretability. This work investigates how sparsity can help address these challenges in functional learning, a central ingredient in operator learning. We propose a framework that employs convolutional architectures to extract sparse features from a finite number of …",
+      "url": "https://arxiv.org/pdf/2604.06774"
+    },
+    {
+      "title": "DDP-SA: Scalable Privacy-Preserving Federated Learning via Distributed Differential Privacy and Secure Aggregation",
+      "authors": "W Wei, F Nait-Abdesselam, A Jammine - arXiv preprint arXiv:2604.07125, 2026",
+      "abstract": "This article presents DDP-SA, a scalable privacy-preserving federated learning framework that jointly leverages client-side local differential privacy (LDP) and full-threshold additive secret sharing (ASS) for secure aggregation. Unlike existing methods that rely solely on differential privacy or on secure multi-party computation (MPC), DDP-SA integrates both techniques to deliver stronger end-to-end privacy guarantees while remaining computationally practical. The framework introduces a …",
+      "url": "https://arxiv.org/pdf/2604.07125"
+    },
+    {
+      "title": "Asynchronous block coordinate gradient method with the communication noise",
+      "authors": "W Choi, J Lee, S Yun - Journal of Computational and Applied Mathematics, 2026",
+      "abstract": "In this paper, we analyze the convergence rate of asynchronous algorithms with noise. Such asynchronous algorithms have recently been applied to distributed optimization problems arising in simultaneous localization and mapping. These algorithms can be viewed as block coordinate gradient methods on the product of manifolds with randomized coordinate selection or cyclic coordinate selection. We provide the linear rate convergence under the condition of Polyak-Łojasiewicz …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377042726002852"
+    },
+    {
+      "title": "An Improved Biomimetic Beaver Behavior Optimizer for Inverse Kinematics of Rehabilitation Robotic Arms",
+      "authors": "S Fan, Y Deng, Z Li - Biomimetics, 2026",
+      "abstract": "Accurate inverse kinematics for rehabilitation robotic arms remains challenging because of strong nonlinearity, multiple feasible joint configurations, and strict joint-limit constraints. Inspired by the cooperative construction, adaptive exploration, and collective information-sharing behaviors of beavers, this study develops an improved biomimetic beaver behavior optimizer (IBBO) for optimization-based inverse kinematics solving. In the proposed framework, biologically inspired cooperative …",
+      "url": "https://www.mdpi.com/2313-7673/11/4/259"
+    },
+    {
+      "title": "A Unified Optimization Framework Integrating Dual Semidefinite Programming and Retraction Mappings on Manifolds",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel optimization theory that combines the global optimization capability of Dual Semidefinite Programming (DDP) with the local constraint preservation property of Retraction mapping on manifolds, forming a unified optimization framework. While ensuring feasibility and convergence, this method introduces an adaptive energy decay factor and dual Lagrange flow constraints, achieving efficient solutions to non-convex optimization problems under …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/403570376_A_Unified_Optimization_Framework_Integrating_Dual_Semidefinite_Programming_and_Retraction_Mappings_on_Manifolds/links/69d4d0c69f53d47411c4d60f/A-Unified-Optimization-Framework-Integrating-Dual-Semidefinite-Programming-and-Retraction-Mappings-on-Manifolds.pdf"
+    },
+    {
+      "title": "A Deep Matrix Completion Method for Recovering Edge Collaborative Sensing Data in the Internet of Vehicles",
+      "authors": "Y Zhang, N Shu, C Liu, T Wu - … : Networking, Applications and Worksharing: 21st EAI …, 2026",
+      "abstract": "Edge intelligence has boosted Internet of Vehicles (IoV) capabilities through collaborative sensing data, advancing smart traffic systems and autonomous driving technologies. However, several problems remain in the utilization of edge collaborative sensing data within the IoV: 1) Environmental constraints and limitations of sensors introduce noise; 2) Unreliable communication channels and sensor malfunctions result in data corruption during both acquisition and …",
+      "url": "https://books.google.com/books?lr=&id=adnOEQAAQBAJ&pg=PA269&ots=yOwD4vFFlJ&sig=2ldYRSZz1C5-0grlDQVse_-XlgY"
+    },
+    {
+      "title": "Dual-Geodesic Flow Optimization: A Unified Framework for Constrained Semidefinite Programming on Riemannian Manifolds",
+      "authors": "J Zhang",
+      "abstract": "This paper proposes a novel optimization theory that combines the constraints of Dual Semidefinite Programming (Dual SDP) with the natural evolution of geodesics on Riemannian manifolds, forming a new\" Dual-Geodesic Flow Optimization\"(DGFO) equation. By incorporating the optimization of the dual gap of Dual SDP into the geodesic dynamics of Riemannian manifolds, this method achieves natural convergence on non-Euclidean manifolds while ensuring global constraints. We …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/403570292_Dual-Geodesic_Flow_Optimization_A_Unified_Framework_for_Constrained_Semidefinite_Programming_on_Riemannian_Manifolds/links/69d4d1743c61894306744aba/Dual-Geodesic-Flow-Optimization-A-Unified-Framework-for-Constrained-Semidefinite-Programming-on-Riemannian-Manifolds.pdf"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "20260419_google_scholar_",
+  "date": "20260419",
+  "source": "historical-import",
+  "messages": 6,
+  "papers": [
+    {
+      "title": "Self-representation and low-rank tensor based multi-view unsupervised feature selection",
+      "authors": "J Su, H Che, Q Zhou, MF Leung, Y Zhao, J Huang… - Pattern Recognition, 2026",
+      "abstract": "Multi-view unsupervised feature selection has attracted a lot of attention for describing objects in a more detailed and comprehensive way. However, most of the existing methods encounter the following three problems:(1) As the original multi …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031320326006862"
+    },
+    {
+      "title": "Variable Bregman Majorization-Minimization algorithms for nonconvex nonsmooth optimization, with application to Poisson imaging",
+      "authors": "M Adly, A Chazottes, É Chouzenoux, JC Pesquet… - arXiv preprint arXiv …, 2026",
+      "abstract": "In this work, we introduce a unifying Bregman-based majorization-minimization (MM) framework for solving nonconvex nonsmooth optimization problems. The proposed approach leverages Bregman divergences, possibly varying across iterations, to …",
+      "url": "https://arxiv.org/pdf/2604.12829"
+    },
+    {
+      "title": "LoDAdaC: a unified local training-based decentralized framework with adaptive gradients and compressed communication",
+      "authors": "W Liu, A Panda, U Pandey, H Cook, GM Slota, N Wang… - arXiv preprint arXiv …, 2026",
+      "abstract": "In the decentralized distributed learning, achieving fast convergence and low communication cost is essential for scalability and high efficiency. Adaptive gradient methods, such as Adam, have demonstrated strong practical performance in deep …",
+      "url": "https://arxiv.org/pdf/2604.09970"
+    },
+    {
+      "title": "Separable Decomposition for Ragged Tensors.",
+      "authors": "Y Hu, TX Jiang, MK Ng, XL Zhao - IEEE Transactions on Pattern Analysis and …, 2026",
+      "abstract": "Tensor decompositions have proven highly effective in the analysis and processing of multidimensional data. However, many real-world datasets exhibit highly irregular index patterns that deviate from regular tensor structures, rendering classical tensor …",
+      "url": "https://europepmc.org/article/med/41945837"
+    },
+    {
+      "title": "Highly-Efficient Large-Scale 𝑘-means with Individual Fairness",
+      "authors": "S Zhu, J Zeng, Y Sun, S Wang, Y Wang, Y Ji, F Nie, X Li…",
+      "abstract": "The explosive growth of data across diverse domains [29, 30] has made clustering an essential technique for extracting meaningful insights from large-scale datasets. One important application is facility location [35], which focuses on optimizing the placement* Sheng Wang is the corresponding author.",
+      "url": "https://www.vldb.org/pvldb/vol19/p808-zhu.pdf"
+    },
+    {
+      "title": "Exploring the synergies between operations research and machine learning",
+      "authors": "X Wang - 2026",
+      "abstract": "Operations Research (OR) and Machine Learning (ML) are two powerful tools for solving complex real-world problems, each following its own distinct problem-solving paradigm. However, as real-world problems grow in scale, relying on a single tool in isolation faces efficiency challenges, and we seek to overcome these challenges by leveraging the strengths of the other tool. Specifically, this thesis explores the mutual enhancement of OR and ML, examining how ML can improve key steps in the OR …",
+      "url": "https://summit.sfu.ca/_flysystem/fedora/2026-04/etd24222.pdf"
+    },
+    {
+      "title": "Rethinking the Personalized Relaxed Initialization in the Federated Learning: Consistency and Generalization",
+      "authors": "L Shen, Y Sun, D Tao - arXiv preprint arXiv:2604.12768, 2026",
+      "abstract": "Federated learning (FL) is a distributed paradigm that coordinates massive local clients to collaboratively train a global model via stage-wise local training processes on the heterogeneous dataset. Previous works have implicitly studied that FL suffers from the``client-drift''problem, which is caused by the inconsistent optimum across local clients. However, till now it still lacks solid theoretical analysis to explain the impact of this local inconsistency. To alleviate the negative impact of``client drift''and …",
+      "url": "https://arxiv.org/pdf/2604.12768"
+    },
+    {
+      "title": "Last-Iterate Convergence of Anchored Gradient Descent",
+      "authors": "Y Cai, W Zheng - arXiv preprint arXiv:2604.12235, 2026",
+      "abstract": "We study the monotone inclusion problem $0\\in F (z)+ A (z) $, where $ F $ is monotone and Lipschitz, and $ A $ is maximally monotone, a framework that encompasses monotone variational inequalities and convex-concave saddle-point problems with constraints or regularization. It is well known that vanilla gradient descent diverges for this problem, whereas optimism-based methods such as Extragradient and accelerated methods that combine both optimism and anchoring …",
+      "url": "https://arxiv.org/pdf/2604.12235"
+    },
+    {
+      "title": "Symmetry Is Almost All You Need: Robust Stability with Uncertainty Induced by Symmetric SRG Regions",
+      "authors": "D Zhang, D Zhao, P Braun, J Chen - arXiv preprint arXiv:2604.12960, 2026",
+      "abstract": "This paper investigates the robust stability problem of a feedback system in the presence of uncertainties induced by graphical regions in the plane where the scaled relative graphs (SRGs) reside. Our main results are developed using a novel and intuitive concept, the Davis-Wielandt shell, together with its connection to SRGs and related variants. We first study a matrix robust nonsingularity (MRN) problem for two types of graphically induced uncertainty sets: one with prior information on …",
+      "url": "https://arxiv.org/pdf/2604.12960"
+    },
+    {
+      "title": "Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations",
+      "authors": "T Zhang, J Zhang, Z Xue, J Jiang, Y Xu, C Xu, T Hu… - arXiv preprint arXiv …, 2026",
+      "abstract": "Balancing convergence speed, generalization capability, and computational efficiency remains a core challenge in deep learning optimization. First-order gradient descent methods, epitomized by stochastic gradient descent (SGD) and Adam, serve as the cornerstone of modern training pipelines. However, large-scale model training, stringent differential privacy requirements, and distributed learning paradigms expose critical limitations in these conventional approaches regarding …",
+      "url": "https://arxiv.org/pdf/2604.12968"
+    },
+    {
+      "title": "Joint Clustering and Prediction of the Quality of Service in Vehicular Cellular Networks",
+      "authors": "O Stenhammar, G Fodor, C Fischione - arXiv preprint arXiv:2604.12903, 2026",
+      "abstract": "Machine learning models are increasingly deployed in wireless networks with stringent performance requirements. However, dynamic propagation environments and fluctuating traffic densities introduce concept drift, which complicates the ability to maintain accurate predictive machine learning models. We propose a distributed optimization framework that jointly clusters cells and trains cluster-level predictive models, enabling nodes to cooperatively predict quality of service (QoS) distributions …",
+      "url": "https://arxiv.org/pdf/2604.12903"
+    },
+    {
+      "title": "Decentralized Learning via Random Walk with Jumps",
+      "authors": "Z Liu, M Dwyer, SE Rouayheb - arXiv preprint arXiv:2604.12260, 2026",
+      "abstract": "We study decentralized learning over networks where data are distributed across nodes without a central coordinator. Random walk learning is a token-based approach in which a single model is propagated across the network and updated at each visited node using local data, thereby incurring low communication and computational overheads. In weighted random-walk learning, the transition matrix is designed to achieve a desired sampling distribution, thereby speeding up …",
+      "url": "https://arxiv.org/pdf/2604.12260"
+    },
+    {
+      "title": "Low-sampling-rate compressed ghost edge imaging via energy-descending ordered speckle patterns",
+      "authors": "Y Zeng, C Meng, S Gu, H Zuo - Journal of the Optical Society of America A, 2026",
+      "abstract": "Computational ghost imaging (CGI) for edge detection, particularly speckle-shifting ghost imaging (SSGI), faces a severe trade-off between sampling cost and edge quality. We propose energy-descending ordered compressed ghost edge imaging (EDO-CGEI), an adaptive edge detection method that reorders binary illumination patterns in descending order of energy. Simulations and experiments show that EDO-CGEI outperforms existing schemes at low sampling rates, achieving a satisfactory …",
+      "url": "https://opg.optica.org/viewmedia.cfm?uri=josaa-43-5-737&seq=0"
+    },
+    {
+      "title": "Dual-Potential Flow: Integrating Dual Semidefinite Programming and Potential Games for Distributed Non-Cooperative Optimization",
+      "authors": "J Zhang - constraints",
+      "abstract": "This paper proposes a novel dynamic optimization framework that organically integrates the ideas of Dual Semidefinite Programming (DDP) and Potential Game Theory to address non-cooperative optimization problems in large-scale distributed systems. Traditional Dual SDP methods excel at handling convex optimization problems with matrix constraints, while Potential Game Theory guarantees the consistency and convergence of the latent function of policies in multi-agent systems …",
+      "url": "https://www.researchgate.net/profile/Jincheng-Zhang-22/publication/403759210_Dual-Potential_Flow_Integrating_Dual_Semidefinite_Programming_and_Potential_Games_for_Distributed_Non-_Cooperative_Optimization/links/69dcca6f5518257d60ea2f5c/Dual-Potential-Flow-Integrating-Dual-Semidefinite-Programming-and-Potential-Games-for-Distributed-Non-Cooperative-Optimization.pdf"
+    },
+    {
+      "title": "Multi-Camera Robot-World Hand-Eye Calibration by Solving Multi-Unit Dual Quaternion Equations",
+      "authors": "H Zhu, Y Shen, MK Ng - CSIAM Transactions on Applied Mathematics, 2026",
+      "abstract": "In this paper, we study the solution to the multi-camera robot-world hand-eye calibration problem by employing dual quaternions to represent transformation matrices. This approach yields a system of multi-unit dual quaternion equations of …",
+      "url": "https://global-sci.com/csiam-am/article/download/23926/37241"
+    },
+    {
+      "title": "Parareal for hyperbolic problems just does not work, or does it?",
+      "authors": "MJ Gander",
+      "abstract": "The Parareal algorithm [16] is a non-intrusive method for the parallel-in-time solution of evolution problems, a topic with a long history [6]. Its convergence is generally superlinear on bounded time intervals and can be linear on unbounded ones, see …",
+      "url": "https://www.unige.ch/~gander/Preprints/PaperDoesNotWork.pdf"
+    }
+  ]
+}

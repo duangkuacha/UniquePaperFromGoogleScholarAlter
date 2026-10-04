@@ -1,0 +1,86 @@
+{
+  "id": "20260429_google_scholar_",
+  "date": "20260429",
+  "source": "historical-import",
+  "messages": 6,
+  "papers": [
+    {
+      "title": "Forbidden subgraphs in divisor graphs and an Erd\\H {o} s divisibility problem",
+      "authors": "D Davis - arXiv preprint arXiv:2604.17613, 2026",
+      "abstract": "Erd\\H {o} s asked for the largest size $ f (n) $ of a subset of $\\{1,\\dots, n\\} $ with no element dividing two others. We show that $ f (n)= c_2\\, n+ o (n) $ for an effectively computable constant $ c_2 $, and moreover that the number $ q (n) $ of such …",
+      "url": "https://arxiv.org/pdf/2604.17613"
+    },
+    {
+      "title": "A short proof of near-linear convergence of adaptive gradient descent under fourth-order growth and convexity",
+      "authors": "D Davis, D Drusvyatskiy - arXiv preprint arXiv:2604.13393, 2026",
+      "abstract": "Davis, Drusvyatskiy, and Jiang showed that gradient descent with an adaptive stepsize converges locally at a nearly-linear rate for smooth functions that grow at least quartically away from their minimizers. The argument is intricate, relying on …",
+      "url": "https://arxiv.org/pdf/2604.13393"
+    },
+    {
+      "title": "Convergence Rate Analysis of SOAP with Arbitrary Orthogonal Projection Matrices",
+      "authors": "H Li, Z Lin - arXiv preprint arXiv:2604.21616, 2026",
+      "abstract": "In this short note, we establish, for the first time, the convergence rate of SOAP, an efficient and popular matrix-based optimizer for training deep neural networks. Our analysis extends to a more general variant of SOAP that admits arbitrary orthogonal …",
+      "url": "https://arxiv.org/pdf/2604.21616"
+    },
+    {
+      "title": "A Model Can Help Itself: Reward-Free Self-Training for LLM Reasoning",
+      "authors": "M Li, L Zhao, AMC So, R Sun, X Li",
+      "abstract": "Can language models improve their reasoning performance without external rewards, using only their own sampled responses for training? We show that they can. We propose Self-evolving Post-Training (SePT), a simple post-training method …",
+      "url": "https://openreview.net/pdf?id=WP8rUe2qvU"
+    },
+    {
+      "title": "Block Customized Topology Term Decomposition for High-Dimensional Image Reconstruction",
+      "authors": "S Liu, XL Zhao, YB Zheng - IEEE Transactions on Image Processing, 2026",
+      "abstract": "Recently, the block-term decomposition with rank-(L r, L r, 1)(termed as LL1 decomposition), which decomposes a third-order tensor into the sum of the outer products between vector and matrix factors, has received increasing attention for …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11493979/"
+    },
+    {
+      "title": "Mini-Batch Stochastic Halpern Algorithm for Nonexpansive Fixed point Problems",
+      "authors": "H Iiduka - arXiv preprint arXiv:2604.21443, 2026",
+      "abstract": "The Halpern algorithm is a powerful fixed point approximation method for finding the closest point in the fixed point set of a nonexpansive mapping to the initial point. However, in practice, it is not necessarily true that this algorithm can be applied to …",
+      "url": "https://arxiv.org/pdf/2604.21443"
+    },
+    {
+      "title": "Low-Rank Adaptation Redux for Large Models",
+      "authors": "B Li, Y Zhang, GB Giannakis - arXiv preprint arXiv:2604.21905, 2026",
+      "abstract": "Low-rank adaptation (LoRA) has emerged as the de facto standard for parameter-efficient fine-tuning (PEFT) of foundation models, enabling the adaptation of billion-parameter networks with minimal computational and memory overhead. Despite its empirical success and rapid proliferation of variants, it remains elusive which architectural choices, optimization techniques, and deployment constraints should guide practical method selection. This overview revisits LoRA through the lens of …",
+      "url": "https://arxiv.org/pdf/2604.21905"
+    },
+    {
+      "title": "Robust Distributed Learning Control for Nonlinear Multi-Agent Networks",
+      "authors": "J Zhang, D Meng - IEEE Transactions on Signal and Information …, 2026",
+      "abstract": "To achieve the high-performance transient responses for multi-agent networks at all time steps via learning control, the agents usually encounter non-uniform durations that differ from agent to agent and change from iteration to iteration. It naturally causes a challenging distributed learning control problem, which is called non-uniform distributed learning (NUDL). This paper is thus motivated to solve NUDL problems of multi-agent networks, for which the agents are subjected to both non …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11493758/"
+    },
+    {
+      "title": "Towards Step-size-free Distributed Optimization: a Port-Hamiltonian Approach",
+      "authors": "R Aldana-López, A Macchelli, G Notarstefano… - IEEE Transactions on …, 2026",
+      "abstract": "This paper presents a novel distributed optimization technique that, under suitable assumptions on problem and communication graph, is able to operate with any step-size parameter, a capability not evident in previous methods. Traditionally, selecting the step-size in distributed optimization often leads to a conservative performance, resulting in slow convergence or even divergence if the step-size is incorrectly chosen. In this work, we propose a systems theory approach based on the port …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11494283/"
+    },
+    {
+      "title": "Diffusion-LSVRG-UP: Distributed LSVRG-based Diffusion Algorithm with Uncoordinated Probabilities",
+      "authors": "J Zhao, W Gao - Journal of the Franklin Institute, 2026",
+      "abstract": "This paper concentrates on large-scale distributed stochastic optimization problems under strongly connected networks. Most of the first-order algorithms designed for distributed optimization use a full gradient to perform a descent step, which would cost huge amounts of time and resources. Therefore, the use of stochastic gradients helps enhance efficiency, in which loopless stochastic variance-reduced gradient (LSVRG) is an excellent choice for gradient estimation. Moreover, compared to …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0016003226002589"
+    },
+    {
+      "title": "Privacy-Preserving Distributed Stochastic Optimization with Homomorphic Encryption and Heterogeneous Stepsizes",
+      "authors": "H Zhou, C Chen, Y Zhi, H Gao - arXiv preprint arXiv:2604.21381, 2026",
+      "abstract": "Distributed stochastic optimization enables multi-agent collaboration in applications such as distributed learning and sensor networks, but also raises critical privacy concerns due to the involvement of sensitive data. While existing privacy-preserving approaches often face limitations in balancing accuracy with efficiency, we propose a novel distributed stochastic gradient descent algorithm that integrates Paillier homomorphic encryption with heterogeneous and time-varying random stepsizes …",
+      "url": "https://arxiv.org/pdf/2604.21381"
+    },
+    {
+      "title": "Distributed Zeroth-Order Optimization with Rademacher Perturbations and Momentum Gradient Tracking",
+      "authors": "Y Su, X Tong, C Sun - arXiv preprint arXiv:2604.21368, 2026",
+      "abstract": "Zeroth-order (ZO) optimization is indispensable for complex non-convex tasks where explicit gradients are computationally prohibitive or strictly inaccessible. For deploying ZO methods over distributed heterogeneous networks, the gradient tracking technique is often employed to eliminate structural data biases. However, the inherent variance of derivative-free estimators is also amplified. To overcome this problem, we propose Zeroth-Order Momentum Gradient Tracking (ZO-MGT), which …",
+      "url": "https://arxiv.org/pdf/2604.21368"
+    },
+    {
+      "title": "Visible Hyperspectral Imaging System Based on Single-Pixel Imaging",
+      "authors": "H Lei, Z Yang, W Jiang, Y Wu - Proceedings of 2024 International Symposium of …, 2026",
+      "abstract": "Hyperspectral imaging (HSI) is a technique that combines spectroscopy and imaging to capture the full range of continuous spectral information during imaging. It is a widely used method in a number of fields, including agricultural management, urban planning and resource exploration. However, the conventional techniques employed in hyperspectral imaging for remote sensing are vulnerable to satellite vibration, which limits the spatial resolution of the image. In order to achieve both high spectral …",
+      "url": "https://books.google.com/books?lr=&id=qfvSEQAAQBAJ&pg=PA281&ots=6-FitEpOYT&sig=F2DIYvQC1d90j6_8duA99c1LaII"
+    }
+  ]
+}

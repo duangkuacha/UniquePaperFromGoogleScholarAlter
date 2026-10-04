@@ -1,0 +1,50 @@
+{
+  "id": "20250924_google_scholar_",
+  "date": "20250924",
+  "source": "historical-import",
+  "messages": 2,
+  "papers": [
+    {
+      "title": "Federated Learning with Dual-end Gradient Correction and Proxy-free Self-Distillation",
+      "authors": "H Wei, YJ Luo, T Xie, Y Yang - IEEE Access, 2025",
+      "abstract": "In the context of non-independent and identically distributed (non-IID) data and limited client participation, repeated iterations of local models in federated learning worsen model drift, resulting in directional bias during global aggregation. Existing single-end optimization approaches, such as client-side regularization or server-side control variables, have difficulty maintaining global-local consistency. To address this, we introduce the Federated Learning with Dual-end Gradient Correction and …",
+      "url": "https://ieeexplore.ieee.org/iel8/6287639/6514899/11165039.pdf"
+    },
+    {
+      "title": "Deception-based Defense of Poisoning Attack in Federated Learning",
+      "authors": "GCT Masse, A Benslimane, VK Tchendji, AH Anwar - IEEE Access, 2025",
+      "abstract": "Federated Learning (FL) enables decentralized model training to protect data privacy but introduces new security and privacy challenges. One of the most severe threats to FL systems is poisoning attacks, which can disrupt model convergence or manipulate prediction outcomes. Addressing these attacks is particularly challenging due to the distributed and opaque nature of FL. To proactively strengthen defenses, we propose HoneyFED, a novel mitigation strategy based on deception. HoneyFED …",
+      "url": "https://ieeexplore.ieee.org/iel8/6287639/6514899/11170320.pdf"
+    },
+    {
+      "title": "Deep Unfolding-Based Sensing-Assisted Channel Estimation With Imperfect Radar Arrays",
+      "authors": "J Yang, B Ai, W Chen, S Yang, N Wang, C Yuen - IEEE Journal on Selected Areas in …, 2025",
+      "abstract": "In vehicle-to-everything (V2X) scenarios, the high dynamic characteristics of V2X environments impose significant challenges on communication channel estimation, where the emerging integrated sensing and communication technology could serve as a vital tool for achieving accurate channel estimation. This paper leverages radar-sensed angle information to assist in communication channel estimation and proposes a deep unfolding-based radar-assisted channel estimation network (Radar …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11165341/"
+    },
+    {
+      "title": "LBSCA: Learning Real-time Power System State Estimation Under Hidden Adversarial Attacks",
+      "authors": "K Basulaiman, F Albeladi, FM Almutairi, A Saeed… - IEEE Access, 2025",
+      "abstract": "Accurate power system state estimation (PSSE) is crucial for effective control and monitoring of power grids. However, existing techniques face numerous challenges including compromised measurements from cyber-attacks and the need for real-time operations. Traditional PSSE methods based on weighted least squares are susceptible to outliers and convergence issues, while convex relaxation techniques like semi-definite programming struggle with computational complexity. Recent deep …",
+      "url": "https://ieeexplore.ieee.org/iel8/6287639/6514899/11165234.pdf"
+    },
+    {
+      "title": "Denoising and Adaptive Online Vertical Federated Learning for Sequential Multi-Sensor Data in IIoT",
+      "authors": "H Wang, X Zhong, K Liu, F Liu, W Zhang - IEEE Transactions on Mobile Computing, 2025",
+      "abstract": "With the advancement of computational capabilities in edge devices such as intelligent sensors in the Industrial Internet of Things (IIoT), these sensors evolving beyond simple data collection to support complex computational tasks. This advancement provides new opportunities for adopting distributed learning approaches in IIoT. In this study, we focus on enhancing learning performance in an industrial assembly line scenario where multiple distributed sensors sequentially …",
+      "url": "https://fangmingliu.github.io/files/FederatedLearning-tmc25.pdf"
+    },
+    {
+      "title": "大规模MIMO 低压缩比条件下的CSI 反馈轻量化估计.",
+      "authors": "薛建彬， 高佳敏 - Telecommunication Engineering, 2025",
+      "abstract": "通过压缩信道状态信息(Channel Status Information, CSI) 传输码字降低大规模多输入多输出(Multiple-Input Multiple-Output, MIMO) 系统的CSI 反馈开销, 可以有效减少计算资源的使用和信息传输时间的消耗. 针对如何使用轻量化模型准确估计低压缩比条件下CSI 反馈的问题, 通过设计的轻量化迭代交叉网络(Iterative Cross Network, ICNet) 模型, 在用户端使用设计的迭代压缩模块压缩CSI 反馈, 基站端使用设计的迭代重建模块估计CSI 反馈, 以较高的准确率和较低的时间消耗估计了低压缩比条件下的CSI 反馈 …",
+      "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=1001893X&AN=187491237&h=SkBGDaEMLXnhYJuiIjhPDV5QnWjPSeTtlldjsH1lX5SekSHq7pBt2ynKdd5vehDl3U6EVC82FRUadEzeJ0pfmg%3D%3D&crl=c"
+    },
+    {
+      "title": "MSFA Image Denoising Using Physics-based Noise Model and Noise-decoupled Network",
+      "authors": "Y Jiang, Y Fu, Q Liu, J Zhang - IEEE Transactions on Pattern Analysis and Machine …, 2025",
+      "abstract": "Multispectral filter array (MSFA) camera is increasingly used due to its compact size and fast capturing speed. However, because of its narrow-band property, it often suffers from the light-deficient problem, and images captured are easily …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11165040/"
+    }
+  ]
+}

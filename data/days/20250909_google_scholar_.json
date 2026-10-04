@@ -1,0 +1,110 @@
+{
+  "id": "20250909_google_scholar_",
+  "date": "20250909",
+  "source": "historical-import",
+  "messages": 8,
+  "papers": [
+    {
+      "title": "Communication-Efficient Semi-Decentralized Federated Learning in the Presence of Stragglers",
+      "authors": "C Li, M Xiao, M Skoglund - IEEE Transactions on Communications, 2025",
+      "abstract": "In this paper, we consider the problem of federated learning (FL) with devices that have intermittent connectivity to the central server. For this problem, the concept of semi-decentralized FL has been proposed in the literature. This paradigm allows non-straggler devices to relay the gradients computed by the stragglers to the server, and enables realization of gradient coding (GC) to mitigate the negative impact of the stragglers that fail to communicate directly to the central server. However, for GC in …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11146801/"
+    },
+    {
+      "title": "Delayed Momentum Aggregation: Communication-efficient Byzantine-robust Federated Learning with Partial Participation",
+      "authors": "K Otsuka, Y Takezawa, M Yamada - arXiv preprint arXiv:2509.02970, 2025",
+      "abstract": "Federated Learning (FL) allows distributed model training across multiple clients while preserving data privacy, but it remains vulnerable to Byzantine clients that exhibit malicious behavior. While existing Byzantine-robust FL methods provide strong convergence guarantees (eg, to a stationary point in expectation) under Byzantine attacks, they typically assume full client participation, which is unrealistic due to communication constraints and client availability. Under partial participation …",
+      "url": "https://arxiv.org/pdf/2509.02970"
+    },
+    {
+      "title": "Frugal forward-backward splitting methods with deviations",
+      "authors": "Y Fu, H Zheng, QL Dong, X Qin, J Zhao - arXiv preprint arXiv:2509.03865, 2025",
+      "abstract": "The deviation vectors provide additional degrees of freedom and effectively enhance the flexibility of algorithms. In the literature, the iterative schemes with deviations are constructed and their convergence analyses are performed on an inefficient, algorithm-by-algorithm basis. In this paper, we address these by providing a general framework of frugal forward-backward splitting methods with deviations for finding zeros in the sum of a finite number of maximally monotone operators and cocoercive …",
+      "url": "https://arxiv.org/pdf/2509.03865"
+    },
+    {
+      "title": "Virtual Regularized Bipartite Graph Learning for Multi-View Subspace Clustering",
+      "authors": "L Ma, W Zang, X Liu, Y Zhao, X Liu, Z Jiang, B Yan… - Knowledge-Based Systems, 2025",
+      "abstract": "Multi-view subspace clustering (MVSC) has been widely studied for its ability to effectively capture the underlying structural information of multi-view data and achieve impressive clustering performance. As the volume of real-world data continues to grow, existing multi-view subspace clustering algorithms are unable to effectively tackle large-scale datasets. Therefore, multi-view subspace clustering methods based on bipartite graphs have been proposed to effectively solve the time …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705125014315"
+    },
+    {
+      "title": "Nesterov Accelerated Gradient Tracking With Adam for Distributed Online Optimization",
+      "authors": "Y Su, Q Sheng, X Shi, C Mu, C Sun - IEEE Transactions on Neural Networks and …, 2025",
+      "abstract": "This article presents an accelerated distributed optimization algorithm for online optimization problems over large-scale networks. The proposed algorithm's iteration only relies on local computation and communication. To effectively adapt to dynamic changes and achieve a fast convergence rate while maintaining good convergence performance, we design a new algorithm called NGTAdam. This algorithm combines the Nesterov acceleration technique with an adaptive moment estimation method …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11147187/"
+    },
+    {
+      "title": "Anti-noise Bearing Fault Diagnosis Using Time-reassigned Multisynchrosqueezing Transform and Complex Sparse Learning Dictionary",
+      "authors": "W Deng, H Li, H Zhao - IEEE Transactions on Instrumentation and …, 2025",
+      "abstract": "Bearings are core components of rotating machinery, and their operating status monitoring and fault diagnosis are crucial for equipment health management. Accurately identifying fault impulse signatures in bearing signals under complex operating conditions is a key challenge in bearing fault diagnosis. Therefore, this paper proposes a bearing fault time-frequency diagnosis method (TFCSCK) based on the time-reassigned multisynchrosqueezing transform (TMSST) and the improved …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11146885/"
+    },
+    {
+      "title": "Sparse Autoencoder Neural Operators: Model Recovery in Function Spaces",
+      "authors": "B Tolooshams, A Shen, A Anandkumar - arXiv preprint arXiv:2509.03738, 2025",
+      "abstract": "We frame the problem of unifying representations in neural models as one of sparse model recovery and introduce a framework that extends sparse autoencoders (SAEs) to lifted spaces and infinite-dimensional function spaces, enabling mechanistic interpretability of large neural operators (NO). While the Platonic Representation Hypothesis suggests that neural networks converge to similar representations across architectures, the representational properties of neural operators remain …",
+      "url": "https://arxiv.org/pdf/2509.03738"
+    },
+    {
+      "title": "From Image Denoisers to Regularizing Imaging Inverse Problems: An Overview",
+      "authors": "HY Tan, S Mukherjee, J Tang - arXiv preprint arXiv:2509.03475, 2025",
+      "abstract": "Inverse problems lie at the heart of modern imaging science, with broad applications in areas such as medical imaging, remote sensing, and microscopy. Recent years have witnessed a paradigm shift in solving imaging inverse problems, where data-driven regularizers are used increasingly, leading to remarkably high-fidelity reconstruction. A particularly notable approach for data-driven regularization is to use learned image denoisers as implicit priors in iterative image reconstruction …",
+      "url": "https://arxiv.org/pdf/2509.03475"
+    },
+    {
+      "title": "Diffusion Generative Models Meet Compressed Sensing, with Applications to Image Data and Financial Time Series",
+      "authors": "Z Guo, J Li, W Tang, DD Yao - arXiv preprint arXiv:2509.03898, 2025",
+      "abstract": "This paper develops dimension reduction techniques for accelerating diffusion model inference in the context of synthetic data generation. The idea is to integrate compressed sensing into diffusion models:(i) compress the data into a latent space,(ii) train a diffusion model in the latent space, and (iii) apply a compressed sensing algorithm to the samples generated in the latent space, facilitating the efficiency of both model training and inference. Under suitable sparsity assumptions …",
+      "url": "https://arxiv.org/pdf/2509.03898"
+    },
+    {
+      "title": "Dual-Scale Volume Priors with Wasserstein-Based Consistency for Semi-Supervised Medical Image Segmentation",
+      "authors": "J Meng, G Zhou, J Liu, W Guo - arXiv preprint arXiv:2509.04273, 2025",
+      "abstract": "Despite signi cant progress in semi-supervised medical image segmentation, most existing segmentation networks overlook e ective methodological guidance for feature extraction and important prior information from datasets. In this paper, we develop a semi-supervised medical image segmentation framework that e ectively integrates spatial regularization methods and volume priors. Speci cally, our approach integrates a strong explicit volume prior at the image scale and Threshold …",
+      "url": "https://arxiv.org/pdf/2509.04273"
+    },
+    {
+      "title": "Parameterized Low-Rank Regularizer for High-dimensional Visual Data",
+      "authors": "S Xu, Z Zhao, X Cao, J Peng, XL Zhao, D Meng… - International Journal of …, 2025",
+      "abstract": "Factorization models and nuclear norms, two prominent methods for characterizing the low-rank prior, encounter challenges in accurately retrieving low-rank data under severe degradation and lack generalization capabilities. To mitigate these …",
+      "url": "https://link.springer.com/article/10.1007/s11263-025-02569-2"
+    },
+    {
+      "title": "A modified exact penalty approach for general constrained $\\ell_0 $-sparse optimization problems",
+      "authors": "C Kanzow, F Weiß - arXiv preprint arXiv:2509.03203, 2025",
+      "abstract": "We consider a general class of constrained optimization problems with an additional $\\ell_0 $-sparsity term in the objective function. Based on a recent reformulation of this difficult $\\ell_0 $-term, we consider a nonsmooth penalty approach which differs …",
+      "url": "https://arxiv.org/pdf/2509.03203"
+    },
+    {
+      "title": "An advanced denoising methodology for Martian surface mineral exploration",
+      "authors": "Z Wang, L Zhuang, JR Michalski, MK Ng - npj Space Exploration, 2025",
+      "abstract": "Hyperspectral imaging of Mars with a high signal-to-noise ratio is crucial for accurate analysis of Martian surface minerals. However, the presence of inevitable noise presents significant challenges in mineral identification. This study introduces E2E …",
+      "url": "https://www.nature.com/articles/s44453-025-00005-w"
+    },
+    {
+      "title": "Fast and Accurate SVD-Type Updating in Streaming Data",
+      "authors": "JJ Brust, MA Saunders - arXiv preprint arXiv:2509.02840, 2025",
+      "abstract": "For a datastream, the change over a short interval is often of low rank. For high throughput information arranged in matrix format, recomputing an optimal SVD approximation after each step is typically prohibitive. Instead, incremental and …",
+      "url": "https://arxiv.org/pdf/2509.02840"
+    },
+    {
+      "title": "On the $ p $-order Semismoothness of the Metric Projection onto Slices of the Positive Semidefinite Cone",
+      "authors": "R Chen, J Ma, D Sun - arXiv preprint arXiv:2509.03977, 2025",
+      "abstract": "The metric projection onto the positive semidefinite (PSD) cone is strongly semismooth, a property that guarantees local quadratic convergence for many powerful algorithms in semidefinite programming. In this paper, we investigate …",
+      "url": "https://arxiv.org/pdf/2509.03977"
+    },
+    {
+      "title": "Low-rank mirror-prox methods for nonsmooth and low-rank matrix optimization problems",
+      "authors": "D Garber, A Kaplan - Mathematical Programming, 2025",
+      "abstract": "Low-rank and nonsmooth matrix optimization problems capture many fundamental tasks in statistics and machine learning. While significant progress has been made in developing efficient methods for smooth problems that avoid computing expensive …",
+      "url": "https://link.springer.com/article/10.1007/s10107-025-02267-4"
+    },
+    {
+      "title": "Regularization of Port-Hamiltonian Descriptor Systems",
+      "authors": "D Chu, V Mehrmann - arXiv preprint arXiv:2509.02715, 2025",
+      "abstract": "We study the regularization problem for port-Hamiltonian descriptor systems by proportional and/or derivative output feedback. Necessary and sufficient conditions are given, which guarantee that there exist output feedbacks such that the closed …",
+      "url": "https://arxiv.org/pdf/2509.02715"
+    }
+  ]
+}

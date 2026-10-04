@@ -1,0 +1,17 @@
+# Local Gmail OAuth material. These files must stay in Repository secrets only.
+credentials.json
+token.json
+
+# Local Python and operating-system files.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Local server logs and scratch data.
+*.log
+GoogleScholar/
+_site/

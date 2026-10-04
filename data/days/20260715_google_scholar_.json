@@ -1,0 +1,56 @@
+{
+  "id": "20260715_google_scholar_",
+  "date": "20260715",
+  "source": "historical-import",
+  "messages": 8,
+  "papers": [
+    {
+      "title": "Vanilla SGD with Momentum Survives Heavy-Tailed Noise: Convergence Analysis without Gradient Clipping or Normalization",
+      "authors": "R Yamada, N Sato, H Iiduka - arXiv preprint arXiv:2607.08104, 2026",
+      "abstract": "Stochastic gradient descent (SGD) is a cornerstone of modern optimization. While its performance under heavy-tailed noise is often addressed through specialized modifications such as gradient clipping or normalization, we investigate a more …",
+      "url": "https://arxiv.org/pdf/2607.08104"
+    },
+    {
+      "title": "Unpaired Joint Distribution Modeling via Multi-Scale Image Representations",
+      "authors": "Y Zou, H Zhang, Z Shen, C Bao - arXiv preprint arXiv:2607.08198, 2026",
+      "abstract": "This paper studies the problem of learning a joint distribution from marginal observations, which is inherently ill-posed due to the ambiguity of feasible couplings. We propose LUD-MSR, a latent-variable probabilistic framework that models the joint …",
+      "url": "https://arxiv.org/pdf/2607.08198"
+    },
+    {
+      "title": "Exact Low-Tubal-Rank Quaternion Tensor Completion via Convex Optimization",
+      "authors": "M Zheng, K Gao - SIAM Journal on Matrix Analysis and Applications, 2026",
+      "abstract": "In this study, we consider the practical low-rank matrix completion problem, ie, recovering a low-rank matrix from a sampling of its entries. In numerous fields dealing with low-rank structures, data loss and corruption are major concerns …",
+      "url": "https://epubs.siam.org/doi/abs/10.1137/25M173257X"
+    },
+    {
+      "title": "Efficient low-rank image recovery model through a modified singular value thresholding algorithm: F. Aghamohammadi, F. Shakeri",
+      "authors": "F Aghamohammadi, F Shakeri - The Journal of Supercomputing, 2026",
+      "abstract": "Foreground-background separation in surveillance videos can be modeled as the decomposition of a third-order tensor into a low-rank background and a sparse foreground component. This paper proposes a robust tensor column-row (CUR) …",
+      "url": "https://link.springer.com/article/10.1007/s11227-026-08696-y"
+    },
+    {
+      "title": "Towards Parameter-Free Temporal Difference Learning",
+      "authors": "LI Yunxiang, M Schmidt, RB Harikandeh, S Vaswani - Forty-third International Conference on …",
+      "abstract": "Temporal difference (TD) learning is a fundamental algorithm for estimating value functions in reinforcement learning. Recent finite-time analyses of TD with linear function approximation quantify its theoretical convergence rate. However, they often …",
+      "url": "https://openreview.net/pdf?id=ppIhZgFCTI"
+    },
+    {
+      "title": "Sparse identification of nonlinear dynamics for flutter mechanism in aeroelastic rotor-stator interaction system",
+      "authors": "C Ji, Z Yi, D Xie, B Dong - Journal of Fluids and Structures, 2026",
+      "abstract": "Rotor-stator interactions (RSI) in transonic compressors present severe aeroelastic challenges, especially when fatigue damage amplifies nonlinear instabilities through intricate mechanisms. Therefore, this study investigates the low-dimensional …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0889974626001404"
+    },
+    {
+      "title": "Retraction-Free Optimization over the Stiefel Manifold for the LoRA Fine-Tuning",
+      "authors": "Y Zhang, J Hu, Z Lai, L Lin, Z Wen - IEEE Transactions on Pattern Analysis and …, 2026",
+      "abstract": "Optimization over the Stiefel manifold plays a significant role in various machine learning tasks. Existing methods either use the retraction operators, requiring costly orthonormalization for large-scale matrices, or employ landing methods that rely on …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11601052/"
+    },
+    {
+      "title": "Column Thresholding for Sparse Spiked Wigner Models: Improved Signal Strength Requirements",
+      "authors": "JF Cai, Z Xian, J Ying - Forty-third International Conference on Machine …",
+      "abstract": "We study the sparse spiked Wigner model, where the goal is to recover an $ s $-sparse unit vector $\\boldsymbol {u}\\in\\mathbb {R}^ d $ from a noisy observation $\\boldsymbol {Y}=\\beta\\boldsymbol {u}\\boldsymbol {u}^\\top+\\boldsymbol {W} …",
+      "url": "https://openreview.net/pdf?id=lsnjzAuTZj"
+    }
+  ]
+}

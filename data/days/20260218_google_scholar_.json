@@ -1,0 +1,176 @@
+{
+  "id": "20260218_google_scholar_",
+  "date": "20260218",
+  "source": "historical-import",
+  "messages": 13,
+  "papers": [
+    {
+      "title": "Constructing Industrial-Scale Optimization Modeling Benchmark",
+      "authors": "Z Li, H Lu, T Wei, W Liu, Y Chen, Y Lan, F Zhang… - arXiv preprint arXiv …, 2026",
+      "abstract": "Optimization modeling underpins decision-making in logistics, manufacturing, energy, and finance, yet translating natural-language requirements into correct optimization formulations and solver-executable code remains labor-intensive …",
+      "url": "https://arxiv.org/pdf/2602.10450"
+    },
+    {
+      "title": "PRISM: Parallel Residual Iterative Sequence Model",
+      "authors": "J Jiang, K Cheng, X Xu, M Pang, T Lu, J Li, Y Liu… - arXiv preprint arXiv …, 2026",
+      "abstract": "Generative sequence modeling faces a fundamental tension between the expressivity of Transformers and the efficiency of linear sequence models. Existing efficient architectures are theoretically bounded by shallow, single-step linear …",
+      "url": "https://arxiv.org/pdf/2602.10796"
+    },
+    {
+      "title": "Machine Vision-Enabled Octahedral Network Reconstruction and Structural Analysis of Perovskite Quantum Dots",
+      "authors": "G Du, H Zhang, T Bian, W Wang, L Hu, Y Liu, Z Zhan… - ACS Nano, 2026",
+      "abstract": "The structural framework of metal-halide perovskites is defined by corner-sharing PbX6 octahedra, whose tilts, distortions, and connectivity dictate the phase stability, carrier dynamics, and optoelectronic performance. Despite their pivotal role, direct …",
+      "url": "https://pubs.acs.org/doi/full/10.1021/acsnano.5c20211"
+    },
+    {
+      "title": "Insights on Muon from Simple Quadratics",
+      "authors": "A Gonon, AA Muşat, N Boumal - arXiv preprint arXiv:2602.11948, 2026",
+      "abstract": "Muon updates weight matrices along (approximate) polar factors of the gradients and has shown strong empirical performance in large-scale training. Existing attempts at explaining its performance largely focus on single-step comparisons (on quadratic …",
+      "url": "https://arxiv.org/pdf/2602.11948"
+    },
+    {
+      "title": "Hierarchical Zero-Order Optimization for Deep Neural Networks",
+      "authors": "S Cao, Z Ma, Y Tian - arXiv preprint arXiv:2602.10607, 2026",
+      "abstract": "Zeroth-order (ZO) optimization has long been favored for its biological plausibility and its capacity to handle non-differentiable objectives, yet its computational complexity has historically limited its application in deep neural networks. Challenging the conventional paradigm that gradients propagate layer-by-layer, we propose Hierarchical Zeroth-Order (HZO) optimization, a novel divide-and-conquer strategy that decomposes the depth dimension of the network. We prove that HZO …",
+      "url": "https://arxiv.org/pdf/2602.10607"
+    },
+    {
+      "title": "Select then Fusion: An Effective Multi-atlas Brain Network Analysis Method with Sparse and Uncertain Mechanism",
+      "authors": "J Huang, Z Su, S Jiang, T Hou, M Wang, W Ding - Neural Networks, 2026",
+      "abstract": "Multi-atlas brain networks offer a more comprehensive and intricate understanding than a single atlas in identifying brain disorders. Traditional multi-atlas analysis methods depend on some simple fusion methods (ie, addition and concatenation) but do not consider the information redundancy caused by increased brain regions and uncertain information between multiple atlases. To address this, we propose an effective multi-atlas brain network analysis method with a sparse and uncertain …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608026001607"
+    },
+    {
+      "title": "Enhancing Multivariate Time Series Forecasting with Global Temporal Retrieval",
+      "authors": "F Cao, L Dai, J Han, H Xiong - arXiv preprint arXiv:2602.10847, 2026",
+      "abstract": "Multivariate time series forecasting (MTSF) plays a vital role in numerous real-world applications, yet existing models remain constrained by their reliance on a limited historical context. This limitation prevents them from effectively capturing global periodic patterns that often span cycles significantly longer than the input horizon-despite such patterns carrying strong predictive signals. Naive solutions, such as extending the historical window, lead to severe drawbacks, including overfitting …",
+      "url": "https://arxiv.org/pdf/2602.10847"
+    },
+    {
+      "title": "Active set identification and rapid convergence for degenerate primal-dual problems",
+      "authors": "M Díaz, PI Lehmann, H Lu, J Yang - arXiv preprint arXiv:2602.10436, 2026",
+      "abstract": "Primal-dual methods for solving convex optimization problems with functional constraints often exhibit a distinct two-stage behavior. Initially, they converge towards a solution at a sublinear rate. Then, after a certain point, the method identifies the set of active constraints and the convergence enters a faster local linear regime. Theory characterizing this phenomenon spans over three decades. However, most existing work only guarantees eventual identification of the active set and relies heavily on …",
+      "url": "https://arxiv.org/pdf/2602.10436"
+    },
+    {
+      "title": "Natural Hypergradient Descent: Algorithm Design, Convergence Analysis, and Parallel Implementation",
+      "authors": "D Kong, Z Chen, S Zhang, S Mou - arXiv preprint arXiv:2602.10905, 2026",
+      "abstract": "In this work, we propose Natural Hypergradient Descent (NHGD), a new method for solving bilevel optimization problems. To address the computational bottleneck in hypergradient estimation--namely, the need to compute or approximate Hessian inverse--we exploit the statistical structure of the inner optimization problem and use the empirical Fisher information matrix as an asymptotically consistent surrogate for the Hessian. This design enables a parallel optimize-and-approximate framework in …",
+      "url": "https://arxiv.org/pdf/2602.10905"
+    },
+    {
+      "title": "Neural Network Approaches for Integer and Linear Program Value Functions: Theory and Applications",
+      "authors": "T Anh-Nguyen - 2025",
+      "abstract": "Recent advances in machine learning (ML) have opened up novel avenues for enhancing the efficiency and effectiveness of optimization techniques. This thesis explores the intersection of ML with linear programming (LP) and integer programming (IP), focusing on the approximation of value functions (VFs). By integrating ML models to learn and predict these VFs, we aim to bypass some of the computational burdens traditionally associated with LP and IP, particularly in large …",
+      "url": "https://repository.rice.edu/bitstreams/a34e098f-cce2-4d38-8f9b-9e15899f1c0f/download"
+    },
+    {
+      "title": "MvMENSVM: A Multi-View Support Vector Machine with Manifold Elastic Net Regularization",
+      "authors": "W Zhu, Y Song, Q Liu - Expert Systems with Applications, 2026",
+      "abstract": "Multi-view learning improves the performance of models by integrating information from various data sources. Multi-view support vector machines (SVMs) are particularly effective for classification tasks. However, current methods have three key limitations. Firstly, they often neglect the intrinsic geometric manifold structure of the data, which reduces their ability to generalize. Secondly, they lack integrated mechanisms for sparse feature selection across views, which can lead to …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417426005798"
+    },
+    {
+      "title": "Enhanced Near-Field Imaging Framework for IoT Sensing and Localization with Extremely Large-Scale MIMO",
+      "authors": "X Wang, H Zhang, Q Yang, B Wang, T Tang, G Gui - IEEE Internet of Things Journal, 2026",
+      "abstract": "Near-field imaging with extremely large-scale multiple-input multiple-output antennas holds great promise for next-generation wireless communication systems. However, most existing methods rely on traditional iterative optimization, which demands extensive iterations and careful parameter tuning. To overcome these limitations, this paper proposes an enhanced near-field imaging framework based on model-driven deep unfolding, combining the interpretability of model-based methods …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11373349/"
+    },
+    {
+      "title": "Poisson noise removal via a non-convex log total variation regularization",
+      "authors": "M Ran, Z Fang, P Zhang, W Lu - Applied Mathematical Modelling, 2026",
+      "abstract": "The total variation (TV) model effectively preserves edges and promotes signal sparsity by uniformly penalizing gradients, but it suffers from the staircase effect. To address this issue, we propose a non-convex log total variation (LogTV) regularization model for Poisson noise removal. In our proposed model, the Kullback-Leibler divergence as the data fidelity term is coupled to the LogTV regularization term. The alternating direction method of multipliers (ADMM) is employed to …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0307904X26000958"
+    },
+    {
+      "title": "MTS-CSNet: Multiscale Tensor Factorization for Deep Compressive Sensing on RGB Images",
+      "authors": "M Yamac, L Xu, S Kiranyaz, M Gabbouj - arXiv preprint arXiv:2602.07056, 2026",
+      "abstract": "Deep learning based compressive sensing (CS) methods typically learn sampling operators using convolutional or block wise fully connected layers, which limit receptive fields and scale poorly for high dimensional data. We propose MTSCSNet, a CS framework based on Multiscale Tensor Summation (MTS) factorization, a structured operator for efficient multidimensional signal processing. MTS performs mode-wise linear transformations with multiscale summation, enabling large …",
+      "url": "https://arxiv.org/pdf/2602.07056"
+    },
+    {
+      "title": "Learning to Control: The iUzawa-Net for Nonsmooth Optimal Control of Linear PDEs",
+      "authors": "Y Song, X Yuan, H Yue, T Zeng - arXiv preprint arXiv:2602.12273, 2026",
+      "abstract": "We propose an optimization-informed deep neural network approach, named iUzawa-Net, aiming for the first solver that enables real-time solutions for a class of nonsmooth optimal control problems of linear partial differential equations (PDEs) …",
+      "url": "https://arxiv.org/pdf/2602.12273"
+    },
+    {
+      "title": "First Proof",
+      "authors": "M Abouzaid, AJ Blumberg, M Hairer, J Kileel, TG Kolda… - arXiv preprint arXiv …, 2026",
+      "abstract": "To assess the ability of current AI systems to correctly answer research-level mathematics questions, we share a set of ten math questions which have arisen naturally in the research process of the authors. The questions had not been shared …",
+      "url": "https://arxiv.org/pdf/2602.05192"
+    },
+    {
+      "title": "TIGHTNESS OF SEMIDEFINITE RELAXATION FOR QUATERNION-BASED ROTATION SYNCHRONIZATION PROBLEMS",
+      "authors": "X Chen, J Zhao, C Cui, AMC So",
+      "abstract": "The rotation synchronization problem, which estimates absolute rotations from relative measurements, is fundamental in computer vision and robotics. Unit quaternions provide a minimal singularityfree representation for 3D rotations, thereby …",
+      "url": "https://www.se.cuhk.edu.hk/~manchoso/papers/rot_sync_qtn_sdr-icassp26.pdf"
+    },
+    {
+      "title": "Computational Nonsmooth Analysis",
+      "authors": "L Tian, AMC So",
+      "abstract": "Computational Nonsmooth Analysis Page 1 IEEE SIGNAL PROCESSING MAGAZINE, VOL. XX, NO. XX, JUNE 2024 1 Computational Nonsmooth Analysis Modern Applications and Recent Developments Lai Tian, Anthony Man-Cho So INTRODUCTION …",
+      "url": "https://www1.se.cuhk.edu.hk/~manchoso/papers/cna-SPM.pdf"
+    },
+    {
+      "title": "Optimal Low-Dimensional Structures of ISAC Beamforming: Theory and Efficient Algorithms",
+      "authors": "X Zhao, M Li, YF Liu, Q Shi, AMC So - arXiv preprint arXiv:2602.07502, 2026",
+      "abstract": "Transmit beamforming design is a fundamental problem in integrated sensing and communication (ISAC) systems. Numerous methods have been proposed to jointly optimize key performance metrics such as the signal-to-interference-plus-noise ratio …",
+      "url": "https://arxiv.org/pdf/2602.07502"
+    },
+    {
+      "title": "Two-stage stochastic algorithm for solving large-scale (non)-convex separable optimization problems under affine constraints",
+      "authors": "B Dubois-Taine, L Pfeiffer, N Oudjane, A Seguret… - arXiv preprint arXiv …, 2026",
+      "abstract": "We consider nonsmooth optimization problems under affine constraints, where the objective consists of the average of the component functions of a large number $ N $ of agents, and we only assume access to the Fenchel conjugate of the component …",
+      "url": "https://arxiv.org/pdf/2602.06637"
+    },
+    {
+      "title": "Beyond Binning: Soft Task Reformulation for Deep Regression",
+      "authors": "L Stewart, F Bach, Q Berthet - The 29th International Conference on Artificial …",
+      "abstract": "Whilst neural networks are powerful predictors, it has been observed and theoretically analyzed that training such models by minimizing the square loss can lead to suboptimal results on regression problems, where the targets are real-valued …",
+      "url": "https://openreview.net/forum?id=n0u4hvmBBC"
+    },
+    {
+      "title": "An objective-function-free algorithm for general smooth constrained optimization",
+      "authors": "S Bellavia, S Gratton, B Morini, PL Toint - arXiv preprint arXiv:2602.11770, 2026",
+      "abstract": "A new algorithm for smooth constrained optimization is proposed that never computes the value of the problem's objective function and that handles both equality and inequality constraints. The algorithm uses an adaptive switching strategy …",
+      "url": "https://arxiv.org/pdf/2602.11770"
+    },
+    {
+      "title": "Revisiting Superlinear Convergence of Proximal Newton-Like Methods to Degenerate Solutions",
+      "authors": "C Lee, SJ Wright - arXiv preprint arXiv:2602.10470, 2026",
+      "abstract": "We describe inexact proximal Newton-like methods for solving degenerate regularized optimization problems and for the broader problem of finding a zero of a generalized equation that is the sum of a continuous map and a maximal monotone …",
+      "url": "https://arxiv.org/pdf/2602.10470"
+    },
+    {
+      "title": "A linesearch-type normal map-based semismooth Newton method for nonsmooth nonconvex composite optimization",
+      "authors": "H Zeng, W Ouyang, A Milzarek - Computational Optimization and Applications, 2026",
+      "abstract": "We propose a novel linesearch variant of the trust region normal map-based semismooth Newton method developed in (Ouyang and Milzarek in Math Program 212 (1–2): 389–435, 2025) for solving a class of nonsmooth, nonconvex composite …",
+      "url": "https://link.springer.com/article/10.1007/s10589-025-00754-0"
+    },
+    {
+      "title": "Multidimensional Image Reconstruction via Deep Nonlinear Low-Rank Tensor Decomposition",
+      "authors": "ZW Shi, YB Zheng, HC Li, A Plaza - IEEE Transactions on Circuits and Systems for …, 2026",
+      "abstract": "Low-rank tensor decomposition (LRTD) has demonstrated significant efficacy in multidimensional image reconstruction. Indeed, LRTD driven by nonlinear relationship can capture the underlying low-rank structure more accurately, since …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11386834/"
+    },
+    {
+      "title": "Two new multi-view robust principal component analysis methods",
+      "authors": "F Long, L Jing, Y Li, B Xue, Q Zhang - Annals of Data Science, 2026",
+      "abstract": "Traditional feature extraction methods often overlook the structural characteristics of noisy data in multi-view scenarios. In this paper, we argue that noisy data in a single view can be categorized into two types in a multi-view context: true-noise data, which …",
+      "url": "https://link.springer.com/article/10.1007/s40745-026-00675-7"
+    },
+    {
+      "title": "Adaptive Optimization via Momentum on Variance-Normalized Gradients",
+      "authors": "F Patitucci, A Mokhtari - arXiv preprint arXiv:2602.10204, 2026",
+      "abstract": "We introduce MVN-Grad (Momentum on Variance-Normalized Gradients), an Adam-style optimizer that improves stability and performance by combining two complementary ideas: variance-based normalization and momentum applied after …",
+      "url": "https://arxiv.org/pdf/2602.10204"
+    },
+    {
+      "title": "Temper-Then-Tilt: Principled Unlearning for Generative Models through Tempering and Classifier Guidance",
+      "authors": "JL Block, M Mohri, A Mokhtari, S Shakkottai - arXiv preprint arXiv:2602.10217, 2026",
+      "abstract": "We study machine unlearning in large generative models by framing the task as density ratio estimation to a target distribution rather than supervised fine-tuning. While classifier guidance is a standard approach for approximating this ratio and can …",
+      "url": "https://arxiv.org/pdf/2602.10217"
+    }
+  ]
+}

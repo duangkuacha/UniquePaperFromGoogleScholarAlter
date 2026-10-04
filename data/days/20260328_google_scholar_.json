@@ -1,0 +1,92 @@
+{
+  "id": "20260328_google_scholar_",
+  "date": "20260328",
+  "source": "historical-import",
+  "messages": 5,
+  "papers": [
+    {
+      "title": "Interleaved Head Attention",
+      "authors": "S Surya Duvvuri, C Ekbote, R Bansal, R Tiwari… - arXiv e-prints, 2026",
+      "abstract": "Abstract Multi-Head Attention (MHA) is the core computational primitive underlying modern Large Language Models (LLMs). However, MHA suffers from a fundamental linear scaling limitation: $ H $ attention heads produce exactly $ H $ independent …",
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260221371S/abstract"
+    },
+    {
+      "title": "Communication Lower Bounds and Algorithms for Sketching with Random Dense Matrices",
+      "authors": "HA Daas, G Ballard, L Grigori, MT Hussain, S Kumar… - arXiv preprint arXiv …, 2026",
+      "abstract": "Sketching is widely used in randomized linear algebra for low-rank matrix approximation, column subset selection, and many other problems, and it has gained significant traction in machine learning applications. However, sketching large …",
+      "url": "https://arxiv.org/pdf/2603.20966"
+    },
+    {
+      "title": "Mediocrity is the key for LLM as a Judge Anchor Selection",
+      "authors": "S Don-Yehiya, A Yehudai, L Choshen, O Abend",
+      "abstract": "Abstract The “LLM-as-a-judge” paradigm has become a standard method for evaluating open-ended generation. To address the quadratic scalability costs of pairwise comparisons, popular benchmarks like Arena-Hard and AlpacaEval compare all models against a single anchor. However, despite its widespread use, the impact of anchor selection on the reliability of the results remains largely unexplored. In this work, we systematically investigate the effect of anchor selection …",
+      "url": "https://arxiv.org/pdf/2603.16848"
+    },
+    {
+      "title": "CurvZO: Adaptive Curvature-Guided Sparse Zeroth-Order Optimization for Efficient LLM Fine-Tuning",
+      "authors": "S Wang, Z Chen, M Tang - arXiv preprint arXiv:2603.21725, 2026",
+      "abstract": "Fine-tuning large language models (LLMs) with backpropagation achieves high performance but incurs substantial memory overhead, limiting scalability on resource-constrained hardware. Zeroth-order (ZO) optimization provides a memory-efficient alternative by relying solely on forward passes, yet it typically suffers from slow or unstable convergence due to high-variance gradient estimates. Sparse ZO updates partially address this issue by perturbing only a subset of parameters, but their …",
+      "url": "https://arxiv.org/pdf/2603.21725"
+    },
+    {
+      "title": "Towards Solving Polynomial-Objective Integer Programming with Hypergraph Neural Networks",
+      "authors": "M Li, Y Wu, P Troubil, Y Zhang, WPM Nuijten - arXiv preprint arXiv:2603.19318, 2026",
+      "abstract": "Complex real-world optimization problems often involve both discrete decisions and nonlinear relationships between variables. Many such problems can be modeled as polynomial-objective integer programs, encompassing cases with quadratic and higher-degree variable interactions. Nonlinearity makes them more challenging than their linear counterparts. In this paper, we propose a hypergraph neural network (HNN) based method to solve polynomial-objective integer programming (POIP) …",
+      "url": "https://arxiv.org/pdf/2603.19318"
+    },
+    {
+      "title": "Stable Optimization in Deep Learning: Geometry and Games",
+      "authors": "TM Pethick - 2026",
+      "abstract": "Training instabilities are ubiquitous in deep learning and have led to many heuristics aimed at stabilizing the learning process. From an optimization standpoint, such instabilities often arise when the local model used by the algorithm fails to faithfully capture the underlying structure of the problem. This thesis takes a principled approach to address this issue by designing optimization methods that better align with the geometry and game-theoretic nature of the problems arising in deep …",
+      "url": "https://infoscience.epfl.ch/bitstreams/29f051b2-05de-4948-8a8c-12d592e5417c/download"
+    },
+    {
+      "title": "Comparative Evaluation of Conventional and Deep Learning Methods for Respiratory Signal Extraction From Clinical 3D CBCT Projections",
+      "authors": "W Li, W Yang, X Zhang, Y Huang, X Wang, R Zhong… - Technology in Cancer …, 2026",
+      "abstract": "Introduction Recent advances in deep learning have significantly improved the ability to solve ill-posed problems, making 4D cone-beam CT (CBCT) reconstruction from projections of 3D CBCT imaging achievable. However, extracting respiratory signal from CBCT projections for 4D CBCT phase sorting remains a challenge. This study aims to evaluate conventional and deep learning methods for extracting respiratory signal from projections of clinical 3D CBCT imaging. Methods This study analyzed 70 …",
+      "url": "https://journals.sagepub.com/doi/full/10.1177/15330338261437311"
+    },
+    {
+      "title": "Compressed Distributed Stochastic Nonconvex Optimization with Differential Privacy",
+      "authors": "A Xie, X Ren, X Yi, T Yang, X Wang - arXiv preprint arXiv:2603.21640, 2026",
+      "abstract": "This paper studies distributed stochastic nonconvex optimization problems with compressed communication and differential privacy, in which each agent aims to minimize the sum of all agents' cost functions by using local compressed information exchange. To this end, we propose a compressed distributed stochastic gradient descent algorithm, which is robust under a general class of compression operators that allow both relative and absolute compression errors. We then show that the …",
+      "url": "https://arxiv.org/pdf/2603.21640"
+    },
+    {
+      "title": "LipsAM: Lipschitz-Continuous Amplitude Modifier for Audio Signal Processing and its Application to Plug-and-Play Dereverberation",
+      "authors": "K Matsumoto, R Uchida, K Yatabe - arXiv preprint arXiv:2603.21684, 2026",
+      "abstract": "The robustness of deep neural networks (DNNs) can be certified through their Lipschitz continuity, which has made the construction of Lipschitz-continuous DNNs an active research field. However, DNNs for audio processing have not been a major focus due to their poor compatibility with existing results. In this paper, we consider the amplitude modifier (AM), a popular architecture for handling audio signals, and propose its Lipschitz-continuous variants, which we refer to as LipsAM. We prove a …",
+      "url": "https://arxiv.org/pdf/2603.21684"
+    },
+    {
+      "title": "Local Convergence Analysis of ADMM for Nonconvex Composite Optimization",
+      "authors": "X Xie, L Yang - arXiv preprint arXiv:2603.20751, 2026",
+      "abstract": "In this paper, we study the local convergence of the standard ADMM scheme for a class of nonconvex composite problems arising from modern imaging and machine learning models. This problem is constrained by a closed convex set, while its objective is the sum of a continuously differentiable (possibly nonconvex) smooth term and a polyhedral convex nonsmooth term composed with a linear mapping. Our analysis is mainly motivated by the recent works of Rockafellar [29, 30]. We begin …",
+      "url": "https://arxiv.org/pdf/2603.20751"
+    },
+    {
+      "title": "Shuffling the Stochastic Mirror Descent via Dual Lipschitz Continuity and Kernel Conditioning",
+      "authors": "J Qiu, L Mei, J Zhang - 2026",
+      "abstract": "The global Lipschitz smoothness condition underlies most convergence and complexity analyses via two key consequences: the descent lemma and the gradient Lipschitz continuity. How to study the performance of optimization algorithms in the absence of Lipschitz smoothness remains an active area. The relative smoothness framework from Bauschke–Bolte–Teboulle (2017) and Lu–Freund–Nesterov (2018) provides an extended descent lemma, ensuring convergence of Bregmanbased …",
+      "url": "https://arxiv.org/pdf/2603.16042"
+    },
+    {
+      "title": "Optimal local linear convergence of Nesterov's accelerated gradient method for $ C^ 2$ functions under the Polyak--{\\L} ojasiewicz inequality",
+      "authors": "Z Feng, H Yuan - arXiv preprint arXiv:2603.21516, 2026",
+      "abstract": "In this work, we establish that Nesterov's accelerated gradient method, applied to $ C^ 2$ functions satisfying the Polyak--{\\L} ojasiewicz inequality around local minimizers, achieves the optimal local linear convergence rate $\\rho=\\frac {\\sqrt {3L+\\mu}-2\\sqrt {\\mu}}{\\sqrt {3L+\\mu}}+\\varepsilon $, where $\\varepsilon $ is an arbitrarily small constant. Our analysis requires neither higher-order smoothness beyond $ C^ 2$ of the objective function nor any additional geometric regularity of …",
+      "url": "https://arxiv.org/pdf/2603.21516"
+    },
+    {
+      "title": "A new PDE-Constrained optimization applied to image denoising",
+      "authors": "Z Ankhili, J Attmani, F Karami, D Meskine - Evolution Equations and Control Theory, 2026",
+      "abstract": "A new PDE-Constrained optimization applied to image denoising AIMS share this content in Facebook share this content in Twitter share this content in Linkedin share this content in ResearchGate share this content in ResearchGate 2.AIMS Journals 3.{{journal.titleEn}} …",
+      "url": "https://www.aimsciences.org/article/doi/10.3934/eect.2026037"
+    },
+    {
+      "title": "Near-Optimal Constrained Feedback Control of Nonlinear Systems via Approximate HJB and Control Barrier Functions",
+      "authors": "MA Shahraki, L Lessard",
+      "abstract": "This paper presents a two-stage framework for constrained near-optimal feedback control of input-affine nonlinear systems. An approximate value function for the unconstrained control problem is computed offline by solving the Hamilton–Jacobi …",
+      "url": "https://arxiv.org/pdf/2603.16114"
+    }
+  ]
+}

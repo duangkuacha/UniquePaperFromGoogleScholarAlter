@@ -1,0 +1,80 @@
+{
+  "id": "20260425_google_scholar_",
+  "date": "20260425",
+  "source": "historical-import",
+  "messages": 7,
+  "papers": [
+    {
+      "title": "A nonsmooth, nonconvex optimization approach over sphere constraints for Variants of regularized CCA and SVD",
+      "authors": "A Beck, R Sharon - Journal of Industrial and Management Optimization, 2026",
+      "abstract": "In this paper, we study a general nonsmooth, nonconvex optimization problem over a cross product of spheres, suitable for various well-known variants of the canonical correlation analysis (CCA) and singular value decomposition (SVD) problems that …",
+      "url": "https://www.aimspress.com/aimspress-data/jimo/2026/5/PDF/jimo-22-05-084.pdf"
+    },
+    {
+      "title": "Ethylene-glycol-assisted inkjet printing for controllable CVD growth of 2D MoS2 single-crystal arrays",
+      "authors": "C Yan, Z He, Q Li, T Lang, Y Zhou, S Wang, Y He… - Journal of Colloid and …, 2026",
+      "abstract": "High-quality patterned growth of two-dimensional (2D) transition-metal dichalcogenides (TMDs) holds significant promise for next-generation electronics. In particular, inkjet printing combined with chemical vapor deposition (CVD) offers …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021979726007484"
+    },
+    {
+      "title": "Lightweight Geometric Adaptation for Training Physics-Informed Neural Networks",
+      "authors": "K An, C Si, S Ma, M Yan - arXiv preprint arXiv:2604.15392, 2026",
+      "abstract": "Physics-Informed Neural Networks (PINNs) often suffer from slow convergence, training instability, and reduced accuracy on challenging partial differential equations due to the anisotropic and rapidly varying geometry of their loss landscapes. We …",
+      "url": "https://arxiv.org/pdf/2604.15392"
+    },
+    {
+      "title": "CoEvolve: Training LLM Agents via Agent-Data Mutual Evolution",
+      "authors": "S Yang, Z Ma, T Huang, Y Hu, Y Wang, X Chu - arXiv preprint arXiv:2604.15840, 2026",
+      "abstract": "Reinforcement learning for LLM agents is typically conducted on a static data distribution, which fails to adapt to the agent's evolving behavior and leads to poor coverage of complex environment interactions. To address these challenges, we propose CoEvolve, an agent-data mutual evolution framework that enables LLM agents to improve through closed-loop, interaction-driven training. Specifically, CoEvolve extracts feedback signals such as forgetting and uncertainty from rollout …",
+      "url": "https://arxiv.org/pdf/2604.15840"
+    },
+    {
+      "title": "CORE: Common Random Reconstruction for Distributed Optimization with Provable Lower Total Communication Costs",
+      "authors": "H Zhao, P Yue, C Fang - IEEE Transactions on Automatic Control, 2026",
+      "abstract": "In this paper, we propose a new compression technique named Common randOm REconstruction (CORE), which can be used to compress the information transmitted between agents to reduce the total communication costs (TCCs) without other strict conditions. Previous communication compression techniques cannot ensure the improvement of TCCs due to the additional communication rounds caused by information distortion. CORE projects the vector-valued information to a low …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11456360/"
+    },
+    {
+      "title": "On the Communication Complexity of Decentralized Stochastic Bilevel Optimization",
+      "authors": "Y Zhang, MT Thai, J Wu, H Gao - Machine Learning, 2026",
+      "abstract": "Stochastic bilevel optimization finds widespread applications in machine learning, including meta-learning, hyperparameter optimization, and neural architecture search. To extend stochastic bilevel optimization to distributed data, several decentralized stochastic bilevel optimization algorithms have been developed. However, existing methods often suffer from slow convergence rates and high communication costs in heterogeneous settings, limiting their applicability to real …",
+      "url": "https://link.springer.com/article/10.1007/s10994-026-07040-y"
+    },
+    {
+      "title": "Anti-Disturbance Proximal Neural Networks for Composite Resource Allocation",
+      "authors": "L Luan, S Qi, S Qin - IEEE Transactions on Neural Networks and Learning …, 2026",
+      "abstract": "Composite resource allocation problems with general constraints are studied in this article, which frequently arise in networked systems such as smart grids and multiagent coordination. To address the challenges posed by multivalued differential inclusions resulting from nonsmooth objective functions, two anti-disturbance proximal neural networks are proposed, each tailored to handle structured and unstructured disturbances, respectively. For structured disturbances, the neural …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11456180/"
+    },
+    {
+      "title": "Winner of CVPR2026 NTIRE Challenge on Image Shadow Removal: Semantic and Geometric Guidance for Shadow Removal via Cascaded Refinement",
+      "authors": "L Beltrame, J Salzinger, F Svoboda, J Lampert… - arXiv preprint arXiv …, 2026",
+      "abstract": "We present a three-stage progressive shadow-removal pipeline for the CVPR2026 NTIRE WSRD+ challenge. Built on OmniSR, our method treats deshadowing as iterative direct refinement, where later stages correct residual artefacts left by earlier predictions. The model combines RGB appearance with frozen DINOv2 semantic guidance and geometric cues from monocular depth and surface normals, reused across all stages. To stabilise multi-stage optimisation, we introduce a contraction …",
+      "url": "https://arxiv.org/pdf/2604.16177"
+    },
+    {
+      "title": "Seismic Impedance Inversion With Adaptive Group Sparse Regularization",
+      "authors": "Q Xiang, R Dai - IEEE Geoscience and Remote Sensing Letters, 2026",
+      "abstract": "Seismic impedance inversion, as a core technology in geophysical exploration, has evolved into a pivotal method for the quantitative prediction of subsurface rock elastic properties within exploration geophysics. Its accuracy and resolution directly impact the precision of hydrocarbon reservoir prediction and characterization. Seismic inversion often faces an ill-posedness challenge. Sparse regularization, such as L1-norm, is frequently used to deal with this issue. But the noise interference is still …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11471803/"
+    },
+    {
+      "title": "Adaptive Regularization within Trust Region Methods for Stochastic Nonconvex Optimization",
+      "authors": "Y Ha, S Shashaani, Q Tran-Dinh - arXiv preprint arXiv:2604.15457, 2026",
+      "abstract": "We propose a stochastic nonconvex optimization algorithm that achieves almost sure $\\tilde {\\mathcal {O}}(\\epsilon^{-1.5}) $ iteration complexity for problems with smooth objective functions and gradients only observable with noise. The mean-zero …",
+      "url": "https://arxiv.org/pdf/2604.15457"
+    },
+    {
+      "title": "Towards Universal Convergence of Backward Error in Linear System Solvers",
+      "authors": "M Dereziński, Y Nakatsukasa, E Rebrova - arXiv preprint arXiv:2604.16075, 2026",
+      "abstract": "The quest for an algorithm that solves an $ n\\times n $ linear system in $ O (n^ 2) $ time complexity, or $ O (n^ 2\\text {poly}(1/\\epsilon)) $ when solving up to $\\epsilon $ relative error, is a long-standing open problem in numerical linear algebra and …",
+      "url": "https://arxiv.org/pdf/2604.16075"
+    },
+    {
+      "title": "GroupDPO: Memory efficient Group-wise Direct Preference Optimization",
+      "authors": "J Leng, S Si, HF Yu, V Raman, IS Dhillon - arXiv preprint arXiv:2604.15602, 2026",
+      "abstract": "Preference optimization is widely used to align Large Language Models (LLMs) with preference feedback. However, most existing methods train on a single positive-negative pair per prompt, discarding additional supervision available in preference …",
+      "url": "https://arxiv.org/pdf/2604.15602"
+    }
+  ]
+}

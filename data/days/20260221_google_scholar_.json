@@ -1,0 +1,164 @@
+{
+  "id": "20260221_google_scholar_",
+  "date": "20260221",
+  "source": "historical-import",
+  "messages": 7,
+  "papers": [
+    {
+      "title": "Improving out-of-distribution detection in normalizing flows with synthetic outliers",
+      "authors": "Y Zhao, Q Ding, X Zhang - Neurocomputing, 2026",
+      "abstract": "Abstract Out-of-distribution (OOD) detection is critical for ensuring the reliability and robustness of deep learning models in real-world applications. While normalizing flows have demonstrated impressive performance for various task of image OOD …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231226004789"
+    },
+    {
+      "title": "Why is Normalization Preferred? A Worst-Case Complexity Theory for Stochastically Preconditioned SGD under Heavy-Tailed Noise",
+      "authors": "Y Fang, J Demmel, J Lavaei",
+      "abstract": "We develop a worst-case complexity theory for stochastically preconditioned stochastic gradient descent (SPSGD) and its accelerated variants under heavy-tailed noise, a setting that encompasses widely used adaptive methods such as Adam, RM …",
+      "url": "https://lavaei.ieor.berkeley.edu/SPSGD_2026_1.pdf"
+    },
+    {
+      "title": "New gradient methods with 3 dimensional quadratic termination",
+      "authors": "Y Xie, JP Liu, C Sun, YX Yuan - arXiv preprint arXiv:2602.13141, 2026",
+      "abstract": "A new stepsize for gradient method is proposed. Combining it with the exact line search stepsizes, the gradient method achieves the optimal solution in 5 steps for 3 dimensional quadratic function minimization problem. The new stepsize is plugged …",
+      "url": "https://arxiv.org/pdf/2602.13141"
+    },
+    {
+      "title": "Multidimensional Image Reconstruction via Deep Nonlinear Low-Rank Tensor Decomposition",
+      "authors": "ZW Shi, YB Zheng, HC Li, A Plaza - IEEE Transactions on Circuits and Systems for …, 2026",
+      "abstract": "Low-rank tensor decomposition (LRTD) has demonstrated significant efficacy in multidimensional image reconstruction. Indeed, LRTD driven by nonlinear relationship can capture the underlying low-rank structure more accurately, since …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11386834/"
+    },
+    {
+      "title": "A Bregman ADMM for Robust Fused Lasso Estimation with Doubly Nonconvex Regularizers: Y. Fan et al.",
+      "authors": "Y Fan, ZF Jin, Y Shang, D Han - Journal of Global Optimization, 2026",
+      "abstract": "The fused lasso method has emerged as crucial for variable selection in high-dimensional linear regression. It can effectively deal with the case where adjacent variables exhibit strong correlation and gain sparse solutions under the Gaussian …",
+      "url": "https://link.springer.com/article/10.1007/s10898-026-01596-8"
+    },
+    {
+      "title": "Bilevel optimization for tensor completion with noise",
+      "authors": "C Wang, R Xue, Y Fu - Journal of Applied Mathematics and Computing, 2026",
+      "abstract": "Based on the minimum and maximum nuclear norm of all mode matrices of a tensor, a bilevel optimization model with an inequality constraint is proposed for tensor completion with noise. By using a special penalty function, a separable …",
+      "url": "https://link.springer.com/article/10.1007/s12190-025-02740-5"
+    },
+    {
+      "title": "Signal recovery via the quaternion regularized Kaczmarz method with adaptive momentum",
+      "authors": "Z Zhao, W Li, Y Liao - Signal Processing, 2026",
+      "abstract": "This paper extends randomized Kaczmarz (RK) methods to the quaternion skew-field to solve quaternion recovery problem. We propose the Quaternion Regularized Kaczmarz method with Adaptive Momentum (QRKAM) for signal recovery, and …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165168426000447"
+    },
+    {
+      "title": "Multi-Dimensional Visual Data Recovery: Scale-Aware Tensor Modeling and Accelerated Randomized Computation",
+      "authors": "W Qin, H Wang, J Peng, J Wang, T Huang - arXiv preprint arXiv:2602.12982, 2026",
+      "abstract": "The recently proposed fully-connected tensor network (FCTN) decomposition has demonstrated significant advantages in correlation characterization and transpositional invariance, and has achieved notable achievements in multi …",
+      "url": "https://arxiv.org/pdf/2602.12982"
+    },
+    {
+      "title": "A New Hierarchical Domain Decomposition Method with Coarse Correction",
+      "authors": "MJ Gander, H Zhang",
+      "abstract": "The philosophy of traditional multilevel domain decomposition methods [9, 8] consists in (i) decomposing the domain into sufficiently small subdomains,(ii) constructing a coarse problem to couple all the subdomains and accelerate …",
+      "url": "https://www.unige.ch/~gander/Preprints/ms01_gander.pdf"
+    },
+    {
+      "title": "Odd discrete Fourier transforms for the analysis of Schwarz domain decomposition methods discretized with finite volume schemes",
+      "authors": "L Halpern, M Gander, F Hubert, S Krell",
+      "abstract": "The analysis and optimization of Schwarz methods is well understood for Laplace type problems on unbounded domains, and the main tool is Fourier transforms. We present here a new approach for studying and optimizing Schwarz methods in …",
+      "url": "https://www.unige.ch/~gander/Preprints/paperLDD29.pdf"
+    },
+    {
+      "title": "Schwarz and Dirichlet–Neumann Waveform Relaxation for a Stefan Problem",
+      "authors": "RD Haynes, MJ Gander",
+      "abstract": "There have been a lot of research efforts over the past two decades to solve space-time problems in parallel on large scale HPC architectures. New algorithms for the parallelization in time (PinT) have been developed, see the recent research …",
+      "url": "https://www.unige.ch/~gander/Preprints/HaynesGander26Jan2026a.pdf"
+    },
+    {
+      "title": "Schwarz Modulus Based Matrix Splittings with Minimal Polynomial Extrapolation Acceleration for linear complementarity problems arising from American option …",
+      "authors": "MJ Gander, SW Liao, LD Lu",
+      "abstract": "Options are one of the most fundamental financial derivative instruments in modern markets. They give the holder the right, but not the obligation, to buy (call option) or sell (put option) an underlying asset at a fixed strike price, either on or before a …",
+      "url": "https://www.unige.ch/~gander/Preprints/SMMS_MPE.pdf"
+    },
+    {
+      "title": "Similarities and differences when solving Helmholtz problems with Schwarz Domain Decomposition and Multigrid",
+      "authors": "MJ Gander, Y Sun",
+      "abstract": "As a fundamental model for time-harmonic wave propagation, the Helmholtz equation captures the essential numerical challenges inherent in wave propagation computations. Despite its apparent simplicity, it embodies many of the key difficulties …",
+      "url": "https://www.unige.ch/~gander/Preprints/DD_MG_Helmholtz.pdf"
+    },
+    {
+      "title": "Optimised Compact High Order Schemes for the Helmholtz Equation by Interpolation with Polynomials and Plane Waves",
+      "authors": "MJ Gander, H Zhang, R Zhao",
+      "abstract": "Babuska and Sauter in [1] derived a dispersion free scheme for the 1D Helmholtz equation by requiring the symmetric three-point stencil equation to be exactly satisfied by the plane wave solutions (for zero source) and simultaneously exactly …",
+      "url": "https://www.unige.ch/~gander/Preprints/ms12_zhang.pdf"
+    },
+    {
+      "title": "A sweeping domain decomposition method for elliptic problems",
+      "authors": "B Chaudet-Dumas, MJ Gander",
+      "abstract": "Our goal is to introduce and study at the continuous level a domain decomposition method (DDM) that computes the exact solution in a finite number of iterations. Such DD-based solvers are often referred to as truly optimal. In early work [7] on the …",
+      "url": "https://www.unige.ch/~gander/Preprints/A_sweeping_domain_decomposition_method_for_elliptic_problems.pdf"
+    },
+    {
+      "title": "A context-aware temporal knowledge graph completion method based on logical paths",
+      "authors": "Y Zhang, X Kong, K Ye, S Zheng, Q Pan, G Shen, J Li - Neurocomputing, 2026",
+      "abstract": "Abstract Temporal Knowledge Graph Completion (TKGC) plays a critical role in dynamic knowledge expansion by predicting entity relationships at specific time points based on existing facts. This enhances the performance of downstream applications. Existing TKGC methods mainly generate dynamic entity representations by capturing the structural characteristics of facts and the sequential properties of data. Some approaches also attempt to extract temporal logical rules …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231226004467"
+    },
+    {
+      "title": "Zeroth-Order Federated Fine-Tuning for Large AI Models in Resource-Constrained Wireless Networks",
+      "authors": "T Wang, Y Zhou, Y Shi, N Cheng, H Zhou, H Shan - IEEE Transactions on Wireless …, 2026",
+      "abstract": "Large artificial intelligence (AI) models have demonstrated impressive performance in a wide range of fields. Despite their versatility, adapting large AI models to specific downstream applications often requires fine-tuning on decentralized and privacy-sensitive data, posing significant challenges in resource-constrained wireless networks. In this paper, we propose a novel zeroth-order federated fine-tuning framework for efficient fine-tuning large AI models to alleviate the computation …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11393653/"
+    },
+    {
+      "title": "Vertical Federated Learning Across Heterogeneous Models: A Survey of Techniques and Challenges",
+      "authors": "JS Shin - 정보및제어논문집, 2025",
+      "abstract": "Federated learning (FL) enables collaborative model training without centralizing sensitive data. While horizontal FL has been widely studied, vertical federated learning (VFL), where parties hold feature-partitioned data, has received less attention. In particular, heterogeneous VFL, where participants adopt different model architectures, introduces unique challenges in representation alignment, secure computation, and knowledge transfer. This survey reviews the state of …",
+      "url": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12564185"
+    },
+    {
+      "title": "LightFreq: Adaptive Frequency Learning for Efficient and Multi-domain Time Series Forecasting",
+      "authors": "W Wu, X Li, X Liang, C Yang, W Gui, Y Liu, N Zhou - Knowledge-Based Systems, 2026",
+      "abstract": "Time series forecasting is essential for decision-making and optimization in various fields, including energy, healthcare, and smart manufacturing. Adapting forecasting models across different domains is crucial to enable knowledge shift to new tasks with minimal domain-specific engineering and minimal development costs. However, the diversities among different domains, such as variations in data distribution, frequency, and noise, demand models with strong representation capabilities. This …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705126002984"
+    },
+    {
+      "title": "Learning to Approximate Uniform Facility Location via Graph Neural Networks",
+      "authors": "C Qian, C Morris, S Jegelka, C Sohler - arXiv preprint arXiv:2602.13155, 2026",
+      "abstract": "There has been a growing interest in using neural networks, especially message-passing neural networks (MPNNs), to solve hard combinatorial optimization problems heuristically. However, existing learning-based approaches for hard combinatorial optimization tasks often rely on supervised training data, reinforcement learning, or gradient estimators, leading to significant computational overhead, unstable training, or a lack of provable performance guarantees. In contrast, classical …",
+      "url": "https://arxiv.org/pdf/2602.13155"
+    },
+    {
+      "title": "Split Averaging: Bridging the Heterogeneity Gap in Clients Data for Federated Learning",
+      "authors": "S Khan, N Karetnikov, MH ur Rehman, D Svetinovic - IEEE Access, 2026",
+      "abstract": "Federated Learning (FL) has gained significant prominence to overcome the issue of data silos in various domains. However, since its introduction FL has been confronted with the presence of Non-Independent and Identically Distributed (Non-IID) data, hindering its broad-scale adoption. In this paper, we present a novel method named Federated Split Averaging (FSA) to tackle the problem of Non-IID data. FSA solves the key challenge that classical FL fails to overcome, specifically …",
+      "url": "https://ieeexplore.ieee.org/iel8/6287639/6514899/11373536.pdf"
+    },
+    {
+      "title": "Stackelberg Game-Theoretic Safe MARL with Bilevel Control for Autonomous Driving",
+      "authors": "H Qu, X Li, CZ Liu, J Zhang, S Zhuang, M Ma - IEEE Access, 2026",
+      "abstract": "Ensuring safety in interactive autonomous driving remains a core challenge for reinforcement learning (RL), since agents must act under uncertainty and rare but critical events (eg, collisions) while respecting traffic rules such as yielding and right-of-way. To address these challenges, we propose DiStaK, a distributional Stackelberg RL framework that models driving interactions as a bilevel leader–follower game. A practical discrete instantiation, DiStaK-C51, augments the safety …",
+      "url": "https://ieeexplore.ieee.org/iel8/6287639/11323511/11368873.pdf"
+    },
+    {
+      "title": "Enabling Language Models to Process Information at Scale",
+      "authors": "T Gao - 2026",
+      "abstract": "Progress in language model (LM) development has driven rapid gains in their capabilities, with state-of-the-art systems now matching--and often surpassing--PhD-level performance on exam-style benchmarks. This thesis advances the field by developing methods that enhance models' ability to compile, synthesize, and reason over large volumes of information on the fly--a new paradigm that closely resembles human intellectual activities and underpins emerging applications ranging from …",
+      "url": "https://search.proquest.com/openview/a7ba8d3a752ca5d0b9dd2a6c10928e35/1?pq-origsite=gscholar&cbl=18750&diss=y"
+    },
+    {
+      "title": "The Evolution of Dynamic Spectrum Sensing: A Two-Decade Survey from Foundations to Frontiers",
+      "authors": "M Falco, A Scarvaglieri, F Busacca, F Nosrati, D Croce - Computer Networks, 2026",
+      "abstract": "The growing demand for wireless connectivity has heightened the need for efficient spectrum utilization. Dynamic Spectrum Sensing (DSS), a fundamental capability of Cognitive Radio Networks (CRNs), enables real-time identification of available spectrum without interfering with licensed users. While DSS has evolved significantly, a comprehensive overview capturing its full operational context remains lacking. This survey bridges that gap by systematically analyzing 62 peer-reviewed …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1389128626001076"
+    },
+    {
+      "title": "Strongly convergent inertial proximal point method with correction terms: Theory, applications in machine learning for Air Quality prediction",
+      "authors": "GN Ogwo, W Cholamjiak, Y Shehu - Mathematics and Computers in Simulation, 2026",
+      "abstract": "This paper introduces a novel Halpern-type proximal point algorithm that incorporates both inertial and correction terms for solving monotone inclusion problems in real Hilbert spaces. The inertial component accelerates convergence, while the correction term enhances numerical stability and dampens oscillations. Under standard assumptions, we establish strong convergence to a solution. Beyond qualitative convergence, we derive explicit convergence rates: with α k= 1/(k+ 1), we …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378475426000625"
+    },
+    {
+      "title": "Rational Neural Networks have Expressivity Advantages",
+      "authors": "M Tang, A Townsend - arXiv preprint arXiv:2602.12390, 2026",
+      "abstract": "We study neural networks with trainable low-degree rational activation functions and show that they are more expressive and parameter-efficient than modern piecewise-linear and smooth activations such as ELU, LeakyReLU, LogSigmoid, PReLU …",
+      "url": "https://arxiv.org/pdf/2602.12390"
+    }
+  ]
+}
