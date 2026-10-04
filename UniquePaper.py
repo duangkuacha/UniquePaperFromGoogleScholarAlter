@@ -188,6 +188,21 @@ def deduplicate(papers: Iterable[dict[str, str]]) -> list[dict[str, str]]:
     return result
 
 
+def merge_daily_record(output: Path, payload: dict[str, Any]) -> dict[str, Any]:
+    """Append today's new papers without replacing an earlier same-day run."""
+
+    if not output.exists():
+        return payload
+    try:
+        previous = json.loads(output.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return payload
+    previous_papers = previous.get("papers", [])
+    payload["papers"] = deduplicate([*previous_papers, *payload.get("papers", [])])
+    payload["messages"] = int(previous.get("messages", 0) or 0) + int(payload.get("messages", 0) or 0)
+    return payload
+
+
 def mark_read(session: requests.Session, token: str, message_id: str) -> None:
     response = session.post(
         f"{GMAIL_API}/messages/{message_id}/modify",
@@ -242,6 +257,7 @@ def process(args: argparse.Namespace) -> int:
     date = datetime.now().strftime("%Y%m%d")
     output = output_dir / f"{date}_google_scholar_.json"
     payload = {"date": date, "source": "gmail", "messages": scholar_messages, "papers": papers}
+    payload = merge_daily_record(output, payload)
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     # Mark messages only after the public file has been written successfully.
     for message_id in message_ids:
