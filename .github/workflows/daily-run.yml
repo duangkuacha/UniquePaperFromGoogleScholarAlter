@@ -2,8 +2,9 @@ name: Fetch Scholar mail and publish site
 
 on:
   schedule:
-    # 06:00 Asia/Shanghai (UTC 22:00 on the previous day). GitHub may delay scheduled jobs.
-    - cron: '0 22 * * *'
+    # GitHub supports an IANA timezone for schedule entries.
+    - cron: '0 6 * * *'
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:
 
 permissions:
