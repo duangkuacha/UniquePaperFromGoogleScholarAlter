@@ -12,8 +12,29 @@
     header { padding:28px; color:white; border-radius:20px; background:linear-gradient(135deg,#263b80,#4c6fff); box-shadow:0 12px 32px #263b8030; }
     h1 { margin:0 0 8px; font-size:clamp(26px,4vw,40px); }
     header p { margin:0; color:#e6ebff; }
-    .controls { display:grid; grid-template-columns:1.5fr 1fr; gap:12px; margin:20px 0; }
+    .controls { display:grid; grid-template-columns:minmax(0,1fr) 360px; gap:16px; align-items:start; margin:20px 0; }
     input,select { width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:10px; background:#fff; color:var(--ink); font:inherit; }
+    .calendar { padding:16px; border:1px solid var(--line); border-radius:16px; background:#fff; box-shadow:0 6px 18px #1b2a4a0b; }
+    .calendar-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:12px; }
+    .calendar-title { margin:0; font-size:17px; font-weight:700; text-align:center; }
+    .calendar-nav, .calendar-all { border:0; border-radius:8px; background:var(--soft); color:var(--brand); cursor:pointer; font:inherit; }
+    .calendar-nav { width:32px; height:32px; font-size:20px; line-height:1; }
+    .calendar-nav:hover:not(:disabled), .calendar-all:hover { background:#e9edff; }
+    .calendar-nav:disabled { cursor:default; opacity:.35; }
+    .calendar-weekdays, .calendar-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:4px; }
+    .calendar-weekdays { margin-bottom:4px; color:var(--muted); font-size:12px; text-align:center; }
+    .calendar-weekdays span { padding:3px 0; }
+    .calendar-cell { position:relative; min-height:34px; border:1px solid transparent; border-radius:8px; background:#fff; color:#a2a9b8; cursor:default; font:inherit; }
+    .calendar-cell.has-data { color:var(--ink); cursor:pointer; }
+    .calendar-cell.has-data:hover { border-color:#b8c4f4; background:var(--soft); }
+    .calendar-cell.selected { border-color:var(--brand); background:var(--brand); color:#fff; font-weight:700; }
+    .calendar-cell.today:not(.selected) { border-color:#7c8de8; }
+    .calendar-cell.has-data::after { position:absolute; right:4px; bottom:3px; width:4px; height:4px; border-radius:50%; background:#7c8de8; content:""; }
+    .calendar-cell.selected::after { background:#fff; }
+    .calendar-footer { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:12px; }
+    .calendar-hint { color:var(--muted); font-size:12px; }
+    .calendar-all { padding:7px 10px; font-size:13px; }
+    .calendar-all.active { background:var(--brand); color:#fff; }
     .stats { display:flex; flex-wrap:wrap; gap:10px; margin:12px 0 18px; }
     .stat { padding:11px 14px; border:1px solid var(--line); border-radius:12px; background:white; color:var(--muted); }
     .stat strong { color:var(--ink); }
@@ -45,7 +66,21 @@
   </header>
   <section class="controls" aria-label="筛选">
     <input id="search" type="search" placeholder="搜索标题、作者或摘要…" aria-label="搜索论文">
-    <select id="date" aria-label="选择日期"><option value="all">全部日期</option></select>
+    <div class="calendar" aria-label="按日期筛选">
+      <div class="calendar-head">
+        <button id="previous-month" class="calendar-nav" type="button" aria-label="上个月">‹</button>
+        <h2 id="calendar-title" class="calendar-title"></h2>
+        <button id="next-month" class="calendar-nav" type="button" aria-label="下个月">›</button>
+      </div>
+      <div class="calendar-weekdays" aria-hidden="true">
+        <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+      </div>
+      <div id="calendar-grid" class="calendar-grid" role="grid" aria-label="日期"></div>
+      <div class="calendar-footer">
+        <span id="calendar-hint" class="calendar-hint">有论文的日期带有圆点</span>
+        <button id="all-dates" class="calendar-all active" type="button">全部日期</button>
+      </div>
+    </div>
   </section>
   <div id="stats" class="stats"></div>
   <div id="status">正在读取数据…</div>
@@ -62,14 +97,48 @@
   <footer>数据由 GitHub Actions 定时从 Gmail Google Scholar Alert 邮件更新。页面只包含论文元数据，不保存 OAuth 凭据。</footer>
 </main>
 <script>
-  const state = { days: [], papers: [], page: 1, pageSize: 50 };
+  const state = { days: [], papers: [], page: 1, pageSize: 50, selectedDate: 'all', calendarMonth: null, availableDates: new Set() };
   const $ = (id) => document.getElementById(id);
   const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const formatDate = (date) => date && date.length === 8 ? `${date.slice(0,4)}-${date.slice(4,6)}-${date.slice(6,8)}` : date;
+  const dateKey = (date) => `${date.getFullYear()}${String(date.getMonth() + 1).padStart(2, '0')}${String(date.getDate()).padStart(2, '0')}`;
+  const monthKey = (date) => `${date.getFullYear()}${String(date.getMonth() + 1).padStart(2, '0')}`;
+  const monthFromKey = (key) => new Date(Number(key.slice(0,4)), Number(key.slice(4,6)) - 1, 1);
+
+  function renderCalendar() {
+    if (!state.calendarMonth) return;
+    const month = state.calendarMonth;
+    const title = new Intl.DateTimeFormat('zh-CN', { year:'numeric', month:'long' }).format(month);
+    $('calendar-title').textContent = title;
+    const currentMonth = monthKey(month);
+    const monthKeys = [...state.availableDates].map(date => date.slice(0,6)).sort();
+    const minMonth = monthKeys[0] || currentMonth;
+    const maxMonth = monthKeys[monthKeys.length - 1] || currentMonth;
+    $('previous-month').disabled = currentMonth <= minMonth;
+    $('next-month').disabled = currentMonth >= maxMonth;
+    const firstDay = new Date(month.getFullYear(), month.getMonth(), 1).getDay();
+    const daysInMonth = new Date(month.getFullYear(), month.getMonth() + 1, 0).getDate();
+    const today = dateKey(new Date());
+    const cells = [];
+    for (let i = 0; i < firstDay; i += 1) cells.push('<span aria-hidden="true"></span>');
+    for (let day = 1; day <= daysInMonth; day += 1) {
+      const date = dateKey(new Date(month.getFullYear(), month.getMonth(), day));
+      const hasData = state.availableDates.has(date);
+      const selected = state.selectedDate === date;
+      const classes = ['calendar-cell'];
+      if (hasData) classes.push('has-data');
+      if (selected) classes.push('selected');
+      if (today === date) classes.push('today');
+      cells.push(`<button type="button" class="${classes.join(' ')}" data-date="${date}" ${hasData ? '' : 'disabled'} aria-label="${formatDate(date)}${hasData ? '，有论文' : '，无数据'}" ${selected ? 'aria-pressed="true"' : ''}>${day}</button>`);
+    }
+    $('calendar-grid').innerHTML = cells.join('');
+    $('all-dates').classList.toggle('active', state.selectedDate === 'all');
+    $('calendar-hint').textContent = state.selectedDate === 'all' ? '有论文的日期带有圆点' : `已选择 ${formatDate(state.selectedDate)}`;
+  }
 
   function render() {
     const query = $('search').value.trim().toLocaleLowerCase();
-    const selected = $('date').value;
+    const selected = state.selectedDate;
     const filtered = state.papers.filter(item => {
       const dateOk = selected === 'all' || item.date === selected;
       const haystack = `${item.title} ${item.authors} ${item.abstract}`.toLocaleLowerCase();
@@ -113,9 +182,11 @@
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const catalog = await response.json();
       state.days = catalog.days || [];
+      state.availableDates = new Set(state.days.map(day => day.date));
       state.papers = state.days.flatMap(day => (day.papers || []).map(paper => ({ ...paper, date: day.date })));
-      const dates = [...new Set(state.days.map(day => day.date))].sort().reverse();
-      $('date').innerHTML += dates.map(date => `<option value="${date}">${formatDate(date)}</option>`).join('');
+      const dates = [...state.availableDates].sort();
+      state.calendarMonth = dates.length ? monthFromKey(dates[dates.length - 1].slice(0,6)) : new Date();
+      renderCalendar();
       render();
     } catch (error) {
       $('status').textContent = '数据暂时无法读取，请稍后刷新页面。';
@@ -124,7 +195,17 @@
   }
   function resetAndRender() { state.page = 1; render(); }
   $('search').addEventListener('input', resetAndRender);
-  $('date').addEventListener('change', resetAndRender);
+  $('previous-month').addEventListener('click', () => { state.calendarMonth.setMonth(state.calendarMonth.getMonth() - 1); renderCalendar(); });
+  $('next-month').addEventListener('click', () => { state.calendarMonth.setMonth(state.calendarMonth.getMonth() + 1); renderCalendar(); });
+  $('calendar-grid').addEventListener('click', (event) => {
+    const button = event.target.closest('button[data-date]');
+    if (!button || button.disabled) return;
+    state.selectedDate = button.dataset.date;
+    state.page = 1;
+    renderCalendar();
+    render();
+  });
+  $('all-dates').addEventListener('click', () => { state.selectedDate = 'all'; state.page = 1; renderCalendar(); render(); });
   $('page-size').addEventListener('change', (event) => { state.pageSize = Number(event.target.value); state.page = 1; render(); });
   $('pagination').addEventListener('click', (event) => {
     const button = event.target.closest('button[data-page]');
