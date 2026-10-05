@@ -2,8 +2,8 @@ name: Fetch Scholar mail and publish site
 
 on:
   schedule:
-    # 08:00 Asia/Shanghai (UTC 00:00). GitHub may delay scheduled jobs.
-    - cron: '0 0 * * *'
+    # 06:00 Asia/Shanghai (UTC 22:00 on the previous day). GitHub may delay scheduled jobs.
+    - cron: '0 22 * * *'
   workflow_dispatch:
 
 permissions:
