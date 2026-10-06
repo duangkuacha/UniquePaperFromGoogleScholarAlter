@@ -7,7 +7,7 @@ import base64
 import json
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import parse_qs, unquote, urlencode, urlsplit, urlunsplit
@@ -203,6 +203,15 @@ def merge_daily_record(output: Path, payload: dict[str, Any]) -> dict[str, Any]:
     return payload
 
 
+def received_date(message: dict[str, Any]) -> str:
+    """Return the Gmail message date in the runner's configured local timezone."""
+
+    timestamp = int(message.get("internalDate", "0") or 0)
+    if timestamp <= 0:
+        return datetime.now().strftime("%Y%m%d")
+    return datetime.fromtimestamp(timestamp / 1000, tz=timezone.utc).astimezone().strftime("%Y%m%d")
+
+
 def mark_read(session: requests.Session, token: str, message_id: str) -> None:
     response = session.post(
         f"{GMAIL_API}/messages/{message_id}/modify",
@@ -235,17 +244,22 @@ def process(args: argparse.Namespace) -> int:
     session = make_session()
     query = args.query or f"is:unread from:{SCHOLAR_SENDER}"
     messages = list_unread_messages(session, creds.token, args.max_messages, query)
-    papers: list[dict[str, str]] = []
-    scholar_messages = 0
+    records: dict[str, dict[str, Any]] = {}
     message_ids = [message["id"] for message in messages]
     for message in messages:
         detail = api_get(session, creds.token, f"messages/{message['id']}", format="full")
         extracted = extract_papers(detail)
         if extracted:
-            scholar_messages += 1
-            papers.extend(extracted)
-    papers = deduplicate(papers)
-    if not papers:
+            date = received_date(detail)
+            record = records.setdefault(
+                date,
+                {"date": date, "source": "gmail", "messages": 0, "papers": []},
+            )
+            record["messages"] += 1
+            record["papers"].extend(extracted)
+    for record in records.values():
+        record["papers"] = deduplicate(record["papers"])
+    if not any(record["papers"] for record in records.values()):
         for message_id in message_ids:
             try:
                 mark_read(session, creds.token, message_id)
@@ -254,18 +268,23 @@ def process(args: argparse.Namespace) -> int:
         print(f"No new Scholar papers found in {len(messages)} unread messages.")
         return 0
 
-    date = datetime.now().strftime("%Y%m%d")
-    output = output_dir / f"{date}_google_scholar_.json"
-    payload = {"date": date, "source": "gmail", "messages": scholar_messages, "papers": papers}
-    payload = merge_daily_record(output, payload)
-    output.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    saved_dates: list[str] = []
+    saved_papers = 0
+    for date, payload in sorted(records.items()):
+        if not payload["papers"]:
+            continue
+        output = output_dir / f"{date}_google_scholar_.json"
+        payload = merge_daily_record(output, payload)
+        output.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        saved_dates.append(date)
+        saved_papers += len(payload["papers"])
     # Mark messages only after the public file has been written successfully.
     for message_id in message_ids:
         try:
             mark_read(session, creds.token, message_id)
         except requests.RequestException as exc:
             print(f"Warning: could not mark message as read: {exc}", file=sys.stderr)
-    print(f"Saved {len(papers)} unique papers from {scholar_messages} Scholar messages to {output}")
+    print(f"Saved {saved_papers} unique papers across {len(saved_dates)} received dates: {', '.join(saved_dates)}")
     return 0
 
 
