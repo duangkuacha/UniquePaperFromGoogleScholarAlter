@@ -12,29 +12,43 @@
     header { padding:28px; color:white; border-radius:20px; background:linear-gradient(135deg,#263b80,#4c6fff); box-shadow:0 12px 32px #263b8030; }
     h1 { margin:0 0 8px; font-size:clamp(26px,4vw,40px); }
     header p { margin:0; color:#e6ebff; }
-    .controls { display:grid; grid-template-columns:minmax(0,1fr) 360px; gap:16px; align-items:start; margin:20px 0; }
+    .controls { margin:20px 0; }
     input,select { width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:10px; background:#fff; color:var(--ink); font:inherit; }
-    .calendar { padding:16px; border:1px solid var(--line); border-radius:16px; background:#fff; box-shadow:0 6px 18px #1b2a4a0b; }
-    .calendar-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:12px; }
-    .calendar-title { margin:0; font-size:17px; font-weight:700; text-align:center; }
-    .calendar-nav, .calendar-all { border:0; border-radius:8px; background:var(--soft); color:var(--brand); cursor:pointer; font:inherit; }
-    .calendar-nav { width:32px; height:32px; font-size:20px; line-height:1; }
-    .calendar-nav:hover:not(:disabled), .calendar-all:hover { background:#e9edff; }
+    .search-row { display:flex; align-items:center; gap:12px; }
+    .search-box { position:relative; display:block; flex:1; }
+    .search-box::before { position:absolute; top:12px; left:14px; color:#9aa3b5; content:"⌕"; font-size:20px; line-height:1; }
+    .search-box input { padding-left:40px; }
+    .quick-filter { display:flex; gap:8px; }
+    .quick-filter button, .calendar-all, .today-button { padding:10px 14px; border:1px solid #c9d2f8; border-radius:10px; background:#fff; color:var(--brand); cursor:pointer; font:inherit; white-space:nowrap; }
+    .quick-filter button:hover, .calendar-all:hover, .today-button:hover { background:var(--soft); }
+    .quick-filter button.active, .calendar-all.active { border-color:var(--brand); background:var(--brand); color:#fff; }
+    .calendar { max-width:720px; margin:14px auto 0; padding:20px 22px 16px; border:1px solid #dfe5f3; border-radius:18px; background:linear-gradient(145deg,#fff,#f8faff); box-shadow:0 10px 26px #263b8014; }
+    .calendar-top { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:16px; }
+    .calendar-label { font-size:14px; font-weight:700; letter-spacing:.02em; }
+    .calendar-hint { margin-top:3px; color:var(--muted); font-size:12px; }
+    .calendar-month-count { color:var(--brand); font-size:12px; font-weight:600; }
+    .calendar-head { display:flex; align-items:center; justify-content:center; gap:22px; margin-bottom:14px; }
+    .calendar-title { min-width:150px; margin:0; font-size:19px; font-weight:750; text-align:center; }
+    .calendar-nav { width:34px; height:34px; border:1px solid #dce3f7; border-radius:50%; background:#fff; color:var(--brand); cursor:pointer; font:inherit; font-size:22px; line-height:1; }
+    .calendar-nav:hover:not(:disabled) { background:var(--soft); border-color:#b8c4f4; }
     .calendar-nav:disabled { cursor:default; opacity:.35; }
-    .calendar-weekdays, .calendar-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:4px; }
-    .calendar-weekdays { margin-bottom:4px; color:var(--muted); font-size:12px; text-align:center; }
+    .calendar-weekdays, .calendar-grid { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:6px; }
+    .calendar-weekdays { margin-bottom:5px; color:#8b95a9; font-size:12px; font-weight:600; text-align:center; }
     .calendar-weekdays span { padding:3px 0; }
-    .calendar-cell { position:relative; min-height:34px; border:1px solid transparent; border-radius:8px; background:#fff; color:#a2a9b8; cursor:default; font:inherit; }
-    .calendar-cell.has-data { color:var(--ink); cursor:pointer; }
-    .calendar-cell.has-data:hover { border-color:#b8c4f4; background:var(--soft); }
-    .calendar-cell.selected { border-color:var(--brand); background:var(--brand); color:#fff; font-weight:700; }
+    .calendar-cell { position:relative; min-height:42px; border:1px solid transparent; border-radius:11px; background:transparent; color:#9aa3b5; cursor:pointer; font:inherit; transition:background .15s,border-color .15s,transform .15s; }
+    .calendar-cell:hover { border-color:#c5cff4; background:#eef2ff; transform:translateY(-1px); }
+    .calendar-cell.has-data { color:var(--ink); font-weight:600; }
     .calendar-cell.today:not(.selected) { border-color:#7c8de8; }
-    .calendar-cell.has-data::after { position:absolute; right:4px; bottom:3px; width:4px; height:4px; border-radius:50%; background:#7c8de8; content:""; }
+    .calendar-cell.selected { border-color:var(--brand); background:var(--brand); color:#fff; font-weight:700; box-shadow:0 4px 10px #3b5bdb40; }
+    .calendar-cell::after { position:absolute; bottom:5px; left:50%; width:4px; height:4px; border-radius:50%; background:transparent; content:""; transform:translateX(-50%); }
+    .calendar-cell.has-data::after { background:#7c8de8; }
     .calendar-cell.selected::after { background:#fff; }
-    .calendar-footer { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:12px; }
-    .calendar-hint { color:var(--muted); font-size:12px; }
-    .calendar-all { padding:7px 10px; font-size:13px; }
-    .calendar-all.active { background:var(--brand); color:#fff; }
+    .calendar-cell:disabled { opacity:.72; }
+    .calendar-footer { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:16px; padding-top:13px; border-top:1px solid #e8edf7; }
+    .calendar-legend { display:flex; align-items:center; gap:6px; color:var(--muted); font-size:12px; }
+    .calendar-legend::before { width:6px; height:6px; border-radius:50%; background:#7c8de8; content:""; }
+    .calendar-all { padding:8px 12px; font-size:13px; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
     .stats { display:flex; flex-wrap:wrap; gap:10px; margin:12px 0 18px; }
     .stat { padding:11px 14px; border:1px solid var(--line); border-radius:12px; background:white; color:var(--muted); }
     .stat strong { color:var(--ink); }
@@ -55,7 +69,7 @@
     .pagination button:disabled { cursor:default; opacity:.45; }
     .pagination .ellipsis { padding:0 3px; color:var(--muted); }
     footer { margin-top:28px; color:var(--muted); font-size:13px; }
-    @media (max-width:680px) { main { width:min(100% - 20px,1120px); margin-top:10px; } header { padding:22px; } .controls { grid-template-columns:1fr; } }
+    @media (max-width:680px) { main { width:min(100% - 20px,1120px); margin-top:10px; } header { padding:22px; } .search-row { align-items:stretch; flex-direction:column; } .quick-filter { justify-content:flex-end; } .calendar { padding:16px 12px 12px; } .calendar-weekdays, .calendar-grid { gap:4px; } .calendar-cell { min-height:38px; } }
   </style>
 </head>
 <body>
@@ -65,8 +79,18 @@
     <p>按日期浏览邮件中整理的去重论文，支持标题、作者和摘要搜索。</p>
   </header>
   <section class="controls" aria-label="筛选">
-    <input id="search" type="search" placeholder="搜索标题、作者或摘要…" aria-label="搜索论文">
+    <div class="search-row">
+      <label class="search-box" for="search"><span class="sr-only">搜索论文</span><input id="search" type="search" placeholder="搜索标题、作者或摘要…" aria-label="搜索论文"></label>
+      <div class="quick-filter">
+        <button id="today-date" type="button">今天</button>
+        <button id="all-dates" class="calendar-all active" type="button">全部日期</button>
+      </div>
+    </div>
     <div class="calendar" aria-label="按日期筛选">
+      <div class="calendar-top">
+        <div><div class="calendar-label">按日期浏览</div><div id="calendar-hint" class="calendar-hint">选择一个日期查看当天邮件</div></div>
+        <span id="calendar-month-count" class="calendar-month-count"></span>
+      </div>
       <div class="calendar-head">
         <button id="previous-month" class="calendar-nav" type="button" aria-label="上个月">‹</button>
         <h2 id="calendar-title" class="calendar-title"></h2>
@@ -77,8 +101,8 @@
       </div>
       <div id="calendar-grid" class="calendar-grid" role="grid" aria-label="日期"></div>
       <div class="calendar-footer">
-        <span id="calendar-hint" class="calendar-hint">有论文的日期带有圆点</span>
-        <button id="all-dates" class="calendar-all active" type="button">全部日期</button>
+        <span class="calendar-legend">有数据的日期</span>
+        <span id="calendar-selection" class="calendar-hint">当前显示全部日期</span>
       </div>
     </div>
   </section>
@@ -111,7 +135,7 @@
     const title = new Intl.DateTimeFormat('zh-CN', { year:'numeric', month:'long' }).format(month);
     $('calendar-title').textContent = title;
     const currentMonth = monthKey(month);
-    const monthKeys = [...state.availableDates].map(date => date.slice(0,6)).sort();
+    const monthKeys = [...new Set([...state.availableDates].map(date => date.slice(0,6)).concat(monthKey(new Date())))].sort();
     const minMonth = monthKeys[0] || currentMonth;
     const maxMonth = monthKeys[monthKeys.length - 1] || currentMonth;
     $('previous-month').disabled = currentMonth <= minMonth;
@@ -129,11 +153,16 @@
       if (hasData) classes.push('has-data');
       if (selected) classes.push('selected');
       if (today === date) classes.push('today');
-      cells.push(`<button type="button" class="${classes.join(' ')}" data-date="${date}" ${hasData ? '' : 'disabled'} aria-label="${formatDate(date)}${hasData ? '，有论文' : '，无数据'}" ${selected ? 'aria-pressed="true"' : ''}>${day}</button>`);
+      cells.push(`<button type="button" class="${classes.join(' ')}" data-date="${date}" aria-label="${formatDate(date)}${hasData ? '，有论文' : '，无数据'}" ${selected ? 'aria-pressed="true"' : ''}>${day}</button>`);
     }
+    while (cells.length < 42) cells.push('<span aria-hidden="true"></span>');
     $('calendar-grid').innerHTML = cells.join('');
+    const monthCount = [...state.availableDates].filter(date => date.startsWith(currentMonth)).length;
+    $('calendar-month-count').textContent = `本月 ${monthCount} 个日期有数据`;
     $('all-dates').classList.toggle('active', state.selectedDate === 'all');
-    $('calendar-hint').textContent = state.selectedDate === 'all' ? '有论文的日期带有圆点' : `已选择 ${formatDate(state.selectedDate)}`;
+    $('today-date').classList.toggle('active', state.selectedDate === dateKey(new Date()));
+    $('calendar-selection').textContent = state.selectedDate === 'all' ? '当前显示全部日期' : `当前选择 ${formatDate(state.selectedDate)}`;
+    $('calendar-hint').textContent = state.selectedDate === 'all' ? '点击日期查看当天收取的论文' : '点击其他日期切换筛选';
   }
 
   function render() {
@@ -199,13 +228,15 @@
   $('next-month').addEventListener('click', () => { state.calendarMonth.setMonth(state.calendarMonth.getMonth() + 1); renderCalendar(); });
   $('calendar-grid').addEventListener('click', (event) => {
     const button = event.target.closest('button[data-date]');
-    if (!button || button.disabled) return;
+    if (!button) return;
     state.selectedDate = button.dataset.date;
     state.page = 1;
+    state.calendarMonth = monthFromKey(button.dataset.date.slice(0,6));
     renderCalendar();
     render();
   });
   $('all-dates').addEventListener('click', () => { state.selectedDate = 'all'; state.page = 1; renderCalendar(); render(); });
+  $('today-date').addEventListener('click', () => { state.selectedDate = dateKey(new Date()); state.calendarMonth = monthFromKey(state.selectedDate.slice(0,6)); state.page = 1; renderCalendar(); render(); });
   $('page-size').addEventListener('change', (event) => { state.pageSize = Number(event.target.value); state.page = 1; render(); });
   $('pagination').addEventListener('click', (event) => {
     const button = event.target.closest('button[data-page]');
