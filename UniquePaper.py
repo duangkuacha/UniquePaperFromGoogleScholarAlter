@@ -7,7 +7,7 @@ import base64
 import json
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import parse_qs, unquote, urlencode, urlsplit, urlunsplit
@@ -242,14 +242,26 @@ def process(args: argparse.Namespace) -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     creds = credentials_from_files(credentials_file, token_file)
     session = make_session()
+    if args.acknowledge_file:
+        pending = json.loads(Path(args.acknowledge_file).read_text(encoding="utf-8"))
+        for message_id in pending:
+            mark_read(session, creds.token, message_id)
+        print(f"Marked {len(pending)} durably saved messages as read.")
+        return 0
     query = args.query or f"is:unread from:{SCHOLAR_SENDER}"
+    if args.recover_date:
+        start = datetime.strptime(args.recover_date, "%Y-%m-%d").replace(tzinfo=timezone(timedelta(hours=8)))
+        end = start + timedelta(days=1)
+        query = f"from:{SCHOLAR_SENDER} after:{int(start.timestamp())} before:{int(end.timestamp())}"
     messages = list_unread_messages(session, creds.token, args.max_messages, query)
     records: dict[str, dict[str, Any]] = {}
-    message_ids = [message["id"] for message in messages]
+    message_ids = []
+    unparsed = 0
     for message in messages:
         detail = api_get(session, creds.token, f"messages/{message['id']}", format="full")
         extracted = extract_papers(detail)
         if extracted:
+            message_ids.append(message["id"])
             date = received_date(detail)
             record = records.setdefault(
                 date,
@@ -257,15 +269,16 @@ def process(args: argparse.Namespace) -> int:
             )
             record["messages"] += 1
             record["papers"].extend(extracted)
+        else:
+            unparsed += 1
+    if unparsed:
+        raise RuntimeError(f"{unparsed} messages could not be parsed; no mail marked read. Inspect the parser before retrying.")
     for record in records.values():
         record["papers"] = deduplicate(record["papers"])
-    if not any(record["papers"] for record in records.values()):
-        for message_id in message_ids:
-            try:
-                mark_read(session, creds.token, message_id)
-            except requests.RequestException as exc:
-                print(f"Warning: could not mark message as read: {exc}", file=sys.stderr)
-        print(f"No new Scholar papers found in {len(messages)} unread messages.")
+    if args.pending_file:
+        Path(args.pending_file).write_text(json.dumps(message_ids), encoding="utf-8")
+    if not records:
+        print(f"No new Scholar papers found in {len(messages)} messages.")
         return 0
 
     saved_dates: list[str] = []
@@ -278,12 +291,10 @@ def process(args: argparse.Namespace) -> int:
         output.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         saved_dates.append(date)
         saved_papers += len(payload["papers"])
-    # Mark messages only after the public file has been written successfully.
-    for message_id in message_ids:
-        try:
+    # Actions acknowledges only after git push; the manifest stays in RUNNER_TEMP.
+    if not args.pending_file:
+        for message_id in message_ids:
             mark_read(session, creds.token, message_id)
-        except requests.RequestException as exc:
-            print(f"Warning: could not mark message as read: {exc}", file=sys.stderr)
     print(f"Saved {saved_papers} unique papers across {len(saved_dates)} received dates: {', '.join(saved_dates)}")
     return 0
 
@@ -294,6 +305,9 @@ def main() -> int:
     parser.add_argument("--token-file", default="token.json")
     parser.add_argument("--output-dir", default="data/days")
     parser.add_argument("--max-messages", type=int)
+    parser.add_argument("--pending-file", help="Private temporary IDs manifest; defer marking read")
+    parser.add_argument("--acknowledge-file", help="Mark previously saved messages read after push")
+    parser.add_argument("--recover-date", help="Recover read and unread mail for YYYY-MM-DD in Beijing time")
     parser.add_argument("--query", help="Gmail search query; defaults to unread Scholar alerts")
     return process(parser.parse_args())
 

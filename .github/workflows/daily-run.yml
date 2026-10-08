@@ -9,6 +9,11 @@ on:
     - cron: '0 6 * * *'
       timezone: 'Asia/Shanghai'
   workflow_dispatch:
+    inputs:
+      recover_date:
+        description: 'Optional recovery date in Beijing time (YYYY-MM-DD), includes already-read mail'
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -52,14 +57,17 @@ jobs:
         env:
           SCHOLAR_QUERY: ${{ vars.SCHOLAR_QUERY }}
           MAX_MESSAGES: ${{ vars.MAX_MESSAGES }}
+          RECOVER_DATE: ${{ inputs.recover_date }}
         run: |
           args=(
             --credentials-file "$RUNNER_TEMP/credentials.json"
             --token-file "$RUNNER_TEMP/token.json"
             --output-dir data/days
+            --pending-file "$RUNNER_TEMP/pending-mail.json"
           )
           if [ -n "$SCHOLAR_QUERY" ]; then args+=(--query "$SCHOLAR_QUERY"); fi
           if [ -n "$MAX_MESSAGES" ]; then args+=(--max-messages "$MAX_MESSAGES"); fi
+          if [ -n "$RECOVER_DATE" ]; then args+=(--recover-date "$RECOVER_DATE"); fi
           python UniquePaper.py "${args[@]}"
 
       - name: Build public catalog
@@ -70,13 +78,21 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ index.html build_site.py UniquePaper.py requirements.txt .gitignore README.md server.py UniquePaper.bat UniquePaper.vbs .github/workflows/daily-run.yml
+          git add -- data/
           if git diff --cached --quiet; then
             echo "No public data changes to commit."
           else
             git commit -m "Update Scholar paper catalog $(date -u +%F)"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
+
+      - name: Mark durably saved messages as read
+        if: github.event_name != 'push'
+        run: |
+          python UniquePaper.py \
+            --credentials-file "$RUNNER_TEMP/credentials.json" \
+            --token-file "$RUNNER_TEMP/token.json" \
+            --acknowledge-file "$RUNNER_TEMP/pending-mail.json"
 
       - name: Assemble Pages site
         run: |
@@ -92,7 +108,7 @@ jobs:
 
       - name: Remove temporary OAuth files
         if: always()
-        run: rm -f "$RUNNER_TEMP/credentials.json" "$RUNNER_TEMP/token.json"
+        run: rm -f "$RUNNER_TEMP/credentials.json" "$RUNNER_TEMP/token.json" "$RUNNER_TEMP/pending-mail.json"
 
   deploy:
     needs: collect
